@@ -1,0 +1,17 @@
+# The PFP Field Experiments
+
+## Procedure
+
+## The PFP environment
+### Soils in the gardens {-}
+### Cortez weather and CCAC weather stations
+#### Precipitation
+#### Temperature
+#### GDD
+
+## Results
+### Maize growth analysis {-}
+### Maize production {-}
+#### Ear diversity
+#### Yields through time
+### Maize genetics {-}
