@@ -16,7 +16,8 @@ bookdown::gitbook:
     edit: https://github.com/crowcanyon/pfp_ebook/edit/master/%s
     sharing:
       github: yes
-      facebook: no
+      facebook: yes
+      all: no
 bookdown::html_chapters:
   css: [css/style.css, css/toc.css]
 bookdown::pdf_book:
@@ -34,6 +35,6 @@ bookdown::pdf_book:
   toc_unnumbered: no
   toc_appendix: yes
   quote_footer: ["\\VA{", "}{}"]
-bookdown::epub_book:
-  dev: svglite
-  stylesheet: css/style.css
+#bookdown::epub_book:
+#  dev: svglite
+#  stylesheet: css/style.css
