@@ -1,4 +1,14 @@
-.Rproj.user
+# History files
 .Rhistory
+.Rapp.history
+
+# Session Data files
 .RData
-.Ruserdata
+
+# RStudio files
+.Rproj.user/
+.Rproj.user
+
+# Mac trash files
+.DS_Store
+*/.DS_Store
