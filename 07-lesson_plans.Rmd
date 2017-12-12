@@ -1,6 +1,71 @@
 # Lesson plans for educators
 
+These lesson plans have been revised following testing and evaluation at Cortez Middle School, as summarized in Deliverable #16. One outcome of the testing and evaluation is that there are now two versions of Lessons 1, 2, 3, and 5: one version is the original approximately 90 minute session, and the other splits the lession into two approximately 45 minute sessions tailored to shorter class periods. We hope these will be useful in classroom contexts.
+
+
 ## The People of Corn
+
+<!-- tabsets -->
+<script>
+$(document).ready(function() {
+window.buildTabsets("TOC");
+});
+
+</script>
+### {- .tabset .tabset-fade}
+
+#### Preparation {-}
+```{r echo=FALSE, background=TRUE, message=FALSE, child = 'lessons/PFP_Lesson-1_The-People-of-Corn_Preparation.md'}
+```
+
+#### Long Session {-}
+
+<!-- ```{r echo=FALSE, background=TRUE, message=FALSE} -->
+<!-- # googledrive::drive_find("PFP Lesson 1 — The People of Corn — Long Session", type = "document") -->
+<!-- tf <- tempfile(fileext = ".odt") -->
+<!-- googledrive::drive_download(file = googledrive::as_id("1YtT06BJ_PYJhoAa6ecj5d2UJaqMCVvdOcWS-BVDphZ0"), -->
+<!--                             path = tf) -->
+<!-- system(stringr::str_c("pandoc -s ",tf," -t markdown -o lessons/PFP_Lesson-1_The-People-of-Corn_Long.md")) -->
+<!-- system("sed -i '' 's/> //g' lessons/PFP_Lesson-1_The-People-of-Corn_Long.md") -->
+<!-- # system("sed -i '' 's/>//g' lessons/PFP_Lesson-1_The-People-of-Corn_Long.md") -->
+<!-- ``` -->
+
+```{r echo=FALSE, background=TRUE, message=FALSE, child = 'lessons/PFP_Lesson-1_The-People-of-Corn_Long.md'}
+```
+
+#### Short Session 1 {-}
+
+<!-- ```{r echo=FALSE, background=TRUE, message=FALSE} -->
+<!-- # googledrive::drive_find("PFP Lesson 1 — The People of Corn — Short Session", type = "document") -->
+<!-- tf <- tempfile(fileext = ".odt") -->
+<!-- googledrive::drive_download(file = googledrive::as_id("198DFuQ2f3jGz4AIuO0wwTiTvqmZtB9djtX8cnTE78kA"), -->
+<!--                             path = tf) -->
+<!-- system(stringr::str_c("pandoc -s ",tf," -t markdown -o lessons/PFP_Lesson-1_The-People-of-Corn_Short.md")) -->
+<!-- system("sed -i '' 's/> //g' lessons/PFP_Lesson-1_The-People-of-Corn_Short.md") -->
+<!-- # system("sed -i '' 's/>//g' lessons/PFP_Lesson-1_The-People-of-Corn_Short.md") -->
+<!-- ``` -->
+
+```{r echo=FALSE, background=TRUE, message=FALSE, child = 'lessons/PFP_Lesson-1_The-People-of-Corn_Short_1.md'}
+```
+
+#### Short Session 2 {-}
+
+<!-- ```{r echo=FALSE, background=TRUE, message=FALSE} -->
+<!-- # googledrive::drive_find("PFP Lesson 1 — The People of Corn — Short Session", type = "document") -->
+<!-- tf <- tempfile(fileext = ".odt") -->
+<!-- googledrive::drive_download(file = googledrive::as_id("198DFuQ2f3jGz4AIuO0wwTiTvqmZtB9djtX8cnTE78kA"), -->
+<!--                             path = tf) -->
+<!-- system(stringr::str_c("pandoc -s ",tf," -t markdown -o lessons/PFP_Lesson-1_The-People-of-Corn_Short.md")) -->
+<!-- system("sed -i '' 's/> //g' lessons/PFP_Lesson-1_The-People-of-Corn_Short.md") -->
+<!-- # system("sed -i '' 's/>//g' lessons/PFP_Lesson-1_The-People-of-Corn_Short.md") -->
+<!-- ``` -->
+
+```{r echo=FALSE, background=TRUE, message=FALSE, child = 'lessons/PFP_Lesson-1_The-People-of-Corn_Short_2.md'}
+```
+
+#### CO Standards {-}
+```{r echo=FALSE, background=TRUE, message=FALSE, child = 'lessons/PFP_Lesson-1_The-People-of-Corn_Standards.md'}
+```
 
 ## Farming Through Drought
 
