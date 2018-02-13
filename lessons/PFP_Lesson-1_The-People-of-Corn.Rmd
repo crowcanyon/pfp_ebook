@@ -1,0 +1,832 @@
+## The People of Corn
+<!-- # ```{r echo=FALSE, background=TRUE, message=FALSE} -->
+<!-- # googledrive::drive_find("PFP Lesson 1 — The People of Corn — Short Session", type = "document") -->
+<!-- # tf <- tempfile(fileext = ".odt") -->
+<!-- # googledrive::drive_download(file = googledrive::as_id("1NoIdN_dIm4nnQc8767DFB-O-AfxL7mK2Y6xz1BOPr5o"), -->
+<!-- #                             path = tf) -->
+<!-- # system(stringr::str_c("pandoc -s ",tf," -t markdown -o lessons/PFP_Lesson-2_Farming-Through-Drought_Short.md")) -->
+<!-- # system("sed -i '' 's/> //g' lessons/PFP_Lesson-2_Farming-Through-Drought_Short.md") -->
+<!-- # ``` -->
+
+<!-- tabsets -->
+<script>
+$(document).ready(function() {
+window.buildTabsets("TOC");
+});
+
+</script>
+
+Pueblo people living in the southwestern United States have been successful farmers for millenia. This lesson introduces students to Pueblo maize agriculture and its connection to the resilience of Pueblo culture. Download the PDF versions of the [long](./lessons/PFP_Lesson-1_The-People-of-Corn_Long.pdf) or [short](./lessons/PFP_Lesson-1_The-People-of-Corn_Short.pdf) sessions.
+
+### {- .tabset .tabset-fade}
+
+#### Preparation {-}
+**Grades:** 6, 7, 8
+
+This lesson can be taught to each middle school grade with increasing
+complexity and detail.
+
+To create a unit on Pueblo agriculture, this lesson should be taught
+first, as it acts as an introduction to traditional Hopi agriculture,
+spirituality and sustainability.
+
+**Season:** Winter, Spring, Summer, Fall
+
+**Objectives**
+
+-   Understand the relationship between Puebloan cultures, and
+    agriculture.
+-   Understand the connection between corn, agricultural practices and
+    the culture it sustains.
+-   Identify how Hopi farmers adapted their agricultural practices to
+    become drought resilient.
+-   Explore *sustainability* as a cultural trait.
+
+**Key Terms**
+
+-   Hopi
+-   Ancestral Pueblo people
+-   Sustainability
+-   Genetic diversity
+-   breeding
+-   Open Pollinated plants
+-   Gene pool
+-   GMO corn plants
+-   Endosperm
+-   Dieties
+
+**Materials and Tools**
+
+-   Examples of Hopi and other corn varieties, on the cob, to show
+    diversity in size, color, and endosperm texture
+-   Diagram of a corn kernel showing the endosperm:
+    ![*http://media.web.britannica.com/eb-media/54/166754-050-8DEB8E13.jpg*](http://media.web.britannica.com/eb-media/54/166754-050-8DEB8E13.jpg)
+-   Digging sticks ("So'ya" in the Hopi language): traditionally used by
+    Hopi people to plant seeds
+-   An example of a canteen gourd: traditionally used by Hopi people as
+    a water container
+-   Video/DVD: *Corn is Life* (18 minutes; see "Before You Begin"
+    section):
+    [*http://www.worldcat.org/title/hopi-corn-is-life/oclc/276931893*](http://www.worldcat.org/title/hopi-corn-is-life/oclc/276931893)
+-   Video: [*More Than Planting a Seed*](https://www.youtube.com/watch?v=2x23FF_kUyo) (26:56 minutes):
+    
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe src="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1" frameborder="0" gesture="media" showinfo="0" allow="encrypted-media" allowfullscreen></iframe>
+    </div>
+    
+    **Video: Length Options** (Click on links to load videos.)  
+    *6th Grade: total of 18 minutes of video*
+      - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1&end=890" target="_blank">0:00--14:50 (intro to the Hopi)</a>
+      - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1435" target="_blank">23:54--end (conclusion: how the past connects to modern life)</a>
+    
+    *7th Grade: total of 24 minutes of video*
+      - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1&end=890" target="_blank">0:00--24:30 (beginning of video until beginning of conclusion)</a>
+    
+    *8th Grade: total of 26 minutes of video*
+      - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1" target="_blank">0:00--26:56 (entire video)</a>
+
+-   Article: Kuwanwisiwma, Leigh. (2005). The Hopi Way: Dry Farming. In
+    *Thirst For Survival*, the Hopi Tribe, Kykotsmovi, Arizona.
+    <br>(Available <a href="https://beyondthemesas.files.wordpress.com/2010/08/thirst-for-survival.pdf" target="_blank">here</a> for non-commercial purposes.)
+-   Article: Wall, D. and Masayesva, V. (2004). People of the Corn:
+    Teachings in Hopi traditional agriculture, spirituality, and
+    sustainability. *The American Indian Quarterly*, 28(3--4):435--453.
+    <br>(Available <a href="lessons/Wall2004\_People\_of\_the\_Corn.pdf" target="_blank">here</a> for non-commercial
+    purposes.)
+-   A map of the United States for identifying the Four Corners region
+-   Photocopy: "Discussion Questions" sheets (2--3 copies of each if the
+    group is large)
+-   White board and markers
+-   One piece of chart paper, a pen, and a marker for each student
+    discussion group
+
+**Before You Begin**
+
+-   As the instructor, view/read all of the following resources to
+    become properly prepared to teach about Pueblo history and the Hopi
+    culture.
+    - DVD: *Corn Is Life*
+    - Video: *More Than Planting a Seed*
+    - Article: *People of the Corn: Teachings in Hopi Traditional
+    Agriculture, Spirituality and Sustainability*. Read the
+    article in its entirety; the segment on the Hopi creation
+    story is a part of the lesson plan.
+    - Article: *The Hopi Way: Dry Farming*
+-   Print the "Discussion Questions" sheets (2 of each)
+-   Ensure map of the United States is available and visible to the
+    students
+-   Ensure projector is set up and load video
+-   Prepare the white board:
+-   Write the key terms "self sufficiency" and "food security" with
+    space for definitions
+-   Draw a simple outline of a spaceship/rocket
+
+#### Long Session {-}
+***Long Session: Pueblo Lifeways and Sustainability***
+
+**Format:** One approximately 90 minute session
+
+***Opening Circle: Questions and Discussion***
+
+Survey students' understanding and/or opinions by verbally sharing the
+questions or text in italics. Briefly gather input from the students,
+while steering the discussion to toward the answers listed below the
+question.
+
+> **What is the definition of *self-sufficiency?***  
+*A person or group that is self sufficient is able to provide
+themselves with what is necessary with little help from others.
+Examples: people living in a remote wilderness; people doing an
+expedition into mountain or ocean environments; astronauts in space.*
+
+> **What does the term "ancestral Pueblo people" mean?**  
+*An ancient Native American culture that spanned the present-day Four
+Corners region of the United States; the ancestors of today's Pueblo
+tribes of Arizona and New Mexico. Ancestral Pueblo people were very
+skilled at self sufficiency. Their material culture and their lifeways
+reflect the innovations and adaptations they developed to survive in a
+isolated and challenging desert environment. They were resilient.*
+
+Show students a map of the United States, and help them to identify the
+Four Corners region: Utah, Colorado, New Mexico, and Arizona.
+
+View the video, *More than Planting a Seed*:
+
+**Video: Length Options** (Click on links to load videos.)  
+*6th Grade: total of 18 minutes of video*  
+    
+  - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1&end=890" target="_blank">0:00--14:50 (intro to the Hopi)</a>
+  - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1435" target="_blank">23:54--end (conclusion: how the past connects to modern life)</a>  
+
+*7th Grade: total of 24 minutes of video*
+    
+  - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1&end=890" target="_blank">0:00--24:30 (beginning of video until beginning of conclusion)</a>  
+
+*8th Grade: total of 26 minutes of video*
+    
+  - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0" target="_blank">0:00--26:56 (entire video)</a>
+
+
+Read the following portion of the Hopi creation story:
+
+> ***After their Emergence into the Fourth World, the clans that would one
+day comprise the Hopi people approached the Guardian Spirit, Ma'saw, in
+the region that is now northwest Arizona and asked his permission to
+settle there.... "Whether you can stay here is up to you," he told them.
+Masaw warned the clan people that the life he had to offer them was very
+different from what they had before. To show them that life, Ma'saw gave
+the people a planting stick (So'ya), a bag of seeds and a gourd of
+water. He handed them a small ear of blue corn and told them, "Here is
+my life and spirit. This is what I give you."***  
+-- <cite>(Wall and Masayesva 2004:435--436)</cite>
+
+
+Introduce students to the corn varieties and explore their diversity
+in size, color, endosperm texture (use a diagram of a corn kernel at
+this time).
+
+Show students the digging stick and gourd and circulate them, along
+with the corn seed. Allow students to handle and observe them.
+
+**Procedure:**
+
+1.  Divide students into small discussion groups of 3 to 5 students and
+    rearrange their seating so they are sitting in small discussion
+    circles. Count-off the groups, from 1 to 3, to assign each of them a
+    discussion question number. Read aloud each of the discussion
+    questions to the corresponding groups.
+2.  Each group should nominate and indicate to the instructor who will
+    be their "Scribe": the person who will begin the discussion by
+    rereading the discussion question to the group, and then record the
+    group's answers, to share with the class. Hand out the correct
+    discussion question sheet and a pen to each scribe.
+3.  For a total of approximately 5 minutes, groups should discuss their
+    discussion question and report back on their ideas.
+4.  After about 2 minutes, give the groups a time-check and a reminder:
+    scribes need to record at least a few complete sentence answers to
+    share. At this time, scribes should re-read their discussion
+    question to their group to ensure the discussion is still focused
+    and relevant.
+5.  Come back together as a group. The "scribe" from each group shares
+    their group's ideas with the class.
+6.  The instructor helps to *connect* the students' answers with the
+    information presented below, to help them draw conclusions from
+    their group's ideas.
+
+**Question \#1:**
+
+***Without direct instructions from the Guardian Spirit, Masaw, how did
+the first Hopi farmers learn how to dryland farm in the southwest?***
+
+Through years of trial and error, agricultural experiments, and
+long-term observations, they became experts at:
+
+-   Understanding plant and animal behavior
+-   Knowing soil types and measuring moisture content
+-   Predicting weather patterns
+-   Predicting and directing water runoff
+
+**Question \#2:**
+
+***Why is corn, in particular, so important to every aspect of
+traditional Hopi life?***  
+***How is corn and agriculture viewed in our modern culture?** *
+
+-   Corn farming in a drought prone environment is difficult. Helping
+    corn plants to survive becomes a metaphor for how people can
+    survive, as life is often difficult. Dryland corn farming teaches
+    Hopi people the value of patience, humility, respect and
+    cooperation.
+-   Hopi and Ancestral Pueblo people grew food for their own survival.
+    They knew exactly how their food was grown and where it came from.
+-   Modern agriculture has disconnected many modern people from an
+    awareness of where and how their food is grown or produced. Many
+    modern people expect their food to be delivered to their towns and
+    houses, already processed, preserved and packaged.
+-   Many modern farmers view corn as a large scale cash crop; they know
+    that, to produce most corn today, a large water supply (irrigation),
+    fertilizers, and machinery are required.
+
+**Question \#3:**
+
+***After examining the different kinds of Hopi corn, why do you think
+there are so many varieties of traditional corn? What are some of the
+threats from GMO corn on Hopi corn?***
+
+-   **Genes** provide the instructions to build a living thing. If you
+    change one of the genes, you rewrite the instructions.
+-   Humans have been manipulating the genes of plants for 10,000 years,
+    without harming ecosystems or humans, in a process called
+    **breeding**---mixing and matching the characteristics found within
+    one species of plant. It has resulted in an increase in diversity in
+    crop plants, benefiting human health and increasing the chance that
+    communities will survive environmental challenges like drought.
+-   **Diversity** is important when growing crops in challenging
+    environments, such as the Hopi do. The Hopi people have survived on
+    their land in part because they have bred over 17 different named
+    varieties of corn, each with special talents for adapting and
+    overcoming threats like drought, and excelling at essential skills
+    like long-term storage.
+-   **GMO**: this acronym stands for Genetically Modified Organism. They
+    are created by mixing genes from very different species in order to
+    meet a need or fix a problem in agriculture such as resisting
+    disease and pests, surviving frost and drought.
+-   The **difference** between genetically modifying plants and breeding
+    them:
+    -   *Breeding crops*: plant species' genes are changed over
+        thousands of years
+    -   *Genetically modifying crops*: plant species' genes are changed
+        when a gene, sometimes from a non-plant species, is inserted
+        to create a new species that has never before existed on Earth
+        and arrives almost overnight without evolving alongside its
+        environment.
+
+-   It is hard to control or predict the mixing of genes plants. Once
+    GMOs are involved, unintended consequences can result. The
+    **impacts** of GMO seed on traditional crops and ecosystems are
+    being actively studied by agricultural scientists. In the meantime,
+    the Hopi must protect their corn's genes from mixing with
+    genetically modified genes. They must protect the purity of the corn
+    varieties that are at the center of their culture.
+
++-----------------------------------+-----------------------------------+
+| **Heirloom or Ancient Crops and   | **Increased** Diversity in Corn   |
+| Seeds**                           |                                   |
+|                                   | Seed saving provides free,        |
+|                                   | environment-adapted seeds every   |
+|                                   | year                              |
++-----------------------------------+-----------------------------------+
+| **GMO Crops and Seeds**           | **Decreased** Diversity in Corn   |
+|                                   |                                   |
+|                                   | Seed saving can't be done; seed   |
+|                                   | that is not environment-adapted   |
+|                                   | must be bought every year         |
++-----------------------------------+-----------------------------------+
+
+**With students remaining seated with their small discussion groups,
+survey students' understanding and/or opinions by verbally sharing the
+questions or text in italics. Briefly gather input from the students,
+while steering the discussion to toward the answers listed below the
+question.**
+
+1.  Introduce students to the term ***self-sufficiency*** by writing
+    it on the whiteboard and reading it aloud. Have students work in
+    small groups of three or four students to discuss the meaning of
+    self-sufficiency. Invite each group to share with the class while
+    guiding the discussion toward the the following definition: *A
+    person or group that is self sufficient is able to provide
+    themselves with what is necessary with little help from others.
+    Examples: people living in a remote wilderness; people doing an
+    expedition into mountain or ocean environments; astronauts in
+    space.*
+
+2.  Ask students the following questions and record their responses on
+    the whiteboard:
+    
+    > ***How will humans achieve self sufficiency in the
+    future? For example, how will we make sure we are able to feed the
+    human population as it increases and the health of the planet
+    decreases? ***
+    
+    Point out that being self sufficient on planet Earth
+    requires that we:
+
+    - know our history (how we have taken care of ourselves in the past)
+    - carefully craft innovative solutions (how we will take care of
+    ourselves in the future)
+    
+
+3.  Have students work in groups of three or four to engage in a
+    discussion about each of the following questions. Present each
+    question one at a time and allow no more than two minutes of
+    discussion per question
+
+    - ***Do you live in an isolated place? What would happen if the town
+    you live in were cut off from receiving food from outside sources?
+    How many roads lead to your hometown? ***
+    - ***What kind of events could (or have in the past) destroyed or
+    blocked these roads? ***
+    Flash floods, mudslides, road construction dynamite, wildfires.
+    - ***An important aspect of self sufficiency is food. How does your
+    town stock the shelves of the grocery stores?***
+    Food is delivered by transport trucks. Towns like Cortez could quickly
+    become isolated from receiving food and materials from outside
+    sources.
+    - ***What does it mean to have "food security"? ***
+    A community has "food security" when safe, nutritious food is
+    available without people or food having to travel great distances.
+
+Students return to working with their small discussion groups. Outline
+the final activity:
+
+1.  Each group will work as a team to make Space Travel Self-Sufficiency
+    Plan based on the following hypothetical scenario (read aloud):
+
+    > ***Healthy human life on Earth is no longer possible due to
+    environmental damage. All humans will leave in fleets of spacecraft
+    where they plan to live for 50 human generations or 1000 years. Each
+    spaceship has a population of people that must act as a community. Each
+    community is named after their ship. The first ship to leave will be
+    "Discovery One". It will establish the "Discovery One" community. Each
+    community must decide what what is essential to take with them from
+    among the objects and technologies that currently exist.***
+
+2.  Each student group will work together as a spacecraft community for
+    15 minutes. Distribute to each a piece of chart paper and a marker.
+    During this time, the instructor aids the groups by being a
+    timekeeper. They must accomplish the following tasks to prepare for
+    their escape from Earth:
+    - Decide on a name for their ship/community (1 minute)
+    - Decide which community member will be: (2 minutes)
+        i. "The Scribe": a person with good handwriting and drawing
+            skills and will draw, write and speak for the group, reading
+            their plan aloud at the end.
+        ii. "The Checker": a person who asks good questions and can
+            focus the discussion on the most important questions about
+            survival.
+
+3.  Being guided by The Scribe and The Checker, the groups draw a large,
+    basic outline of a spaceship that takes up most of the chart paper.
+    The scribe fills the outline with words that describe items or
+    technologies they want to bring. (5 minutes)
+
+4.  At the halfway point in the groups' work time (approximately 8
+    minutes into group work time), briefly regroup as a class, and give
+    the students the following clarifications:
+    -   6th grade: encourage students to focus on items that will create
+        systems that resemble healthy ecosystems. Remind all groups
+        that they cannot include any technology or inventions that
+        have yet to be invented.
+    -   7th & 8th grade: Review the concept that the water cycle is a
+        closed system. Inform students that the items they bring
+        should account for this and other closed systems, like
+        trash/compost/waste, in their spacecraft. Remind all groups
+        that they cannot include any technology or inventions that
+        have yet to be invented.
+
+Students resume planning and make changes to their spacecraft to account
+for these ideas. (approximately 7 minutes).
+
+**Closing Circle**
+
+Invite each group to present their plan of self-sufficiency to the
+class. Have any of the groups made the connection between their
+spacecraft and the actual planet Earth we live on? Our spaceship is
+called Planet Earth. Read the following statement:
+
+> ***We are already living on a spacecraft; the Earth is spinning through
+space holding human communities. We are separated from space by a thin
+layer of atmosphere; the distance from the surface of the planet to
+outer space is barely 60 miles. Earth is the only planet we know of that
+sustains human life, despite searching space for 60 years.***
+
+Explain to students that many ancient cultures throughout the world have
+created agricultural practices that were sustainable and
+self-sufficient. Point out that over the next couple of weeks students
+will be learning about ancestral Pueblo people, their farming practices,
+and how these practices can inform our own sustainable relationship to
+the land.
+
+Engage students in a brief discussion to address the following
+questions:
+
+> ***What does sustainability mean to you? Do the Hopi/Ancestral Pueblo
+people meet your ideas of sustainability? Students explain their
+opinions. Survey the students for their understanding of the following
+quote:***
+
+**"Indigenous education is really a ten thousand year strategic plan."**
+-- <cite>Gregory Cajete</cite>
+
+> ***There are 7.3 billion people riding along on spacecraft Planet Earth.
+We must COMBINE our ancestral agriculture techniques,materials and
+principles we relied on in the past WITH the innovative technologies and
+materials of the future.***
+
+Write on the whiteboard:
+<center>
+***Ancestral* Methods and Materials and *Adaptations***  
+\+  
+***Future* Methods and Materials and *Innovations***  
+=  
+***Self-Sufficiency* & *Food Security***
+</center>
+
+#### Short Session 1 {-}
+***Short Session 1: Sustainability Spaceship***  
+
+**Format:** One approximately 45 minute session
+
+***Opening Circle: Questions and Discussion***
+
+Survey students' understanding and/or opinions by verbally sharing the
+questions or text in italics. Briefly gather input from the students,
+while steering the discussion to toward the answers listed below the
+question.
+
+Introduce students to the term ***self-sufficiency*** by writing
+    it on the whiteboard and reading it aloud. Have students work in
+    small groups of three or four students to discuss the meaning of
+    self-sufficiency. Invite each group to share with the class while
+    guiding the discussion toward the the following definition: *A
+    person or group that is self sufficient is able to provide
+    themselves with what is necessary with little help from others.
+    Examples: people living in a remote wilderness; people doing an
+    expedition into mountain or ocean environments; astronauts in
+    space.*
+
+2.  Ask students the following questions and record their responses on
+    the whiteboard:
+    
+    > ***How will humans achieve self sufficiency in the
+    future? For example, how will we make sure we are able to feed the
+    human population as it increases and the health of the planet
+    decreases? ***
+    
+    Point out that being self sufficient on planet Earth
+    requires that we:
+
+    - know our history (how we have taken care of ourselves in the past)
+    - carefully craft innovative solutions (how we will take care of
+    ourselves in the future)
+    
+
+3.  Have students work in groups of three or four to engage in a
+    discussion about each of the following questions. Present each
+    question one at a time and allow no more than two minutes of
+    discussion per question
+
+    - ***Do you live in an isolated place? What would happen if the town
+    you live in were cut off from receiving food from outside sources?
+    How many roads lead to your hometown? ***
+    - ***What kind of events could (or have in the past) destroyed or
+    blocked these roads? ***
+    Flash floods, mudslides, road construction dynamite, wildfires.
+    - ***An important aspect of self sufficiency is food. How does your
+    town stock the shelves of the grocery stores?***
+    Food is delivered by transport trucks. Towns like Cortez could quickly
+    become isolated from receiving food and materials from outside
+    sources.
+    - ***What does it mean to have "food security"? ***
+    A community has "food security" when safe, nutritious food is
+    available without people or food having to travel great distances.
+
+**Procedure: **
+
+Divide students into small discussion groups of 3 to 5 students and
+rearrange their seating so they are sitting in small discussion
+circles. Outline the activity:
+
+1.  Each group will work as a team to make Space Travel Self-Sufficiency
+    Plan based on the following hypothetical scenario (read aloud):
+
+    > ***Healthy human life on Earth is no longer possible due to
+    environmental damage. All humans will leave in fleets of spacecraft
+    where they plan to live for 50 human generations or 1000 years. Each
+    spaceship has a population of people that must act as a community. Each
+    community is named after their ship. The first ship to leave will be
+    "Discovery One". It will establish the "Discovery One" community. Each
+    community must decide what what is essential to take with them from
+    among the objects and technologies that currently exist.***
+
+2.  Each student group will work together as a spacecraft community for
+    15 minutes. Distribute to each a piece of chart paper and a marker.
+    During this time, the instructor aids the groups by being a
+    timekeeper. They must accomplish the following tasks to prepare for
+    their escape from Earth:
+    - Decide on a name for their ship/community (1 minute)
+    - Decide which community member will be: (2 minutes)
+        i. "The Scribe": a person with good handwriting and drawing
+            skills and will draw, write and speak for the group, reading
+            their plan aloud at the end.
+        ii. "The Checker": a person who asks good questions and can
+            focus the discussion on the most important questions about
+            survival.
+
+3.  Being guided by The Scribe and The Checker, the groups draw a large,
+    basic outline of a spaceship that takes up most of the chart paper.
+    The scribe fills the outline with words that describe items or
+    technologies they want to bring. (5 minutes)
+
+4.  At the halfway point in the groups' work time (approximately 8
+    minutes into group work time), briefly regroup as a class, and give
+    the students the following clarifications:
+    -   6th grade: encourage students to focus on items that will create
+        systems that resemble healthy ecosystems. Remind all groups
+        that they cannot include any technology or inventions that
+        have yet to be invented.
+    -   7th & 8th grade: Review the concept that the water cycle is a
+        closed system. Inform students that the items they bring
+        should account for this and other closed systems, like
+        trash/compost/waste, in their spacecraft. Remind all groups
+        that they cannot include any technology or inventions that
+        have yet to be invented.
+
+Students resume planning and make changes to their spacecraft to account
+for these ideas. (approximately 7 minutes).
+
+**Closing Circle:**
+
+Invite each group to present their plan of self-sufficiency to the
+class. Have any of the groups made the connection between their
+spacecraft and the actual planet Earth we live on? Our spaceship is
+called Planet Earth. Read the following statement:
+
+> ***We are already living on a spacecraft; the Earth is spinning through
+space holding human communities. We are separated from space by a thin
+layer of atmosphere; the distance from the surface of the planet to
+outer space is barely 60 miles. Earth is the only planet we know of that
+sustains human life, despite searching space for 60 years.***
+
+Explain to students that many ancient cultures throughout the world have
+created agricultural practices that were sustainable and
+self-sufficient. Point out that over the next couple of weeks students
+will be learning about ancestral Pueblo people, their farming practices,
+and how these practices can inform our own sustainable relationship to
+the land.
+
+#### Short Session 2 {-}
+***Short Session 2: The Pueblo Lifeways***
+
+**Format:** One approximately 45 minute session
+
+***Opening Circle: Questions and Discussion ***
+
+Survey students' understanding and/or opinions by verbally sharing the
+questions or text in italics. Briefly gather input from the students,
+while steering the discussion to toward the answers listed below the
+question.
+
+> **What is the definition of *self-sufficiency?***  
+*A person or group that is self sufficient is able to provide
+themselves with what is necessary with little help from others.
+Examples: people living in a remote wilderness; people doing an
+expedition into mountain or ocean environments; astronauts in space.*
+
+> **What does the term "ancestral Pueblo people" mean?**  
+*An ancient Native American culture that spanned the present-day Four
+Corners region of the United States; the ancestors of today's Pueblo
+tribes of Arizona and New Mexico. Ancestral Pueblo people were very
+skilled at self sufficiency. Their material culture and their lifeways
+reflect the innovations and adaptations they developed to survive in a
+isolated and challenging desert environment. They were resilient.*
+
+Show students a map of the United States, and help them to identify the
+Four Corners region: Utah, Colorado, New Mexico, and Arizona.
+
+View the video, *More than Planting a Seed*:
+
+**Video: Length Options** (Click on links to load videos.)  
+*6th Grade: total of 18 minutes of video*  
+    
+  - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1&end=890" target="_blank">0:00--14:50 (intro to the Hopi)</a>
+  - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1435" target="_blank">23:54--end (conclusion: how the past connects to modern life)</a>  
+
+*7th Grade: total of 24 minutes of video*
+    
+  - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1&end=890" target="_blank">0:00--24:30 (beginning of video until beginning of conclusion)</a>  
+
+*8th Grade: total of 26 minutes of video*
+    
+  - <a href="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0" target="_blank">0:00--26:56 (entire video)</a>
+
+
+Read the following portion of the Hopi creation story:
+
+> ***After their Emergence into the Fourth World, the clans that would one
+day comprise the Hopi people approached the Guardian Spirit, Ma'saw, in
+the region that is now northwest Arizona and asked his permission to
+settle there.... "Whether you can stay here is up to you," he told them.
+Masaw warned the clan people that the life he had to offer them was very
+different from what they had before. To show them that life, Ma'saw gave
+the people a planting stick (So'ya), a bag of seeds and a gourd of
+water. He handed them a small ear of blue corn and told them, "Here is
+my life and spirit. This is what I give you."***  
+-- <cite>(Wall and Masayesva 2004:435--436)</cite>
+
+
+Introduce students to the corn varieties and explore their diversity
+in size, color, endosperm texture (use a diagram of a corn kernel at
+this time).
+
+Show students the digging stick and gourd and circulate them, along
+with the corn seed. Allow students to handle and observe them.
+
+**Procedure:**
+
+1.  Divide students into small discussion groups of 3 to 5 students and
+    rearrange their seating so they are sitting in small discussion
+    circles. Count-off the groups, from 1 to 3, to assign each of them a
+    discussion question number. Read aloud each of the discussion
+    questions to the corresponding groups.
+2.  Each group should nominate and indicate to the instructor who will
+    be their "Scribe": the person who will begin the discussion by
+    rereading the discussion question to the group, and then record the
+    group's answers, to share with the class. Hand out the correct
+    discussion question sheet and a pen to each scribe.
+3.  For a total of approximately 5 minutes, groups should discuss their
+    discussion question and report back on their ideas.
+4.  After about 2 minutes, give the groups a time-check and a reminder:
+    scribes need to record at least a few complete sentence answers to
+    share. At this time, scribes should re-read their discussion
+    question to their group to ensure the discussion is still focused
+    and relevant.
+5.  Come back together as a group. The "scribe" from each group shares
+    their group's ideas with the class.
+6.  The instructor helps to *connect* the students' answers with the
+    information presented below, to help them draw conclusions from
+    their group's ideas.
+
+**Question \#1:**
+
+***Without direct instructions from the Guardian Spirit, Masaw, how did
+the first Hopi farmers learn how to dryland farm in the southwest?***
+
+Through years of trial and error, agricultural experiments, and
+long-term observations, they became experts at:
+
+-   Understanding plant and animal behavior
+-   Knowing soil types and measuring moisture content
+-   Predicting weather patterns
+-   Predicting and directing water runoff
+
+**Question \#2:**
+
+***Why is corn, in particular, so important to every aspect of
+traditional Hopi life?***  
+***How is corn and agriculture viewed in our modern culture?** *
+
+-   Corn farming in a drought prone environment is difficult. Helping
+    corn plants to survive becomes a metaphor for how people can
+    survive, as life is often difficult. Dryland corn farming teaches
+    Hopi people the value of patience, humility, respect and
+    cooperation.
+-   Hopi and Ancestral Pueblo people grew food for their own survival.
+    They knew exactly how their food was grown and where it came from.
+-   Modern agriculture has disconnected many modern people from an
+    awareness of where and how their food is grown or produced. Many
+    modern people expect their food to be delivered to their towns and
+    houses, already processed, preserved and packaged.
+-   Many modern farmers view corn as a large scale cash crop; they know
+    that, to produce most corn today, a large water supply (irrigation),
+    fertilizers, and machinery are required.
+
+**Question \#3:**
+
+***After examining the different kinds of Hopi corn, why do you think
+there are so many varieties of traditional corn? What are some of the
+threats from GMO corn on Hopi corn?***
+
+-   **Genes** provide the instructions to build a living thing. If you
+    change one of the genes, you rewrite the instructions.
+-   Humans have been manipulating the genes of plants for 10,000 years,
+    without harming ecosystems or humans, in a process called
+    **breeding**---mixing and matching the characteristics found within
+    one species of plant. It has resulted in an increase in diversity in
+    crop plants, benefiting human health and increasing the chance that
+    communities will survive environmental challenges like drought.
+-   **Diversity** is important when growing crops in challenging
+    environments, such as the Hopi do. The Hopi people have survived on
+    their land in part because they have bred over 17 different named
+    varieties of corn, each with special talents for adapting and
+    overcoming threats like drought, and excelling at essential skills
+    like long-term storage.
+-   **GMO**: this acronym stands for Genetically Modified Organism. They
+    are created by mixing genes from very different species in order to
+    meet a need or fix a problem in agriculture such as resisting
+    disease and pests, surviving frost and drought.
+-   The **difference** between genetically modifying plants and breeding
+    them:
+    -   *Breeding crops*: plant species' genes are changed over
+        thousands of years
+    -   *Genetically modifying crops*: plant species' genes are changed
+        when a gene, sometimes from a non-plant species, is inserted
+        to create a new species that has never before existed on Earth
+        and arrives almost overnight without evolving alongside its
+        environment.
+
+-   It is hard to control or predict the mixing of genes plants. Once
+    GMOs are involved, unintended consequences can result. The
+    **impacts** of GMO seed on traditional crops and ecosystems are
+    being actively studied by agricultural scientists. In the meantime,
+    the Hopi must protect their corn's genes from mixing with
+    genetically modified genes. They must protect the purity of the corn
+    varieties that are at the center of their culture.
+
++-----------------------------------+-----------------------------------+
+| **Heirloom or Ancient Crops and   | **Increased** Diversity in Corn   |
+| Seeds**                           |                                   |
+|                                   | Seed saving provides free,        |
+|                                   | environment-adapted seeds every   |
+|                                   | year                              |
++-----------------------------------+-----------------------------------+
+| **GMO Crops and Seeds**           | **Decreased** Diversity in Corn   |
+|                                   |                                   |
+|                                   | Seed saving can't be done; seed   |
+|                                   | that is not environment-adapted   |
+|                                   | must be bought every year         |
++-----------------------------------+-----------------------------------+
+
+***Closing Circle: (5 minutes)***
+
+Engage students in a brief discussion to address the following
+questions:
+
+> ***What does sustainability mean to you? Do the Hopi/Ancestral Pueblo
+people meet your ideas of sustainability? Students explain their
+opinions. Survey the students for their understanding of the following
+quote:***
+
+**"Indigenous education is really a ten thousand year strategic plan."**
+-- <cite>Gregory Cajete</cite>
+
+> ***There are 7.3 billion people riding along on spacecraft Planet Earth.
+We must COMBINE our ancestral agriculture techniques,materials and
+principles we relied on in the past WITH the innovative technologies and
+materials of the future.***
+
+Write on the whiteboard:
+<center>
+***Ancestral* Methods and Materials and *Adaptations***  
+\+  
+***Future* Methods and Materials and *Innovations***  
+=  
+***Self-Sufficiency* & *Food Security***
+</center>
+
+#### CO Standards {-}
+This lesson plan was designed to align with the following Montezuma School to Farm Project Garden Education Standards and state Of Colorado Academic Standards:
+
++------+----------------------------------+---------------------------+
+|      | **Montezuma School to Farm       | **Colorado Academic       |
+|      |  Project's Garden Education      | Standards**               |
+|      |  Standards**                     |                           |
++------+----------------------------------+---------------------------+
+| 6th  |- Ancestral Puebloan agriculture  |- Science 2.1, 2.2,        |
+|      |  practices.                      |  3.2, 3.3                 |
+|      |- Watersheds: connect communities |- Math                     |
+|      |  through cause and effect.       |- Health 2.4, 3.1          |
+|      |- Applied systems thinking:       |- Phys Ed 3.1, 3.2         |
+|      |  waste, renewable and            |- Social Studies 1.1,      |
+|      |  nonrenewable resources,         |  1.2, 2.1, 2.2            |
+|      |  natural resources               |                           |
++------+----------------------------------+---------------------------+
+| 7th  |- Biodiversity benefits nitrogen, |- Science 2.1, 2.5         |
+|      |  carbon and nutrient cycles.     |- Math                     |
+|      |- Sustainable water use practices |- Health 2.1, 3.1          |
+|      |  and devices.                    |- Phys Ed 3.2              |
+|      |- GMO seed: ecosystem health.     |- Social Studies 1.1,      |
+|      |- Systems thinking:reusing,       |  2.1, 2.2                 |
+|      |  repairing, and re-purposing     |                           |
+|      |  resources.                      |                           |
++------+----------------------------------+---------------------------+
+| 8th  |- Deep understanding of water as  |- Science 2.1, 2.2,        |
+|      |  a precious and limited resource |  3.2                      |
+|      |- Changing systems: climate and   |- Math                     |
+|      |  weather in the Southwest        |- Health 3.2               |
+|      |                                  |- Phys Ed                  |
+|      |                                  |- Social Studies 1.1,      |
+|      |                                  |  2.1, 2.2                 |
++------+----------------------------------+---------------------------+
+
+**Further information in regards to the Colorado State Standards may be found [here](http://www2.cde.state.co.us/scripts/allstandards/COStandards.asp).**

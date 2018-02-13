@@ -54,7 +54,7 @@ The online version of this book is licensed under the [Creative Commons Attribut
 ## Acknowledgments {-}
 
 ```{block2, type='flushright', html.tag='p'}
-Paul Ermigiotti, Mark Varien, Erin Bohm, and Kyle Bocinsky<br>
+Paul Ermigiotti, Mark Varien, Erin Bohm, Kyle Bocinsky, and the Hopi Cultural Resources Advisory Team<br>
 Cortez, Colorado
 ```
 
