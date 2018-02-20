@@ -1,17 +1,38 @@
 # The PFP Field Experiments
 
 ## Procedure
+### Planting {-}
+Descriptions based on *Notes On Hopi Economic Life* by Earnest Beaglehole, 1937.
+
+<div class="carousel">
+![1. The planter scrapes away the loose dirt to clear the surface.](./images/planting/1_planting.jpg)
+![2. The planter drops to one knee and with a few strokes of the digging stick begins to create a narrow trough–like hole.](./images/planting/2_planting.jpg)
+![3. Traditional digging sticks (So’ya) are made from greasewood and oak. Modern planting tools are made from pipe.](./images/planting/3_planting.jpg)
+![4. The hole is dug eight to twelve inches deep where the moist subsoil is located. Deep planting takes advantage of the moisture in the soil for germination and allows the plants to develop a deep root system.](./images/planting/4_planting.jpg)
+![5. The moist soil at the bottom of the hole is loosened.](./images/planting/5_planting.jpg)
+![6. Ten to sixteen seeds are deposited into the hole. Many seedlings planted close together provides protection from the harsh sun and wind. It also reduces the  possibility of a total loss from insects, birds and other animals.](./images/planting/6_planting.jpg)
+![7. The soil around the sides of the hole is loosened, then the hole in filled in with the moist soil that was removed  from the  bottom of the hole going back in first. The soil is then packed down.](./images/planting/7_planting.jpg)
+![8. Two to three paces (1.5 to 2 meters) are measured off between plantings. Red pin flags mark spacing.](./images/planting/8_planting.jpg)
+![9. Wide spacing allows adequate room for roots to absorb moisture from the soil.](./images/planting/9_planting.jpg)
+</div>
+
+<div class="carcaption">
+<p class="caption">&nbsp;</p>
+</div>
+
+### Monitoring {-}
+### Harvesting {-}
 
 ## The PFP environment
 ### Soils in the gardens {-}
-### Cortez weather and CCAC weather stations
-#### Precipitation
-#### Temperature
-#### GDD
+### Cortez weather and CCAC weather stations {-}
+#### Precipitation {-}
+#### Temperature {-}
+#### GDD {-}
 
 ## Results
 ### Maize growth analysis {-}
 ### Maize production {-}
-#### Ear diversity
-#### Yields through time
+#### Ear diversity {-}
+#### Yields through time {-}
 ### Maize genetics {-}
