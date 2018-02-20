@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2018-02-13">
+<meta name="date" content="2018-02-20">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -33,12 +33,12 @@
   
 <link rel="prev" href="introduction.html">
 <link rel="next" href="who-were-the-participants.html">
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
-<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<script src="libs/jquery/jquery.min.js"></script>
+<link href="libs/gitbook/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-fontsettings.css" rel="stylesheet" />
 
 
 
@@ -46,165 +46,78 @@
 
 
 
-<script async defer src="https://hypothes.is/embed.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78448357-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-78448357-2');
-</script>
+<script src="libs/htmlwidgets/htmlwidgets.js"></script>
+<link href="libs/leaflet/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet/leaflet.js"></script>
+<link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
+<link href="libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
+<script src="libs/leaflet-label/leaflet.label.js"></script>
+<script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
+<script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
+<script src="libs/leaflet-binding/leaflet.js"></script>
+<script src="libs/leaflet-providers/leaflet-providers.js"></script>
+<script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
-<script>
+<link rel="stylesheet" type="text/css" href="https://npmcdn.com/flickity@2/dist/flickity.css" />
 
-/**
- * jQuery Plugin: Sticky Tabs
- *
- * @author Aidan Lister <aidan@php.net>
- * adapted by Ruben Arslan to activate parent tabs too
- * http://www.aidanlister.com/2014/03/persisting-the-tab-state-in-bootstrap/
- */
-(function($) {
-  "use strict";
-  $.fn.rmarkdownStickyTabs = function() {
-    var context = this;
-    // Show the tab corresponding with the hash in the URL, or the first tab
-    var showStuffFromHash = function() {
-      var hash = window.location.hash;
-      var selector = hash ? 'a[href="' + hash + '"]' : 'li.active > a';
-      var $selector = $(selector, context);
-      if($selector.data('toggle') === "tab") {
-        $selector.tab('show');
-        // walk up the ancestors of this element, show any hidden tabs
-        $selector.parents('.section.tabset').each(function(i, elm) {
-          var link = $('a[href="#' + $(elm).attr('id') + '"]');
-          if(link.data('toggle') === "tab") {
-            link.tab("show");
-          }
-        });
-      }
-    };
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
+    body {
+        font-family: sans-serif;
+    }
 
-    // Set the correct tab when the page loads
-    showStuffFromHash(context);
+    .carousel {
+        background: #FAFAFA;
+    }
 
-    // Set the correct tab when a user uses their back/forward button
-    $(window).on('hashchange', function() {
-      showStuffFromHash(context);
-    });
+    .carousel img {
+        display: block;
+        height: 200px;
+        opacity: 0.7;
+        -webkit-transform: scale(0.85);
+        transform: scale(0.85);
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+        transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+    }
 
-    // Change the URL when tabs are clicked
-    $('a', context).on('click', function(e) {
-      history.pushState(null, null, this.href);
-      showStuffFromHash(context);
-    });
+    .carousel img.is-selected {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-filter: none;
+        filter: none;
+    }
 
-    return this;
-  };
-}(jQuery));
+    .caption {
+        background: #FAFAFA;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+       .carcaption .caption {
+        background: #FAFAFA;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
 
-window.buildTabsets = function(tocID) {
+    .flickity-page-dots {
+        bottom: -60px;
+    }
 
-  // build a tabset from a section div with the .tabset class
-  function buildTabset(tabset) {
+    @media screen and ( min-width: 768px) {
+        .carousel img {
+            height: 400px;
+        }
+    }
 
-    // check for fade and pills options
-    var fade = tabset.hasClass("tabset-fade");
-    var pills = tabset.hasClass("tabset-pills");
-    var navClass = pills ? "nav-pills" : "nav-tabs";
-
-    // determine the heading level of the tabset and tabs
-    var match = tabset.attr('class').match(/level(\d) /);
-    if (match === null)
-      return;
-    var tabsetLevel = Number(match[1]);
-    var tabLevel = tabsetLevel + 1;
-
-    // find all subheadings immediately below
-    var tabs = tabset.find("div.section.level" + tabLevel);
-    if (!tabs.length)
-      return;
-
-    // create tablist and tab-content elements
-    var tabList = $('<ul class="nav ' + navClass + '" role="tablist"></ul>');
-    $(tabs[0]).before(tabList);
-    var tabContent = $('<div class="tab-content"></div>');
-    $(tabs[0]).before(tabContent);
-
-    // build the tabset
-    var activeTab = 0;
-    tabs.each(function(i) {
-
-      // get the tab div
-      var tab = $(tabs[i]);
-
-      // get the id then sanitize it for use with bootstrap tabs
-      var id = tab.attr('id');
-
-      // see if this is marked as the active tab
-      if (tab.hasClass('active'))
-        activeTab = i;
-
-      // remove any table of contents entries associated with
-      // this ID (since we'll be removing the heading element)
-      $("div#" + tocID + " li a[href='#" + id + "']").parent().remove();
-
-      // sanitize the id for use with bootstrap tabs
-      id = id.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_');
-      tab.attr('id', id);
-
-      // get the heading element within it, grab it's text, then remove it
-      var heading = tab.find('h' + tabLevel + ':first');
-      var headingText = heading.html();
-      heading.remove();
-
-      // build and append the tab list item
-      var a = $('<a role="tab" data-toggle="tab">' + headingText + '</a>');
-      a.attr('href', '#' + id);
-      a.attr('aria-controls', id);
-      var li = $('<li role="presentation"></li>');
-      li.append(a);
-      tabList.append(li);
-
-      // set it's attributes
-      tab.attr('role', 'tabpanel');
-      tab.addClass('tab-pane');
-      tab.addClass('tabbed-pane');
-      if (fade)
-        tab.addClass('fade');
-
-      // move it into the tab content div
-      tab.detach().appendTo(tabContent);
-    });
-
-    // set active tab
-    $(tabList.children('li')[activeTab]).addClass('active');
-    var active = $(tabContent.children('div.section')[activeTab]);
-    active.addClass('active');
-    if (fade)
-      active.addClass('in');
-
-    if (tabset.hasClass("tabset-sticky"))
-      tabset.rmarkdownStickyTabs();
-  }
-
-  // convert section divs with the .tabset class to tabsets
-  var tabsets = $("div.section.tabset");
-  tabsets.each(function(i) {
-    buildTabset($(tabsets[i]));
-  });
-};
-</script>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+</style>
 
 
 
@@ -224,56 +137,73 @@ window.buildTabsets = function(tocID) {
 <li><a href="./">The Pueblo Farming Project</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> bibliography: [book.bib, packages.bib]</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a><ul>
 <li class="chapter" data-level="" data-path="how-to-use-this-book.html"><a href="how-to-use-this-book.html"><i class="fa fa-check"></i>How to use this book</a></li>
 <li class="chapter" data-level="" data-path="saving-and-printing.html"><a href="saving-and-printing.html"><i class="fa fa-check"></i>Saving and printing</a></li>
 <li class="chapter" data-level="" data-path="comments-and-feedback.html"><a href="comments-and-feedback.html"><i class="fa fa-check"></i>Comments and feedback</a></li>
 <li class="chapter" data-level="" data-path="acknowledgments.html"><a href="acknowledgments.html"><i class="fa fa-check"></i>Acknowledgments</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a><ul>
-<li class="chapter" data-level="2.1" data-path="what-was-the-pfp.html"><a href="what-was-the-pfp.html"><i class="fa fa-check"></i><b>2.1</b> What was the PFP?</a><ul>
-<li class="chapter" data-level="2.1.1" data-path="what-was-the-pfp.html"><a href="what-was-the-pfp.html#history-of-the-pueblo-farming-project-20042017"><i class="fa fa-check"></i><b>2.1.1</b> History of the Pueblo Farming Project: 2004–2017</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="what-was-the-pfp.html"><a href="what-was-the-pfp.html"><i class="fa fa-check"></i><b>1.1</b> What was the PFP?</a><ul>
+<li class="chapter" data-level="" data-path="what-was-the-pfp.html"><a href="what-was-the-pfp.html#history-of-the-pueblo-farming-project-20042017"><i class="fa fa-check"></i>History of the Pueblo Farming Project: 2004–2017</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="who-were-the-participants.html"><a href="who-were-the-participants.html"><i class="fa fa-check"></i><b>2.2</b> Who were the participants?</a></li>
-<li class="chapter" data-level="2.3" data-path="where-did-it-take-place.html"><a href="where-did-it-take-place.html"><i class="fa fa-check"></i><b>2.3</b> Where did it take place?</a></li>
-<li class="chapter" data-level="2.4" data-path="when-did-it-take-place.html"><a href="when-did-it-take-place.html"><i class="fa fa-check"></i><b>2.4</b> When did it take place?</a></li>
-<li class="chapter" data-level="2.5" data-path="who-funded-the-pfp.html"><a href="who-funded-the-pfp.html"><i class="fa fa-check"></i><b>2.5</b> Who funded the PFP?</a></li>
+<li class="chapter" data-level="1.2" data-path="who-were-the-participants.html"><a href="who-were-the-participants.html"><i class="fa fa-check"></i><b>1.2</b> Who were the participants?</a></li>
+<li class="chapter" data-level="1.3" data-path="where-did-the-pfp-take-place.html"><a href="where-did-the-pfp-take-place.html"><i class="fa fa-check"></i><b>1.3</b> Where did the PFP take place?</a></li>
+<li class="chapter" data-level="1.4" data-path="who-funded-the-pfp.html"><a href="who-funded-the-pfp.html"><i class="fa fa-check"></i><b>1.4</b> Who funded the PFP?</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="the-story-of-maize.html"><a href="the-story-of-maize.html"><i class="fa fa-check"></i><b>3</b> The Story of Maize</a><ul>
-<li class="chapter" data-level="3.1" data-path="origins.html"><a href="origins.html"><i class="fa fa-check"></i><b>3.1</b> Origins</a></li>
-<li class="chapter" data-level="3.2" data-path="the-people-of-corn.html"><a href="the-people-of-corn.html"><i class="fa fa-check"></i><b>3.2</b> The people of corn</a></li>
-<li class="chapter" data-level="3.3" data-path="a-world-of-corn.html"><a href="a-world-of-corn.html"><i class="fa fa-check"></i><b>3.3</b> A world of corn</a></li>
+<li class="chapter" data-level="2" data-path="the-story-of-maize.html"><a href="the-story-of-maize.html"><i class="fa fa-check"></i><b>2</b> The Story of Maize</a><ul>
+<li class="chapter" data-level="2.1" data-path="origins.html"><a href="origins.html"><i class="fa fa-check"></i><b>2.1</b> Origins</a></li>
+<li class="chapter" data-level="2.2" data-path="the-people-of-corn.html"><a href="the-people-of-corn.html"><i class="fa fa-check"></i><b>2.2</b> The people of corn</a></li>
+<li class="chapter" data-level="2.3" data-path="a-world-of-corn.html"><a href="a-world-of-corn.html"><i class="fa fa-check"></i><b>2.3</b> A world of corn</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="the-life-cycle-of-maize.html"><a href="the-life-cycle-of-maize.html"><i class="fa fa-check"></i><b>4</b> The life-cycle of maize</a></li>
-<li class="chapter" data-level="5" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html"><i class="fa fa-check"></i><b>5</b> What maize needs to flourish</a><ul>
-<li class="chapter" data-level="5.1" data-path="soil.html"><a href="soil.html"><i class="fa fa-check"></i><b>5.1</b> Soil</a></li>
-<li class="chapter" data-level="5.2" data-path="water.html"><a href="water.html"><i class="fa fa-check"></i><b>5.2</b> Water</a></li>
-<li class="chapter" data-level="5.3" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html"><i class="fa fa-check"></i><b>5.3</b> Heat and sunlight</a><ul>
+<li class="chapter" data-level="3" data-path="the-life-cycle-of-maize.html"><a href="the-life-cycle-of-maize.html"><i class="fa fa-check"></i><b>3</b> The life-cycle of maize</a><ul>
+<li class="chapter" data-level="" data-path="the-hopi-life-cycle-of-maize.html"><a href="the-hopi-life-cycle-of-maize.html"><i class="fa fa-check"></i>The Hopi life-cycle of maize</a></li>
+<li class="chapter" data-level="" data-path="growth-stages-of-maize.html"><a href="growth-stages-of-maize.html"><i class="fa fa-check"></i>Growth-stages of maize</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html"><i class="fa fa-check"></i><b>4</b> What maize needs to flourish</a><ul>
+<li class="chapter" data-level="4.1" data-path="soil.html"><a href="soil.html"><i class="fa fa-check"></i><b>4.1</b> Soil</a></li>
+<li class="chapter" data-level="4.2" data-path="water.html"><a href="water.html"><i class="fa fa-check"></i><b>4.2</b> Water</a></li>
+<li class="chapter" data-level="4.3" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html"><i class="fa fa-check"></i><b>4.3</b> Heat and sunlight</a><ul>
 <li class="chapter" data-level="" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html#gdd-sidebar"><i class="fa fa-check"></i>GDD sidebar</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="the-pfp-field-experiments.html"><a href="the-pfp-field-experiments.html"><i class="fa fa-check"></i><b>6</b> The PFP Field Experiments</a><ul>
-<li class="chapter" data-level="6.1" data-path="procedure.html"><a href="procedure.html"><i class="fa fa-check"></i><b>6.1</b> Procedure</a></li>
-<li class="chapter" data-level="6.2" data-path="the-pfp-environment.html"><a href="the-pfp-environment.html"><i class="fa fa-check"></i><b>6.2</b> The PFP environment</a><ul>
+<li class="chapter" data-level="5" data-path="the-pfp-field-experiments.html"><a href="the-pfp-field-experiments.html"><i class="fa fa-check"></i><b>5</b> The PFP Field Experiments</a><ul>
+<li class="chapter" data-level="5.1" data-path="procedure.html"><a href="procedure.html"><i class="fa fa-check"></i><b>5.1</b> Procedure</a></li>
+<li class="chapter" data-level="5.2" data-path="the-pfp-environment.html"><a href="the-pfp-environment.html"><i class="fa fa-check"></i><b>5.2</b> The PFP environment</a><ul>
 <li class="chapter" data-level="" data-path="the-pfp-environment.html"><a href="the-pfp-environment.html#soils-in-the-gardens"><i class="fa fa-check"></i>Soils in the gardens</a></li>
-<li class="chapter" data-level="6.2.1" data-path="the-pfp-environment.html"><a href="the-pfp-environment.html#cortez-weather-and-ccac-weather-stations"><i class="fa fa-check"></i><b>6.2.1</b> Cortez weather and CCAC weather stations</a></li>
+<li class="chapter" data-level="5.2.1" data-path="the-pfp-environment.html"><a href="the-pfp-environment.html#cortez-weather-and-ccac-weather-stations"><i class="fa fa-check"></i><b>5.2.1</b> Cortez weather and CCAC weather stations</a></li>
 </ul></li>
-<li class="chapter" data-level="6.3" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>6.3</b> Results</a><ul>
+<li class="chapter" data-level="5.3" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5.3</b> Results</a><ul>
 <li class="chapter" data-level="" data-path="results.html"><a href="results.html#maize-growth-analysis"><i class="fa fa-check"></i>Maize growth analysis</a></li>
 <li class="chapter" data-level="" data-path="results.html"><a href="results.html#maize-production"><i class="fa fa-check"></i>Maize production</a></li>
 <li class="chapter" data-level="" data-path="results.html"><a href="results.html#maize-genetics"><i class="fa fa-check"></i>Maize genetics</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="what-we-learned.html"><a href="what-we-learned.html"><i class="fa fa-check"></i><b>7</b> What we learned</a><ul>
-<li class="chapter" data-level="7.1" data-path="the-resilience-of-hopi-corn.html"><a href="the-resilience-of-hopi-corn.html"><i class="fa fa-check"></i><b>7.1</b> The resilience of Hopi corn</a></li>
-<li class="chapter" data-level="7.2" data-path="improving-our-understanding-of-mesa-verde-history.html"><a href="improving-our-understanding-of-mesa-verde-history.html"><i class="fa fa-check"></i><b>7.2</b> Improving our understanding of Mesa Verde history</a></li>
-<li class="chapter" data-level="7.3" data-path="culture-matters.html"><a href="culture-matters.html"><i class="fa fa-check"></i><b>7.3</b> Culture matters!</a></li>
+<li class="chapter" data-level="6" data-path="what-we-learned.html"><a href="what-we-learned.html"><i class="fa fa-check"></i><b>6</b> What we learned</a><ul>
+<li class="chapter" data-level="6.1" data-path="the-resilience-of-hopi-corn.html"><a href="the-resilience-of-hopi-corn.html"><i class="fa fa-check"></i><b>6.1</b> The resilience of Hopi corn</a></li>
+<li class="chapter" data-level="6.2" data-path="improving-our-understanding-of-mesa-verde-history.html"><a href="improving-our-understanding-of-mesa-verde-history.html"><i class="fa fa-check"></i><b>6.2</b> Improving our understanding of Mesa Verde history</a></li>
+<li class="chapter" data-level="6.3" data-path="culture-matters.html"><a href="culture-matters.html"><i class="fa fa-check"></i><b>6.3</b> Culture matters!</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="lesson-plans.html"><a href="lesson-plans.html"><i class="fa fa-check"></i><b>8</b> Lesson plans</a><ul>
+<li class="chapter" data-level="7" data-path="lesson-plans.html"><a href="lesson-plans.html"><i class="fa fa-check"></i><b>7</b> Lesson plans</a><ul>
 <li class="chapter" data-level="" data-path="lesson-plans.html"><a href="lesson-plans.html#lesson-formats"><i class="fa fa-check"></i>Lesson Formats</a></li>
 <li class="chapter" data-level="" data-path="lesson-plans.html"><a href="lesson-plans.html#unique-considerations-living-props-and-teaching-to-climate-change"><i class="fa fa-check"></i>Unique Considerations: Living Props and Teaching to Climate Change</a></li>
 <li class="chapter" data-level="" data-path="lesson-plans.html"><a href="lesson-plans.html#optimal-garden-setup-for-creating-a-garden-classroom"><i class="fa fa-check"></i>Optimal Garden Setup for Creating a Garden Classroom</a></li>
 <li class="chapter" data-level="" data-path="lesson-plans.html"><a href="lesson-plans.html#seed-donations"><i class="fa fa-check"></i>Seed Donations</a></li>
+<li class="chapter" data-level="7.1" data-path="the-people-of-corn-1.html"><a href="the-people-of-corn-1.html"><i class="fa fa-check"></i><b>7.1</b> The People of Corn</a><ul>
+<li><a href="the-people-of-corn-1.html#section"></a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="farming-through-drought.html"><a href="farming-through-drought.html"><i class="fa fa-check"></i><b>7.2</b> Farming Through Drought</a><ul>
+<li><a href="farming-through-drought.html#section-1"></a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="know-your-soil.html"><a href="know-your-soil.html"><i class="fa fa-check"></i><b>7.3</b> Know Your Soil</a><ul>
+<li><a href="know-your-soil.html#section-2"></a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="ancient-technologies.html"><a href="ancient-technologies.html"><i class="fa fa-check"></i><b>7.4</b> Ancient Technologies</a><ul>
+<li><a href="ancient-technologies.html#section-3"></a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="the-short-blue-ear.html"><a href="the-short-blue-ear.html"><i class="fa fa-check"></i><b>7.5</b> The Short Blue Ear</a><ul>
+<li><a href="the-short-blue-ear.html#section-4"></a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="chapter" data-level="" data-path="open-review.html"><a href="open-review.html"><i class="fa fa-check"></i>Open Review</a><ul>
@@ -327,9 +257,9 @@ window.buildTabsets = function(tocID) {
 This book is in <b><a href="open.html#open">Open Review</a></b>. We want your feedback to make the book better for you and other readers. To add your annotation, <span style="background-color: #3297FD; color: white">select some text</span> and then click the <i class="h-icon-annotate"></i> on the pop-up menu. To see the annotations of others, click the <i class="h-icon-chevron-left"></i> in the upper right hand corner of the page <i class="fa fa-arrow-circle-right  fa-rotate-315" aria-hidden="true"></i>
 </div>
 <div id="what-was-the-pfp" class="section level2">
-<h2><span class="header-section-number">2.1</span> What was the PFP?</h2>
-<div id="history-of-the-pueblo-farming-project-20042017" class="section level3">
-<h3><span class="header-section-number">2.1.1</span> History of the Pueblo Farming Project: 2004–2017</h3>
+<h2><span class="header-section-number">1.1</span> What was the PFP?</h2>
+<div id="history-of-the-pueblo-farming-project-20042017" class="section level3 unnumbered">
+<h3>History of the Pueblo Farming Project: 2004–2017</h3>
 <div id="the-beginning" class="section level4 unnumbered">
 <h4>The Beginning</h4>
 <p>The beginning of the Pueblo Farming Project (PFP) can be traced to a September 2004 Native American Graves and Repatriation Act (NAGPRA) consultation for Crow Canyon’s Goodman Point Archaeological Project. National Park Service staff and Crow Canyon archaeologists met with Hopi Cultural Preservation Office staff at their office in Kykotsmovi, Arizona to discuss the research design for this project. When we concluded our discussion we asked the Hopi if there were research topics that interested them that were not covered in the research design, and they quickly responded that they wanted to know more about ancestral Pueblo farming and how it compared to the agricultural practices of Hopi and other Pueblo people today.</p>
@@ -337,17 +267,21 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 </div>
 <div id="designing-the-project" class="section level4 unnumbered">
 <h4>Designing the Project</h4>
-<p>To follow through on this request, Crow Canyon developed the first of a series of grants to support a collaborative project on Pueblo farming (see section below on Who Funded the PFP). The initial grant funded a planning meeting in May 2006 where we discussed the various types of research that could investigate ancestral Pueblo farming practices and link them to techniques used by modern Pueblo farmers. Participants at the meeting included traditional Pueblo farmers from Hopi, Jemez, Ohkay Owingeh, and Tesuque; Crow Canyon staff; and other anthropologists who specialize in the study of ancestral and modern Pueblo agriculture.</p>
 <div class="figure">
 <img src="images/2006_group.jpg" alt="The participants in the May 2006 Puablo farming planning meeting." />
 <p class="caption">The participants in the May 2006 Puablo farming planning meeting.</p>
 </div>
+<p>To follow through on this request, Crow Canyon developed the first of a series of grants to support a collaborative project on Pueblo farming (see section below on Who Funded the PFP). The initial grant funded a planning meeting in May 2006 where we discussed the various types of research that could investigate ancestral Pueblo farming practices and link them to techniques used by modern Pueblo farmers. Participants at the meeting included traditional Pueblo farmers from Hopi, Jemez, Ohkay Owingeh, and Tesuque; Crow Canyon staff; and other anthropologists who specialize in the study of ancestral and modern Pueblo agriculture.</p>
 <p>After two days of discussion, this group decided to implement an experimental gardening project that focused on rain-fed farming because this was the main type of farming practiced by the ancestral Pueblo in the Mesa Verde region. We use “rain-fed farming” to represent agricultural practices that use little to no large-scale landscape modification, but that readily take advantage of local landform and soil characteristics to enhance soil moisture (such as areas of higher runoff or greater snow accumulation) and often include small-scale anthropogenic modifications such as check dams. The group agreed that Hopi should take the lead as the traditional farming experts, since they still practice rain-fed farming whereas most other contemporary Pueblo tribes use more intensive flood-plain and canal irrigation techniques. Crow Canyon agreed to seek grant funding for the project that became known as the PFP.</p>
 </div>
 <div id="selecting-garden-locations" class="section level4 unnumbered">
 <h4>Selecting Garden Locations</h4>
-<p>The next step occurred in 2007 when Hopi farmers met to select locations for the gardens <strong>PICTURE OF LOCATING FIELDS HERE)</strong>. We originally hoped to place these gardens at the Goodman Point Unit of Hovenweep National Monument to complement our ongoing research there, but we did not get permission for this and decided instead to locate the gardens on Crow Canyon’s campus to integrate the PFP into the Center’s education programs.</p>
-<p>Pueblo farmers used traditional ecological knowledge to select the garden locations, focusing on the native plants that indicate good areas for farming<sup>8</sup>. Rabbitbrush and snakeweed are two plants they see as indicating prime areas, but dense stands of those plants were not present on Crow Canyon’s campus. In the absence of such indicator species, they selected two areas in small washes on the east side of Crow Canyon that are dominated by sagebrush today. The farmers assessed soils for their texture and moisture-holding capacity and examined the details of specific settings including slope, aspect, and other factors. Although the Hopi farmers did not consider these two locations as ideal, they thought they would be adequate.</p>
+<div class="figure">
+<img src="images/2007_locating_fields.jpg" alt="Locating fields during the 2007 PFP meetings." />
+<p class="caption">Locating fields during the 2007 PFP meetings.</p>
+</div>
+<p>The next step occurred in 2007 when Hopi farmers met to select locations for the gardens. We originally hoped to place these gardens at the Goodman Point Unit of Hovenweep National Monument to complement our ongoing research there, but we did not get permission for this and decided instead to locate the gardens on Crow Canyon’s campus to integrate the PFP into the Center’s education programs.</p>
+<p>Pueblo farmers used traditional ecological knowledge to select the garden locations, focusing on the native plants that indicate good areas for farming. Rabbitbrush and snakeweed are two plants they see as indicating prime areas, but dense stands of those plants were not present on Crow Canyon’s campus. In the absence of such indicator species, they selected two areas in small washes on the east side of Crow Canyon that are dominated by sagebrush today. The farmers assessed soils for their texture and moisture-holding capacity and examined the details of specific settings including slope, aspect, and other factors. Although the Hopi farmers did not consider these two locations as ideal, they thought they would be adequate.</p>
 <p>One location had sage that was unusually tall; this area was located near the mouth of a small wash coming from the east slope of the Crow Canyon drainage. When this area was cleared, an ancient check dam was found and subsequently recorded (5MT19690). This was named the Check Dam Garden (CDG). The other plot was located higher up in a small drainage to the north in an area where there was a thick patch of verdant grass. The Hopi farmers thought there might be a spring in this area but subsequent work showed this was not the case. We call this plot the Pueblo Learning Center (PLC) garden because it is on the way to one of Crow Canyon’s outdoor classrooms.</p>
 <p>In addition to these new plots, the Hopi farmers suggested we continue planting a garden that Paul Ermigiotti had earlier developed for Crow Canyon’s educational programs. We call this Paul’s Old Garden (POG), and it is located on the valley floor in the bottom of Crow Canyon.</p>
 <p>In 2009, we added two additional garden areas. The first, the Pithouse garden (PHG), was placed on the west slope of Crow Canyon and adjacent to Crow Canyon’s Pithouse Learning Center to incorporate the garden into the lessons that occur there. The PHG garden had anomalously low yields for several years and soil profiles showed that the area had been disturbed when the adjacent replica pithouse was constructed (the garden soils contained construction materials), so we abandoned this garden after the 2014 growing season.</p>
@@ -356,7 +290,11 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 </div>
 <div id="planting-and-harvesting-20082017" class="section level4 unnumbered">
 <h4>Planting and Harvesting: 2008–2017</h4>
-<p>We planted and harvested gardens for the first time in 2008, with the work focused on the CDG, PLC, and POG gardens (<strong>GROUP PICTURE OF 2008 PLANTING HERE)</strong>. From 2009–2014 we planted five gardens: the CDG, PLC, POG, PHG, and KUG gardens. From 2015–2017 we planted the CDG, PLC, POG, KUG, and MCG gardens. During this time, Pueblo farmers served as the expert consultants for planting and harvesting. Most of the farmers are from Hopi, but farmers from other Pueblos have also participated. Crow Canyon staff members learn from the Pueblo farmers and assist in the planting and harvesting.</p>
+<div class="figure">
+<img src="images/2008_planting_fields.jpg" alt="The participants in the initial planting of the PFP gardens in 2008." />
+<p class="caption">The participants in the initial planting of the PFP gardens in 2008.</p>
+</div>
+<p>We planted and harvested gardens for the first time in 2008, with the work focused on the CDG, PLC, and POG gardens. From 2009–2014 we planted five gardens: the CDG, PLC, POG, PHG, and KUG gardens. From 2015–2017 we planted the CDG, PLC, POG, KUG, and MCG gardens. During this time, Pueblo farmers served as the expert consultants for planting and harvesting. Most of the farmers are from Hopi, but farmers from other Pueblos have also participated. Crow Canyon staff members learn from the Pueblo farmers and assist in the planting and harvesting.</p>
 </div>
 <div id="pueblo-farming-project-goals" class="section level4 unnumbered">
 <h4>Pueblo Farming Project Goals</h4>
@@ -373,14 +311,199 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <iframe src="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&amp;rel=0&amp;start=1" frameborder="0" gesture="media" showinfo="0" allow="encrypted-media" allowfullscreen>
 </iframe>
 </div>
-<p>A second educational product is an exhibit on display at the Crow Canyon Archaeological Center. This exhibit describes the project, presents our results, and tells the story of corn. Finally, we created and piloted five standards-aligned lessons for the classroom. Those lessons plans are included in this e-book.</p>
+<p><br>
+A second educational product is an exhibit on display at the Crow Canyon Archaeological Center. This exhibit describes the project, presents our results, and tells the story of corn. Finally, we created and piloted five standards-aligned lessons for the classroom. Those lessons plans are included in this e-book.</p>
 <p>Public education initiatives also include lectures for the public and presentations at professional meetings. Information about the PFP was also disseminated through Crow Canyon’s electronic and print newsletters and on Crow Canyon’s website. The PFP was also featured on local radio shows, including KSJD’s Big Fat Farm Show (<a href="http://ksjd.org/post/pueblo-farming-project#stream/0" class="uri">http://ksjd.org/post/pueblo-farming-project#stream/0</a>).</p>
 </div>
-<div id="research-products" class="section level4 unnumbered">
-<h4>Research Products</h4>
 </div>
 </div>
-</div>
+<!-- hypothes.is -->
+<script async defer src="https://hypothes.is/embed.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78448357-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-78448357-2');
+
+</script>
+
+<!-- Tabsets -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script>
+    /**
+     * jQuery Plugin: Sticky Tabs
+     *
+     * @author Aidan Lister <aidan@php.net>
+     * adapted by Ruben Arslan to activate parent tabs too
+     * http://www.aidanlister.com/2014/03/persisting-the-tab-state-in-bootstrap/
+     */
+    (function($) {
+        "use strict";
+        $.fn.rmarkdownStickyTabs = function() {
+            var context = this;
+            // Show the tab corresponding with the hash in the URL, or the first tab
+            var showStuffFromHash = function() {
+                var hash = window.location.hash;
+                var selector = hash ? 'a[href="' + hash + '"]' : 'li.active > a';
+                var $selector = $(selector, context);
+                if ($selector.data('toggle') === "tab") {
+                    $selector.tab('show');
+                    // walk up the ancestors of this element, show any hidden tabs
+                    $selector.parents('.section.tabset').each(function(i, elm) {
+                        var link = $('a[href="#' + $(elm).attr('id') + '"]');
+                        if (link.data('toggle') === "tab") {
+                            link.tab("show");
+                        }
+                    });
+                }
+            };
+
+
+            // Set the correct tab when the page loads
+            showStuffFromHash(context);
+
+            // Set the correct tab when a user uses their back/forward button
+            $(window).on('hashchange', function() {
+                showStuffFromHash(context);
+            });
+
+            // Change the URL when tabs are clicked
+            $('a', context).on('click', function(e) {
+                history.pushState(null, null, this.href);
+                showStuffFromHash(context);
+            });
+
+            return this;
+        };
+    }(jQuery));
+
+    window.buildTabsets = function(tocID) {
+
+        // build a tabset from a section div with the .tabset class
+        function buildTabset(tabset) {
+
+            // check for fade and pills options
+            var fade = tabset.hasClass("tabset-fade");
+            var pills = tabset.hasClass("tabset-pills");
+            var navClass = pills ? "nav-pills" : "nav-tabs";
+
+            // determine the heading level of the tabset and tabs
+            var match = tabset.attr('class').match(/level(\d) /);
+            if (match === null)
+                return;
+            var tabsetLevel = Number(match[1]);
+            var tabLevel = tabsetLevel + 1;
+
+            // find all subheadings immediately below
+            var tabs = tabset.find("div.section.level" + tabLevel);
+            if (!tabs.length)
+                return;
+
+            // create tablist and tab-content elements
+            var tabList = $('<ul class="nav ' + navClass + '" role="tablist"></ul>');
+            $(tabs[0]).before(tabList);
+            var tabContent = $('<div class="tab-content"></div>');
+            $(tabs[0]).before(tabContent);
+
+            // build the tabset
+            var activeTab = 0;
+            tabs.each(function(i) {
+
+                // get the tab div
+                var tab = $(tabs[i]);
+
+                // get the id then sanitize it for use with bootstrap tabs
+                var id = tab.attr('id');
+
+                // see if this is marked as the active tab
+                if (tab.hasClass('active'))
+                    activeTab = i;
+
+                // remove any table of contents entries associated with
+                // this ID (since we'll be removing the heading element)
+                $("div#" + tocID + " li a[href='#" + id + "']").parent().remove();
+
+                // sanitize the id for use with bootstrap tabs
+                id = id.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_');
+                tab.attr('id', id);
+
+                // get the heading element within it, grab it's text, then remove it
+                var heading = tab.find('h' + tabLevel + ':first');
+                var headingText = heading.html();
+                heading.remove();
+
+                // build and append the tab list item
+                var a = $('<a role="tab" data-toggle="tab">' + headingText + '</a>');
+                a.attr('href', '#' + id);
+                a.attr('aria-controls', id);
+                var li = $('<li role="presentation"></li>');
+                li.append(a);
+                tabList.append(li);
+
+                // set it's attributes
+                tab.attr('role', 'tabpanel');
+                tab.addClass('tab-pane');
+                tab.addClass('tabbed-pane');
+                if (fade)
+                    tab.addClass('fade');
+
+                // move it into the tab content div
+                tab.detach().appendTo(tabContent);
+            });
+
+            // set active tab
+            $(tabList.children('li')[activeTab]).addClass('active');
+            var active = $(tabContent.children('div.section')[activeTab]);
+            active.addClass('active');
+            if (fade)
+                active.addClass('in');
+
+            if (tabset.hasClass("tabset-sticky"))
+                tabset.rmarkdownStickyTabs();
+        }
+
+        // convert section divs with the .tabset class to tabsets
+        var tabsets = $("div.section.tabset");
+        tabsets.each(function(i) {
+            buildTabset($(tabsets[i]));
+        });
+    };
+
+</script>
+
+<!-- flickity -->
+<script type="text/javascript" src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script type="text/javascript">
+    // external js: flickity.pkgd.js
+
+    var $carousel = $('.carousel').flickity({
+        cellSelector: 'img',
+        imagesLoaded: true,
+        percentPosition: false,
+        wrapAround: true,
+        autoPlay: 3000,
+        pageDots: false
+    });
+    
+    var $caption = $('.carcaption .caption');
+    
+    // Flickity instance
+    var flkty = $carousel.data('flickity');
+
+    $carousel.on('select.flickity', function() {
+        // set image caption using img's alt
+        $caption.text(flkty.selectedElement.alt)
+    });
+
+</script>
             </section>
 
           </div>
@@ -390,13 +513,13 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <a href="who-were-the-participants.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
-<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
-<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook/js/app.min.js"></script>
+<script src="libs/gitbook/js/lunr.js"></script>
+<script src="libs/gitbook/js/plugin-search.js"></script>
+<script src="libs/gitbook/js/plugin-sharing.js"></script>
+<script src="libs/gitbook/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook/js/jquery.highlight.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({

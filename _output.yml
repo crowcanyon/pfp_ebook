@@ -1,8 +1,9 @@
 bookdown::gitbook:
   dev: svglite
   includes:
-    in_header: [hypothesis.html,google_analytics.html,tabsets.html,slick.html]
+    in_header: header.html
     before_body: open_review_block.html
+    after_body: after_body.html
   css: css/style.css
   split_by: section
   config:

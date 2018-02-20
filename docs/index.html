@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2018-02-13">
+<meta name="date" content="2018-02-20">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -46,165 +46,78 @@
 
 
 
-<script async defer src="https://hypothes.is/embed.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78448357-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-78448357-2');
-</script>
+<script src="libs/htmlwidgets/htmlwidgets.js"></script>
+<link href="libs/leaflet/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet/leaflet.js"></script>
+<link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
+<link href="libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
+<script src="libs/leaflet-label/leaflet.label.js"></script>
+<script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
+<script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
+<script src="libs/leaflet-binding/leaflet.js"></script>
+<script src="libs/leaflet-providers/leaflet-providers.js"></script>
+<script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
-<script>
+<link rel="stylesheet" type="text/css" href="https://npmcdn.com/flickity@2/dist/flickity.css" />
 
-/**
- * jQuery Plugin: Sticky Tabs
- *
- * @author Aidan Lister <aidan@php.net>
- * adapted by Ruben Arslan to activate parent tabs too
- * http://www.aidanlister.com/2014/03/persisting-the-tab-state-in-bootstrap/
- */
-(function($) {
-  "use strict";
-  $.fn.rmarkdownStickyTabs = function() {
-    var context = this;
-    // Show the tab corresponding with the hash in the URL, or the first tab
-    var showStuffFromHash = function() {
-      var hash = window.location.hash;
-      var selector = hash ? 'a[href="' + hash + '"]' : 'li.active > a';
-      var $selector = $(selector, context);
-      if($selector.data('toggle') === "tab") {
-        $selector.tab('show');
-        // walk up the ancestors of this element, show any hidden tabs
-        $selector.parents('.section.tabset').each(function(i, elm) {
-          var link = $('a[href="#' + $(elm).attr('id') + '"]');
-          if(link.data('toggle') === "tab") {
-            link.tab("show");
-          }
-        });
-      }
-    };
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
+    body {
+        font-family: sans-serif;
+    }
 
-    // Set the correct tab when the page loads
-    showStuffFromHash(context);
+    .carousel {
+        background: #FAFAFA;
+    }
 
-    // Set the correct tab when a user uses their back/forward button
-    $(window).on('hashchange', function() {
-      showStuffFromHash(context);
-    });
+    .carousel img {
+        display: block;
+        height: 200px;
+        opacity: 0.7;
+        -webkit-transform: scale(0.85);
+        transform: scale(0.85);
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+        transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+    }
 
-    // Change the URL when tabs are clicked
-    $('a', context).on('click', function(e) {
-      history.pushState(null, null, this.href);
-      showStuffFromHash(context);
-    });
+    .carousel img.is-selected {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-filter: none;
+        filter: none;
+    }
 
-    return this;
-  };
-}(jQuery));
+    .caption {
+        background: #FAFAFA;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+       .carcaption .caption {
+        background: #FAFAFA;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
 
-window.buildTabsets = function(tocID) {
+    .flickity-page-dots {
+        bottom: -60px;
+    }
 
-  // build a tabset from a section div with the .tabset class
-  function buildTabset(tabset) {
+    @media screen and ( min-width: 768px) {
+        .carousel img {
+            height: 400px;
+        }
+    }
 
-    // check for fade and pills options
-    var fade = tabset.hasClass("tabset-fade");
-    var pills = tabset.hasClass("tabset-pills");
-    var navClass = pills ? "nav-pills" : "nav-tabs";
-
-    // determine the heading level of the tabset and tabs
-    var match = tabset.attr('class').match(/level(\d) /);
-    if (match === null)
-      return;
-    var tabsetLevel = Number(match[1]);
-    var tabLevel = tabsetLevel + 1;
-
-    // find all subheadings immediately below
-    var tabs = tabset.find("div.section.level" + tabLevel);
-    if (!tabs.length)
-      return;
-
-    // create tablist and tab-content elements
-    var tabList = $('<ul class="nav ' + navClass + '" role="tablist"></ul>');
-    $(tabs[0]).before(tabList);
-    var tabContent = $('<div class="tab-content"></div>');
-    $(tabs[0]).before(tabContent);
-
-    // build the tabset
-    var activeTab = 0;
-    tabs.each(function(i) {
-
-      // get the tab div
-      var tab = $(tabs[i]);
-
-      // get the id then sanitize it for use with bootstrap tabs
-      var id = tab.attr('id');
-
-      // see if this is marked as the active tab
-      if (tab.hasClass('active'))
-        activeTab = i;
-
-      // remove any table of contents entries associated with
-      // this ID (since we'll be removing the heading element)
-      $("div#" + tocID + " li a[href='#" + id + "']").parent().remove();
-
-      // sanitize the id for use with bootstrap tabs
-      id = id.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_');
-      tab.attr('id', id);
-
-      // get the heading element within it, grab it's text, then remove it
-      var heading = tab.find('h' + tabLevel + ':first');
-      var headingText = heading.html();
-      heading.remove();
-
-      // build and append the tab list item
-      var a = $('<a role="tab" data-toggle="tab">' + headingText + '</a>');
-      a.attr('href', '#' + id);
-      a.attr('aria-controls', id);
-      var li = $('<li role="presentation"></li>');
-      li.append(a);
-      tabList.append(li);
-
-      // set it's attributes
-      tab.attr('role', 'tabpanel');
-      tab.addClass('tab-pane');
-      tab.addClass('tabbed-pane');
-      if (fade)
-        tab.addClass('fade');
-
-      // move it into the tab content div
-      tab.detach().appendTo(tabContent);
-    });
-
-    // set active tab
-    $(tabList.children('li')[activeTab]).addClass('active');
-    var active = $(tabContent.children('div.section')[activeTab]);
-    active.addClass('active');
-    if (fade)
-      active.addClass('in');
-
-    if (tabset.hasClass("tabset-sticky"))
-      tabset.rmarkdownStickyTabs();
-  }
-
-  // convert section divs with the .tabset class to tabsets
-  var tabsets = $("div.section.tabset");
-  tabsets.each(function(i) {
-    buildTabset($(tabsets[i]));
-  });
-};
-</script>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+</style>
 
 
 
@@ -232,19 +145,21 @@ window.buildTabsets = function(tocID) {
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
 <li class="chapter" data-level="1.1" data-path="what-was-the-pfp.html"><a href="what-was-the-pfp.html"><i class="fa fa-check"></i><b>1.1</b> What was the PFP?</a><ul>
-<li class="chapter" data-level="1.1.1" data-path="what-was-the-pfp.html"><a href="what-was-the-pfp.html#history-of-the-pueblo-farming-project-20042017"><i class="fa fa-check"></i><b>1.1.1</b> History of the Pueblo Farming Project: 2004–2017</a></li>
+<li class="chapter" data-level="" data-path="what-was-the-pfp.html"><a href="what-was-the-pfp.html#history-of-the-pueblo-farming-project-20042017"><i class="fa fa-check"></i>History of the Pueblo Farming Project: 2004–2017</a></li>
 </ul></li>
 <li class="chapter" data-level="1.2" data-path="who-were-the-participants.html"><a href="who-were-the-participants.html"><i class="fa fa-check"></i><b>1.2</b> Who were the participants?</a></li>
-<li class="chapter" data-level="1.3" data-path="where-did-it-take-place.html"><a href="where-did-it-take-place.html"><i class="fa fa-check"></i><b>1.3</b> Where did it take place?</a></li>
-<li class="chapter" data-level="1.4" data-path="when-did-it-take-place.html"><a href="when-did-it-take-place.html"><i class="fa fa-check"></i><b>1.4</b> When did it take place?</a></li>
-<li class="chapter" data-level="1.5" data-path="who-funded-the-pfp.html"><a href="who-funded-the-pfp.html"><i class="fa fa-check"></i><b>1.5</b> Who funded the PFP?</a></li>
+<li class="chapter" data-level="1.3" data-path="where-did-the-pfp-take-place.html"><a href="where-did-the-pfp-take-place.html"><i class="fa fa-check"></i><b>1.3</b> Where did the PFP take place?</a></li>
+<li class="chapter" data-level="1.4" data-path="who-funded-the-pfp.html"><a href="who-funded-the-pfp.html"><i class="fa fa-check"></i><b>1.4</b> Who funded the PFP?</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="the-story-of-maize.html"><a href="the-story-of-maize.html"><i class="fa fa-check"></i><b>2</b> The Story of Maize</a><ul>
 <li class="chapter" data-level="2.1" data-path="origins.html"><a href="origins.html"><i class="fa fa-check"></i><b>2.1</b> Origins</a></li>
 <li class="chapter" data-level="2.2" data-path="the-people-of-corn.html"><a href="the-people-of-corn.html"><i class="fa fa-check"></i><b>2.2</b> The people of corn</a></li>
 <li class="chapter" data-level="2.3" data-path="a-world-of-corn.html"><a href="a-world-of-corn.html"><i class="fa fa-check"></i><b>2.3</b> A world of corn</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="the-life-cycle-of-maize.html"><a href="the-life-cycle-of-maize.html"><i class="fa fa-check"></i><b>3</b> The life-cycle of maize</a></li>
+<li class="chapter" data-level="3" data-path="the-life-cycle-of-maize.html"><a href="the-life-cycle-of-maize.html"><i class="fa fa-check"></i><b>3</b> The life-cycle of maize</a><ul>
+<li class="chapter" data-level="" data-path="the-hopi-life-cycle-of-maize.html"><a href="the-hopi-life-cycle-of-maize.html"><i class="fa fa-check"></i>The Hopi life-cycle of maize</a></li>
+<li class="chapter" data-level="" data-path="growth-stages-of-maize.html"><a href="growth-stages-of-maize.html"><i class="fa fa-check"></i>Growth-stages of maize</a></li>
+</ul></li>
 <li class="chapter" data-level="4" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html"><i class="fa fa-check"></i><b>4</b> What maize needs to flourish</a><ul>
 <li class="chapter" data-level="4.1" data-path="soil.html"><a href="soil.html"><i class="fa fa-check"></i><b>4.1</b> Soil</a></li>
 <li class="chapter" data-level="4.2" data-path="water.html"><a href="water.html"><i class="fa fa-check"></i><b>4.2</b> Water</a></li>
@@ -343,14 +258,15 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 </div>
 <div id="header">
 <h1 class="title">The Pueblo Farming Project</h1>
-<h3 class="subtitle"><em><div class="line-block">A collaboration between Hopi Farmers and<br />
+<h3 class="subtitle"><em><div class="line-block">A collaboration between<br />
+Hopi Farmers and<br />
 the Crow Canyon Archaeological Center</div></em></h3>
 <h4 class="author"><em><div class="line-block">Paul Ermigiotti,<br />
 Mark Varien,<br />
 Erin Bohm,<br />
 Kyle Bocinsky, and<br />
 the Hopi Cultural Resources Advisory Team</div></em></h4>
-<h4 class="date"><em>2018-02-13</em></h4>
+<h4 class="date"><em>2018-02-20</em></h4>
 </div>
 <div id="preface" class="section level1 unnumbered">
 <h1>Preface</h1>
@@ -358,6 +274,193 @@ the Hopi Cultural Resources Advisory Team</div></em></h4>
 <p><img src="images/by-nc-sa.png" alt="Creative Commons License" /><br />
 The online version of this book is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p> 
 </div>
+<!-- hypothes.is -->
+<script async defer src="https://hypothes.is/embed.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78448357-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-78448357-2');
+
+</script>
+
+<!-- Tabsets -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script>
+    /**
+     * jQuery Plugin: Sticky Tabs
+     *
+     * @author Aidan Lister <aidan@php.net>
+     * adapted by Ruben Arslan to activate parent tabs too
+     * http://www.aidanlister.com/2014/03/persisting-the-tab-state-in-bootstrap/
+     */
+    (function($) {
+        "use strict";
+        $.fn.rmarkdownStickyTabs = function() {
+            var context = this;
+            // Show the tab corresponding with the hash in the URL, or the first tab
+            var showStuffFromHash = function() {
+                var hash = window.location.hash;
+                var selector = hash ? 'a[href="' + hash + '"]' : 'li.active > a';
+                var $selector = $(selector, context);
+                if ($selector.data('toggle') === "tab") {
+                    $selector.tab('show');
+                    // walk up the ancestors of this element, show any hidden tabs
+                    $selector.parents('.section.tabset').each(function(i, elm) {
+                        var link = $('a[href="#' + $(elm).attr('id') + '"]');
+                        if (link.data('toggle') === "tab") {
+                            link.tab("show");
+                        }
+                    });
+                }
+            };
+
+
+            // Set the correct tab when the page loads
+            showStuffFromHash(context);
+
+            // Set the correct tab when a user uses their back/forward button
+            $(window).on('hashchange', function() {
+                showStuffFromHash(context);
+            });
+
+            // Change the URL when tabs are clicked
+            $('a', context).on('click', function(e) {
+                history.pushState(null, null, this.href);
+                showStuffFromHash(context);
+            });
+
+            return this;
+        };
+    }(jQuery));
+
+    window.buildTabsets = function(tocID) {
+
+        // build a tabset from a section div with the .tabset class
+        function buildTabset(tabset) {
+
+            // check for fade and pills options
+            var fade = tabset.hasClass("tabset-fade");
+            var pills = tabset.hasClass("tabset-pills");
+            var navClass = pills ? "nav-pills" : "nav-tabs";
+
+            // determine the heading level of the tabset and tabs
+            var match = tabset.attr('class').match(/level(\d) /);
+            if (match === null)
+                return;
+            var tabsetLevel = Number(match[1]);
+            var tabLevel = tabsetLevel + 1;
+
+            // find all subheadings immediately below
+            var tabs = tabset.find("div.section.level" + tabLevel);
+            if (!tabs.length)
+                return;
+
+            // create tablist and tab-content elements
+            var tabList = $('<ul class="nav ' + navClass + '" role="tablist"></ul>');
+            $(tabs[0]).before(tabList);
+            var tabContent = $('<div class="tab-content"></div>');
+            $(tabs[0]).before(tabContent);
+
+            // build the tabset
+            var activeTab = 0;
+            tabs.each(function(i) {
+
+                // get the tab div
+                var tab = $(tabs[i]);
+
+                // get the id then sanitize it for use with bootstrap tabs
+                var id = tab.attr('id');
+
+                // see if this is marked as the active tab
+                if (tab.hasClass('active'))
+                    activeTab = i;
+
+                // remove any table of contents entries associated with
+                // this ID (since we'll be removing the heading element)
+                $("div#" + tocID + " li a[href='#" + id + "']").parent().remove();
+
+                // sanitize the id for use with bootstrap tabs
+                id = id.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_');
+                tab.attr('id', id);
+
+                // get the heading element within it, grab it's text, then remove it
+                var heading = tab.find('h' + tabLevel + ':first');
+                var headingText = heading.html();
+                heading.remove();
+
+                // build and append the tab list item
+                var a = $('<a role="tab" data-toggle="tab">' + headingText + '</a>');
+                a.attr('href', '#' + id);
+                a.attr('aria-controls', id);
+                var li = $('<li role="presentation"></li>');
+                li.append(a);
+                tabList.append(li);
+
+                // set it's attributes
+                tab.attr('role', 'tabpanel');
+                tab.addClass('tab-pane');
+                tab.addClass('tabbed-pane');
+                if (fade)
+                    tab.addClass('fade');
+
+                // move it into the tab content div
+                tab.detach().appendTo(tabContent);
+            });
+
+            // set active tab
+            $(tabList.children('li')[activeTab]).addClass('active');
+            var active = $(tabContent.children('div.section')[activeTab]);
+            active.addClass('active');
+            if (fade)
+                active.addClass('in');
+
+            if (tabset.hasClass("tabset-sticky"))
+                tabset.rmarkdownStickyTabs();
+        }
+
+        // convert section divs with the .tabset class to tabsets
+        var tabsets = $("div.section.tabset");
+        tabsets.each(function(i) {
+            buildTabset($(tabsets[i]));
+        });
+    };
+
+</script>
+
+<!-- flickity -->
+<script type="text/javascript" src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script type="text/javascript">
+    // external js: flickity.pkgd.js
+
+    var $carousel = $('.carousel').flickity({
+        cellSelector: 'img',
+        imagesLoaded: true,
+        percentPosition: false,
+        wrapAround: true,
+        autoPlay: 3000,
+        pageDots: false
+    });
+    
+    var $caption = $('.carcaption .caption');
+    
+    // Flickity instance
+    var flkty = $carousel.data('flickity');
+
+    $carousel.on('select.flickity', function() {
+        // set image caption using img's alt
+        $caption.text(flkty.selectedElement.alt)
+    });
+
+</script>
             </section>
 
           </div>

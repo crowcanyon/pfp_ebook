@@ -94,3 +94,37 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        .carousel {
+            background: #FAFAFA;
+        }
+
+        .carousel img {
+            display: block;
+            height: 200px;
+        }
+
+        .caption {
+            background: #FAFAFA;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .flickity-page-dots {
+            bottom: -60px;
+        }
+
+        @media screen and ( min-width: 768px) {
+            .carousel img {
+                height: 400px;
+            }
+        }

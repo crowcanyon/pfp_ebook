@@ -1,7 +1,8 @@
 --- 
 title: "The Pueblo Farming Project"
 subtitle: |
-  | A collaboration between Hopi Farmers and 
+  | A collaboration between
+  | Hopi Farmers and 
   | the Crow Canyon Archaeological Center
 author: |
   | Paul Ermigiotti,

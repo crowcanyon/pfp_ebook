@@ -4,7 +4,7 @@
 
 Farming is a fundamental part of Pueblo identity—one that is integrated into every aspect of traditional Pueblo culture.
 
-Pueblo leaders are concerned with preserving knowledge about farming and ensuring that this knowledge is transmitted to younger generations. Crow Canyon researchers and educators are interested in learning about traditional agriculture in order to better understand ancient farming practices—and to gain a deeper appreciation for the role of corn in Pueblo society, past and present. The Pueblo Farming Project is a collaborative effort that addresses the interests of both groups.
+Pueblo leaders are concerned with preserving knowledge about farming and ensuring that this knowledge is transmitted to younger generations. Crow Canyon researchers and educators are interested in learning about traditional agriculture in order to better understand ancient farming practices—and to gain a deeper appreciation for the role of corn in Pueblo society, past and present. **The Pueblo Farming Project** is a collaborative effort that addresses the interests of both groups.
 
 Since 2006, the Crow Canyon staff has worked with traditional Pueblo farmers from Hopi, Arizona, to document their farming practices and the cultural context in which they take place. Every year, Hopi farmers have visited Crow Canyon in the spring and fall to teach the Center's researchers and educators about Pueblo Indian farming, food storage, and food preparation. Together, farmers and staff have planted and harvested several experimental gardens on Crow Canyon's campus, testing farming techniques and varieties of seeds used by the Pueblo farmers in their own fields.
 
@@ -12,8 +12,7 @@ Documentation for the project includes still photography, video and audio record
 
 ## What was the PFP?
 
-### History of the Pueblo Farming Project: 2004–2017
-
+### History of the Pueblo Farming Project: 2004–2017 {-}
 
 #### The Beginning {-}
 
@@ -23,18 +22,20 @@ From these beginnings, the PFP has been developed through a partnership between 
 
 #### Designing the Project {-}
 
-To follow through on this request, Crow Canyon developed the first of a series of grants to support a collaborative project on Pueblo farming (see section below on Who Funded the PFP). The initial grant funded a planning meeting in May 2006 where we discussed the various types of research that could investigate ancestral Pueblo farming practices and link them to techniques used by modern Pueblo farmers. Participants at the meeting included traditional Pueblo farmers from Hopi, Jemez, Ohkay Owingeh, and Tesuque; Crow Canyon staff; and other anthropologists who specialize in the study of ancestral and modern Pueblo agriculture.
-
 ![The participants in the May 2006 Puablo farming planning meeting.](./images/2006_group.jpg)
+
+To follow through on this request, Crow Canyon developed the first of a series of grants to support a collaborative project on Pueblo farming (see section below on Who Funded the PFP). The initial grant funded a planning meeting in May 2006 where we discussed the various types of research that could investigate ancestral Pueblo farming practices and link them to techniques used by modern Pueblo farmers. Participants at the meeting included traditional Pueblo farmers from Hopi, Jemez, Ohkay Owingeh, and Tesuque; Crow Canyon staff; and other anthropologists who specialize in the study of ancestral and modern Pueblo agriculture.
 
 After two days of discussion, this group decided to implement an experimental gardening project that focused on rain-fed farming because this was the main type of farming practiced by the ancestral Pueblo in the Mesa Verde region. We use "rain-fed farming" to represent agricultural practices that use little to no large-scale landscape modification, but that readily take advantage of local landform and soil characteristics to enhance soil moisture (such as areas of higher runoff or greater snow accumulation) and often include small-scale anthropogenic modifications such as check dams. The group agreed that Hopi should take the lead as the traditional farming experts, since they still practice rain-fed farming whereas most other contemporary Pueblo tribes use more intensive flood-plain and canal irrigation techniques. Crow Canyon agreed to seek grant funding for the project that became known as the PFP.
 
 
 #### Selecting Garden Locations {-}
 
-The next step occurred in 2007 when Hopi farmers met to select locations for the gardens **PICTURE OF LOCATING FIELDS HERE)**. We originally hoped to place these gardens at the Goodman Point Unit of Hovenweep National Monument to complement our ongoing research there, but we did not get permission for this and decided instead to locate the gardens on Crow Canyon's campus to integrate the PFP into the Center's education programs.
+![Locating fields during the 2007 PFP meetings.](./images/2007_locating_fields.jpg)
 
-Pueblo farmers used traditional ecological knowledge to select the garden locations, focusing on the native plants that indicate good areas for farming<sup>8</sup>. Rabbitbrush and snakeweed are two plants they see as indicating prime areas, but dense stands of those plants were not present on Crow Canyon's campus. In the absence of such indicator species, they selected two areas in small washes on the east side of Crow Canyon that are dominated by sagebrush today. The farmers assessed soils for their texture and moisture-holding capacity and examined the details of specific settings including slope, aspect, and other factors. Although the Hopi farmers did not consider these two locations as ideal, they thought they would be adequate.
+The next step occurred in 2007 when Hopi farmers met to select locations for the gardens. We originally hoped to place these gardens at the Goodman Point Unit of Hovenweep National Monument to complement our ongoing research there, but we did not get permission for this and decided instead to locate the gardens on Crow Canyon's campus to integrate the PFP into the Center's education programs.
+
+Pueblo farmers used traditional ecological knowledge to select the garden locations, focusing on the native plants that indicate good areas for farming. Rabbitbrush and snakeweed are two plants they see as indicating prime areas, but dense stands of those plants were not present on Crow Canyon's campus. In the absence of such indicator species, they selected two areas in small washes on the east side of Crow Canyon that are dominated by sagebrush today. The farmers assessed soils for their texture and moisture-holding capacity and examined the details of specific settings including slope, aspect, and other factors. Although the Hopi farmers did not consider these two locations as ideal, they thought they would be adequate.
 
 One location had sage that was unusually tall; this area was located near the mouth of a small wash coming from the east slope of the Crow Canyon drainage. When this area was cleared, an ancient check dam was found and subsequently recorded (5MT19690). This was named the Check Dam Garden (CDG). The other plot was located higher up in a small drainage to the north in an area where there was a thick patch of verdant grass. The Hopi farmers thought there might be a spring in this area but subsequent work showed this was not the case. We call this plot the Pueblo Learning Center (PLC) garden because it is on the way to one of Crow Canyon's outdoor classrooms.
 
@@ -46,11 +47,11 @@ The second garden added in 2009 was Karen's Upper Garden (KUG), which was a plot
 
 The PFP garden locations allow us to measure the effect of a variety of microenvironmental factors on agricultural potential. For example, the Crow Canyon gardens allow us to evaluate the effect of cold air that flows in drainages. The length of the frost-free period varies considerably despite relatively small differences in elevation and in the distance between the plots. The gardens are also located on soils with different characteristics and the effects of soil variability are the primary focus of this study.
 
-
 #### Planting and Harvesting: 2008–2017 {-}
 
-We planted and harvested gardens for the first time in 2008, with the work focused on the CDG, PLC, and POG gardens (**GROUP PICTURE OF 2008 PLANTING HERE)**. From 2009–2014 we planted five gardens: the CDG, PLC, POG, PHG, and KUG gardens. From 2015–2017 we planted the CDG, PLC, POG, KUG, and MCG gardens. During this time, Pueblo farmers served as the expert consultants for planting and harvesting. Most of the farmers are from Hopi, but farmers from other Pueblos have also participated. Crow Canyon staff members learn from the Pueblo farmers and assist in the planting and harvesting.
+![The participants in the initial planting of the PFP gardens in 2008.](./images/2008_planting_fields.jpg)
 
+We planted and harvested gardens for the first time in 2008, with the work focused on the CDG, PLC, and POG gardens. From 2009–2014 we planted five gardens: the CDG, PLC, POG, PHG, and KUG gardens. From 2015–2017 we planted the CDG, PLC, POG, KUG, and MCG gardens. During this time, Pueblo farmers served as the expert consultants for planting and harvesting. Most of the farmers are from Hopi, but farmers from other Pueblos have also participated. Crow Canyon staff members learn from the Pueblo farmers and assist in the planting and harvesting.
 
 #### Pueblo Farming Project Goals {-}
 
@@ -62,7 +63,6 @@ One of the PFP research goals was to evaluate how agricultural yields were affec
 
 Hopi goals for the project were tied to the central role of corn and corn farming in Hopi culture. Fundamentally, they were interested in whether their seed and their traditional farming techniques would result in successful harvests in the Mesa Verde region, a place they consider as part of their ancestral homeland. For Hopi, the PFP provided a substantive link between their past and the present. For Hopi, the PFP helped demonstrate their cultural affiliation to the Mesa Verde region, and beyond planting and harvesting gardens they pursued this goal through another PFP research initiative: the DNA analysis of modern Hopi corn.
 
-
 #### Education Products {-}
 
 From the beginning, the PFP was integrated into Crow Canyon's education programs. School groups who are at Canyon when planting and harvesting occurs observe and at times participate in these activities. Pueblo farmers speak to the students about the project and the role of farming in Pueblo culture, creating a unique and memorable learning experience for these students. The Pueblo Farming Project gardens are also integrated into Crow Canyon education programs during the growing season, providing the students with a powerful visual as the Center's educators teach about the importance of corn farming in ancestral and modern Pueblo communities.
@@ -73,61 +73,95 @@ We also developed series of educational initiatives to reach a larger audience w
 <iframe src="https://www.youtube.com/embed/2x23FF_kUyo?modestbranding=1&rel=0&start=1" frameborder="0" gesture="media" showinfo="0" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
+<br>
 A second educational product is an exhibit on display at the Crow Canyon Archaeological Center. This exhibit describes the project, presents our results, and tells the story of corn. Finally, we created and piloted five standards-aligned lessons for the classroom. Those lessons plans are included in this e-book.
 
 Public education initiatives also include lectures for the public and presentations at professional meetings. Information about the PFP was also disseminated through Crow Canyon's electronic and print newsletters and on Crow Canyon's website. The PFP was also featured on local radio shows, including KSJD's Big Fat Farm Show ([http://ksjd.org/post/pueblo-farming-project#stream/0](http://ksjd.org/post/pueblo-farming-project#stream/0)).
 
-
-#### Research Products {-}
-
-
 ## Who were the participants?
 
-
-<div class='participants'>
-<div><img src="images/people/ahkima_honyumptewa.jpg" alt="Ahkima Honyumptewa"/></div>
-<div><img src="images/people/ben_bellorado.jpg" alt="Ben Bellorado"/></div>
-<div><img src="images/people/dan_simplicio.jpg" alt="Dan Simplicio"/></div>
-<div><img src="images/people/deloria_lomawiama.jpg" alt="Deloria Lomawiama"/></div>
-<div><img src="images/people/delwyn_tawvaya.jpg" alt="Delwyn Tawvaya"/></div>
-<div><img src="images/people/donald_dawahongnewa.jpg" alt="Donald Dawahongnewa"/></div>
-<div><img src="images/people/gary_nicholas.jpg" alt="Gary Nicholas"/></div>
-<div><img src="images/people/grant_coffey.jpg" alt="Grant Coffey"/></div>
-<div><img src="images/people/herman_agoyo.jpg" alt="Herman Agoyo"/></div>
-<div><img src="images/people/joel_nicholas.jpg" alt="Joel Nicholas"/></div>
-<div><img src="images/people/karen_adams.jpg" alt="Karen Adams"/></div>
-<div><img src="images/people/kelly_swarts.jpg" alt="Kelly Swarts"/></div>
-<div><img src="images/people/kevin_crook.jpg" alt="Kevin Crook"/></div>
-<div><img src="images/people/kyle_bocinsky.jpg" alt="Kyle Bocinsky"/></div>
-<div><img src="images/people/lance_nicholas.jpg" alt="Lance Nicholas"/></div>
-<div><img src="images/people/lee_wayne_lomayestewa.jpg" alt="Lee Wayne Lomayestewa"/></div>
-<div><img src="images/people/leigh_kuwanwisiwma.jpg" alt="Leigh Kuwanwisiwma"/></div>
-<div><img src="images/people/margie_connolly.jpg" alt="Margie Connolly"/></div>
-<div><img src="images/people/mark_varien.jpg" alt="Mark Varien"/></div>
-<div><img src="images/people/mike_coffey.jpg" alt="Mike Coffey"/></div>
-<div><img src="images/people/morgan_saufkie.jpg" alt="Morgan Saufkie"/></div>
-<div><img src="images/people/owen_numkema.jpg" alt="Owen Numkema"/></div>
-<div><img src="images/people/paul_ermigiotti.jpg" alt="Paul Ermigiotti"/></div>
-<div><img src="images/people/raleigh_puhuyaoma.jpg" alt="Raleigh Puhuyaoma"/></div>
-<div><img src="images/people/read_brugger.jpg" alt="Read Brugger"/></div>
-<div><img src="images/people/ronald_wadsworth.jpg" alt="Ronald Wadsworth"/></div>
-<div><img src="images/people/shirley_powell.jpg" alt="Shirley Powell"/></div>
-<div><img src="images/people/stewart_koyiyumptewa.jpg" alt="Stewart Koyiyumptewa"/></div>
-<div><img src="images/people/tom_lucero.jpg" alt="Tom Lucero"/></div>
+<div class="carousel">
+<img src="images/people/ahkima_honyumptewa.jpg" alt="Ahkima Honyumptewa" />
+<img src="images/people/ben_bellorado.jpg" alt="Ben Bellorado" />
+<img src="images/people/dan_simplicio.jpg" alt="Dan Simplicio" />
+<img src="images/people/deloria_lomawiama.jpg" alt="Deloria Lomawiama" />
+<img src="images/people/delwyn_tawvaya.jpg" alt="Delwyn Tawvaya" />
+<img src="images/people/donald_dawahongnewa.jpg" alt="Donald Dawahongnewa" />
+<img src="images/people/gary_nicholas.jpg" alt="Gary Nicholas" />
+<img src="images/people/grant_coffey.jpg" alt="Grant Coffey" />
+<img src="images/people/herman_agoyo.jpg" alt="Herman Agoyo" />
+<img src="images/people/joel_nicholas.jpg" alt="Joel Nicholas" />
+<img src="images/people/karen_adams.jpg" alt="Karen Adams" />
+<img src="images/people/kelly_swarts.jpg" alt="Kelly Swarts" />
+<img src="images/people/kevin_crook.jpg" alt="Kevin Crook" />
+<img src="images/people/kyle_bocinsky.jpg" alt="Kyle Bocinsky" />
+<img src="images/people/lance_nicholas.jpg" alt="Lance Nicholas" />
+<img src="images/people/lee_wayne_lomayestewa.jpg" alt="Lee Wayne Lomayestewa" />
+<img src="images/people/leigh_kuwanwisiwma.jpg" alt="Leigh Kuwanwisiwma" />
+<img src="images/people/margie_connolly.jpg" alt="Margie Connolly" />
+<img src="images/people/mark_varien.jpg" alt="Mark Varien" />
+<img src="images/people/mike_coffey.jpg" alt="Mike Coffey" />
+<img src="images/people/morgan_saufkie.jpg" alt="Morgan Saufkie" />
+<img src="images/people/owen_numkema.jpg" alt="Owen Numkema" />
+<img src="images/people/paul_ermigiotti.jpg" alt="Paul Ermigiotti" />
+<img src="images/people/raleigh_puhuyaoma.jpg" alt="Raleigh Puhuyaoma" />
+<img src="images/people/read_brugger.jpg" alt="Read Brugger" />
+<img src="images/people/ronald_wadsworth.jpg" alt="Ronald Wadsworth" />
+<img src="images/people/shirley_powell.jpg" alt="Shirley Powell" />
+<img src="images/people/stewart_koyiyumptewa.jpg" alt="Stewart Koyiyumptewa" />
+<img src="images/people/tom_lucero.jpg" alt="Tom Lucero" />
 </div>
 
-<script type="text/javascript">
-$('.participants').slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  centerMode: true,
-  centerPadding: '60px',
-  variableWidth: true
-});
-</script>
+<div class="carcaption">
+<p class="caption">&nbsp;</p>
+</div>
 
-## Where did it take place?
-## When did it take place?
+## Where did the PFP take place?
+
+Five PFP gardens are scattered around Crow Canyon Archaeological Center's rural campus in Cortez, Colorado; In 2015, we planted a new garden in the "bean fields" north of Crow Canyon's campus. Use the map below to explore the PFP garden locations, and click on the gardens to get more information about when they were planted as part of PFP research.
+
+```{r, echo=FALSE, message=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = TRUE,
+                      error = TRUE,
+                      # results = 'hide',
+                      cache = FALSE)
+
+library(magrittr)
+
+garden_locations <- sf::st_read("./data/gardens.geojson",
+                                quiet = TRUE)
+garden_locations$color <- RColorBrewer::brewer.pal(length(garden_locations),"Dark2")
+
+garden_centroids <- garden_locations %>%
+  sf::st_transform(26912) %>%
+  sf::st_centroid() %>%
+  sf::st_transform(4326)
+
+leaflet::leaflet(garden_locations, width = "100%") %>%
+  leaflet::addProviderTiles("Esri.WorldImagery", group = "Satellite") %>%
+  leaflet::addProviderTiles("Esri.WorldTopoMap", group = "Topography") %>%
+leaflet::addMarkers(data = garden_centroids,
+                      popup = ~Popup
+  ) %>%
+  leaflet::addPolygons(data = garden_locations,
+                       fillColor = ~color,
+                       popup = ~Popup
+                       ) %>%
+  leaflet::addLayersControl(
+    baseGroups = c("Satellite", "Topography"),
+    options = leaflet::layersControlOptions(collapsed = T)
+  )
+
+```
+
 ## Who funded the PFP?
+
+The Pueblo Farming Project started as part of the Village Ecodynamics Project and was initially funded under National Science Foundation grants DGE-1347973 and DEB-0816400. Subsequent years of the PFP received funding from the History Colorado State Historical Fund (grant 2015-02-025), the National Geographic Society Genographic Project, and the Christensen Fund.
+
+<img src="./images/nsf.png" style="height: 100px;"/>&nbsp;&nbsp;<img src="./images/ngs.svg" style="height: 75px;"/>&nbsp;&nbsp;<img src="./images/christensen.png" style="height: 75px;"/>
+
+<img src="./images/HistoryCO.png" style="height: 100px;"/>
+
