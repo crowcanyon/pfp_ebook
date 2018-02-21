@@ -21,21 +21,23 @@ Crop health is directly related to the health of soils. This lesson teaches stud
 ### {- .tabset .tabset-fade}
 
 #### Preparation {-}
-**Grades:** 6, 7, 8
+##### Grades {-}
+6, 7, 8
 
 This lesson can be taught to each middle school grade with increasing
 complexity and detail.
 
-**Season:** Spring (best), Fall (next best), Summer (possible)
+##### Season {-}
+Spring (best), Fall (next best), Summer (possible)
 
-**Objectives**
+##### Objectives {-}
 
 *   Understand the connections between the health of the soil and the health of plant communities.
 *   Witness and understand that soil can store water for the needs of humans and plants.
 *   Practice applying modern soil testing techniques.
 *   Practice applying Puebloan agricultural practices.
 
-**Key Terms**
+##### Key Terms {-}
 
 *   Dryland farming
 *   Evapotranspiration 
@@ -47,7 +49,7 @@ complexity and detail.
 *   Runoff
 *   Erosion
 
-**Materials and Tools**
+##### Materials and Tools {-}
 
 *   Whiteboard and markers
 *   Water cycle diagram to print or project: search Google Images for "Water Cycle 6th grade" for many options.
@@ -75,7 +77,7 @@ complexity and detail.
     <iframe src="https://www.youtube.com/embed/wCRkLcLT1cE?modestbranding=1&rel=0&start=1&end=212" frameborder="0" gesture="media" showinfo="0" allow="encrypted-media" allowfullscreen></iframe>
     </div>
 
-**Before You Begin**
+##### Before You Begin {-}
 
 *   Ensure that at least one educator/instructor/volunteer will be available to supervise each soil test or site selection working group.
 *   Educators/instructors/volunteers should prepare themselves to teach about dryland farming as both an ancient and a current planting technique by:
@@ -93,8 +95,8 @@ complexity and detail.
 *   Consider which areas students in Group 5 might consider when looking for an area to assess.
 *   Print water cycle diagram or load for projection.
 *   Print _Garden Notes #214: Estimating Soil Texture_.
-*   Print 3–5 copies (students can share in pairs) of "Student Handout: Water Holding Capacity Test" .
-*   Print 5–7 copies (one for each student in this working group) of "Student Handout: Site Selection Selection Questions" .
+*   Print 3–5 copies (students can share in pairs) of "Student Handout: Water Holding Capacity Test".
+*   Print 5–7 copies (one for each student in this working group) of "Student Handout: Site Selection Selection Questions".
 *   Load the video clips.
 
 
@@ -103,7 +105,7 @@ complexity and detail.
 
 **Format:** One approximately 90 minute session
 
-**Opening Circle: Questions and Discussion**
+##### Opening Circle: Questions and Discussion {-}
 
 **Survey students' understanding and/or opinions by verbally sharing the questions or text in italics. Briefly gather input from the students, while steering the discussion toward the answers listed below the question.**
 
@@ -119,12 +121,10 @@ View the video clip: Minute 0:00–3:32 of _The Monsoon Project_
 
 Using the water cycle diagram, help students locate precipitation in the cycle. Water is delivered to the soil in two ways:
 
-
-
 *   The Earth's Water Cycle: precipitation in the form of rain, snow and ice. In the Southwest, the most important weather events that deliver water to the soil are winter snowstorms and summer monsoon rains. 
 *   Humans capture and store water from the water cycle and spread it on the soil using irrigation systems. 
 
-**_How does soil lose water? _**
+**_How does soil lose water?_**
 
 Using the water cycle diagram, help students locate **transpiration** and **evaporation** in the cycle.
 
@@ -132,14 +132,10 @@ The soil loses water through a process called **evapotranspiration**. This means
 
 Breaking this term into two parts helps reveal this definition:
 
-
-
 *   **Transpiration** — plants sweat out and lose water they have received from the soil
 *   **Evaporation** — the soil loses water due to the wind and the sun
 
 To slow this process down, farmers use a technique called **mulching**. Mulch is:
-
-
 
 *   a material that is spread over a planting area, protecting the soil from the effects of the wind and the sun.
 *   a layer of insulation that traps moisture and shades the soil, preventing  the water in the soil from evaporating. 
@@ -150,35 +146,25 @@ To slow this process down, farmers use a technique called **mulching**. Mulch is
 
 Some farmers irrigate because:
 
-
-
 *   they are replacing the water that their plants and soil have lost to evapotranspiration.
 *   Some plants require more water than the environment has to offer; the farmers apply irrigation water to make up for water that does not arrive in the form of rain and snow.
 
 Some modern farmers do not apply irrigation water to their soil: 
-
-
 
 *   Hopi farmers who have vast dryland corn fields 
 *   farmers from the western states who have large dryland crop farms.
 
 Hopi and other dryland farmers do not use irrigation systems; the keys to their success is understanding weather patterns, caring for their soil, planting drought-resilient seeds and having faith in natural cycles.
 
-
-        **_"Dry-farming in the high desert....relying only on precipitation and runoff water, requires an almost miraculous level of faith and is sustained by hard work, prayer, and an attitude of deep humility."_**
-
-
-        <p style="text-align: right">
-(Wall and Masayesva 2004:436)</p>
-
+> **_"Dry-farming in the high desert....relying only on precipitation and runoff water, requires an almost miraculous level of faith and is sustained by hard work, prayer, and an attitude of deep humility."_**
+> 
+> --- <cite>Wall and Masayesva 2004:436</cite>
 
 **_How do dryland farmers decide where to place their gardens and fields? Why is this decision so important? List the following features on the whiteboard, gather student input, and clarify with simple geographic drawings. _**
 
 Choosing the location of a garden is called "site selection". It is important to dryland farming because the chosen site must be able to capture and hold water delivered by the Water Cycle, making it "drought-resilient". 
 
 **These are the features that the ancestral Pueblo farmers of the past and the Hopi dryland farmers of today look for in a site that will be drought-resilient**:
-
-
 
 1.  **Geography:** Water that drains off of a mesa or cliff will collect and flood down into drainages, washes, arroyos or canyons. Where these features become less narrow and open up into sandy slopes, Pueblo farmers expect water and  good soil to collect because it is washed down with the floodwaters. This mouth or opening is also a place where they traditionally built **check dams**: rows of low rock walls to slow down the movement of runoff water.
 1.  **Garden slope**: North-facing slopes have more shade, therefore less water is lost to evaporation.
@@ -195,29 +181,21 @@ Choosing the location of a garden is called "site selection". It is important to
   <tr>
    <td>Good soil moisture
    </td>
-   <td>Rabbitbrush
-<p>
-Four-wing saltbrush
-<p>
-Mormon tea
-<p>
-Rice grass
-<p>
+   <td>Rabbitbrush<br>
+Four-wing saltbrush<br>
+Mormon tea<br>
+Rice grass<br>
 Snakeweed
    </td>
   </tr>
   <tr>
    <td>Deep, well drained soil
    </td>
-   <td>Rabbitbrush
-<p>
+   <td>Rabbitbrush<br>
 Oak trees
    </td>
   </tr>
 </table>
-
-
-
 
 1.  **Soil moisture depth**: deep, soft soils that allows natural reservoirs of water to collect in and be held deep in the soil.
 1.  **Soil color**: darker colors often mean higher amounts of decomposed organic matter and nutrients in the soil. In the Southwest, this means dark red-brown.
@@ -229,8 +207,6 @@ Oak trees
 
 The Hopi people of today continue to use the agricultural knowledge gained through their ancestral dryland farming practices. They want to ensure their crops will continue to be drought-resilient into the future.**_ _**To survive drought, a dryland farmer must know a lot about their soil and their seeds. Ancestral Pueblo farmers responded to drought by:
 
-
-
 *   anticipating the possibility that it could arrive any year, and preparing for it by saving seeds from plants that can survive drought. 
 *   using the site selection factors listed above as test questions to decide whether or not a site will be drought-resilient. 
 *   meeting these site requirements by planting in multiple locations.
@@ -241,39 +217,30 @@ The Hopi people of today continue to use the agricultural knowledge gained throu
 
 Yes, however, in modern fields, there is an emphasis on knowing the soil through soil testing:
 
-
-
 *   First, farmers learn what is in their soil to determine what kind of soil they have. 
 *   Second, farmers find out how much water their soil can hold. If the soil receives more water than it can hold, much of the extra water will drain away. Water that is wasted in this way is called **runoff**; it leads to **erosion**, when soil is carried away by the runoff. 
 
 During this class, we will conduct soil testing experiments as well as practice using the Pueblo farmers' site selection test questions.
 
-**Procedure**
+##### Procedure {-}
 
 Divide the students into five working groups to complete soil and site selection tests/ experiments. Groups 1–3 will practice using modern soil tests. Groups 3 and 4 will practice using the Puebloan site selection test questions.
 
+**Group 1**: Create a Soil Particle Demonstration jar by following the procedure in _Garden Notes #214: Estimating Soil Texture_, page 214-3.
 
-    **Group 1**: Create a Soil Particle Demonstration jar by following the procedure in _Garden Notes #214: Estimating Soil Texture_, page 214-3.
+**Group 2**: Perform Feel, Ball and Ribbon Tests by following the procedure in _Garden Notes #214: Estimating Soil Texture_, page 214-5. Conduct this test in two different locations: one where plant growth is vigorous and one where plant growth is weak. Use the tests to compare and contrast the soil from each site. 
 
+**Group 3**: Perform Water Holding Capacity Test using the attached handout..
 
-    **Group 2**: Perform Feel, Ball and Ribbon Tests by following the procedure in _Garden Notes #214: Estimating Soil Texture_, page 214-5. Conduct this test in two different locations: one where plant growth is vigorous and one where plant growth is weak. Use the tests to compare and contrast the soil from each site. 
+**Group 4**: Assess an established growing area, using the Site Selection Test Question Handout using the attached handout. 
 
+**Group 5**: Look for and assess a possible new growing area using the Site Selection Test Question Handout using the attached handout.
 
-    **Group 3**: Perform Water Holding Capacity Test using the attached handout..
+##### Closing Circle {-}
 
+**Report-Back**: A representative from each group shares their group's findings. 
 
-    **Group 4**: Assess an established growing area, using the Site Selection Test Question Handout using the attached handout. 
-
-
-    **Group 5**: Look for and assess a possible new growing area using the Site Selection Test Question Handout using the attached handout.
-
-**Closing Circle**
-
-<span style="text-decoration:underline;">Report-Back:</span> A representative from each group shares their group's findings. 
-
-<span style="text-decoration:underline;">Reflective writing time</span>: Present two of the three following free-writing topics for students to choose from. Give students 7 - 10 minutes to choose a topic and write a free form answer that reflects who they are/what they value, as a young adult. 
-
-
+**Reflective writing time**: Present two of the three following free-writing topics for students to choose from. Give students 7 - 10 minutes to choose a topic and write a free form answer that reflects who they are/what they value, as a young adult. 
 
 *   Which soil testing methods align most with their worldview?
 *   List the ways/reasons they feel connected with corn plants or soil: the shape, appearance, colors? What do you think about, feel or remember when holding corn kernels in your hands or hearing the sound of wind moving through the garden?
@@ -284,7 +251,7 @@ Divide the students into five working groups to complete soil and site selection
 
 **Format:** One approximately 45 minute session
 
-**Opening Circle: Questions and Discussion**
+##### Opening Circle: Questions and Discussion {-}
 
 **Survey students' understanding and/or opinions by verbally sharing the questions or text in italics. Briefly gather input from the students, while steering the discussion toward the answers listed below the question.**
 
@@ -343,26 +310,24 @@ Some modern farmers do not apply irrigation water to their soil:
 *   Hopi farmers who have vast dryland corn fields 
 *   farmers from the western states who have large dryland crop farms. 
 
-**Procedure**
+##### Procedure {-}
 
 Divide the students into working groups of four or five students to complete soil tests/ experiments. 
 
 
-    **Group 1**: Create a Soil Particle Demonstration jar by following the procedure in _Garden Notes #214: Estimating Soil Texture_, page 214-3.
+**Group 1**: Create a Soil Particle Demonstration jar by following the procedure in _Garden Notes #214: Estimating Soil Texture_, page 214-3.
 
 
-    **Group 2**: Perform Feel, Ball and Ribbon Tests by following the procedure in _Garden Notes #214: Estimating Soil Texture_, page 214-5. Conduct this test in two different locations: one where plant growth is vigorous and one where plant growth is weak. Use the tests to compare and contrast the soil from each site. 
+**Group 2**: Perform Feel, Ball and Ribbon Tests by following the procedure in _Garden Notes #214: Estimating Soil Texture_, page 214-5. Conduct this test in two different locations: one where plant growth is vigorous and one where plant growth is weak. Use the tests to compare and contrast the soil from each site. 
 
 
-    **Group 3**: Perform Water Holding Capacity Test using the attached handout.
+**Group 3**: Perform Water Holding Capacity Test using the attached handout.
 
-**Closing Circle**
+##### Closing Circle {-}
 
-<span style="text-decoration:underline;">Report-Back:</span> A representative from each group shares their group's findings. 
+**Report-Back**: A representative from each group shares their group's findings. 
 
-<span style="text-decoration:underline;">Reflective writing time</span>: If time allows, present the following free-writing topics for students to choose from. Give students 5 - 7 minutes to choose a topic and write a free form answer that reflects who they are/what they value, as a young adult. 
-
-
+**Reflective writing time**: If time allows, present the following free-writing topics for students to choose from. Give students 5 - 7 minutes to choose a topic and write a free form answer that reflects who they are/what they value, as a young adult. 
 
 *   Which soil testing methods align most with their worldview?
 *   List the ways/reasons they feel connected with corn plants or soil: the shape, appearance, colors? What do you think about, feel or remember when holding corn kernels in your hands or hearing the sound of wind moving through the garden?
@@ -372,18 +337,16 @@ Divide the students into working groups of four or five students to complete soi
 
 **Format:** One approximately 45 minute session
 
-**Opening Circle: Questions and Discussion**
+##### Opening Circle: Questions and Discussion {-}
 
 Review with students the discussion from the previous day regarding soil and irrigation. Explain that Hopi and other dryland farmers do not use irrigation systems; the keys to their success is understanding weather patterns, caring for their soil, planting drought-resilient seeds and having faith in natural cycles.
 
 **Survey students' understanding and/or opinions by verbally sharing the questions or text in italics. Briefly gather input from the students, while steering the discussion toward the answers listed below the question.**
 
 
-        **_"Dry-farming in the high desert....relying only on precipitation and runoff water, requires an almost miraculous level of faith and is sustained by hard work, prayer, and an attitude of deep humility."_**
-
-
-        <p style="text-align: right">
-(Wall and Masayesva 2004:436)</p>
+> **_"Dry-farming in the high desert....relying only on precipitation and runoff water, requires an almost miraculous level of faith and is sustained by hard work, prayer, and an attitude of deep humility."_**
+>
+> --- <cite>Wall and Masayesva 2004:436</cite>
 
 
 **_How do dryland farmers decide where to place their gardens and fields? Why is this decision so important? List the following features on the whiteboard, gather student input, and clarify with simple geographic drawings. _**
@@ -391,8 +354,6 @@ Review with students the discussion from the previous day regarding soil and irr
 Choosing the location of a garden is called "site selection". It is important to dryland farming because the chosen site must be able to capture and hold water delivered by the Water Cycle, making it "drought-resilient". 
 
 **These are the features that the ancestral Pueblo farmers of the past and the Hopi dryland farmers of today look for in a site that will be drought-resilient**:
-
-
 
 1.  **Geography:** Water that drains off of a mesa or cliff will collect and flood down into drainages, washes, arroyos or canyons. Where these features become less narrow and open up into sandy slopes, Pueblo farmers expect water and  good soil to collect because it is washed down with the floodwaters. This mouth or opening is also a place where they traditionally built **check dams**: rows of low rock walls to slow down the movement of runoff water.
 1.  **Garden slope**: North-facing slopes have more shade, therefore less water is lost to evaporation.
@@ -409,29 +370,21 @@ Choosing the location of a garden is called "site selection". It is important to
   <tr>
    <td>Good soil moisture
    </td>
-   <td>Rabbitbrush
-<p>
-Four-wing saltbrush
-<p>
-Mormon tea
-<p>
-Rice grass
-<p>
+   <td>Rabbitbrush<br>
+Four-wing saltbrush<br>
+Mormon tea<br>
+Rice grass<br>
 Snakeweed
    </td>
   </tr>
   <tr>
    <td>Deep, well drained soil
    </td>
-   <td>Rabbitbrush
-<p>
+   <td>Rabbitbrush<br>
 Oak trees
    </td>
   </tr>
 </table>
-
-
-
 
 1.  **Soil moisture depth**: deep, soft soils that allows natural reservoirs of water to collect in and be held deep in the soil.
 1.  **Soil color**: darker colors often mean higher amounts of decomposed organic matter and nutrients in the soil. In the Southwest, this means dark red-brown.
@@ -462,21 +415,21 @@ Yes, however, in modern fields, there is an emphasis on knowing the soil through
 
 During this class, we will conduct soil testing experiments as well as practice using the Pueblo farmers' site selection test questions.
 
-**Procedure**
+##### Procedure {-}
 
 Divide the students into small working groups and assign each group one of the following tasks:
 
 
-    **Group 1**: Assess an established growing area, using the Site Selection Test Question Handout using the attached handout. 
+**Group 1**: Assess an established growing area, using the Site Selection Test Question Handout using the attached handout. 
 
 
-    **Group 2**: Look for and assess a possible new growing area using the Site Selection Test Question Handout using the attached handout.
+**Group 2**: Look for and assess a possible new growing area using the Site Selection Test Question Handout using the attached handout.
 
-**Closing Circle**
+##### Closing Circle {-}
 
-<span style="text-decoration:underline;">Report-Back:</span> A representative from each group shares their group's findings. 
+**Report-Back**: A representative from each group shares their group's findings. 
 
-<span style="text-decoration:underline;">Reflective writing time</span>: If time allows, present the following free-writing topic to students. Give students 5–7 minutes to choose a topic and write a free form answer that reflects who they are/what they value, as a young adult. 
+**Reflective writing time**: If time allows, present the following free-writing topic to students. Give students 5–7 minutes to choose a topic and write a free form answer that reflects who they are/what they value, as a young adult. 
 
 **"Hopi corn, and other ancient grains are still grown today because they have survived **
 
@@ -503,64 +456,44 @@ This lesson plan was designed to align with the following Montezuma School to Fa
   <tr>
    <td>6th
    </td>
-   <td>Recognizing nitrogen, carbon, and nutrient cycles at work
-<p>
-Soil ecology: organic and inorganic materials
-<p>
-Ancestral Puebloan Practices
-<p>
+   <td>Recognizing nitrogen, carbon, and nutrient cycles at work<br>
+Soil ecology: organic and inorganic materials<br>
+Ancestral Puebloan Practices<br>
 Applied Systems Thinking
    </td>
-   <td>Science 1.3, 2.1, 2.2, 3., 3.2, 3.3
-<p>
-Phys Ed 1.2, 3.1, 3.2, 4.1
-<p>
-Health 2.1, 2.4
-<p>
-Math 1.1, 4.1
-<p>
+   <td>Science 1.3, 2.1, 2.2, 3., 3.2, 3.3<br>
+Phys Ed 1.2, 3.1, 3.2, 4.1<br>
+Health 2.1, 2.4<br>
+Math 1.1, 4.1<br>
 Social Studies 1.1, 1.2, 2.1, 2.2
    </td>
   </tr>
   <tr>
    <td>7th
    </td>
-   <td>Biodiversity benefits nitrogen, carbon and nutrient cycles
-<p>
-Soil ecology: decomposition as a constant element of renewal
-<p>
-Irrigation and water conservation
-<p>
+   <td>Biodiversity benefits nitrogen, carbon and nutrient cycles<br>
+Soil ecology: decomposition as a constant element of renewal<br>
+Irrigation and water conservation<br>
 Sustainable water use practices and devices
    </td>
-   <td>Science 1.1, 3.2
-<p>
-Phys Ed 1.1, 3.2, 4.1
-<p>
-Health 2.1
-<p>
-Math 3.1, 3.2
-<p>
+   <td>Science 1.1, 3.2<br>
+Phys Ed 1.1, 3.2, 4.1<br>
+Health 2.1<br>
+Math 3.1, 3.2<br>
 Social Studies 1.1, 2.1, 2.2 
    </td>
   </tr>
   <tr>
    <td>8th
    </td>
-   <td>Soil Ecology: soil as the lifeblood on Earth; interconnectedness of soil health and human health
-<p>
-Water Conservation: deep understanding of water as a precious and limited resource
-<p>
+   <td>Soil Ecology: soil as the lifeblood on Earth; interconnectedness of soil health and human health<br>
+Water Conservation: deep understanding of water as a precious and limited resource<br>
 Changing systems: climate and weather in the Southwest
    </td>
-   <td>Science 1.3, 2.1, 3.2, 
-<p>
-Phys Ed 2.1, 2.2, 2.3
-<p>
-Health 2.4
-<p>
-Math 2.1, 2.3, 4.2
-<p>
+   <td>Science 1.3, 2.1, 3.2<br>
+Phys Ed 2.1, 2.2, 2.3<br>
+Health 2.4<br>
+Math 2.1, 2.3, 4.2<br>
 Social Studies 2.1
    </td>
   </tr>
