@@ -10,7 +10,8 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><a href="./">The Pueblo Farming Project</a></li>
+        <li style="font-size: 125%;font-weight: bold;"><a href="http://www.crowcanyon.org/" target="_blank"><img src="./images/CCAC_logo.svg" style="width: 250px;"/></a>
+        <a href="./">The Pueblo Farming Project</a></li>
       after: |
         <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
     download: no

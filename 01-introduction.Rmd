@@ -76,9 +76,11 @@ We also developed series of educational initiatives to reach a larger audience w
 <br>
 A second educational product is an exhibit on display at the Crow Canyon Archaeological Center. This exhibit describes the project, presents our results, and tells the story of corn. Finally, we created and piloted five standards-aligned lessons for the classroom. Those lessons plans are included in this e-book.
 
-Public education initiatives also include lectures for the public and presentations at professional meetings. Information about the PFP was also disseminated through Crow Canyon's electronic and print newsletters and on Crow Canyon's website. The PFP was also featured on local radio shows, including KSJD's Big Fat Farm Show ([http://ksjd.org/post/pueblo-farming-project#stream/0](http://ksjd.org/post/pueblo-farming-project#stream/0)).
+Public education initiatives also include lectures for the public and presentations at professional meetings. Information about the PFP was also disseminated through Crow Canyon's electronic and print newsletters and on Crow Canyon's website. The PFP was also featured on local radio shows, including [an interview with Leigh Kuwanwisiwma on KSJD's Big Fat Farm Show](http://ksjd.org/post/pueblo-farming-project#stream/0).
 
 ## Who were the participants?
+
+Over almost a decade, dozens of Hopi farmers, researchers, and volunteers participated in the Pueblo Farming Project, and hundreds of students visited the PFP gardens during the growing season.
 
 <div class="carousel">
 <img src="images/people/ahkima_honyumptewa.jpg" alt="Ahkima Honyumptewa" />
@@ -161,7 +163,9 @@ leaflet::addMarkers(data = garden_centroids,
 
 The Pueblo Farming Project started as part of the Village Ecodynamics Project and was initially funded under National Science Foundation grants DGE-1347973 and DEB-0816400. Subsequent years of the PFP received funding from the History Colorado State Historical Fund (grant 2015-02-025), the National Geographic Society Genographic Project, and the Christensen Fund.
 
-<img src="./images/nsf.png" style="height: 100px;"/>&nbsp;&nbsp;<img src="./images/ngs.svg" style="height: 75px;"/>&nbsp;&nbsp;<img src="./images/christensen.png" style="height: 75px;"/>
-
+<div style="text-align: center;">
 <img src="./images/HistoryCO.png" style="height: 100px;"/>
+
+<img src="./images/nsf.png" style="height: 100px; padding: 0px 20px 0px 20px;"/><img src="./images/ngs.svg" style="height: 75px; padding: 0px 20px 0px 20px;"/><img src="./images/christensen.png" style="height: 75px;padding: 0px 20px 0px 20px;"/>
+</div>
 

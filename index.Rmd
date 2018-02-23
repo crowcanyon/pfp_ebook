@@ -25,7 +25,7 @@ site: bookdown::bookdown_site
 description: "The Pueblo Farming Project, or PFP, is an ongoing collaboration between the Hopi tribe and the Crow Canyon Archaeological Center. The PFP examines traditional Pueblo Indian farming techniques to help us understand ancient farming in the Mesa Verde region of southwestern Colorado. The project conducts research, develops educational programs, and pursues Hopi interests in corn and corn farming as an essential element of their culture. This e-book presents the methods and results from the Pueblo Farming Project, as well as a set of lesson plans developed for middle school students to learn about Hopi agriculture."
 url: 'https\://www.crowcanyon.org/institute/pfp/'
 github-repo: crowcanyon/pfp_ebook
-cover-image: images/cover.jpg
+cover-image: ./images/CCAC_bowl.png
 ---
 
 ```{r setup, include=FALSE}
@@ -43,11 +43,29 @@ lapply(c('DT', 'citr', 'formatR', 'svglite'), function(pkg) {
 
 The Pueblo Farming Project, or PFP, is an ongoing collaboration between the Hopi tribe and the Crow Canyon Archaeological Center. The PFP examines traditional Pueblo Indian farming techniques to help us understand ancient farming in the Mesa Verde region of southwestern Colorado. The project conducts research, develops educational programs, and pursues Hopi interests in corn and corn farming as an essential element of their culture. This e-book presents the methods and results from the Pueblo Farming Project, as well as a set of lesson plans developed for middle school students to learn about Hopi agriculture.
 
-![Creative Commons License](images/by-nc-sa.png)  
-The online version of this book is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+The Pueblo Farming Project was funded in part by a History Colorado State Historical Fund grant. The content and opinions contained herein do not necessarily reflect the views or policies of History Colorado.
+
+<div align = "center">
+<a href="http://www.crowcanyon.org/" target="_blank"><img src="./images/CCAC_logo.svg" style="height: 70px; padding: 0px 20px 0px 20px;"/></a><a href="http://www.crowcanyon.org/institute" target="_blank"><img src="./images/Institute_logo.svg" style="height: 70px; padding: 0px 20px 0px 20px;"/></a>
+
+<a href="https://www.historycolorado.org/state-historical-fund" target="_blank"><img src="./images/HistoryCO.png" style="height: 100px;"/></a>
+</div>
+
+<br>
+<p>
+<img style="float: left; vertical-align:bottom; padding: 11px 10px 0px 0px;" src="./images/by-nc-sa.png"/>
+The online version of this book is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
+</p>
+
 
 ## Acknowledgments {-}
 
-The Pueblo Farming Project (PFP) is a collaboration with the Hopi Cultural Preservation Office, initially under the direction of Leigh Kuwanwisiwma and presently under the direction of Stewart Koyiyumptewa. The PFP would not have been possible without the support of the Crow Canyon Archaeological Center’s Native American Advisory Group, which was under the direction of Margie Connolly when the project began. Paul Ermigiotti and Grant Coffey tended to the gardens and recorded the data presented here, and they have been assisted by staff members at Crow Canyon, researchers at the University of North Texas, and devoted volunteers. In particular, Read Brugger participated in monitoring the gardens and took most of the beautiful photos presented in this book.
+The Pueblo Farming Project (PFP) is a collaboration with the Hopi Cultural Preservation Office, initially under the direction of Leigh Kuwanwisiwma and presently under the direction of Stewart Koyiyumptewa. The PFP would not have been possible without the support of the [Crow Canyon Archaeological Center’s Native American Advisory Group](https://www.crowcanyon.org/index.php/native-american-advisory-group), which was under the direction of Margie Connolly when the project began. Paul Ermigiotti and Grant Coffey tended to the gardens and recorded the data presented here, and they have been assisted by staff members at Crow Canyon, researchers at the University of North Texas, and devoted volunteers. In particular, Read Brugger participated in monitoring the gardens and took most of the beautiful photos presented in this book.
 
 The Pueblo Farming Project began when the Hopi Cultural Preservation Office requested Crow Canyon conduct research into Pueblo agriculture. An initial planning meeting was conducted in 2006 and the gardens were first planted and harvested in 2008; this work was partially funded by two grants from The Christensen Fund. Subsequent funding was provided by National Geographic Society’s Genographic Legacy Fund (2009) and by National Science Foundation grants DGE-1347973 and DEB-0816400 that supported the Village Ecodynamics Project. Recently, the PFP received funding from the History Colorado State Historical Fund (grant 2015-02-025).
+
+<div style="text-align: center;">
+<img src="./images/HistoryCO.png" style="height: 100px;"/>
+
+<img src="./images/nsf.png" style="height: 100px; padding: 0px 20px 0px 20px;"/><img src="./images/ngs.svg" style="height: 75px; padding: 0px 20px 0px 20px;"/><img src="./images/christensen.png" style="height: 75px;padding: 0px 20px 0px 20px;"/>
+</div>
