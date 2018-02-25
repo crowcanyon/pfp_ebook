@@ -1,7 +1,15 @@
 # The PFP Field Experiments
+<div style="text-align: center;">
+<img src="./images/chapter_5_header.jpg" alt=""/>
+</div>
+
 
 ## Procedure
 ### Planting {-}
+<div style="text-align: center;">
+<img src="./images/chapter_6_soya.jpg" alt="A traditional Hopi planting stick, or 'soys'"/>
+</div>
+
 The primary tool for planting is a planting stick or, in the Hopi language, a soya. Traditionally a soya is made from of greasewood (Sarcobatus vermicalatus), but some planting sticks today are made from a length of metal pipe with a narrow blade welded to one end. 
 
 Planting begins by using your foot to scrape away the upper layer of loose, dry dirt. This exposes the top of the underlying hard-packed soil. About a square foot area is cleared. The planter gets down on one knee and grabs the soya with one hand low and one hand higher up on the tool. A narrow hole is dug using a pulling motion toward the planter.  Typically, the hole is dug to a depth of about 8 to 10 inches or to the point where good soil moisture is encountered.  The hole is dug deeper if the soil is drier and shallower if the soil is moist.  This soil moisture is critical for plant germination and for the plant to be able to grow until there is more precipitation, something that might not occur until many weeks after planting. 
@@ -29,6 +37,10 @@ Flick through these slides to see how planting is done the Hopi way! The descrip
 </div>
 
 ### Monitoring {-}
+<div style="text-align: center;">
+<img src="./images/chapter_3_header.jpg" alt="Paul Ermigiotti records the growth of maize in the Check Dam Garden."/>
+</div>
+
 The procedures for monitoring the gardens were based on those developed by Benjamin Bellorado in an experimental gardening study that he developed for the Animas-LaPlata archaeological project and for his MA thesis at Northern Arizona University. For the majority of the PFP these procedures were implemented by Paul Ermigiotti and staff and volunteers who assisted him.
 
 Monitoring was conducted each week. The primary objective was to record growth stages, to document damage by pests, and to make other observations about the condition of the gardens.  The data were recorded on paper forms in the field and input into a database at a later time.
@@ -45,10 +57,18 @@ The data collected each week on growth stages includes the following:
 
 
 ### Harvesting {-}
+<div style="text-align: center;">
+<img src="./images/chapter_5_harvest.jpg" alt="Harvesting maize"/>
+</div>
+
 The harvest and yield data entry for the Pueblo Farming Project is a three step process that includes collecting the corn from the field, weighing  the ears just after harvest, then, when the ears have completely dried, they are weighed again to enter the dry kernel weight for each ear.
 
 On harvest day, typically in mid-October, after the ears have sufficiently ripened on the stalk, the farmers approach the garden with anticipation. All of the ears from each stalk in a clump are shucked, the silk removed and the ears are recorded and tagged according to the clump, stalk and ear. After the ears are collected from a clump the stalks are bent over at the base and laid to rest on the ground. This laying to rest of the stalks is part of the life process that cycle through birth, maturation and death. The stalks left in the garden also help with the spacing in the next year's planting. Planting in between the stalks ensure that seeds are not planted in the same place two years in a row.
- 
+
+<div style="text-align: center;">
+<img src="./images/harvesting.jpg" alt="Harvesting maize, and recording its attributes"/>
+</div>
+
 After harvest the ears are weighed to obtain a "wet weight" as there is still considerable moisture remaining in the ears. The ears are the placed on trays and allowed to dry for two months.
 
 When the ears have thoroughly dried, each ear is weighed whole, and then with the kernels removed.  Ear, cob and kernel weights are entered into the data base. Additional information on the ear is also recorded such as the number of rows of kernels, kernel color, and the completeness of kernel filling on the ear. The categories, or condition of the ear are: 
@@ -58,15 +78,11 @@ When the ears have thoroughly dried, each ear is weighed whole, and then with th
 * Sparse --- up to one-third of the kernels are present, and
 * Immature --- there are no kernels present on the cob.
 
-
-## The PFP environment
-### Soils in the gardens {-}
-### Cortez weather and CCAC weather stations {-}
-#### Precipitation {-}
-#### Temperature {-}
-#### GDD {-}
-
 ## Results
+<div style="text-align: center;">
+<img src="./images/section_5.2_header.jpg" alt="Paul Ermigiotti displaying a large ear of corn during harvest"/>
+</div>
+
 ### Maize growth analysis {-}
 ### Maize production {-}
 #### Ear diversity {-}

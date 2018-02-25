@@ -25,7 +25,7 @@ site: bookdown::bookdown_site
 description: "The Pueblo Farming Project, or PFP, is an ongoing collaboration between the Hopi tribe and the Crow Canyon Archaeological Center. The PFP examines traditional Pueblo Indian farming techniques to help us understand ancient farming in the Mesa Verde region of southwestern Colorado. The project conducts research, develops educational programs, and pursues Hopi interests in corn and corn farming as an essential element of their culture. This e-book presents the methods and results from the Pueblo Farming Project, as well as a set of lesson plans developed for middle school students to learn about Hopi agriculture."
 url: 'https\://www.crowcanyon.org/institute/pfp/'
 github-repo: crowcanyon/pfp_ebook
-cover-image: ./images/CCAC_bowl.png
+cover-image: "./images/section_2.3_header.jpg"
 ---
 
 ```{r setup, include=FALSE}
@@ -40,6 +40,10 @@ lapply(c('DT', 'citr', 'formatR', 'svglite'), function(pkg) {
 ```
 
 # Preface {-}
+
+<div style="text-align: center;">
+<img src="./images/section_2.3_header.jpg" alt="Hopi maize varieties"/>
+</div>
 
 The Pueblo Farming Project, or PFP, is an ongoing collaboration between the Hopi tribe and the Crow Canyon Archaeological Center. The PFP examines traditional Pueblo Indian farming techniques to help us understand ancient farming in the Mesa Verde region of southwestern Colorado. The project conducts research, develops educational programs, and pursues Hopi interests in corn and corn farming as an essential element of their culture. This e-book presents the methods and results from the Pueblo Farming Project, as well as a set of lesson plans developed for middle school students to learn about Hopi agriculture.
 

@@ -1,17 +1,15 @@
 # Lesson plans
-<div style="text-align: center;">
-![](./images/CCAC_MSTFP_logo.png)
 
-*"Indigenous education is really a ten thousand year strategic plan."*<br>
-~ Gregory Cajete<br><br>
-
-**_There are 7.3 billion people on Planet Earth. We must COMBINE our ancestral agriculture techniques,materials and principles we relied on in the past WITH the innovative technologies and materials of the future._**<br><br>
+<div style="text-align: center; font-weight: bold;">
+<img src="./images/chapter_7_header.jpg" alt="A Hopi farmer teaching a group of children about Hopi maize"/>
+<br>
 
 Ancestral Methods and Materials and Adaptations<br>
 +<br>
 Future Methods and Materials and Innovations<br>
 =<br>
 Self-Sufficiency & Food Security
+
 </div>
 
 These lessons were developed as a collaboration between the [Montezuma School to Farm Project](http://www.montezumaschooltofarm.org/) and the [Crow Canyon Archaeological Center](http://www.crowcanyon.org/) to reflect the educational sphere where archaeology, experiential education and agriculture intersect. 
@@ -19,6 +17,10 @@ These lessons were developed as a collaboration between the [Montezuma School to
 The Montezuma School to Farm Project and Crow Canyon work with children and adults alike to bring the heritage of southwestern Colorado to life: providing hands-on experiences with the land and with the human legacy of farming in an arid and ancient landscape. 
 
 The mission of the Montezuma School to Farm Project is to unite our local agricultural heritage with our growing future by engaging students at the crossroads of sustainable agriculture, resource conservation, health and economics through educational experiences in outdoor garden classes. The mission of Crow Canyon Archaeological Center is to empower present and future generations by making the human past accessible and relevant through archaeological research, experiential education, and American Indian knowledge. Together, we have created these lesson plans in order to link Crow Canyon's *Pueblo Farming Project* research gardens to the academic lives of middle school students in the Four Corners region.
+
+<div style="text-align: center;">
+<img src="./images/CCAC_MSTFP_logo.png" alt="The Crow Canyon and Montezuma School to Farm Project logos" style="width: 400px;"/>
+</div>
 
 #### Lesson Formats {-}
 The lessons are presented in two formats to reflect the varying contexts in which the lessons may be used: long sessions of approximately 90 minutes, and short short sessions of approximately 45 minutes. 

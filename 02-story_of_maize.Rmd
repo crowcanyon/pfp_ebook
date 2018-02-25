@@ -1,4 +1,8 @@
 # The Story of Maize
+<div style="text-align: center;">
+<img src="./images/chapter_2_header.jpg" alt=""/>
+</div>
+
 The relationship between humans and corn (or maize, *Zea mays* ssp. mays) is a long and interesting story. The path to domestication began about 9,000 years ago in southwestern Mexico. The domestication process led to a unique codependency: as it exists today, corn is not able to reproduce without human intervention. But humans have also become dependent upon this plant.  
 
 Today, corn is the most widely produced grain crop in the United States, though only a tiny fraction of the corn grown directly feeds people. Most of what we consume is in the form of high-fructose corn sweeteners. Most corn production goes toward animal feed, ethanol and exports. Corn has become less of an important food resource and more of a refined industrial product. In contrast, corn holds an important place in the origin myths and lifeways of many native cultures. In Pueblo cultures, maize plays a vital position physically, spiritually, and symbolically.
@@ -8,6 +12,10 @@ Today, corn is the most widely produced grain crop in the United States, though 
 </div>
 
 ## Origins
+<div style="text-align: center;">
+<img src="./images/section_2.1_origin.jpg" alt="A Hopi kachina doll"/>
+</div>
+
 The domestication of maize was unique. Typically, domesticated plants look similar to their wild ancestors; 
 However, an ear of corn's closest wild relative, teosinte, is noticeably different from an ear of modern corn.
 An ear of maize is wrapped in a husk, the kernels are held tightly and not able to scatter or free themselves from the cob, so
@@ -59,6 +67,10 @@ Traditional dryland farming techniques include:
 To contemporary Pueblo people, corn is considered a mother, because sustains the people both physically and spiritually. Corn is also a child, and needs constant protection and encouragement to grow to maturity. After harvest, the plants die and are laid to rest just as people are. Nourishment provided by corn in turn allows the people to care for the growing plants. The symbolic cycle of corn and people repeats over and over.
 
 ## A world of corn
+<div style="text-align: center;">
+<img src="./images/section_2.3_header.jpg" alt="Hopi maize"/>
+</div>
+
 Maize was unknown outside the New World before the sixteenth-century. Because of its ability to grow in diverse climates, it spread rapidly to the rest of the world and became the staple it is today.
 
 <div align="center">

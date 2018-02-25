@@ -1,7 +1,15 @@
 # What maize needs to flourish
+<div style="text-align: center;">
+<img src="./images/chapter_4_header.jpg" alt="A tasseling maize plant"/>
+</div>
+
 Maize, like all crops, require nutrients from the [soil][Soil], [water][Water], and [heat and sunlight][Heat and sunlight] in order to flourish. In this chapter, we explore how Pueblo maize uses each of these resources, and learn about how those resources affected the Pueblo Farming Project gardens.
 
 ## Soil
+
+<div style="text-align: center;">
+<img src="./images/section_4.1_header.jpg" alt="A farmer loosens the soil to prepare it for planting"/>
+</div>
 
 ### What are soils? {-}
 
@@ -273,6 +281,13 @@ pfp_soils %>%
 <!-- ``` -->
 
 ## Water
+<div style="text-align: center;">
+<img src="./images/section_4.2_header.jpg" alt="Rainclouds gather over the Ute mountains in southwestern Colorado"/>
+</div>
 
 ## Heat and sunlight
+<div style="text-align: center;">
+<img src="./images/section_4.3_header.jpg" alt="The Pueblo Learning Center garden"/>
+</div>
+
 ### GDD sidebar {-}

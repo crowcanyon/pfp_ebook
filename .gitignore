@@ -1,9 +1,11 @@
 # Staging directory
 /staging
 /staging/*
+
 # data directory
 /data
 /data/*
+
 # History files
 .Rhistory
 .Rapp.history
