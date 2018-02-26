@@ -10,10 +10,28 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li style="font-size: 125%;font-weight: bold;"><a href="http://www.crowcanyon.org/" target="_blank"><img src="./images/CCAC_logo.svg" style="width: 250px;"/></a>
-        <a href="./">The Pueblo Farming Project</a></li>
+        <li style="font-size: 125%;font-weight: bold;">
+        <a href="http://www.crowcanyon.org/" target="_blank">
+        <img src="./images/CCAC_logo.svg" style="width: 250px;"/>
+        </a>
+        <a href="./">The Pueblo Farming Project</a>
+        </li>
       after: |
-        <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+        <li style="font-size: 100%;font-weight: bold;">
+        <a href="https://www.historycolorado.org/state-historical-fund" target="_blank">Funded in part by the<br><br>
+        <div style="text-align: center;">
+        <img src="./images/HistoryCO.png" style="width: 250px;"/>
+        </div>
+        </a>
+        </li>
+        <hr>
+        <li style="font-size: 100%;font-weight: bold;">
+        <a href="https://bookdown.org" target="_blank">Published with<br>
+        <div style="text-align: center;">
+        <img src="./images/bookdown.png" style="width: 75px;"/>
+        </div>
+        </a>
+        </li>
     download: no
     edit: https://github.com/crowcanyon/pfp_ebook/edit/master/%s
     sharing:

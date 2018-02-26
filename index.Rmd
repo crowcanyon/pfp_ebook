@@ -80,3 +80,11 @@ The Pueblo Farming Project began when the Hopi Cultural Preservation Office requ
 
 <img src="./images/nsf.png" style="height: 100px; padding: 0px 20px 0px 20px;"/><img src="./images/ngs.svg" style="height: 75px; padding: 0px 20px 0px 20px;"/><img src="./images/christensen.png" style="height: 75px;padding: 0px 20px 0px 20px;"/>
 </div>
+
+-----
+This book is published with:
+
+<div style="text-align: center;">
+<a href="https://bookdown.org" target="_blank"><img src="./images/bookdown.png" style="width: 100px;"/></a>
+</div>
+        
