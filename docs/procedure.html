@@ -57,6 +57,12 @@
 <script src="libs/leaflet-binding/leaflet.js"></script>
 <script src="libs/leaflet-providers/leaflet-providers.js"></script>
 <script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+<link href="libs/dygraphs/dygraph.css" rel="stylesheet" />
+<script src="libs/dygraphs/dygraph-combined.js"></script>
+<script src="libs/moment/moment.js"></script>
+<script src="libs/moment-timezone/moment-timezone-with-data.js"></script>
+<script src="libs/moment-fquarter/moment-fquarter.min.js"></script>
+<script src="libs/dygraphs-binding/dygraphs.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" crossorigin="anonymous">
 
 <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flickity@2/dist/flickity.css" />
@@ -159,15 +165,11 @@
 <li class="chapter" data-level="3.2" data-path="the-phenology-of-maize.html"><a href="the-phenology-of-maize.html"><i class="fa fa-check"></i><b>3.2</b> The phenology of maize</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html"><i class="fa fa-check"></i><b>4</b> What maize needs to flourish</a><ul>
-<li class="chapter" data-level="4.1" data-path="soil.html"><a href="soil.html"><i class="fa fa-check"></i><b>4.1</b> Soil</a><ul>
-<li class="chapter" data-level="" data-path="soil.html"><a href="soil.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
-<li class="chapter" data-level="" data-path="soil.html"><a href="soil.html#drought"><i class="fa fa-check"></i>Drought</a></li>
-<li class="chapter" data-level="" data-path="soil.html"><a href="soil.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
-</ul></li>
-<li class="chapter" data-level="4.2" data-path="water.html"><a href="water.html"><i class="fa fa-check"></i><b>4.2</b> Water</a></li>
-<li class="chapter" data-level="4.3" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html"><i class="fa fa-check"></i><b>4.3</b> Heat and sunlight</a><ul>
-<li class="chapter" data-level="" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html#gdd-sidebar"><i class="fa fa-check"></i>GDD sidebar</a></li>
-</ul></li>
+<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
+<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#drought"><i class="fa fa-check"></i>Drought</a></li>
+<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
+<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#heat-and-sunlight"><i class="fa fa-check"></i>Heat and sunlight</a></li>
+<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="the-pfp-field-experiments.html"><a href="the-pfp-field-experiments.html"><i class="fa fa-check"></i><b>5</b> The PFP Field Experiments</a><ul>
 <li class="chapter" data-level="5.1" data-path="procedure.html"><a href="procedure.html"><i class="fa fa-check"></i><b>5.1</b> Procedure</a><ul>
@@ -177,7 +179,7 @@
 </ul></li>
 <li class="chapter" data-level="5.2" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5.2</b> Results</a><ul>
 <li class="chapter" data-level="" data-path="results.html"><a href="results.html#maize-growth-analysis"><i class="fa fa-check"></i>Maize growth analysis</a></li>
-<li class="chapter" data-level="" data-path="results.html"><a href="results.html#maize-production"><i class="fa fa-check"></i>Maize production</a></li>
+<li class="chapter" data-level="" data-path="results.html"><a href="results.html#maize-yield"><i class="fa fa-check"></i>Maize yield</a></li>
 <li class="chapter" data-level="" data-path="results.html"><a href="results.html#maize-genetics"><i class="fa fa-check"></i>Maize genetics</a></li>
 </ul></li>
 </ul></li>
@@ -255,7 +257,10 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <div id="planting" class="section level3 unnumbered">
 <h3>Planting</h3>
 <div style="text-align: center;">
-<p><img src="images/chapter_6_soya.jpg" alt="A traditional Hopi planting stick, or 'soys'"/></p>
+<div class="figure">
+<img src="images/chapter_6_soya.jpg" alt="A traditional Hopi planting stick, or ‘soya’." />
+<p class="caption">A traditional Hopi planting stick, or ‘soya’.</p>
+</div>
 </div>
 <p>The primary tool for planting is a planting stick or, in the Hopi language, a soya. Traditionally a soya is made from of greasewood (Sarcobatus vermicalatus), but some planting sticks today are made from a length of metal pipe with a narrow blade welded to one end.</p>
 <p>Planting begins by using your foot to scrape away the upper layer of loose, dry dirt. This exposes the top of the underlying hard-packed soil. About a square foot area is cleared. The planter gets down on one knee and grabs the soya with one hand low and one hand higher up on the tool. A narrow hole is dug using a pulling motion toward the planter. Typically, the hole is dug to a depth of about 8 to 10 inches or to the point where good soil moisture is encountered. The hole is dug deeper if the soil is drier and shallower if the soil is moist. This soil moisture is critical for plant germination and for the plant to be able to grow until there is more precipitation, something that might not occur until many weeks after planting.</p>
@@ -282,7 +287,10 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <div id="monitoring" class="section level3 unnumbered">
 <h3>Monitoring</h3>
 <div style="text-align: center;">
-<p><img src="images/chapter_3_header.jpg" alt="Paul Ermigiotti records the growth of maize in the Check Dam Garden."/></p>
+<div class="figure">
+<img src="images/chapter_3_header.jpg" alt="Paul Ermigiotti records the growth of maize in the Check Dam Garden." />
+<p class="caption">Paul Ermigiotti records the growth of maize in the Check Dam Garden.</p>
+</div>
 </div>
 <p>The procedures for monitoring the gardens were based on those developed by Benjamin Bellorado in an experimental gardening study that he developed for the Animas-LaPlata archaeological project and for his MA thesis at Northern Arizona University. For the majority of the PFP these procedures were implemented by Paul Ermigiotti and staff and volunteers who assisted him.</p>
 <p>Monitoring was conducted each week. The primary objective was to record growth stages, to document damage by pests, and to make other observations about the condition of the gardens. The data were recorded on paper forms in the field and input into a database at a later time.</p>
@@ -300,12 +308,18 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <div id="harvesting" class="section level3 unnumbered">
 <h3>Harvesting</h3>
 <div style="text-align: center;">
-<p><img src="images/chapter_5_harvest.jpg" alt="Harvesting maize"/></p>
+<div class="figure">
+<img src="images/chapter_5_harvest.jpg" alt="Harvesting maize." />
+<p class="caption">Harvesting maize.</p>
+</div>
 </div>
 <p>The harvest and yield data entry for the Pueblo Farming Project is a three step process that includes collecting the corn from the field, weighing the ears just after harvest, then, when the ears have completely dried, they are weighed again to enter the dry kernel weight for each ear.</p>
 <p>On harvest day, typically in mid-October, after the ears have sufficiently ripened on the stalk, the farmers approach the garden with anticipation. All of the ears from each stalk in a clump are shucked, the silk removed and the ears are recorded and tagged according to the clump, stalk and ear. After the ears are collected from a clump the stalks are bent over at the base and laid to rest on the ground. This laying to rest of the stalks is part of the life process that cycle through birth, maturation and death. The stalks left in the garden also help with the spacing in the next year’s planting. Planting in between the stalks ensure that seeds are not planted in the same place two years in a row.</p>
 <div style="text-align: center;">
-<p><img src="images/harvesting.jpg" alt="Harvesting maize, and recording its attributes"/></p>
+<div class="figure">
+<img src="images/harvesting.jpg" alt="Harvesting maize, and recording its attributes" />
+<p class="caption">Harvesting maize, and recording its attributes</p>
+</div>
 </div>
 <p>After harvest the ears are weighed to obtain a “wet weight” as there is still considerable moisture remaining in the ears. The ears are the placed on trays and allowed to dry for two months.</p>
 <p>When the ears have thoroughly dried, each ear is weighed whole, and then with the kernels removed. Ear, cob and kernel weights are entered into the data base. Additional information on the ear is also recorded such as the number of rows of kernels, kernel color, and the completeness of kernel filling on the ear. The categories, or condition of the ear are:</p>

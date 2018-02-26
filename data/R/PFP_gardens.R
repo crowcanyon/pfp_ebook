@@ -36,7 +36,13 @@ growth <- PFP_data$`tbl growth` %>%
                 Season = lubridate::year(Date)) %>%
   dplyr::filter(Season %in% seasons)
 
-# Fill in the missing clump observations with NAs 
+# Fill in the missing clump observations with NAs
+
+harvest_dates <- growth %>%
+  dplyr::select(Season,Date) %>%
+  dplyr::group_by(Season) %>%
+  dplyr::summarise(Date = max(Date))
+
 growth <- growth %$%
   Garden %>%
   unique() %>%
@@ -68,7 +74,10 @@ growth <- growth %$%
           expand.grid(Date = sort(c((this.gardens %>%
                                        dplyr::select(PlantingDate))[[1]] %>% lubridate::as_date(),
                                     sub$Date,
-                                    this.gardens$PlantingDate)) %>%
+                                    this.gardens$PlantingDate,
+                                    harvest_dates %>% 
+                                      dplyr::filter(Season == y) %$% 
+                                      Date)) %>%
                         unique(),
                       Garden = g,
                       Clump = 1:(this.gardens %>%

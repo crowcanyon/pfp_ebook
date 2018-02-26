@@ -1,6 +1,6 @@
 # The life-cycles of maize
 <div style="text-align: center;">
-<img src="./images/chapter_3_header.jpg" alt="Paul Ermigiotti records the growth of maize in the Check Dam Garden."/>
+![Paul Ermigiotti records the growth of maize in the Check Dam Garden.](./images/chapter_3_header.jpg)
 </div>
 
 

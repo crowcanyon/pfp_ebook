@@ -29,6 +29,13 @@ cover-image: "./images/section_2.3_header.jpg"
 ---
 
 ```{r setup, include=FALSE}
+rm(list=ls()) ### To clear namespace
+library(knitr)
+opts_chunk$set(fig.path='images/',
+               echo=FALSE, 
+               warning=FALSE, 
+               message=FALSE)
+
 options(
   htmltools.dir.version = FALSE, formatR.indent = 2,
   width = 55, digits = 4, warnPartialMatchAttr = FALSE, warnPartialMatchDollar = FALSE

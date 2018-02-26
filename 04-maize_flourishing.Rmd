@@ -1,14 +1,12 @@
 # What maize needs to flourish
 <div style="text-align: center;">
-<img src="./images/chapter_4_header.jpg" alt="A tasseling maize plant"/>
+![A tasseling maize plant.](./images/chapter_4_header.jpg)
 </div>
 
-Maize, like all crops, require nutrients from the [soil][Soil], [water][Water], and [heat and sunlight][Heat and sunlight] in order to flourish. In this chapter, we explore how Pueblo maize uses each of these resources, and learn about how those resources affected the Pueblo Farming Project gardens.
-
-## Soil
+Maize, like all crops, require nutrients from the soil, water, and heat and sunlight in order to flourish. In this chapter, we explore how Pueblo maize uses each of these resources, and learn about how those resources affected the Pueblo Farming Project gardens.
 
 <div style="text-align: center;">
-<img src="./images/section_4.1_header.jpg" alt="A farmer loosens the soil to prepare it for planting"/>
+![A farmer loosens the soil to prepare it for planting.](./images/section_4.1_header.jpg)
 </div>
 
 ### What are soils? {-}
@@ -73,30 +71,30 @@ Choosing the location of a garden is called "site selection". It is important to
 *   **Indicator plants**: The appearance of certain plants in early spring give information, or _indicate_, to Hopi and other Dryland farmers about where the best places are for a garden/field, how deep to plant and how much space to leave between plants. Farmers combine these indications with practice, experience and knowledge of the land. Some examples of plants that indicate these conditions are:
 
 <table>
-  <tr>
-   <td>
+<tr>
+<td>
 <strong>CONDITION</strong>
-   </td>
-   <td><strong>INDICATOR PLANT</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Good soil moisture
-   </td>
-   <td>Rabbitbrush<br>
+</td>
+<td><strong>INDICATOR PLANT</strong>
+</td>
+</tr>
+<tr>
+<td>Good soil moisture
+</td>
+<td>Rabbitbrush<br>
 Four-wing saltbrush<br>
 Mormon tea<br>
 Rice grass<br>
 Snakeweed
-   </td>
-  </tr>
-  <tr>
-   <td>Deep, well drained soil
-   </td>
-   <td>Rabbitbrush<br>
+</td>
+</tr>
+<tr>
+<td>Deep, well drained soil
+</td>
+<td>Rabbitbrush<br>
 Oak trees
-   </td>
-  </tr>
+</td>
+</tr>
 </table>
 
 *   **Soil moisture depth**: deep, soft soils that allows natural reservoirs of water to collect in and be held deep in the soil.
@@ -145,8 +143,8 @@ pfp_soils <- sf::st_read("./data/soils.geojson")
 
 ## Create color palettes for each soil layer
 colorpal <- leaflet::colorNumeric(
-      palette = "YlGn",
-      c(300,1400))
+  palette = "YlGn",
+  c(300,1400))
 
 pfp_soils %>%
   leaflet::leaflet(width = "100%") %>%
@@ -166,7 +164,7 @@ pfp_soils %>%
                         dplyr::filter(Abbreviation != "MCG"),
                       popup = ~Popup) %>%
   leaflet::addPolygons(data = garden_locations %>%
-                        dplyr::filter(Abbreviation != "MCG"),
+                         dplyr::filter(Abbreviation != "MCG"),
                        fillColor = ~color,
                        popup = ~Popup) %>%
   leaflet::addLayersControl(
@@ -176,118 +174,124 @@ pfp_soils %>%
 
 ```
 
-<!-- ### Soil moisture and temperature {-} -->
-<!-- Plants are sensitive to soil moisture and temperature. PFP researchers installed soil moisture and temperature monitors in the PFP gardens on Crow Canyon's campus. This component of the PFP was completed in collaboration with the Lisa Nagaoka and Steve Wolverton of the University of North Texas as part of collaborative research funded by the National Science Foundation (BCS-1460122). Lisa and Steve are interested in thresholds of soil moisture and temperature that lead to crop failure. -->
-
-<!-- The graphs below show the soil moisure and temperature through time at each garden sensor. -->
-
-<!-- ```{r, echo=FALSE} -->
-<!-- shiny::inputPanel( -->
-<!--   shiny::selectInput("the_var_soil_moisture", label = "Soil measurement:", -->
-<!--                      choices = c("Moisture","Temperature")), -->
-
-<!--   shiny::selectInput("the_garden_soil_moisture", label = "Garden/Location:", -->
-<!--                      choices = unique(gsub(" — NA","",paste0(soil_moisture$Garden," — ",soil_moisture$Location)))), -->
-
-<!--   shiny::checkboxInput("freeze_y_soil_moisture", label = "Freeze y scale?", value = TRUE) -->
-
-<!-- ) -->
-
-<!-- output$download_soil_moisture <- shiny::downloadHandler( -->
-<!--       filename = function() { -->
-<!--         "soil_moisture.csv" -->
-<!--       }, -->
-<!--       content = function(con) { -->
-<!--         readr::write_csv(soil_moisture, con) -->
-<!--       } -->
-<!--     ) -->
-
-<!-- shiny::renderPlot({ -->
-<!--   garden <- strsplit(input$the_garden_soil_moisture," — ")[[1]][1] -->
-<!--   loc <- strsplit(input$the_garden_soil_moisture," — ")[[1]][2] -->
-
-<!--   moisture_data <- soil_moisture %>% -->
-<!--     dplyr::filter(Garden == garden) -->
-
-<!--   if(!is.na(loc)){ -->
-<!--     moisture_data <- moisture_data %>% -->
-<!--       dplyr::filter(Location == loc) -->
-<!--   } -->
-
-<!--   if(input$the_var_soil_moisture == "Moisture"){ -->
-<!--     moisture_data <- moisture_data %>% -->
-<!--       dplyr::select(Time,contains("VWC")) %>% -->
-<!--       reshape2::melt(id.vars="Time") -->
-
-<!--     the_range <- c(0.05,0.35) -->
-<!--   }else{ -->
-<!--     moisture_data <- moisture_data %>% -->
-<!--       dplyr::select(Time,contains("Temp")) %>% -->
-<!--       reshape2::melt(id.vars="Time") -->
-
-<!--     the_range <- c(32,85) -->
-<!--   } -->
-
-<!--   # xrange <- range(moisture_data$Time) -->
-<!--   xrange <- as.POSIXct(c("2015-06-01 UTC","2016-12-31 UTC")) -->
-
-<!--   soil_moisture_plot <- ggplot2::ggplot() +  -->
-<!--     ggplot2::ggtitle(paste0("Soil ",input$the_var_soil_moisture,": ", input$the_garden_soil_moisture)) + -->
-<!--     ggplot2::theme(axis.text = ggplot2::element_text(size=14), -->
-<!--                    axis.title = ggplot2::element_text(size=16,face="bold"), -->
-<!--                    legend.title = ggplot2::element_text(size=16,face="bold"), -->
-<!--                    legend.text = ggplot2::element_text(size=14), -->
-<!--                    plot.title = ggplot2::element_text(size=18,face="bold")) +  -->
-<!--     ggplot2::xlab("Date") +  -->
-<!--     ggplot2::xlim(xrange) -->
-
-<!--   if(input$freeze_y_soil_moisture){ -->
-<!--         soil_moisture_plot <- soil_moisture_plot + -->
-<!--           ggplot2::ylim(the_range) -->
-<!--   } -->
-
-<!--   soil_moisture_plot <- soil_moisture_plot +  -->
-<!--       ggplot2::geom_line(data = moisture_data, -->
-<!--                          ggplot2::aes(y = value,  -->
-<!--                              x = Time, -->
-<!--                              col=variable -->
-<!--                          ), -->
-<!--                          size=2) -->
-
-<!--   if(input$the_var_soil_moisture == "Moisture"){ -->
-<!--     soil_moisture_plot <- soil_moisture_plot +  -->
-<!--       ggplot2::ylab(bquote('Volumetric water content ('*m^3/m^3*')')) + -->
-<!--       ggplot2::scale_colour_hue(name="Depth", -->
-<!--                          breaks=c("VWC_15", "VWC_30", "VWC_45"), -->
-<!--                          labels=c('15 cm', '30 cm', '45 cm')) -->
-
-<!--       soil_moisture_plot <- soil_moisture_plot +  -->
-<!--         ggplot2::ylab(bquote('Volumetric water content ('*m^3/m^3*')')) -->
-
-<!--   }else{ -->
-<!--     soil_moisture_plot <- soil_moisture_plot +  -->
-<!--       ggplot2::ylab("Temperature (ºF)") + -->
-<!--       ggplot2::scale_colour_hue(name="Depth", -->
-<!--                          breaks=c("Temp_15", "Temp_30", "Temp_45"), -->
-<!--                          labels=c('15 cm', '30 cm', '45 cm')) -->
-<!--   } -->
-
-<!--   soil_moisture_plot -->
-
-<!-- }, width = "auto", height = 450) -->
-
-<!-- # shiny::downloadLink(outputId = 'download_soil_moisture', label = 'Download soil moisture data') -->
-
-<!-- ``` -->
-
-## Water
+### Heat and sunlight {-}
 <div style="text-align: center;">
-<img src="./images/section_4.2_header.jpg" alt="Rainclouds gather over the Ute mountains in southwestern Colorado"/>
+![The Pueblo Learning Center garden.](./images/section_4.3_header.jpg)
 </div>
 
-## Heat and sunlight
+All plants require thermal energy---in the form of heat and sunlight---to perform **photosynthesis** and flourish. Photosynthesis is a process used by plants to make a sugary food that fuels their growth. Plants absorb the energy of the sun through their leaves, combine it with water and carbon dioxide, and make a sugar called glucose. **Fun Fact: The waste product that this process creates is oxygen!** Ancient and modern farmers adapt their corn to the amount of heat and sunlight available in the regions in which they live.
+
+But how much heat does a plant need, and how do we know how much it gets? Plant researchers use a measure of accumulated heat called a **growing degree day** to estimate the amount of heat that plants may use for photosynthesis.
+
+The equation for daily GDD is:
+$$ GDD=\frac{T_{MAX} + T_{MIN}}{2}-T_{BASE} $$
+where $T_{MAX}$ is the maximum daily temperature, $T_{MIN}$ is the minimum daily temperature and $T_{BASE}$ is the temperature below which plant growth ceases, which we take to be 8°C (~46.4ºF) for maize.
+
+Here we use a series of corrections to equation typically applied for calculating maize GDD, which down-corrects $T_{MAX}$ and $T_{MIN}$ to an upper threshold ($T_{UT}$, here 30°C or 86ºF) above which corn growth does not appreciably increase, and up-corrects $T_{MAX}$ and $T_{MIN}$ if they fall below $T_{BASE}$ (here 8°C). To summarize:
+$$
+\text{if} \quad T_{MAX}>T_{UT}, \quad T_{MAX}=T_{UT}\\
+\text{if} \quad T_{MIN}>T_{UT}, \quad T_{MIN}=T_{UT}\\
+\text{if} \quad T_{MAX}<T_{BASE}, \quad T_{MAX}=T_{BASE}\\
+\text{if} \quad T_{MIN}<T_{BASE}, \quad T_{MIN}=T_{BASE}
+$$
+
+GDDs can be converted from Celcius heat units to Fahrenheit heat units by multiplying by a factor of 1.8.
+
+
+### Weather in Cortez {-}
 <div style="text-align: center;">
-<img src="./images/section_4.3_header.jpg" alt="The Pueblo Learning Center garden"/>
+![Rainclouds gather over the Ute mountains in southwestern Colorado.](./images/section_4.2_header.jpg)
 </div>
 
-### GDD sidebar {-}
+Plants combine water and nutrients form the soil with heat and energy from the Sun to flourish. Pueblo Farming Project researchers estimate the amount of water and accumulated heat available to the maize in the PFP gardens using weather data gathered by the US National Oceanic and Atmospheric Administration (NOAA) as part of the US Historical Climatology Network (USHCN). Temperature and precipitation data from a weather station in Cortez were used to measure the response of the PFP gardens to local weather; we also installed a weather station on Crow Canyon's campus, as well as temperature monitors in each garden. The graphs below show the weather data from 2009--2017 in the PFP gardens---the top graph shows minimum and maximum daily temperature and daily GDD, and the lower graph shows daily precipitation events. **These graphs are interactive!** Highlight a region of the graph in order to explore the weather. Hover over a graph to see the recorded weather at the Cortez weather station.
+
+```{r, echo=FALSE, out.width = "100%", fig.height=3}
+library(dygraphs)
+library(magrittr)
+
+cortez_weather <- readr::read_csv("./data/cortez_weather.csv",
+                                  col_types = readr::cols(
+                                    DATE = readr::col_date(format = ""),
+                                    TMIN_F = readr::col_double(),
+                                    TMAX_F = readr::col_double(),
+                                    PRCP_IN = readr::col_double(),
+                                    FGDD = readr::col_double()
+                                  ))
+
+cortez_weather_dy <- cortez_weather %>%
+  dplyr::select(DATE, TMAX_F, TMIN_F, FGDD, PRCP_IN) %>%
+  as.data.frame()
+row.names(cortez_weather_dy) <- cortez_weather_dy$DATE
+
+dygraphs::dygraph(cortez_weather_dy %>% 
+                    dplyr::select(TMAX_F, TMIN_F, FGDD),
+                  group = "cortez") %>%
+  dygraphs::dyAxis('y',
+                   label = "Temperature (ºF)",
+                   drawGrid = F,
+                   independentTicks = T) %>%
+  dygraphs::dyAxis('y2',
+                   label = "Daily GDD (F)",
+                   valueRange = c(0, 30),
+                   drawGrid = F,
+                   independentTicks = T) %>%
+  dygraphs::dyAxis('x',
+                   drawGrid = F) %>%
+  dygraphs::dySeries("TMAX_F", 
+                     label = "Maximum temperature (ºF)", 
+                     axis = 'y', 
+                     color = "#ef8a62", 
+                     strokeWidth = 1.5) %>%
+  dygraphs::dySeries("TMIN_F", 
+                     label = "Minimum temperature (ºF)", 
+                     axis = 'y', 
+                     color = "#67a9cf", 
+                     strokeWidth = 1.5) %>% 
+  dygraphs::dySeries("FGDD", 
+                     label = "GDD (F)", 
+                     axis = "y2", 
+                     color = "black") %>%
+  dygraphs::dyLegend(labelsSeparateLines = T, 
+                     show = "onmouseover") %>%
+  dygraphs::dyRangeSelector(dateWindow = c("2017-01-01", 
+                                           "2017-12-31"))
+
+
+cortez_weather_dy$PRCP_IN2 <- cortez_weather_dy$PRCP_IN
+
+dygraphs::dygraph(cortez_weather_dy %>% 
+                    dplyr::select(PRCP_IN, PRCP_IN2),
+                  group = "cortez") %>%
+  dygraphs::dyAxis('y',
+                   label = "Precipitation (in)",
+                   valueRange = c(0, NULL),
+                   drawGrid = F,
+                   independentTicks = T) %>%
+  dygraphs::dyAxis('y2',
+                   label = "Precipitation (in)",
+                   valueRange = c(0, NULL),
+                   drawGrid = F,
+                   independentTicks = T) %>%
+  dygraphs::dyAxis('x',
+                   drawGrid = F) %>%
+  dygraphs::dySeries("PRCP_IN", 
+                     label = "Precipitation (in)", 
+                     axis = 'y', 
+                     stemPlot = T, 
+                     drawPoints = F, 
+                     strokeWidth = 1, 
+                     pointSize = NA, 
+                     color = "black") %>%
+  dygraphs::dyLegend(show = "onmouseover") %>%
+  dygraphs::dySeries("PRCP_IN2", 
+                     label = "Precipitation (in) 2", 
+                     axis = 'y2', 
+                     stemPlot = T, 
+                     drawPoints = F, 
+                     strokeWidth = 0, 
+                     pointSize = NA, 
+                     color = "black") %>%
+  dygraphs::dyRangeSelector(dateWindow = c("2017-01-01", 
+                                           "2017-12-31")) 
+
+```

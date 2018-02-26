@@ -1,7 +1,7 @@
 # Lesson plans
 
 <div style="text-align: center; font-weight: bold;">
-<img src="./images/chapter_7_header.jpg" alt="A Hopi farmer teaching a group of children about Hopi maize"/>
+![A Hopi farmer teaching a group of children about Hopi maize.](./images/chapter_7_header.jpg)
 <br>
 
 Ancestral Methods and Materials and Adaptations<br>

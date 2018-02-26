@@ -1,9 +1,7 @@
 \mainmatter
 
 # Introduction
-<div style="text-align: center;">
-<img src="./images/chapter_1_header.jpg" alt="A view from the Check Dam Garden"/>
-</div>
+![A view from the Check Dam Garden.](./images/chapter_1_header.jpg)
 
 **Farming is a fundamental part of Pueblo identity**. It is is integrated into every aspect of traditional Pueblo culture.
 
@@ -46,9 +44,7 @@ In addition to these new plots, the Hopi farmers suggested we continue planting 
 
 In 2009, we added two additional garden areas. The first, the Pithouse garden (PHG), was placed on the west slope of Crow Canyon and adjacent to Crow Canyon's Pithouse Learning Center to incorporate the garden into the lessons that occur there. The PHG garden had anomalously low yields for several years and soil profiles showed that the area had been disturbed when the adjacent replica pithouse was constructed (the garden soils contained construction materials), so we abandoned this garden after the 2014 growing season.
 
-<div style="text-align: center;">
-<img src="./images/karen_and_hopi.jpg" alt="Karen Adams and Hopi farmers discussing variation in corn"/>
-</div>
+![Karen Adams and Hopi farmers discussing variation in corn.](./images/karen_and_hopi.jpg)
 
 The second garden added in 2009 was Karen's Upper Garden (KUG), which was a plot farmed by Karen Adams in the 1990s and located on the mesa just west of Crow Canyon. Karen farmed this garden as part of Crow Canyon public education program and to quantify yields. The KUG garden has produced relatively low yields, which surprised us because evidence suggests that the mesa tops covered in Mesa Verde loess-derived soils were the area most intensively farmed by ancestral Pueblo people. This evidence includes the fact that most ancestral Pueblo habitation sites are near these loess soils on the mesa tops, and the fact that these loess-derived, mesa-top soils are the focus of contemporary dryland farming. To better evaluate the variation in these mesa-top settings, we added an additional garden in 2015 at Mike Coffey's farm near Dove Creek, Colorado (the Mike Coffey garden or MCG).
 
@@ -61,34 +57,24 @@ The PFP garden locations allow us to measure the effect of a variety of microenv
 We planted and harvested gardens for the first time in 2008, with the work focused on the CDG, PLC, and POG gardens. From 2009–2014 we planted five gardens: the CDG, PLC, POG, PHG, and KUG gardens. From 2015–2017 we planted the CDG, PLC, POG, KUG, and MCG gardens. During this time, Pueblo farmers served as the expert consultants for planting and harvesting. Most of the farmers are from Hopi, but farmers from other Pueblos have also participated. Crow Canyon staff members learn from the Pueblo farmers and assist in the planting and harvesting.
 
 #### Pueblo Farming Project Goals {-}
-
-<div style="text-align: center;">
-<img src="./images/harvesting_2.jpg" alt="Harvesting maize"/>
-</div>
+![Harvesting and recording maize in 2016.](./images/harvesting_2.jpg)
 
 From the beginning, the PFP has pursued educational and research goals that were developed by Hopi and Crow Canyon working together. Since 2008, Hopi farmers have traveled to Crow Canyon twice a year: once in the spring for a planting meeting and again in the fall for a harvest meeting. Each meeting includes discussions to review goals, evaluate the project's progress, and develop a plan for how to proceed with current and future initiatives. Of course, each meeting also includes work in the agricultural plots.
 
 All PFP activities have been recorded using numerous techniques: written notes from each meeting, audio and video recording, still photography, and written documentation that include detailed metrics on the plants and their growing environments. This has produced a rich dataset from which we produced several research and educational products.
 
-<div style="text-align: center;">
-![The Village Ecodynamics Project maize productivity estimates](./images/vep.svg)
-<img src="./images/vep.svg" alt="The Village Ecodynamics Project maize productivity estimates" style="width: 400px"/>
-</div>
+![The Village Ecodynamics Project maize productivity estimates.](./images/vep.svg)
 
 One of the PFP research goals was to evaluate how agricultural yields were affected by annual variation in temperature and precipitation. These data were integrated into another research project known as the Village Ecodynamics Project or VEP. The VEP was funded by two National Science Foundation grants awarded to Washington State University; Crow Canyon was a subcontractor on the project. A multidisciplinary collaboration, the VEP included archaeologists, geologists, hydrologists, geographers, computer scientists, and economists from institutions across the U.S. and Canada. VEP researchers studied the interaction between Pueblo Indian people and their environment over more than a thousand years, beginning in A.D. 600. One aspect of the VEP was to use computer modeling to estimate ancestral Pueblo agricultural yields and how they varied through time and across the project study areas. Actual PFP yields were compared to the VEP estimates to evaluate the accuracy of the computer model. Detailed information about the VEP can be found at this website: [http://www.veparchaeology.org/](http://www.veparchaeology.org/).
 
 Hopi goals for the project were tied to the central role of corn and corn farming in Hopi culture. Fundamentally, they were interested in whether their seed and their traditional farming techniques would result in successful harvests in the Mesa Verde region, a place they consider as part of their ancestral homeland. For Hopi, the PFP provided a substantive link between their past and the present. For Hopi, the PFP helped demonstrate their cultural affiliation to the Mesa Verde region, and beyond planting and harvesting gardens they pursued this goal through another PFP research initiative: the DNA analysis of modern Hopi corn.
 
 #### Education Products {-}
-<div style="text-align: center;">
-<img src="./images/children.jpg" alt="School children learning about Hopi farming"/>
-</div>
+![School children learning about Hopi farming.](./images/children.jpg)
 
 From the beginning, the PFP was integrated into Crow Canyon's education programs. School groups who are at Canyon when planting and harvesting occurs observe and at times participate in these activities. Pueblo farmers speak to the students about the project and the role of farming in Pueblo culture, creating a unique and memorable learning experience for these students. The Pueblo Farming Project gardens are also integrated into Crow Canyon education programs during the growing season, providing the students with a powerful visual as the Center's educators teach about the importance of corn farming in ancestral and modern Pueblo communities.
 
-<div style="text-align: center;">
-<img src="./images/section_1.1_documentary.jpg" alt="Filming the documentary 'More than Planting a Seed'"/>
-</div>
+![Filming the documentary 'More than Planting a Seed'.](./images/section_1.1_documentary.jpg)
 
 We also developed series of educational initiatives to reach a larger audience with what we have learned through the PFP. We highlight three of these initiatives here. The first educational product we highlight is a documentary film, _More than Planting a Seed_:
 
@@ -102,9 +88,7 @@ A second educational product is an exhibit on display at the Crow Canyon Archaeo
 Public education initiatives also include lectures for the public and presentations at professional meetings. Information about the PFP was also disseminated through Crow Canyon's electronic and print newsletters and on Crow Canyon's website. The PFP was also featured on local radio shows, including [an interview with Leigh Kuwanwisiwma on KSJD's Big Fat Farm Show](http://ksjd.org/post/pueblo-farming-project#stream/0).
 
 ## Who were the participants?
-<div style="text-align: center;">
-<img src="./images/section_1.2_header.jpg" alt="Harvesting the Pueblo Farming Project gardens"/>
-</div>
+![Harvesting the Pueblo Farming Project gardens.](./images/section_1.2_header.jpg)
 
 Over almost a decade, dozens of Hopi farmers, researchers, and volunteers participated in the Pueblo Farming Project, and hundreds of students visited the PFP gardens during the growing season.
 
@@ -145,10 +129,7 @@ Over almost a decade, dozens of Hopi farmers, researchers, and volunteers partic
 </div>
 
 ## Where did the PFP take place?
-
-<div style="text-align: center;">
-<img src="./images/section_1.3_header.jpg" alt="Crow Canyon Archaeological Center's rural campus in Cortez, Colorado"/>
-</div>
+![Crow Canyon Archaeological Center's rural campus in Cortez, Colorado.](./images/section_1.3_header.jpg)
 
 Five PFP gardens are scattered around Crow Canyon Archaeological Center's rural campus in Cortez, Colorado; In 2015, we planted a new garden in the "bean fields" north of Crow Canyon's campus. Use the map below to explore the PFP garden locations, and click on the gardens to get more information about when they were planted as part of PFP research.
 

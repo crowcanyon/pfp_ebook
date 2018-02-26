@@ -1,6 +1,6 @@
 # What we learned
 <div style="text-align: center;">
-<img src="./images/chapter_6_kiva.jpg" alt="Paul Ermigiotti talking with Hopi elders in a replicated Basketmaker III pithouse"/>
+![Paul Ermigiotti talking with Hopi elders in a replicated Basketmaker III pithouse](./images/chapter_6_kiva.jpg)
 </div>
 
 Through the Pueblo Farming Project (PFP), researchers, educators and volunteers have gained a deeper appreciation of traditional Pueblo Indian agricultural practices and the role of corn, or maize, in Pueblo society, both past and present. The Pueblo farmers, especially our Hopi colleagues, shared their knowledge of corn farming with us, and they taught us how this plant-and the preservation their agricultural practices-are essential to their cultural continuity.
@@ -12,13 +12,13 @@ Archaeological remains show that maize spread into the greater American southwes
 Scientific studies have determined that by 2,400 years ago the earliest farmers in the Four Corners region had a diet that was heavily dependent on maize. It appears that by that time, maize made up about 70% of Pueblo people's caloric intake. 
 
 <div style="text-align: center;">
-<img src="./images/varieties.jpg" alt="Varieties of maize"/>
+![Varieties of maize.](./images/varieties.jpg)
 </div>
 
 DNA testing of 12 named Hopi maize varieties, undertaken by the PFP, show that Hopi maize is genetically distinct, although it is closely related to other temperate maize from the US southwest. The Hopi samples are closely associated with ancient corn samples that were tested in separate studies. The studies also show the Hopi varieties have also undergone continued selection over the past 2,000 years.
 
 <div style="text-align: center;">
-<img src="./images/chapter_6_mano.jpg" alt="A mano and metate, used for grinding corn into meal"/>
+![A mano and metate, used for grinding corn into meal.](./images/chapter_6_mano.jpg)
 </div>
 
 Archaeological evidence of farming in the region include items such as planting sticks, manos, metates, check-dams, storage facilities and abundant corn remains. These artifacts attest to the persistence of agricultural practices in the Southwest since maize was first introduced, and reinforce the continuity of these traditional practices at Hopi.
@@ -28,7 +28,7 @@ In summarizing what we have learned about Pueblo farming in the Mesa Verde regio
 Precipitation can vary greatly across the Southwest. This variation can be affected by elevation as well as annual jetstream patterns. Extended droughts are not uncommon. Annual precipitation ranges from 5 inches to 19.5 inches across of the Four Corners region. The annual precipitation for the PFP study area averaged 11.9 inches during the 10 years between 2008 and 2017, which is close to the long-term average for nearby Cortez, Colorado. The Mesa Verde region experiences a bimodal weather pattern that delivers the majority of its precipitation in the winter months of November through March, and during the summer monsoons which typically occurs from July to September. Some of the hottest and driest weather occurs in the months of May, June and early July. 
 
 <div style="text-align: center;">
-<img src="./images/chapter_6__mv_versus_hopi_soils.jpg" alt="The deep eolian or wind-blown soils of the Mesa Verde region"/>
+![The deep eolian or wind-blown soils of the Mesa Verde region.](./images/chapter_6_mv_versus_hopi.jpg)
 </div>
 
 The most favored agricultural locations are often on the deep eolian or wind-blown soils, which are reddish in color. These soils, and good winter precipitation, are the key to successful farming without irrigation in the Mesa Verde region. These soils retain valuable subsurface moisture that carries seedlings and young plants through the driest part of the year without supplemental water. Caliche and mineral salts can build up in some soils. This build up can restrict root growth and affect plant development. 
@@ -40,7 +40,7 @@ The first step in the process was selecting the garden locations. Prime location
 Initially, several different varieties of Hopi maize were planted in the PFP gardens. Over the years the selection was reduced to two: white flour corn (qotsaqa'ö) and blue flour corn (sakwapqa"ö). 
 
 <div style="text-align: center;">
-<img src="./images/chapter_6_soya.jpg" alt="Traditional Hopi maize planting uses a digging stick, or "so'ya"/>
+![Traditional Hopi maize planting uses a digging stick, or "soya".](./images/chapter_6_soya.jpg)
 </div>
 
 Most Americans would be familiar with the modern practice of planting corn closely spaced in long rows. Many have heard the story of how American Indians taught the pilgrims to plant corn in hills with fish a fertilizer. Traditional Hopi farming is quite distinct from these farming techniques. Planting technology is limited to a single tool: the planting stick or soya. Traditionally made from of greasewood (Sarcobatus vermicalatus), planting sticks today are often made from a length of metal pipe with a narrow blade welded to one end. 
@@ -48,7 +48,7 @@ Most Americans would be familiar with the modern practice of planting corn close
 Planting begins by scraping the area with sideways motion of the foot to push aside the loose and dry upper dust layer. This exposes the top of the underlying hard-packed soil. About a square foot, or slightly larger area, is cleared. The planter gets down on one knee and grabs the planting stick with one hand low and the other hand higher up on the tool. Then a narrow hole is dug in a pulling motion toward the planter to the desired depth. The hole is dug about 8 to 10 inches deep, or to the point where good soil moisture is encountered. It is important that there is sufficient soil where the seeds are deposited to ensure germination. The hole is dug deeper if the soil is drier and shallower if the soil is moist. 
 
 <div style="text-align: center;">
-<img src="./images/chapter_6_planting.jpg" alt="Blue maize seed in a planting hole"/>
+![Blue maize seed in a planting hole.](./images/chapter_6_planting.jpg)
 </div>
 
 The base of the hole is enlarged and about 10-20 seeds are deposited into the hole. The excavated earth is put back gently into the hole in the order it was removed, the moist soil covering the seeds on the bottom and the drier soil on top. A small well or basin is created around the planting with some of the loose top soil. This collects any precipitation that may fall and creates a mulch of dust that reduces evaporation. 
@@ -56,13 +56,13 @@ The base of the hole is enlarged and about 10-20 seeds are deposited into the ho
 The farmer then stands and paces off two or three steps to where the next clump of corn will be planted. Because the soils in the PFP gardens hold a bit more moisture than those soils near the Hopi mesas, the clumps are typically spaced about 1.5- 1.75 meters apart rather than the three meter spacing typically used at Hopi. The wide spacing of the planted clumps reduces competition for valuable sub-surface moisture. When the garden planting has been completed the farmers call out "kwakwhay", thank you!
 
 <div style="text-align: center;">
-<img src="./images/chapter_6_emergence.jpg" alt="Maize seedlings emerging"/>
+![Maize seedlings emerging.](./images/chapter_6_emergence.jpg)
 </div>
 
 After germination, the seedlings emerge in about ten days. The closely grouped seedlings in each clump provide some mutual protection from the sun and wind. By early July, when the plants are about 18 inches tall, the leaves begin to bend over as if to touch the ground. At this time the number of young corn plants is reduced to about six in each clump.
 
 <div style="text-align: center;">
-<img src="./images/chapter_6_cutworms.jpg" alt="Cut worms destroying a young maize plant"/>
+![Cut worms destroying a young maize plant.](./images/chapter_6_cutworms.jpg)
 </div>
 
 Weeding and monitoring for pests are ongoing tasks throughout the growing season. Newly emerged seedlings are vulnerable to cut worms that attack the stem just under the ground surface. Grasshoppers and ants can chew young plants to the ground. Rabbits destroyed whole gardens one dry summer. At Hopi today, and in our gardens, large cans with the tops removed are placed over the newly planted clumps to prevent cut worms, shade young plants, and protect them from spring winds. The Hopi deter rodents by soaking dog dung in a bucket, then spraying plants with the liquid by means of a rabbit brush switch. Crows, ravens and jays can pluck out young seedlings early in the season and, perhaps even more devastatingly, raid the garden at the end of a successful season. In unfenced fields such as those at Hopi, deer, elk and cattle are also known to destroy crops. 
@@ -72,7 +72,7 @@ Weeding to reduce any competition from other plants is especially important in d
 The Hopi farmers have repeatedly stressed the importance of good thoughts and actions while tending to their fields. It is of utmost importance that the farmer's heart be filled with good intention in the garden to ensure a bountiful harvest. When approaching a field, the farmer announces his return. Songs are composed and sung to the plants to provide encouragement for growth. Prayers for moisture are said while work in the field is carried out. The Hopi liken the development of their corn to the stages of a human life. The relationship of the farmer to the plant is analogous to that of a parent to a child. The corn goes through life much as a person does; as a child born, so too do the seedlings emerging from the earth. The plant sends out their first long leaves that bend over to touch the ground much as an infant learns to crawl. As a toddler they begin to stand upright and grow tall. The plants reach sexual maturity as they tassel and silk. Finally they produce offspring of their own as fully mature ears of corn. A perfect ear of white corn, full to the tip with kernels, is called a "mother ear" (tsotsmingwa). Such ears are presented to a child at birth and later used at important stages in an individual's life. When the ears are harvested the plants are pushed over to the ground, so they can rest as they have completed their life.
 
 <div style="text-align: center;">
-<img src="./images/chapter_6_yields.jpg" alt="Yields from the Pueblo Farming Project gardens"/>
+![Yields from the Pueblo Farming Project gardens.](./images/chapter_6_yields.jpg)
 </div>
 
 One of the research goals of the Pueblo Farming Project was to use the harvest yields from the gardens to evaluate the Village Ecodynamics Project (VEP) paleoproductivity model for ancestral Pueblo maize farming in the Mesa Verde region. The VEP modeled maize productivity estimates for all the soil types in the region, including estimates for the locations of the PFP gardens. The productivity estimates were created using soil type, a compilation of historical yields for those soils, reconstruction of annual precipitation based on tree rings, and calculation of the Palmer Drought Severity Index, which is a measure of stored soil moisture available for plant growth. 
@@ -86,7 +86,7 @@ The total precipitation and the timing of that precipitation seemed to be the gr
 The annual PFP garden harvests were used to estimate maize yields as kilograms per hectare (2.47 acres). These estimates can be translated into the number of people the yields from a specific garden could have fed in a given year. An estimated average of 160 kilograms of corn per year per person has been assumed for a diet where about 70% of the calories come from corn. Our highest yields came from the CDG, in the year 2010. This garden produced an estimated 1372 kilograms per hectare, and would have fed eight people. The year 2015 produced the second highest yields in the POG, with an estimated 673 kg/ha and those yields potentially would feed four people. The average yields of all gardens over the years would feed one person per hectare. This means a family would need a vast amount of farmland, especially if a several year supply of food would be required in anticipation of a year of crop failure.
 
 <div style="text-align: center;">
-<img src="./images/chapter_6_mv_versus_hopi.jpg" alt="A Hopi farmer in a maize field on the Hopi mesas in northern Arizona"/>
+![A Hopi farmer in a maize field on the Hopi mesas in northern Arizona.](./images/chapter_6_mv_versus_hopi.jpg)
 </div>
 
 The low average yields from the combined PFP gardens may be misleading. The gardens on the Crow Canyon Archaeological Center campus were not located in the prime agricultural lands available in the Mesa Verde region. Also, the amount of labor invested, such as that devoted to weeding and pest control, in the PFP gardens was likely minimal compared to the effort expended by a subsistence farmer. Again, the small size of the garden plots may have played a role in reduced yields. Increased vulnerability of crops to damage by pests, and edge effect (where the roots from vegetation surrounding the garden compete for valuable moisture) could impact yields when compared to those of a larger field. The time devoted to crops and the knowledge of the land gained from generations of farming is inestimable. 
@@ -96,5 +96,5 @@ The Hopi farmers have shown us that their seed and farming practices did produce
 **As our Hopi teachers have taught us "keep a good heart, and pray for rain."**
 
 <div style="text-align: center;">
-<img src="./images/chapter_6_end_2.jpg" alt="Keep a good heart, and pray for rain."/>
+![Keep a good heart, and pray for rain.](./images/chapter_6_end_2.jpg)
 </div>
