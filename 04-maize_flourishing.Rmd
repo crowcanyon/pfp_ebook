@@ -125,7 +125,7 @@ Yes, though some farmers emphasize knowing the soil through soil testing:
 ### Soils in the PFP gardens {-}
 Pueblo Farming Project researchers used data from the USDA and local soil analysis to characterize the soils under the gardens on Crow Canyon's campus in southwestern Colorado. The map below displays the soils on Crow Canyon's campus. Click a soil to learn more information about it!
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, echo=FALSE, warning=FALSE, message=FALSE}
 library(magrittr)
 library(sf)
 
@@ -205,7 +205,7 @@ GDDs can be converted from Celcius heat units to Fahrenheit heat units by multip
 
 Plants combine water and nutrients form the soil with heat and energy from the Sun to flourish. Pueblo Farming Project researchers estimate the amount of water and accumulated heat available to the maize in the PFP gardens using weather data gathered by the US National Oceanic and Atmospheric Administration (NOAA) as part of the US Historical Climatology Network (USHCN). Temperature and precipitation data from a weather station in Cortez were used to measure the response of the PFP gardens to local weather; we also installed a weather station on Crow Canyon's campus, as well as temperature monitors in each garden. The graphs below show the weather data from 2009--2017 in the PFP gardens---the top graph shows minimum and maximum daily temperature and daily GDD, and the lower graph shows daily precipitation events. **These graphs are interactive!** Highlight a region of the graph in order to explore the weather. Hover over a graph to see the recorded weather at the Cortez weather station.
 
-```{r, echo=FALSE, out.width = "100%", fig.height=3}
+```{r, echo=FALSE, out.width = "100%", fig.height=3, echo=FALSE, warning=FALSE, message=FALSE}
 library(dygraphs)
 library(magrittr)
 
