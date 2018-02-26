@@ -8,8 +8,9 @@ author: |
   | Paul Ermigiotti,
   | Mark Varien,
   | Erin Bohm,
-  | Kyle Bocinsky, and
-  | the Hopi Cultural Resources Advisory Team
+  | Kyle Bocinsky,
+  | the Hopi Cultural Resources Office, and 
+  | the Hopi Cultural Resources Advisory Task Team
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
 # bibliography: [book.bib, packages.bib]
