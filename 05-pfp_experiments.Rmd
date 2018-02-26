@@ -142,9 +142,14 @@ tabler <- function(x, file_out){
 
 ```
 
+PFP researchers were interested in how much Hopi maize could be grown in the Mesa Verde region, and whether the **phenotype**---or physical charactistics---of Hopi maize grown in the Mesa Verde region would be different from that grown on the Hopi Mesas. Here, we present analyses of maize phenology (the growth stages of maize), maize yield, and ear diversity (phenotype).
+
 ### Maize growth analysis {-}
+**The timing of maize growth stages was variable across the PFP gardens.**
 
 #### Growth summary {-}
+The data and graph below report the growth data for each of the gardens for every year of the PFP. Because the different clumps of maize (and even maize plants within a clump) mature at different rates, PFP researchers report the proportion of clumps that have reached a given growth stage. So for example, in the table below, a "tasseling" proportion of `r growth_summaries %>% dplyr::filter(Garden == "CDG", Date == "2009-08-06") %$% Tasseling %>% round(digits = 3)` in the Check Dam Garden (CDG) on August 6, 2009, means that `r growth_summaries %>% dplyr::filter(Garden == "CDG", Date == "2009-08-06") %$% Tasseling %>% round(digits = 3) %>% magrittr::multiply_by(100)`% of clumps in the CDG showed signs of tasseling by that date.
+
 ```{r growth-summary-data, echo=FALSE, warning=FALSE, message=FALSE}
 growth_summaries %>%
   tabler("growth_summary_table.html")
@@ -156,6 +161,10 @@ growth %>%
 <iframe src="./tables/growth_summary_table.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
 
 The data presented above are a summary of the raw growth data, which are available <a href="./docs/tables/growth_table.csv" download="logo.png">here</a>.
+
+An important thing to consider is the timing of tasseling relative to silking. The tassels of maize plants are their flowers---they produce pollen that must fall upon silks in order to produce maize kernels. If tasseling and silking don't happen at nearly the same time, pollenation doesn't occur, and the ears won't develop. If tasseling happens long before silking, the pollen will fall to the ground. The graph below allows you to select a year and visualize the relative timing of tasseling and silking (and the other growth stages). You'll notice that the highest yielding gardens like the Check Dam Garden (CDG) have silk development and silking occur within about a week after tasseling. In other gardens, like Karen's Upper Garden (KUG), silking follows many weeks after tasseling; this prevents a majority of pollenation and leads to lower yields in that garden.
+
+**Explore the plot below.** You can hover over the plot to view the individual values. Use the slider at the bottom of the graph to move throught he growth stages. You can isolate a particular garden by double clicking its name in the legend at the right of the graph; a single click will turn a garden on or off. Finally, you can download an image of the graph by hovering over it and clicking the small camera icon in the upper right.
 
 ```{r growth-plot, echo=FALSE, warning=FALSE, message=FALSE}
 2009:2017 %>%
@@ -253,6 +262,7 @@ system("cp -R libs/. docs/plots/libs/")
 <iframe name="iframe" id="youriframe" src="./plots/growth_2017.html" height="400" width="100%" frameborder="0" scrolling="no"></iframe>
 
 ### Maize yield {-}
+**Hopi maize grown during the PFP flourished in the Mesa Verde region.**
 
 ```{r yield-data, echo=FALSE, warning=FALSE, message=FALSE}
 yields %>%
