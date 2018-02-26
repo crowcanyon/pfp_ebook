@@ -13,7 +13,7 @@ author: |
   | the Hopi Cultural Resources Advisory Task Team
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
-# bibliography: [book.bib, packages.bib]
+bibliography: [pfp_ebook.bib]
 biblio-style: apalike
 link-citations: yes
 colorlinks: yes

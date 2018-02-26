@@ -272,11 +272,11 @@ yields %>%
   readr::write_csv("./docs/tables/yield_table.csv")
 ```
 
-**Hopi maize grown during the PFP flourished in the Mesa Verde region.** Although some gardens failed to produce yields in some years, many of the gardens produced substantial yields. The highest yielding garden was the `r max_yield$Garden` garden in `r max_yield$Season`, which produced an average yield of `r max_yield[["PFP experimental yield (kg/ha)"]]` kg/ha of maize. To put that into perspective, such a yield rate would have easily supported `r (max_yield[["PFP experimental yield (kg/ha)"]]/160) %>% floor()` people! The average yield over all of the gardens from 2009--2017 was `r (yields_summary[["PFP experimental yield (kg/ha)"]]) %>% mean() %>% round()` kg/ha, enough for about two people. The data presented above are a summary of the raw yield data, which are available <a href="./docs/tables/yield_table.csv" download="PFP_yield_table.csv">here</a>.
+**Hopi maize grown during the PFP flourished in the Mesa Verde region.** Although some gardens failed to produce yields in some years, many of the gardens produced substantial yields. The highest yielding garden was the `r max_yield$Garden` garden in `r max_yield$Season`, which produced an average yield of `r max_yield[["PFP experimental yield (kg/ha)"]]` kg/ha of maize. To put that into perspective, such a yield rate would have easily supported `r (max_yield[["PFP experimental yield (kg/ha)"]]/160) %>% floor()` people! The average yield over all of the gardens from 2009--2017 was `r (yields_summary[["PFP experimental yield (kg/ha)"]]) %>% mean() %>% round()` kg/ha, enough for about two people. The data presented below are a summary of the raw yield data, which are available <a href="./docs/tables/yield_table.csv" download="PFP_yield_table.csv">here</a>.
 
 <iframe src="./tables/yield_summary_table.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
 
-Even though there were really good years with high yields in some gardens, many gardens produced very low yields (although see [What we learned] for a discussion of low yields). The graph below displays estimated yields from each garden in each year. The yields are displayed as box plots; they show the **distribution** of possible yields as calculated from the clump data (see @Bocinsky2017 for a discussion of our methods). As above, you can isolate a garden by double-clicking its name in the legend at the right of the graph. 
+Even though there were really good years with high yields in some gardens, many gardens produced very low yields (although see [What we learned] for a discussion of low yields). The graph below displays estimated yields from each garden in each year. The yields are displayed as box plots; they show the **distribution** of possible yields as calculated from the clump data [see @Bocinsky2017 for a discussion of our methods]. As above, you can isolate a garden by double-clicking its name in the legend at the right of the graph. These data show the importance of traditional ecological knowledge (TEK) in selecting garden locations---subsistence farmers would quickly learn the best places to place their fields, and wouldn't likely have bothered planting in less-optimal places.
 
 ```{r yield-plot, echo=FALSE, warning=FALSE, message=FALSE}
 out <- yields %>%
@@ -312,23 +312,20 @@ system("cp -R libs/. docs/plots/libs/")
 
 <iframe src="./plots/yields_plot.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
 
-#### Ear diversity {-}
-
-```{r ear-data, echo=FALSE, warning=FALSE, message=FALSE}
-ears %>%
-  tabler("ear_table.html")
-```
-
-<iframe src="./tables/ear_table.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+### Ear diversity {-}
+**The phenotypes presented by Hopi maize are strongly related to growing conditions.** The data presented below are a summary of the raw ear measurement data, which are available <a href="./docs/tables/ears_table.csv" download="PFP_ears_table.csv">here</a>.
 
 ```{r ear-summary-data, echo=FALSE, warning=FALSE, message=FALSE}
 ears %>%
   dplyr::group_by(Season,Garden, Variety) %>%
   dplyr::summarise(`Median Rows` = median(Rows, na.rm = TRUE),
-                   `Avg. Ear weight` = mean(`Ear weight`, na.rm = TRUE),
-                   `Avg. Cob weight` = mean(`Cob weight`, na.rm = TRUE),
-                   `Avg. Kernel weight` = mean(`Kernel weight`, na.rm = TRUE)) %>%
+                   `Avg. Ear weight (g)` = mean(`Ear weight`, na.rm = TRUE),
+                   `Avg. Cob weight (g)` = mean(`Cob weight`, na.rm = TRUE),
+                   `Avg. Kernel weight (g)` = mean(`Kernel weight`, na.rm = TRUE)) %>%
   tabler("ear_summary_table.html")
+
+ears %>%
+  readr::write_csv("./docs/tables/ears_table.csv")
 ```
 
 <iframe src="./tables/ear_summary_table.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
