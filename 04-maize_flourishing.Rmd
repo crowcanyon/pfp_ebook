@@ -139,7 +139,8 @@ garden_centroids <- garden_locations %>%
   sf::st_centroid() %>%
   sf::st_transform(4326)
 
-pfp_soils <- sf::st_read("./data/soils.geojson")
+pfp_soils <- sf::st_read("./data/soils.geojson",
+                                quiet = TRUE)
 
 ## Create color palettes for each soil layer
 colorpal <- leaflet::colorNumeric(
