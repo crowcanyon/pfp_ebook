@@ -9,7 +9,7 @@ author: |
   | Mark Varien,
   | Erin Bohm,
   | Kyle Bocinsky,
-  | the Hopi Cultural Resources Office, and 
+  | the Hopi Cultural Preservation Office, and 
   | the Hopi Cultural Resources Advisory Task Team
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"

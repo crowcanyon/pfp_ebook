@@ -13,7 +13,7 @@ Today, corn is the most widely produced grain crop in the United States, though 
 
 ## Origins
 <div style="text-align: center;">
-![A Hopi kachina doll.](./images/section_2.1_origin.jpg)
+![A Hopi kachina doll depicting Masau'u.](./images/section_2.1_origin.jpg)
 </div>
 
 The domestication of maize was unique. Typically, domesticated plants look similar to their wild ancestors; 
@@ -22,7 +22,7 @@ An ear of maize is wrapped in a husk, the kernels are held tightly and not able 
 they would compete with each other for nutrients and water. Corn is as dependent on humans as humans are dependent on corn.
 
 <div style="text-align: center;">
-![Maize differs from its closest wild relativve, teosinte. Copyright Oxford University Press, all rights reserved.](./images/teosinte.jpg)
+![Maize differs from its closest wild relative, teosinte. Copyright Oxford University Press, all rights reserved.](./images/teosinte.jpg)
 </div>
 
 Teosinte, a wild grass native to Mexico and Central America, is so closely related to maize that it belongs to the same species—

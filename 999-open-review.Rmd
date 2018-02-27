@@ -8,7 +8,7 @@ The concept of Open Review, as it is implemented here, is taken from [Matthew Sa
 
 ### What kind of feedback are you looking for? {-}
 
-Open Review is not just about catching typos. Rather, Open Review is designed to collect all types of feedback, and I'd particularly welcome any feedback that you have about the substance of the book. Are there sections that you find particularly confusing? Are their points that you find particularly important? Am I making claims that you think need to be refined? Are there parts of the book that you think should be removed? When in doubt, I think you should follow one of the main principles at Wikipedia: [Be bold](https://en.wikipedia.org/wiki/Wikipedia:Be_bold).
+Open Review is not just about catching typos. Rather, Open Review is designed to collect all types of feedback, and we'd particularly welcome any feedback that you have about the substance of the book. Are there sections that you find particularly confusing? Are their points that you find particularly important? Are we making claims that you think need to be refined? Are there parts of the book that you think should be removed? When in doubt, we think you should follow one of the main principles at Wikipedia: [Be bold](https://en.wikipedia.org/wiki/Wikipedia:Be_bold).
 
 ### Can I see the annotations that others are making? {-}
 
@@ -33,19 +33,11 @@ Please read our privacy and consent policy, below.
 ### How I can learn more about traditional peer review of academic books? {-}
 The AAUP recently published [a report](http://www.aaupnet.org/resources/for-members/handbooks-and-toolkits/peer-review-best-practices) on best practices for peer review.
 
-### Can I do this with my book? {-}
-
-Sure. Check out the code for this website at <https://github.com/benmarwick/bookdown-ort/> for more about how we did it.
-
-### I have a different question about Open Review. How can I get in touch with the package author? {-}
-
-Send an email to `bmarwick@uw.edu`
-
 ## Privacy and Consent Policy {-}
 
 ### Overview {-}
 
-On this website, we are making the complete text of the book available at no cost. While you are reading the book, we are measuring reader behavior in aggregate. For example, we are measuring which sections of the book get read most often. This data will help us improve the book. Everything we are doing is common on modern websites. We describe it in more detail below.
+On this website, we are making the complete draft text of the book available. While you are reading the book, we are measuring reader behavior in aggregate. For example, we are measuring which sections of the book get read most often. This data will help us improve the book. Everything we are doing is common on modern websites. We describe it in more detail below.
 
 ### What information do we collect? {-}
 
@@ -53,7 +45,7 @@ We use [Google Analytics](https://analytics.google.com/) to collect information 
 
 ### How do we use your information? {-}
 
-Any of the information that we collect may be used for research, to improve the book, and to help sell the book.
+Any of the information that we collect may be used for research and to improve the book.
 
 ### How do we protect your information? {-}
 
