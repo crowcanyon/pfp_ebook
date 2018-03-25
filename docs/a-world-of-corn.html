@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2018-02-27">
+<meta name="date" content="2018-03-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -47,16 +47,8 @@
 
 
 <script src="libs/htmlwidgets/htmlwidgets.js"></script>
-<link href="libs/leaflet/leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet/leaflet.js"></script>
-<link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
-<link href="libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
-<script src="libs/leaflet-label/leaflet.label.js"></script>
-<script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
-<script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
-<script src="libs/leaflet-binding/leaflet.js"></script>
-<script src="libs/leaflet-providers/leaflet-providers.js"></script>
-<script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+<script src="libs/pymjs/pym.v1.js"></script>
+<script src="libs/widgetframe-binding/widgetframe.js"></script>
 <link href="libs/dygraphs/dygraph.css" rel="stylesheet" />
 <script src="libs/dygraphs/dygraph-combined.js"></script>
 <script src="libs/moment/moment.js"></script>
@@ -169,11 +161,14 @@
 <li class="chapter" data-level="3.2" data-path="the-phenology-of-maize.html"><a href="the-phenology-of-maize.html"><i class="fa fa-check"></i><b>3.2</b> The phenology of maize</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html"><i class="fa fa-check"></i><b>4</b> What maize needs to flourish</a><ul>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#drought"><i class="fa fa-check"></i>Drought</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#heat-and-sunlight"><i class="fa fa-check"></i>Heat and sunlight</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+<li class="chapter" data-level="4.1" data-path="soils-and-water.html"><a href="soils-and-water.html"><i class="fa fa-check"></i><b>4.1</b> Soils and water</a><ul>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#drought"><i class="fa fa-check"></i>Drought</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html"><i class="fa fa-check"></i><b>4.2</b> Heat and sunlight</a><ul>
+<li class="chapter" data-level="" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="the-pfp-field-experiments.html"><a href="the-pfp-field-experiments.html"><i class="fa fa-check"></i><b>5</b> The PFP Field Experiments</a><ul>
 <li class="chapter" data-level="5.1" data-path="procedure.html"><a href="procedure.html"><i class="fa fa-check"></i><b>5.1</b> Procedure</a><ul>
@@ -278,19 +273,16 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 </div>
 </div>
 <p>The success of maize worldwide can be attributed to the following:</p>
-<p><strong>Adaptation</strong> — Adaptive ability to grow in a wide variety of environmental conditions from sea level to 1100 feet from 5 to 170 inches precipitation annually</p>
-<p><strong>Variability in appearance</strong> — Ears and kernels display a diverse range in sizes, colors and endosperm textures. There are thousands of varieties of corn to choose from in seed catalogs: open-pollenated, heirloom, hybrid, and even genetically modified. Variability in kernel shape, size and color as well as differences in ear size demonstrates the incredible diversity in maize. Most corn varieties can be divided into five types based on endosperm texture, or the amount of hard versus soft starch in the kernel.</p>
+<p><strong>Adaptation</strong> — Contemporary varieties of maize grow in many different environmental conditions: from sea level to 11,000 feet, and from 5 to 170 inches of precipitation annually.</p>
+<p><strong>Variability in appearance</strong> — Ears and kernels display a diverse range of sizes, colors, and endosperm textures. There are thousands of varieties of corn to choose from in seed catalogs: open-pollenated, heirloom, hybrid, and even genetically modified. Variability in kernel shape, size, and color, as well as differences in ear size, demonstrates the incredible diversity in maize.</p>
 <div style="text-align: center;">
 <div class="figure">
-<img src="images/endosperm_types.jpg" alt="Kernels showing endosperm type: pop, flint, flour, dent and sweet corn (left to right). Each type varies in ratios of hard (dark) to soft (white) starch and sugar. The seed embryo is located at the bottom of the kernel." />
-<p class="caption">Kernels showing endosperm type: pop, flint, flour, dent and sweet corn (left to right). Each type varies in ratios of hard (dark) to soft (white) starch and sugar. The seed embryo is located at the bottom of the kernel.</p>
+<img src="images/endosperm_types.jpg" alt="Kernels showing endosperm type: pop, flint, flour, dent and sweet corn (left to right). Most corn varieties can be divided into five types based on endosperm texture, or the amount of hard versus soft starch in the kernel. Each type varies in its ratio of hard (dark) to soft (white) starch and sugar. The seed embryo is located at the base of the kernel." />
+<p class="caption">Kernels showing endosperm type: pop, flint, flour, dent and sweet corn (left to right). Most corn varieties can be divided into five types based on endosperm texture, or the amount of hard versus soft starch in the kernel. Each type varies in its ratio of hard (dark) to soft (white) starch and sugar. The seed embryo is located at the base of the kernel.</p>
 </div>
 </div>
-<p><strong>Versatility</strong> — Products range from cereal and sweeteners to fuel,
-stored as dried grain, liquid sweeteners or alcohol
-can be eaten boiled, roasted, popped or ground. Productivity resulting in high yields
-a single corn kernel can produce from 500–800 kernels per ear, usually two ears per plant.</p>
-<p>Genetic diversity is important in adapting to a wide variety of environments and conditions. Hopi farmers have at least 17 locally adapted varieties of corn. This diversity allows plants to adjust to the harsh environment of the region and reduce the risk of crop failure.</p>
+<p><strong>Versatility</strong> — Products range from cereal and sweeteners to fuel. Maize may be stored as dried grain, liquid sweeteners, or alcohol. Maize can be eaten boiled, roasted, popped, or ground.</p>
+<p>Genetic diversity is important in adapting to a wide variety of environments and conditions. Hopi farmers have at least 17 locally adapted varieties of corn. This diversity allows plants to adjust to the arid environment of the region and reduce the risk of crop failure.</p>
 
 </div>
 <!-- </div> -->

@@ -6,12 +6,18 @@
 Maize, like all crops, require nutrients from the soil, water, and heat and sunlight in order to flourish. In this chapter, we explore how Pueblo maize uses each of these resources, and learn about how those resources affected the Pueblo Farming Project gardens.
 
 <div style="text-align: center;">
-![A farmer loosens the soil to prepare it for planting.](./images/section_4.1_header.jpg)
+![A farmer places soil back upon the newly planted maize seeds.](./images/section_4.1_header.jpg)
 </div>
+
+
+
+
+
+## Soils and water
 
 ### What are soils? {-}
 
-Soil is made of a combination of minerals, organic matter, and sand. These three ingredients are combined in different amounts and travel long distances around the globe through the movements of glaciers, water, and wind. **Soils store water and nutrients that plants use to flourish.**
+Soil is made of a combination of minerals, organic matter, and sediment. These three ingredients are combined in different amounts and travel long distances around the globe through the movements of glaciers, water, and wind. **Soils store water and nutrients that plants use to flourish.**
 
 #### How does soil gain water? {-}
 Water is delivered to the soil in two ways:
@@ -51,24 +57,24 @@ Some farmers irrigate because:
 
 Some modern farmers do not apply irrigation water to their soil: 
 
-*   Hopi farmers who have vast dryland corn fields.
-*   Farmers from the western states who have large dryland crop farms.
+*   Hopi farmers who have vast direct-precipitation corn fields.
+*   Farmers from the western states who have large direct-precipitation crop farms.
 
-Many Hopi farmers and other farmers in the Southwestern US do not use irrigation systems; the keys to their success is understanding weather patterns, caring for their soil, planting drought-resilient seeds and having faith in natural cycles.
+Many Hopi farmers and other farmers in the southwestern US do not use irrigation systems; the keys to their success is understanding weather patterns, caring for their soil, planting drought-resilient seeds and having faith in natural cycles.
 
 > **_"Dry-farming in the high desert....relying only on precipitation and runoff water, requires an almost miraculous level of faith and is sustained by hard work, prayer, and an attitude of deep humility."_**
 > 
 > --- <cite>Wall and Masayesva 2004:436</cite>
 
-#### How do dryland farmers decide where to place their gardens and fields? Why is this decision so important? {-}
+#### How do direct-precipitation farmers decide where to place their gardens and fields? Why is this decision so important? {-}
 
-Choosing the location of a garden is called "site selection". It is important to dryland farming because the chosen site must be able to capture and hold water delivered by the Water Cycle, making it "drought-resilient". 
+Choosing the location of a garden is called *site selection*. It is important to direct-precipitation farmers because the chosen site must be able to capture and hold water delivered by the water cycle, making it drought resilient. 
 
-**These are the features that the ancestral Pueblo farmers of the past and the Hopi dryland farmers of today look for in a site that will be drought-resilient**:
+**These are the features that the ancestral Pueblo farmers of the past and the Hopi farmers of today look for in a site that will be drought-resilient**:
 
-*  **Geography:** Water that drains off of a mesa or cliff will collect and flood down into drainages, washes, arroyos or canyons. Where these features become less narrow and open up into sandy slopes, Pueblo farmers expect water and  good soil to collect because it is washed down with the floodwaters. This mouth or opening is also a place where they traditionally built **check dams**: rows of low rock walls to slow down the movement of runoff water.
-*   **Garden slope**: North-facing slopes have more shade, therefore less water is lost to evaporation.
-*   **Indicator plants**: The appearance of certain plants in early spring give information, or _indicate_, to Hopi and other Dryland farmers about where the best places are for a garden/field, how deep to plant and how much space to leave between plants. Farmers combine these indications with practice, experience and knowledge of the land. Some examples of plants that indicate these conditions are:
+*  **Geography:** Rainfall and snowmelt that drains off of a mesa or cliff will collect and flow into drainages, washes, arroyos, and canyons. Where these features become less narrow and open up into sandy slopes, Pueblo farmers expect water and good soil to collect because it is washed down with the floodwaters. This mouth or opening is also a place where they traditionally built **check dams**: rows of low rock walls to slow down the movement of runoff water.
+*   **Garden slope**: North-facing slopes have less direct exposure to sunlight and lower soil temperature --- therefore less water is lost to evaporation.
+*   **Indicator plants**: The appearance of certain plants in early spring give information, or *indicate*, to Hopi and other direct-precipitation farmers about where the best places are for a garden/field, how deep to plant and how much space to leave between plants. Farmers combine these indications with practice, experience and knowledge of the land. Some examples of plants that indicate these conditions are:
 
 <table>
 <tr>
@@ -101,21 +107,20 @@ Oak trees
 *   **Soil color**: darker colors often mean higher amounts of decomposed organic matter and nutrients in the soil. In the Southwest, this means dark red-brown.
 *   **Large, open planting area**: the area must be large enough that clumps of seeds can be planted with wide spaces between them (2-3 adult paces/steps or 4 - 6 feet, between clumps.) This spacing allows little soil-moisture reservoirs to be created between clumps, providing long-term moisture. 
 
-
 ### Drought {-}
-**When a normal amount of snow and rain does not arrive year after year, this is called a "drought".**
+**When a normal amount of snow and rain does not arrive year after year, this is called a *drought*.**
 
 #### How do Puebloan farmers respond to drought? {-}
 
-The Hopi people use the agricultural knowledge gained through their ancestral dryland farming practices. They want to ensure their crops will continue to be drought-resilient into the future. To survive drought, a dryland farmer must know a lot about their soil and their seeds. Ancestral Pueblo farmers responded to drought by:
+The Hopi people use the agricultural knowledge gained through their ancestral direct-precipitation farming practices. They want to ensure their crops will continue to be drought-resilient into the future. To survive drought, a direct-precipitation farmer must know a lot about their soil and their seeds. Ancestral Pueblo farmers responded to drought by:
 
 *   anticipating the possibility that it could arrive any year, and preparing for it by saving seeds from plants that can survive drought. 
 *   using the site selection factors listed above as test questions to decide whether or not a site will be drought-resilient. 
 *   meeting these site requirements by planting in multiple locations.
-*   using clumps of plants at the edge of the planting area, or tin cans placed around seedlings, as a windbreak to decrease evapotranspiration.
-*   Covering holes that contain seeds with loose topsoil to act as a "dust mulch".
+*   using clumps of plants, twigs, or brush at the edge of the planting area or small upright stone slabs or tin cans placed around seedlings as a windbreak to decrease evapotranspiration.
+*   Covering holes that contain seeds with loose topsoil to act as a *dust mulch*.
 
-#### Do other dryland farmers use any of these same practices? {-}
+#### Do other direct-precipitation farmers use any of these same practices? {-}
 
 Yes, though some farmers emphasize knowing the soil through soil testing:
 
@@ -147,7 +152,7 @@ colorpal <- leaflet::colorNumeric(
   palette = "YlGn",
   c(300,1400))
 
-pfp_soils %>%
+l <- pfp_soils %>%
   leaflet::leaflet(width = "100%") %>%
   leaflet::addProviderTiles("Esri.WorldImagery", group = "Satellite") %>%
   leaflet::addProviderTiles("Esri.WorldTopoMap", group = "Topography") %>%
@@ -173,22 +178,26 @@ pfp_soils %>%
     options = leaflet::layersControlOptions(collapsed = T)
   )
 
+widgetframe::frameWidget(l, width='100%')
+
 ```
 
-### Heat and sunlight {-}
+
+
+## Heat and sunlight
 <div style="text-align: center;">
-![The Pueblo Learning Center garden.](./images/section_4.3_header.jpg)
+![The Check Dam Garden on the Crow Canyon Archaeological Center campus.](./images/section_4.3_header.jpg)
 </div>
 
 All plants require thermal energy---in the form of heat and sunlight---to perform **photosynthesis** and flourish. Photosynthesis is a process used by plants to make a sugary food that fuels their growth. Plants absorb the energy of the sun through their leaves, combine it with water and carbon dioxide, and make a sugar called glucose. **Fun Fact: The waste product that this process creates is oxygen!** Ancient and modern farmers adapt their corn to the amount of heat and sunlight available in the regions in which they live.
 
-But how much heat does a plant need, and how do we know how much it gets? Plant researchers use a measure of accumulated heat called a **growing degree day** to estimate the amount of heat that plants may use for photosynthesis.
+But how much heat does a plant need, and how do we know how much it gets? Plant researchers use a measure of accumulated heat called a **growing degree day (GDD)** to estimate the amount of heat that plants may use for photosynthesis.
 
 The equation for daily GDD is:
 $$ GDD=\frac{T_{MAX} + T_{MIN}}{2}-T_{BASE} $$
-where $T_{MAX}$ is the maximum daily temperature, $T_{MIN}$ is the minimum daily temperature and $T_{BASE}$ is the temperature below which plant growth ceases, which we take to be 8°C (~46.4ºF) for maize.
+where $T_{MAX}$ is the maximum daily temperature, $T_{MIN}$ is the minimum daily temperature and $T_{BASE}$ is the temperature below which plant growth ceases, which we take to be 10°C (~50ºF) for maize.
 
-Here we use a series of corrections to equation typically applied for calculating maize GDD, which down-corrects $T_{MAX}$ and $T_{MIN}$ to an upper threshold ($T_{UT}$, here 30°C or 86ºF) above which corn growth does not appreciably increase, and up-corrects $T_{MAX}$ and $T_{MIN}$ if they fall below $T_{BASE}$ (here 8°C). To summarize:
+Here we use a series of corrections to equation typically applied for calculating maize GDD, which down-corrects $T_{MAX}$ and $T_{MIN}$ to an upper threshold ($T_{UT}$, here 30°C or 86ºF) above which corn growth does not appreciably increase, and up-corrects $T_{MAX}$ and $T_{MIN}$ if they fall below $T_{BASE}$ (here 10°C). To summarize:
 $$
 \text{if} \quad T_{MAX}>T_{UT}, \quad T_{MAX}=T_{UT}\\
 \text{if} \quad T_{MIN}>T_{UT}, \quad T_{MIN}=T_{UT}\\
@@ -196,12 +205,12 @@ $$
 \text{if} \quad T_{MIN}<T_{BASE}, \quad T_{MIN}=T_{BASE}
 $$
 
-GDDs can be converted from Celcius heat units to Fahrenheit heat units by multiplying by a factor of 1.8.
+GDD amounts calculated in Celcius are different from those calculated in Fahrenheit. GDDs can be converted from Celcius heat units to Fahrenheit heat units by multiplying by a factor of 1.8. For example, 1000 Celcius GDDs are equal to 1800 Fahrenheit GDDs.
 
 
 ### Weather in Cortez {-}
 <div style="text-align: center;">
-![Rainclouds gather over the Ute mountains in southwestern Colorado.](./images/section_4.2_header.jpg)
+![Rainclouds gather over Ute Mountain in southwestern Colorado.](./images/section_4.2_header.jpg)
 </div>
 
 Plants combine water and nutrients form the soil with heat and energy from the Sun to flourish. Pueblo Farming Project researchers estimate the amount of water and accumulated heat available to the maize in the PFP gardens using weather data gathered by the US National Oceanic and Atmospheric Administration (NOAA) as part of the US Historical Climatology Network (USHCN). Temperature and precipitation data from a weather station in Cortez were used to measure the response of the PFP gardens to local weather; we also installed a weather station on Crow Canyon's campus, as well as temperature monitors in each garden. The graphs below show the weather data from 2009--2017 in the PFP gardens---the top graph shows minimum and maximum daily temperature and daily GDD, and the lower graph shows daily precipitation events. **These graphs are interactive!** Highlight a region of the graph in order to explore the weather. Hover over a graph to see the recorded weather at the Cortez weather station.
@@ -209,6 +218,14 @@ Plants combine water and nutrients form the soil with heat and energy from the S
 ```{r, echo=FALSE, out.width = "100%", fig.height=3, echo=FALSE, warning=FALSE, message=FALSE}
 library(dygraphs)
 library(magrittr)
+
+dyBarChart <- function(dygraph) {
+  dyPlotter(
+    dygraph = dygraph,
+    name = "BarChart",
+    path = system.file("examples/plotters/barchart.js",package = "dygraphs")
+  )
+}
 
 cortez_weather <- readr::read_csv("./data/cortez_weather.csv",
                                   col_types = readr::cols(
@@ -258,10 +275,10 @@ dygraphs::dygraph(cortez_weather_dy %>%
                                            "2017-12-31"))
 
 
-cortez_weather_dy$PRCP_IN2 <- cortez_weather_dy$PRCP_IN
+cortez_weather_dy$PRCP_CM <- cortez_weather_dy$PRCP_IN * 2.54
 
 dygraphs::dygraph(cortez_weather_dy %>% 
-                    dplyr::select(PRCP_IN, PRCP_IN2),
+                    dplyr::select(PRCP_IN, PRCP_CM),
                   group = "cortez") %>%
   dygraphs::dyAxis('y',
                    label = "Precipitation (in)",
@@ -269,30 +286,32 @@ dygraphs::dygraph(cortez_weather_dy %>%
                    drawGrid = F,
                    independentTicks = T) %>%
   dygraphs::dyAxis('y2',
-                   label = "Precipitation (in)",
+                   label = "Precipitation (cm)",
                    valueRange = c(0, NULL),
                    drawGrid = F,
-                   independentTicks = T) %>%
+                   independentTicks = F) %>%
   dygraphs::dyAxis('x',
                    drawGrid = F) %>%
   dygraphs::dySeries("PRCP_IN", 
                      label = "Precipitation (in)", 
                      axis = 'y', 
-                     stemPlot = T, 
-                     drawPoints = F, 
-                     strokeWidth = 1, 
-                     pointSize = NA, 
+                     # stepPlot = TRUE,
+                     stemPlot = T,
+                     drawPoints = NULL,
+                     strokeWidth = 1,
+                     pointSize = 0,
                      color = "black") %>%
-  dygraphs::dyLegend(show = "onmouseover") %>%
-  dygraphs::dySeries("PRCP_IN2", 
-                     label = "Precipitation (in) 2", 
-                     axis = 'y2', 
-                     stemPlot = T, 
-                     drawPoints = F, 
-                     strokeWidth = 0, 
-                     pointSize = NA, 
+  dygraphs::dyLegend(show = "onmouseover",
+                     labelsSeparateLines = TRUE) %>%
+  dygraphs::dySeries("PRCP_CM",
+                     label = "Precipitation (cm)",
+                     axis = 'y2',
+                     stemPlot = T,
+                     drawPoints = NULL,
+                     strokeWidth = 0,
+                     pointSize = 0,
                      color = "black") %>%
   dygraphs::dyRangeSelector(dateWindow = c("2017-01-01", 
-                                           "2017-12-31")) 
+                                           "2017-12-31"))
 
 ```

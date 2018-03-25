@@ -10,22 +10,24 @@ Here, we present two ways of knowing that describe the life-cycle of maize. [The
 
 ## The Hopi life-cycle of maize
 
+All farmers use descriptions of the life-cycle of their crops. The descriptions used by traditional farmers like the Hopi reflect their traditional ecological knowledge about how their particular varieties of maize grow. The words provided in the images below are the Hopi words for the growth-stages of maize.
+
 <div class="carousel">
-![Planting begins in the fields.](./images/hopi_growth/1_nawantota.jpg)
-![Corn plants have pierced through the soil like a needle point. About ten days after planting.](./images/hopi_growth/2_motskuyvaya.jpg)
-![The plants have now emerged. About three weeks after planting.](./images/hopi_growth/3_kuyvaya.jpg)
-![The plants have grown and their leaves are touching the ground.	Four to five weeks after planting.](./images/hopi_growth/4_matyaltoti.jpg)
-![The plants are thinned so they can breathe and grow. Four to six weeks after planting.](./images/hopi_growth/5_tsaatsatota.jpg)
-![Plants are now standing tall and alert.	About  seven weeks after planting.](./images/hopi_growth/6_hongva.jpg)
-![The plants have grown tall and now have their tassels. Eleven to twelve weeks after planting.](./images/hopi_growth/7_taalakuyvaya.jpg)
-![The silk hairs appear on the plants. About twelve weeks after planting.](./images/hopi_growth/8_yowihayiltoti.jpg)
-![The plants now show swelling of new life forming. Thirteen to fourteen weeks after planting.](./images/hopi_growth/9_piikyavaya.jpg)
-![The kernels are getting hard and growing toward maturity.	Approximately 100 days after planting.](./images/hopi_growth/10_sikyatspuvaya.jpg)
-![The corn has matured and is ready to be  harvested. Sixteen to seventeen weeks after planting.](./images/hopi_growth/11_nuvawvaya.jpg)
-![The plants have matured. The corn is ripe. About 120 days after planting.](./images/hopi_growth/12_tuksiya.jpg)
-![The farmers harvest their crops. The plants and ears have dried.](./images/hopi_growth/13_hoqya.jpg)
-![After harvest the dried stalks are laid to rest.](./images/hopi_growth/14_qatungwuyamu_waomnaya.jpg)
-![The enduring power of reproduction that is prayed for is evident when the harvest is properly cared for. Drawing by Kurt Lomawaima.](./images/hopi_growth/15_naakya.jpg)
+![1. Planting begins in the fields.](./images/hopi_growth/1_nawantota.jpg)
+![2. Corn plants have pierced through the soil like a needle point. About ten days after planting.](./images/hopi_growth/2_motskuyvaya.jpg)
+![3. The plants have now emerged. About three weeks after planting.](./images/hopi_growth/3_kuyvaya.jpg)
+![4. The plants have grown and their leaves are touching the ground.	Four to five weeks after planting.](./images/hopi_growth/4_matyaltoti.jpg)
+![5. The plants are thinned so they can breathe and grow. Four to six weeks after planting.](./images/hopi_growth/5_tsaatsatota.jpg)
+![6. Plants are now standing tall and alert.	About  seven weeks after planting.](./images/hopi_growth/6_hongva.jpg)
+![7. The plants have grown tall and now have their tassels. Eleven to twelve weeks after planting.](./images/hopi_growth/7_taalakuyvaya.jpg)
+![8. The silk hairs appear on the plants. About twelve weeks after planting.](./images/hopi_growth/8_yowihayiltoti.jpg)
+![9. The plants now show swelling of new life forming. Thirteen to fourteen weeks after planting.](./images/hopi_growth/9_piikyavaya.jpg)
+![10. The kernels are getting hard and growing toward maturity.	Approximately 100 days after planting.](./images/hopi_growth/10_sikyatspuvaya.jpg)
+![11. The corn has matured and is ready to be  harvested. Sixteen to seventeen weeks after planting.](./images/hopi_growth/11_nuvawvaya.jpg)
+![12. The plants have matured. The corn is ripe. About 120 days after planting.](./images/hopi_growth/12_tuksiya.jpg)
+![13. The farmers harvest their crops. The plants and ears have dried.](./images/hopi_growth/13_hoqya.jpg)
+![14. After harvest the dried stalks are laid to rest.](./images/hopi_growth/14_qatungwuyamu_waomnaya.jpg)
+![15. The enduring power of reproduction that is prayed for is evident when the harvest is properly cared for. Drawing by Kurt Lomawaima.](./images/hopi_growth/15_naakya.jpg)
 </div>
 
 <div class="carcaption">
@@ -34,20 +36,22 @@ Here, we present two ways of knowing that describe the life-cycle of maize. [The
 
 ## The phenology of maize
 
+Like the Hopi, Pueblo Farming Project researchers also have desccriptions for the life-cycle of maize. PFP scientists use stages of maize growth from maize *phenology*, or the scientific study of plant life-cycles. The photographs below illustrate the growth stages that were recorded by PFP researchers during the growing season.
+
 <div class="carousel">
-![**Early Tassel Development** is defined when the tassel bud starts to emerge from the central enclosing leaves at the top of the stalk to the time the tassel spike begins to branch.](./images/growth/1_early_tassel_development.jpg)
-![**Early Tassel Development** is defined when the tassel bud starts to emerge from the central enclosing leaves at the top of the stalk to the time the tassel spike begins to branch.](./images/growth/2_early_tassel_development.jpg)
-![**Tassel Development** is defined from when the the tassel emerges from the central cluster of leaves and begings to branch. This stage ends when the anthers (male flowers) emerge from the glumes of the tassel and the pollen begins to shed.](./images/growth/3_tassel_development.jpg)
-![**Tassel Development** is defined from when the the tassel emerges from the central cluster of leaves and begings to branch. This stage ends when the anthers (male flowers) emerge from the glumes of the tassel and the pollen begins to shed.](./images/growth/4_tassel_development.jpg)
-![**Tasseling** is defined when the apex inflorences (a group of flowers) begins to open. The anthers (male flowers) emerge and begin to shed pollen. At this stage the stalk has produced all its leaves and the plant has reached full height.](./images/growth/5_tasseling.jpg)
-![**Tasseling** is defined when the apex inflorences (a group of flowers) begins to open. The anthers (male flowers) emerge and begin to shed pollen. At this stage the stalk has produced all its leaves and the plant has reached full height.](./images/growth/6_tasseling.jpg)
-![**Silk Development** is defined when ear shoots become visible in the nodes (between the leaf and stalk) until the silks have fully emerged and receive pollen.](./images/growth/7_silk_development.jpg)
-![**Silk Development** is defined when ear shoots become visible in the nodes (between the leaf and stalk) until the silks have fully emerged and receive pollen.](./images/growth/8_silk_development.jpg)
-![**Silking** is defined as when the silk has emerged from the husk surrounding the developing cob and is capable of receiving pollen. A single silk will deliver pollen and develop into individual kernel. Once the silks have begun to dry and shrivel, this growth stage has ended.](./images/growth/9_silking.jpg)
-![**Silking** is defined as when the silk has emerged from the husk surrounding the developing cob and is capable of receiving pollen. A single silk will deliver pollen and develop into individual kernel. Once the silks have begun to dry and shrivel, this growth stage has ended.](./images/growth/10_silking.jpg)
-![**Ear Development** begins once the silks have dried out, shriveled, and are no longer accepting pollen, and continues until the kernels mature and the ear is ready to harvest. A hard frost (below 28° F.) will prematurely end development.](./images/growth/11_ear_development.jpg)
-![**Ear Development** begins once the silks have dried out, shriveled, and are no longer accepting pollen, and continues until the kernels mature and the ear is ready to harvest. A hard frost (below 28° F.) will prematurely end development.](./images/growth/12_ear_development.jpg)
-![One indicator of **Maturity** is when the tassels become dry.](./images/growth/13_maturity.jpg)
+![1. **Early Tassel Development** is defined when the tassel bud starts to emerge from the central enclosing leaves at the top of the stalk to the time the tassel spike begins to branch.](./images/growth/1_early_tassel_development.jpg)
+![1. **Early Tassel Development** is defined when the tassel bud starts to emerge from the central enclosing leaves at the top of the stalk to the time the tassel spike begins to branch.](./images/growth/2_early_tassel_development.jpg)
+![2. **Tassel Development** is defined from when the the tassel emerges from the central cluster of leaves and begings to branch. This stage ends when the anthers (male flowers) emerge from the glumes of the tassel and the pollen begins to shed.](./images/growth/3_tassel_development.jpg)
+![2.  **Tassel Development** is defined from when the the tassel emerges from the central cluster of leaves and begings to branch. This stage ends when the anthers (male flowers) emerge from the glumes of the tassel and the pollen begins to shed.](./images/growth/4_tassel_development.jpg)
+![3. **Tasseling** is defined when the apex inflorences (a group of flowers) begins to open. The anthers (male flowers) emerge and begin to shed pollen. At this stage the stalk has produced all its leaves and the plant has reached full height.](./images/growth/5_tasseling.jpg)
+![3. **Tasseling** is defined when the apex inflorences (a group of flowers) begins to open. The anthers (male flowers) emerge and begin to shed pollen. At this stage the stalk has produced all its leaves and the plant has reached full height.](./images/growth/6_tasseling.jpg)
+![4. **Silk Development** is defined when ear shoots become visible in the nodes (between the leaf and stalk) until the silks have fully emerged and receive pollen.](./images/growth/7_silk_development.jpg)
+![4. **Silk Development** is defined when ear shoots become visible in the nodes (between the leaf and stalk) until the silks have fully emerged and receive pollen.](./images/growth/8_silk_development.jpg)
+![5. **Silking** is defined as when the silk has emerged from the husk surrounding the developing cob and is capable of receiving pollen. A single silk will deliver pollen and develop into individual kernel. Once the silks have begun to dry and shrivel, this growth stage has ended.](./images/growth/9_silking.jpg)
+![5. **Silking** is defined as when the silk has emerged from the husk surrounding the developing cob and is capable of receiving pollen. A single silk will deliver pollen and develop into individual kernel. Once the silks have begun to dry and shrivel, this growth stage has ended.](./images/growth/10_silking.jpg)
+![6. **Ear Development** begins once the silks have dried out, shriveled, and are no longer accepting pollen, and continues until the kernels mature and the ear is ready to harvest. A hard frost (below 28° F.) will prematurely end development.](./images/growth/11_ear_development.jpg)
+![6. **Ear Development** begins once the silks have dried out, shriveled, and are no longer accepting pollen, and continues until the kernels mature and the ear is ready to harvest. A hard frost (below 28° F.) will prematurely end development.](./images/growth/12_ear_development.jpg)
+![7. One indicator of **Maturity** is when the tassels become dry.](./images/growth/13_maturity.jpg)
 
 </div>
 

@@ -1,6 +1,6 @@
 # The Story of Maize
 <div style="text-align: center;">
-![Harvesting.](./images/chapter_2_header.jpg)
+![Harvesting the small blue ear like the one Masau'u provided the Hopi people.](./images/chapter_2_header.jpg)
 </div>
 
 The relationship between humans and corn (or maize, *Zea mays* ssp. mays) is a long and interesting story. The path to domestication began about 9,000 years ago in southwestern Mexico. The domestication process led to a unique codependency: as it exists today, corn is not able to reproduce without human intervention. But humans have also become dependent upon this plant.  
@@ -13,52 +13,39 @@ Today, corn is the most widely produced grain crop in the United States, though 
 
 ## Origins
 <div style="text-align: center;">
-![A Hopi kachina doll depicting Masau'u.](./images/section_2.1_origin.jpg)
+![A Hopi *tihu* or representational figurine, depicting Masau'u.](./images/section_2.1_origin.jpg)
 </div>
 
-The domestication of maize was unique. Typically, domesticated plants look similar to their wild ancestors; 
-However, an ear of corn's closest wild relative, teosinte, is noticeably different from an ear of modern corn.
-An ear of maize is wrapped in a husk, the kernels are held tightly and not able to scatter or free themselves from the cob, so
-they would compete with each other for nutrients and water. Corn is as dependent on humans as humans are dependent on corn.
+The domestication of maize was unique. Typically, domesticated plants look similar to their wild ancestors; However, an ear of corn's closest wild relative, teosinte, is noticeably different from an ear of modern corn. An ear of maize is wrapped in a husk, the kernels are held tightly and not able to scatter or free themselves from the cob, so they would compete with each other for nutrients and water, while the kernels of teoscinte are able to scatter freely. Because the husks of corn must be removed in order for corn to reproduce, corn is as dependent on humans as humans are dependent on corn.
 
 <div style="text-align: center;">
 ![Maize differs from its closest wild relative, teosinte. Copyright Oxford University Press, all rights reserved.](./images/teosinte.jpg)
 </div>
 
-Teosinte, a wild grass native to Mexico and Central America, is so closely related to maize that it belongs to the same species—
-*Zea mays* ssp. parviglumis. Despite their shared ancestry, the plants differ in significant ways:
+Teosinte, a wild grass native to Mexico and Central America, is so closely related to maize that it belongs to the same species, *Zea mays*, but is a different subspecies: parviglumis. Despite their shared ancestry, the plants differ in significant ways:
 
-- Maize grows as a single stalk with a few large ears.
-  - Teosinte is branched with many small ears.
-- Maize ears are encased in a husk with hundreds of kernels on the cob.
-  - Teosinte ears have eight to 12 
-     kernels, each surrounded by a
-     hard fruit-case.
-- Maize ears typically have 8 to 16 rows 
-     of  kernels.
-  - Teosinte ears have two 
-     rows of kernels.
-- Maize kernels must be separated from 
-     the ear and planted by humans.
-  - Teosinte ears shatter when 
-     dry and the seeds scatter, 
-     distributed by gravity, 
-     birds and other animals
+| **Maize** | **Teoscinte** |
+| --- | --- |
+| grows as a single stalk with a few large ears | branched with many small ears |
+| ears are encased in a husk with hundreds of kernels on the cob | ears have eight to 12 kernels, each surrounded by a hard fruit-case |
+| ears typically have 8 to 16 rows of kernels | ears have two rows of kernels |
+| kernels must be separated from the ear and planted by humans | ears shatter when dry and the seeds scatter, distributed by gravity, birds and other animals |
 
 ## The people of corn
+
 <div style="text-align: center;">
-![Hopi maize.](./images/section_2.3_header.jpg)
+![Varieties of maize.](./images/varieties.jpg)
 </div>
 
-Maize entered the southwestern United States about 4000 years ago. On its long journey from Mexico, maize has adapted from its tropical environment, with 12 hours of daylight to the semi-arid, long summer days and cool-night conditions of the Colorado Plateau. Farming techniques also had to adapt. Dryland or direct-precipitation agriculture is dependent on moisture stored in the soil from precipitation and runoff water. Pueblo people have dryland farmed the arid southwest for millennia. They have accumulated detailed knowledge of their environment and have adopted specialized planting techniques. Dryland farming is an act of faith that binds the people to their land and their beliefs, requiring hard work, song and prayer.
+Maize entered the southwestern United States about 4000 years ago. On its long journey from Mexico, maize has adapted from its tropical environment, which has 12 hours of daylight, to the semi-arid, long summer days and cool-night conditions of the Colorado Plateau. Farming techniques also had to adapt. Direct-precipitation agriculture is dependent on moisture stored in the soil from precipitation and runoff water. Pueblo people have practiced direct-precipitation farming in the arid southwest for millennia. They have accumulated detailed knowledge of their environment and have adopted specialized planting techniques. Direct-precipitation farming is an act of faith that binds the people to their land and their beliefs, requiring hard work, song and prayer.
 
-Traditional dryland farming techniques include:
+Traditional direct-precipitation farming techniques include:
 
-- knowing plants that indicate adequate soil moisture. Several plant species are regarded as key indicators when it comes to agricultural field selection. Rabbitbrush (Chrysothamnus), snakeweed (Gutierrezia), grease wood (Sarcobatus), fourwing saltbush (Atriplex), and ricegrass (Oryzopsis) typically indicate good soil moisture. Corn is likely to do well where these indicator species grow vigorously.
-- planting seeds deeply  Seeds are planted deep, about eight to 12 inches, so they will come in contact with moist soil. This ensures the seeds receive all the benefits of winter moisture and a deep root system. 
-- planting seeds in clumps  By planting 10 to 15 seeds together, the young plants protect each other from the harsh sun and winds. Also, by planting many seeds together, the chance of total loss from insects, birds or rodents is reduced.
-- planting with wide spacing between clumps  Clumps are spaced about 1.5 to 2 meters apart to ensure adequate surface area to absorb precipitation and reduces competition from other plants for moisture stored in the soil.
-- planting on north-facing slopes planting in alluvial floodplains. Less exposure to direct sun light reduces evaporation and conserves soil moisture. Alluvial floodplains provide deep sediment deposits that have increased moisture storage abilities.
+- **Knowing plants that indicate adequate soil moisture.** Several plant species are regarded as key indicators when it comes to agricultural field selection. Rabbitbrush (Chrysothamnus), snakeweed (Gutierrezia), grease wood (Sarcobatus), fourwing saltbush (Atriplex), and ricegrass (Oryzopsis) typically indicate good soil moisture. Corn is likely to do well where these indicator species grow vigorously.
+- **Planting seeds deeply.** Seeds are planted deep, about eight to 12 inches, so they will come in contact with moist soil. This ensures the seeds receive all the benefits of winter moisture and a deep root system. 
+- **Planting seeds in clumps.** By planting 10 to 15 seeds together, the young plants protect each other from the harsh sun and winds. Also, by planting many seeds together, the chance of total loss from insects, birds or rodents is reduced.
+- **Planting with wide spacing between clumps.** Clumps are spaced about 1.5 to 2 meters apart to ensure adequate surface area to absorb precipitation and reduce competition from other plants for moisture stored in the soil.
+- **Planting on north-facing slopes planting in alluvial floodplains.** Less exposure to direct sun light reduces evaporation and conserves soil moisture. Alluvial floodplains provide deep sediment deposits that have increased moisture storage capacity. These settings also get recharged with organic materials that move down the drainage and settle in the fields.
 
 <div style="text-align: center;">
 ![A bag of seed, a digging stick and a gourd of water; the gifts of life.](./images/gifts_of_life.jpg)
@@ -68,7 +55,7 @@ Traditional dryland farming techniques include:
 >
 > --- A portion of a Hopi origin story
 
-To contemporary Pueblo people, corn is considered a mother, because sustains the people both physically and spiritually. Corn is also a child, and needs constant protection and encouragement to grow to maturity. After harvest, the plants die and are laid to rest just as people are. Nourishment provided by corn in turn allows the people to care for the growing plants. The symbolic cycle of corn and people repeats over and over.
+To contemporary Pueblo people, corn is considered a mother because it sustains the people both physically and spiritually. Corn is also a child --- it needs constant protection and encouragement to grow to maturity. After harvest, the plants die and are laid to rest just as people are. Nourishment provided by corn in turn allows the people to care for the growing plants. The symbolic cycle of corn and people repeats over and over.
 
 ## A world of corn
 
@@ -80,17 +67,14 @@ Maize was unknown outside the New World before the sixteenth-century. Because of
 
 The success of maize worldwide can be attributed to the following:
 
-**Adaptation** — Adaptive ability to grow in a wide variety of environmental conditions from sea level to 1100 feet from 5 to 170 inches precipitation annually
+**Adaptation** — Contemporary varieties of maize grow in many different environmental conditions: from sea level to 11,000 feet, and from 5 to 170 inches of precipitation annually.
 
-**Variability in appearance** — Ears and kernels display a diverse range in sizes, colors and endosperm textures. There are thousands of varieties of corn to choose from in seed catalogs: open-pollenated, heirloom, hybrid, and even genetically modified. Variability in kernel shape, size and color as well as differences in ear size demonstrates the incredible diversity in maize. Most corn varieties can be divided into five types based on endosperm texture, or the amount of hard versus soft starch in the kernel.
+**Variability in appearance** — Ears and kernels display a diverse range of sizes, colors, and endosperm textures. There are thousands of varieties of corn to choose from in seed catalogs: open-pollenated, heirloom, hybrid, and even genetically modified. Variability in kernel shape, size, and color, as well as differences in ear size, demonstrates the incredible diversity in maize.
 
 <div style="text-align: center;">
-![Kernels showing endosperm type: pop, flint, flour, dent and sweet corn (left to right). Each type varies in ratios of hard (dark) to soft (white) starch and sugar. The seed embryo is located at the bottom of the kernel.](./images/endosperm_types.jpg)
+![Kernels showing endosperm type: pop, flint, flour, dent and sweet corn (left to right). Most corn varieties can be divided into five types based on endosperm texture, or the amount of hard versus soft starch in the kernel. Each type varies in its ratio of hard (dark) to soft (white) starch and sugar. The seed embryo is located at the base of the kernel.](./images/endosperm_types.jpg)
 </div>
 
-**Versatility** — Products range from cereal and sweeteners to fuel,
-stored as dried grain, liquid sweeteners or alcohol
-can be eaten boiled, roasted, popped or ground. Productivity resulting in high yields
-a single corn kernel can produce from 500–800 kernels per ear, usually two ears per plant.
+**Versatility** — Products range from cereal and sweeteners to fuel. Maize may be stored as dried grain, liquid sweeteners, or alcohol. Maize can be eaten boiled, roasted, popped, or ground.
 
-Genetic diversity is important in adapting to a wide variety of environments and conditions. Hopi farmers have at least 17 locally adapted varieties of corn. This diversity allows plants to adjust to the harsh environment  of the region and reduce the risk of crop failure.
+Genetic diversity is important in adapting to a wide variety of environments and conditions. Hopi farmers have at least 17 locally adapted varieties of corn. This diversity allows plants to adjust to the arid environment of the region and reduce the risk of crop failure.

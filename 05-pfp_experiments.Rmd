@@ -5,23 +5,23 @@ editor_options:
 ---
 # The PFP Field Experiments
 <div style="text-align: center;">
-![](./images/chapter_5_header.jpg)
+![Examining the results of the previous year's yield.](./images/chapter_5_header.jpg)
 </div>
 
 
 ## Procedure
 ### Planting {-}
 <div style="text-align: center;">
-![A traditional Hopi planting stick, or 'soya'.](./images/chapter_6_soya.jpg)
+![Using a traditional Hopi planting stick, or 'soya'.](./images/chapter_6_soya.jpg)
 </div>
 
-The primary tool for planting is a planting stick or, in the Hopi language, a soya. Traditionally a soya is made from of greasewood (Sarcobatus vermicalatus), but some planting sticks today are made from a length of metal pipe with a narrow blade welded to one end. 
+The primary tool for planting is a planting stick or, in the Hopi language, a *soya*. Traditionally a soya is made from greasewood (*Sarcobatus vermicalatus*), but some planting sticks today are made from a length of metal pipe with a narrow blade welded to one end.
 
-Planting begins by using your foot to scrape away the upper layer of loose, dry dirt. This exposes the top of the underlying hard-packed soil. About a square foot area is cleared. The planter gets down on one knee and grabs the soya with one hand low and one hand higher up on the tool. A narrow hole is dug using a pulling motion toward the planter.  Typically, the hole is dug to a depth of about 8 to 10 inches or to the point where good soil moisture is encountered.  The hole is dug deeper if the soil is drier and shallower if the soil is moist.  This soil moisture is critical for plant germination and for the plant to be able to grow until there is more precipitation, something that might not occur until many weeks after planting. 
+Planting begins by using your foot to scrape away the upper layer of loose, dry dirt. This exposes the top of the underlying hard-packed soil. About a square foot area is cleared. The planter gets down on one knee and grabs the soya with one hand low and one hand higher up on the tool. A narrow hole is dug using a pulling motion toward the planter. Typically, the hole is dug to a depth of about 8 to 10 inches or to the point where good soil moisture is encountered. The hole is dug deeper if the soil is drier and shallower if the soil is moist. This soil moisture is critical for plant germination and for the plant to be able to grow until there is more precipitation, something that might not occur until many weeks after planting.
 
-Hopi farmers plant corn in clumps. About 10-20 seeds are deposited into the hole. The excavated earth is put back gently into the hole in the order it was removed, the moist soil covering the seeds on the bottom and the drier soil on top. The loose dry dirt is on the top, but a small basin is created on the surface to collect any precipitation that falls and to create a dust mulch that reduces evaporation. 
+Hopi farmers plant corn in clumps. About 10--20 seeds are deposited into the hole. The excavated earth is put back gently into the hole in the order it was removed, the moist soil covering the seeds on the bottom and the drier soil on top. The loose dry dirt is on the top, but a small basin is created on the surface to collect any precipitation that falls and to create a dust mulch that reduces evaporation. 
 
-The farmer stands and takes two or three steps to measure where the next clump of corn will be planted. Because the soils in the PFP gardens hold a bit more moisture than those soils near the Hopi mesas, the PFP clumps are typically spaced about 1.5- 1.75 meters apart rather than the three-meter spacing typically used at Hopi. The wide spacing of the planted clumps reduces competition for valuable sub-surface moisture. When the garden planting has been completed the farmers call out "kwakwhay", thank you!
+The farmer stands and takes two or three steps to measure where the next clump of corn will be planted. Because the soils in the PFP gardens hold a bit more moisture than those soils near the Hopi mesas, the PFP clumps are typically spaced about 1.5--1.75 meters apart rather than the three-meter spacing typically used at Hopi. The wide spacing of the planted clumps reduces competition for valuable sub-surface moisture.
 
 Flick through these slides to see how planting is done the Hopi way! The descriptions are based on *Notes On Hopi Economic Life* by Earnest Beaglehole, 1937.
 
@@ -54,7 +54,7 @@ The data collected each week on growth stages includes the following:
 
 * **Height** --- The height of the tallest plant in each clump was recorded to the nearest 5 cm.
 * **Early Tassel Development** --- Early tassel development was recorded when it occurred on any plant in   a clump. Early tassel development is defined as the time when the tassel bud starts to emerge from the central enclosing leaves at the top of the stalk to the time the tassel spike begins to branch.
-* **Tassel Development** --- Tassel development was recorded each week when it occurred on any plant in a clump. Tassel development is defined from time when the tassel emerges from the central cluster of leaves and begins to branch. This stage ends when the anthers (male flowers) emerge from the glumes of the tassel and the pollen begins to shed.
+* **Tassel Development** --- Tassel development was recorded when it occurred on any plant in a clump. Tassel development is defined from time when the tassel emerges from the central cluster of leaves and begins to branch. This stage ends when the anthers (male flowers) emerge from the glumes of the tassel and the pollen begins to shed.
 * **Tasseling** --- The period of tasseling was recorded for when it occurred on any plant in a clump. The tasseling period is defined when the apex inflorescences (a group of flowers) begins to open. The anthers (male flowers) emerge and begin to shed pollen. At this stage the stalk has produced all its leaves and the plant has reached full height.
 * **Silk Development** --- Silk development was recorded when it occurred on any plant in a clump. Silk development is defined when ear shoots become visible in the nodes (between the leaf and stalk) until the silks have fully emerged and are ready to receive pollen.
 * **Silking** --- Silk development was recorded when it occurred on any plant in a clump.  Silking is defined when the silk has emerged from the husk surrounding the developing cob and is capable of receiving pollen. A single silk will deliver pollen and develop into individual kernel. Once the silks have begun to dry and shrivel, this growth stage has ended.
@@ -78,10 +78,10 @@ After harvest the ears are weighed to obtain a "wet weight" as there is still co
 
 When the ears have thoroughly dried, each ear is weighed whole, and then with the kernels removed.  Ear, cob and kernel weights are entered into the data base. Additional information on the ear is also recorded such as the number of rows of kernels, kernel color, and the completeness of kernel filling on the ear. The categories, or condition of the ear are: 
 
-* Full --- more than two-thirds of the kernels present
-* Partial --- one-third to two-thirds of the kernels are present
-* Sparse --- up to one-third of the kernels are present, and
-* Immature --- there are no kernels present on the cob.
+* **Full**: more than two-thirds of the kernels present
+* **Partial**: one-third to two-thirds of the kernels are present
+* **Sparse**: up to one-third of the kernels are present
+* **Immature**: there are no kernels present on the cob
 
 ## Results
 <div style="text-align: center;">
@@ -107,7 +107,7 @@ dir.create("./docs/tables",
            recursive = TRUE)
 
 tabler <- function(x, file_out){
-  out <- x %>%
+  x %>%
     dplyr::mutate_if(is.double, ~round(., digits = 3)) %>%
     DT::datatable(extensions = c('FixedColumns','Buttons'),
                   options = list(
@@ -115,29 +115,14 @@ tabler <- function(x, file_out){
                     scrollX = TRUE,
                     fixedColumns = list(leftColumns = 1),
                     pageLength = 5,
-                    buttons = list('csv', 
-                                   'print', 
+                    buttons = list(list(extend = 'csv',
+                                        filename = paste0(file_out,".csv")),
                                    list(extend = 'print',
                                         autoPrint = FALSE))),
                   rownames = FALSE,
                   width = "100%",
-                  height = "100%") %T>%
-    htmlwidgets::saveWidget(file = file_out,
-                            selfcontained = TRUE,
-                            libdir = "./libs")
-  
-  out %>%
-    htmlwidgets:::toHTML() %>%
-    htmltools::save_html(file = file_out,
-                         libdir = "./libs")
-  
-  file.copy(file_out,
-            stringr::str_c("./docs/tables/",file_out),
-            overwrite = TRUE)
-  
-  unlink(file_out)
-  
-  system("cp -R libs/. docs/tables/libs/")
+                  height = "100%") %>%
+    widgetframe::frameWidget(width='100%')
 }
 
 ```
@@ -149,13 +134,13 @@ PFP researchers were interested in how much Hopi maize could be grown in the Mes
 
 ```{r growth-summary-data, echo=FALSE, warning=FALSE, message=FALSE}
 growth_summaries %>%
-  tabler("growth_summary_table.html")
+  tabler("growth_summary_table")
 
 growth %>%
   readr::write_csv("./docs/tables/growth_table.csv")
 ```
 
-<iframe src="./tables/growth_summary_table.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+<!-- <iframe src="./tables/growth_summary_table.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe> -->
 
 An important thing to consider is the timing of tasseling relative to silking. The tassels of maize plants are their flowers---they produce pollen that must fall upon silks in order to produce maize kernels. If tasseling and silking don't happen at nearly the same time, pollenation doesn't occur, and the ears won't develop. If tasseling happens long before silking, the pollen will fall to the ground. The graph below allows you to select a year and visualize the relative timing of tasseling and silking (and the other growth stages). You'll notice that the highest yielding gardens like the Check Dam Garden (CDG) have silk development and silking occur within about a week after tasseling. In other gardens, like Karen's Upper Garden (KUG), silking follows many weeks after tasseling; this prevents a majority of pollenation and leads to lower yields in that garden.
 
@@ -257,12 +242,13 @@ system("cp -R libs/. docs/plots/libs/")
 <iframe name="iframe" id="youriframe" src="./plots/growth_2017.html" height="400" width="100%" frameborder="0" scrolling="no"></iframe>
 
 ### Maize yield {-}
+
 ```{r yield-summary-data, echo=FALSE, warning=FALSE, message=FALSE}
 yields_summary <- yields %>%
   dplyr::group_by(Season,Garden,Variety) %>%
   dplyr::summarise(`PFP experimental yield (kg/ha)` = mean(`PFP experimental yield (kg/ha)`)) %>%
   dplyr::mutate(`PFP experimental yield (kg/ha)` = round(`PFP experimental yield (kg/ha)`)) %T>%
-  tabler("yield_summary_table.html")
+  tabler("yield_summary_table")
 
 max_yield <- yields_summary %>% 
   dplyr::ungroup() %>%
@@ -272,17 +258,27 @@ yields %>%
   readr::write_csv("./docs/tables/yield_table.csv")
 ```
 
-**Hopi maize grown during the PFP flourished in the Mesa Verde region.** Although some gardens failed to produce yields in some years, many of the gardens produced substantial yields. The highest yielding garden was the `r max_yield$Garden` garden in `r max_yield$Season`, which produced an average yield of `r max_yield[["PFP experimental yield (kg/ha)"]]` kg/ha of maize. To put that into perspective, such a yield rate would have easily supported `r (max_yield[["PFP experimental yield (kg/ha)"]]/160) %>% floor()` people! The average yield over all of the gardens from 2009--2017 was `r (yields_summary[["PFP experimental yield (kg/ha)"]]) %>% mean() %>% round()` kg/ha, enough for about two people. The data presented below are a summary of the raw yield data, which are available <a href="./docs/tables/yield_table.csv" download="PFP_yield_table.csv">here</a>.
+**Hopi maize grown during the PFP flourished in the Mesa Verde region.** Although some gardens failed to produce yields in some years, many of the gardens produced substantial yields. The highest yielding garden was the `r max_yield$Garden` garden in `r max_yield$Season`, which produced an average yield of `r max_yield[["PFP experimental yield (kg/ha)"]]` kg/ha of maize. To put that into perspective, such a yield rate would have easily supported `r (max_yield[["PFP experimental yield (kg/ha)"]]/160) %>% floor()` people! The average yield over all of the gardens from 2009--2017 was `r (yields_summary[["PFP experimental yield (kg/ha)"]]) %>% mean() %>% round()` kg/ha, enough for about two people. The data presented above are a summary of the raw yield data, which are available <a href="./docs/tables/yield_table.csv" download="PFP_yield_table.csv">here</a>.
 
-<iframe src="./tables/yield_summary_table.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+```{r yield-summary-table, echo=FALSE, warning=FALSE, message=FALSE}
+yields_summary %>%
+  tabler("yield_summary_table")
 
-Even though there were really good years with high yields in some gardens, many gardens produced very low yields (although see [What we learned] for a discussion of low yields). The graph below displays estimated yields from each garden in each year. The yields are displayed as box plots; they show the **distribution** of possible yields as calculated from the clump data [see @Bocinsky2017 for a discussion of our methods]. As above, you can isolate a garden by double-clicking its name in the legend at the right of the graph. These data show the importance of traditional ecological knowledge (TEK) in selecting garden locations---subsistence farmers would quickly learn the best places to place their fields, and wouldn't likely have bothered planting in less-optimal places.
+```
+
+<!-- <iframe src="./tables/yield_summary_table.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe> -->
+
+Even though there were really good years with high yields in some gardens, many gardens produced very low yields (although see [What we learned] for a discussion of low yields). The graph below displays estimated yields from each garden in each year. The yields are displayed as box plots; they show the **distribution** of possible yields as calculated from the clump data [see @Bocinsky2017 for a discussion of our methods]. The box represents the middle 50% of values; the line in the box is the median, or middle value; and the lines extending from the boxes represent the middle 95% of values. Values outside the middle 95% appear as dots above and below the lines. As above, you can isolate a garden by double-clicking its name in the legend at the right of the graph. These data show the importance of traditional ecological knowledge (TEK) in selecting garden locations---subsistence farmers would quickly learn the best places to place their fields, and wouldn't likely have bothered planting in less-optimal places.
 
 ```{r yield-plot, echo=FALSE, warning=FALSE, message=FALSE}
-out <- yields %>%
-  plot_ly(x = ~Season, y = ~`PFP experimental yield (kg/ha)`, color = ~Garden, type = "box") %>%
+yields %>%
+  plot_ly(x = ~Season, 
+          y = ~`PFP experimental yield (kg/ha)`, 
+          color = ~Garden, 
+          type = "box") %>%
   layout(boxmode = "group") %>%
-  layout(xaxis = list(title = ""),
+  layout(xaxis = list(title = "",
+                      autotick = FALSE),
          yaxis = list(title = "PFP experimental yield (kg/ha)")
   ) %>%
   config(displaylogo = F,
@@ -291,26 +287,10 @@ out <- yields %>%
          modeBarButtonsToRemove = list("toggleSpikelines",
                                        "hoverClosestCartesian",
                                        "hoverCompareCartesian",
-                                       "resetScale2d")) %T>%
-  htmlwidgets::saveWidget(file = stringr::str_c("./yields_plot.html"),
-                          selfcontained = FALSE,
-                          libdir = "./libs")
+                                       "resetScale2d")) %>%
+    widgetframe::frameWidget(width='100%')
 
-out %>%
-  htmlwidgets:::toHTML() %>%
-  htmltools::save_html(file = stringr::str_c("./yields_plot.html"), 
-                       libdir = "./libs")
-
-file.copy(stringr::str_c("./yields_plot.html"),
-          stringr::str_c("./docs/plots/yields_plot.html"),
-          overwrite = TRUE)
-
-unlink(stringr::str_c("./yields_plot.html"))
-
-system("cp -R libs/. docs/plots/libs/")
 ```
-
-<iframe src="./plots/yields_plot.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
 
 ### Ear diversity {-}
 **The phenotypes presented by Hopi maize are strongly related to growing conditions.** Hopi maize is conventionally thought of as having 12--14 rows; however, under certain conditions, the PFP maize demostrates that Hopi maize can produce ears with up to `r ears$Rows %>% max(na.rm = T)` rows, as occured in `r ears %>% dplyr::filter(Rows == 24) %$% Season` in the `r ears %>% dplyr::filter(Rows == 24) %$% Garden` garden. Still, the median number of rows in full ears over all the gardens during all years was `r ears %>% dplyr::filter(Condition == "Full") %$% Rows %>% median(na.rm = T)`, much closer to the conventional number. The average kernel weights for full ears was `r (ears %>% dplyr::filter(Condition == "Full"))[["Kernel weight"]] %>% mean(na.rm = T) %>% round(digits = 1)` grams. The data presented below are a summary of the raw ear measurement data, which are available <a href="./docs/tables/ears_table.csv" download="PFP_ears_table.csv">here</a>.
@@ -322,15 +302,17 @@ ears %>%
                    `Avg. Ear weight (g)` = mean(`Ear weight`, na.rm = TRUE),
                    `Avg. Cob weight (g)` = mean(`Cob weight`, na.rm = TRUE),
                    `Avg. Kernel weight (g)` = mean(`Kernel weight`, na.rm = TRUE)) %>%
-  tabler("ear_summary_table.html")
+  tabler("ear_summary_table")
 
 ears %>%
   readr::write_csv("./docs/tables/ears_table.csv")
 ```
 
-<iframe src="./tables/ear_summary_table.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+<!-- <iframe src="./tables/ear_summary_table.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe> -->
 
-The relationship between ear metrics and yield is clear: years with higher yields produced larger ears with more rows and higher kernel weights. Compare the graph below to the yield graph above. **These results suggest that Hopi agricultural practices have maintained the ability of Hopi corn to readily adapt to a variety of growing conditions, including those on ancestral Hopi regions like Mesa Verde.** 
+The relationship between ear metrics and yield is clear: years with higher yields produced larger ears with more rows and higher kernel weights. Compare the graph below to the yield graph above.
+
+**These results suggest Hopi farmers have developed and maintained the ability of Hopi maize to adapt to a variety of growing conditions. Hopi maize flourishes in the Mesa Verde region, an ancestral Hopi homeland.**
 
 ```{r ears-plot, echo=FALSE, warning=FALSE, message=FALSE}
 c("rows" = "Rows",
@@ -343,7 +325,8 @@ c("rows" = "Rows",
                        color = ears$Garden, 
                        type = "box") %>%
       layout(boxmode = "group") %>%
-      layout(xaxis = list(title = ""),
+      layout(xaxis = list(title = "",
+                      autotick = FALSE),
              yaxis = list(title = var)
       ) %>%
       config(displaylogo = F,
@@ -390,7 +373,7 @@ system("cp -R libs/. docs/plots/libs/")
 
 
 ### Maize genetics {-}
-Hopi communities have been cultivating maize for millennia, with very little interruption by western methods or contemporary industrialized agriculture compared to other Native American groups. As part of the PFP, researchers performed a genetics study characterizes 95 individual plants from 16 named varieties grown by 6 farmers from across the Hopi Mesas (in situ Hopi) to provide a genetic baseline for Hopi corn today. Kelly Swarts, currently a postdoctoral scholar at the Max Planck Institute for Developmental Biology in Tübingen, Germany, directed the analysis of these 95 plants and compared the results with previously published genotypes in order to contextualize Hopi genetic variation in a global context. The comparative data include ancestral Puebloan maize from the site of Turkey Pen Shelter in southern Utah which dates to c. AD 200; a collection of wild-collected teosinte; and landraces, including Hopi accessions (ex situ Hopi), from across the Americas held in collections at the USDA Agricultural Research Service and Native Seeds/SEARCH (a non-profit seed-saving organization in Arizona).
+Hopi communities have been cultivating maize for millennia, with very little interruption by western methods or contemporary industrialized agriculture compared to other Native American groups. As part of the PFP, researchers performed a genetics study characterizing 95 individual plants from 12 named varieties grown by 6 farmers from across the Hopi Mesas ("in situ Hopi" samples) to provide a genetic baseline for Hopi corn today. Kelly Swarts, currently a postdoctoral scholar at the Max Planck Institute for Developmental Biology in Tübingen, Germany, directed the analysis of these 95 plants and compared the results with previously published genotypes in order to contextualize Hopi genetic variation in a global context. The comparative data include ancestral Puebloan maize from the site of Turkey Pen Shelter in southern Utah which dates to c. AD 200; a collection of wild-collected teosinte; and *landraces* --- maize varieties adapted to local conditions --- including Hopi accessions ("ex situ Hopi" samples), from across the Americas held in collections at the [USDA Agricultural Research Service](https://www.ars.usda.gov/) and [Native Seeds/SEARCH](https://www.nativeseeds.org/) (a non-profit seed-saving organization in Arizona).
 
 #### Results {-}
 

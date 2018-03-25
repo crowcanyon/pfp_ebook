@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2018-02-27">
+<meta name="date" content="2018-03-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -47,16 +47,8 @@
 
 
 <script src="libs/htmlwidgets/htmlwidgets.js"></script>
-<link href="libs/leaflet/leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet/leaflet.js"></script>
-<link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
-<link href="libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
-<script src="libs/leaflet-label/leaflet.label.js"></script>
-<script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
-<script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
-<script src="libs/leaflet-binding/leaflet.js"></script>
-<script src="libs/leaflet-providers/leaflet-providers.js"></script>
-<script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+<script src="libs/pymjs/pym.v1.js"></script>
+<script src="libs/widgetframe-binding/widgetframe.js"></script>
 <link href="libs/dygraphs/dygraph.css" rel="stylesheet" />
 <script src="libs/dygraphs/dygraph-combined.js"></script>
 <script src="libs/moment/moment.js"></script>
@@ -169,11 +161,14 @@
 <li class="chapter" data-level="3.2" data-path="the-phenology-of-maize.html"><a href="the-phenology-of-maize.html"><i class="fa fa-check"></i><b>3.2</b> The phenology of maize</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html"><i class="fa fa-check"></i><b>4</b> What maize needs to flourish</a><ul>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#drought"><i class="fa fa-check"></i>Drought</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#heat-and-sunlight"><i class="fa fa-check"></i>Heat and sunlight</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+<li class="chapter" data-level="4.1" data-path="soils-and-water.html"><a href="soils-and-water.html"><i class="fa fa-check"></i><b>4.1</b> Soils and water</a><ul>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#drought"><i class="fa fa-check"></i>Drought</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html"><i class="fa fa-check"></i><b>4.2</b> Heat and sunlight</a><ul>
+<li class="chapter" data-level="" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="the-pfp-field-experiments.html"><a href="the-pfp-field-experiments.html"><i class="fa fa-check"></i><b>5</b> The PFP Field Experiments</a><ul>
 <li class="chapter" data-level="5.1" data-path="procedure.html"><a href="procedure.html"><i class="fa fa-check"></i><b>5.1</b> Procedure</a><ul>
@@ -270,22 +265,23 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 </div>
 <div id="the-hopi-life-cycle-of-maize" class="section level2">
 <h2><span class="header-section-number">3.1</span> The Hopi life-cycle of maize</h2>
+<p>All farmers use descriptions of the life-cycle of their crops. The descriptions used by traditional farmers like the Hopi reflect their traditional ecological knowledge about how their particular varieties of maize grow. The words provided in the images below are the Hopi words for the growth-stages of maize.</p>
 <div class="carousel">
-<p><img src="images/hopi_growth/1_nawantota.jpg" alt="Planting begins in the fields." />
-<img src="images/hopi_growth/2_motskuyvaya.jpg" alt="Corn plants have pierced through the soil like a needle point. About ten days after planting." />
-<img src="images/hopi_growth/3_kuyvaya.jpg" alt="The plants have now emerged. About three weeks after planting." />
-<img src="images/hopi_growth/4_matyaltoti.jpg" alt="The plants have grown and their leaves are touching the ground. Four to five weeks after planting." />
-<img src="images/hopi_growth/5_tsaatsatota.jpg" alt="The plants are thinned so they can breathe and grow. Four to six weeks after planting." />
-<img src="images/hopi_growth/6_hongva.jpg" alt="Plants are now standing tall and alert. About seven weeks after planting." />
-<img src="images/hopi_growth/7_taalakuyvaya.jpg" alt="The plants have grown tall and now have their tassels. Eleven to twelve weeks after planting." />
-<img src="images/hopi_growth/8_yowihayiltoti.jpg" alt="The silk hairs appear on the plants. About twelve weeks after planting." />
-<img src="images/hopi_growth/9_piikyavaya.jpg" alt="The plants now show swelling of new life forming. Thirteen to fourteen weeks after planting." />
-<img src="images/hopi_growth/10_sikyatspuvaya.jpg" alt="The kernels are getting hard and growing toward maturity. Approximately 100 days after planting." />
-<img src="images/hopi_growth/11_nuvawvaya.jpg" alt="The corn has matured and is ready to be harvested. Sixteen to seventeen weeks after planting." />
-<img src="images/hopi_growth/12_tuksiya.jpg" alt="The plants have matured. The corn is ripe. About 120 days after planting." />
-<img src="images/hopi_growth/13_hoqya.jpg" alt="The farmers harvest their crops. The plants and ears have dried." />
-<img src="images/hopi_growth/14_qatungwuyamu_waomnaya.jpg" alt="After harvest the dried stalks are laid to rest." />
-<img src="images/hopi_growth/15_naakya.jpg" alt="The enduring power of reproduction that is prayed for is evident when the harvest is properly cared for. Drawing by Kurt Lomawaima." /></p>
+<p><img src="images/hopi_growth/1_nawantota.jpg" alt="1. Planting begins in the fields." />
+<img src="images/hopi_growth/2_motskuyvaya.jpg" alt="2. Corn plants have pierced through the soil like a needle point. About ten days after planting." />
+<img src="images/hopi_growth/3_kuyvaya.jpg" alt="3. The plants have now emerged. About three weeks after planting." />
+<img src="images/hopi_growth/4_matyaltoti.jpg" alt="4. The plants have grown and their leaves are touching the ground. Four to five weeks after planting." />
+<img src="images/hopi_growth/5_tsaatsatota.jpg" alt="5. The plants are thinned so they can breathe and grow. Four to six weeks after planting." />
+<img src="images/hopi_growth/6_hongva.jpg" alt="6. Plants are now standing tall and alert. About seven weeks after planting." />
+<img src="images/hopi_growth/7_taalakuyvaya.jpg" alt="7. The plants have grown tall and now have their tassels. Eleven to twelve weeks after planting." />
+<img src="images/hopi_growth/8_yowihayiltoti.jpg" alt="8. The silk hairs appear on the plants. About twelve weeks after planting." />
+<img src="images/hopi_growth/9_piikyavaya.jpg" alt="9. The plants now show swelling of new life forming. Thirteen to fourteen weeks after planting." />
+<img src="images/hopi_growth/10_sikyatspuvaya.jpg" alt="10. The kernels are getting hard and growing toward maturity. Approximately 100 days after planting." />
+<img src="images/hopi_growth/11_nuvawvaya.jpg" alt="11. The corn has matured and is ready to be harvested. Sixteen to seventeen weeks after planting." />
+<img src="images/hopi_growth/12_tuksiya.jpg" alt="12. The plants have matured. The corn is ripe. About 120 days after planting." />
+<img src="images/hopi_growth/13_hoqya.jpg" alt="13. The farmers harvest their crops. The plants and ears have dried." />
+<img src="images/hopi_growth/14_qatungwuyamu_waomnaya.jpg" alt="14. After harvest the dried stalks are laid to rest." />
+<img src="images/hopi_growth/15_naakya.jpg" alt="15. The enduring power of reproduction that is prayed for is evident when the harvest is properly cared for. Drawing by Kurt Lomawaima." /></p>
 </div>
 <div class="carcaption">
 <p class="caption">

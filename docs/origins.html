@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2018-02-27">
+<meta name="date" content="2018-03-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -47,16 +47,8 @@
 
 
 <script src="libs/htmlwidgets/htmlwidgets.js"></script>
-<link href="libs/leaflet/leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet/leaflet.js"></script>
-<link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
-<link href="libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
-<script src="libs/leaflet-label/leaflet.label.js"></script>
-<script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
-<script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
-<script src="libs/leaflet-binding/leaflet.js"></script>
-<script src="libs/leaflet-providers/leaflet-providers.js"></script>
-<script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+<script src="libs/pymjs/pym.v1.js"></script>
+<script src="libs/widgetframe-binding/widgetframe.js"></script>
 <link href="libs/dygraphs/dygraph.css" rel="stylesheet" />
 <script src="libs/dygraphs/dygraph-combined.js"></script>
 <script src="libs/moment/moment.js"></script>
@@ -169,11 +161,14 @@
 <li class="chapter" data-level="3.2" data-path="the-phenology-of-maize.html"><a href="the-phenology-of-maize.html"><i class="fa fa-check"></i><b>3.2</b> The phenology of maize</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html"><i class="fa fa-check"></i><b>4</b> What maize needs to flourish</a><ul>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#drought"><i class="fa fa-check"></i>Drought</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#heat-and-sunlight"><i class="fa fa-check"></i>Heat and sunlight</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+<li class="chapter" data-level="4.1" data-path="soils-and-water.html"><a href="soils-and-water.html"><i class="fa fa-check"></i><b>4.1</b> Soils and water</a><ul>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#drought"><i class="fa fa-check"></i>Drought</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html"><i class="fa fa-check"></i><b>4.2</b> Heat and sunlight</a><ul>
+<li class="chapter" data-level="" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="the-pfp-field-experiments.html"><a href="the-pfp-field-experiments.html"><i class="fa fa-check"></i><b>5</b> The PFP Field Experiments</a><ul>
 <li class="chapter" data-level="5.1" data-path="procedure.html"><a href="procedure.html"><i class="fa fa-check"></i><b>5.1</b> Procedure</a><ul>
@@ -272,48 +267,48 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <h2><span class="header-section-number">2.1</span> Origins</h2>
 <div style="text-align: center;">
 <div class="figure">
-<img src="images/section_2.1_origin.jpg" alt="A Hopi kachina doll depicting Masau’u." />
-<p class="caption">A Hopi kachina doll depicting Masau’u.</p>
+<img src="images/section_2.1_origin.jpg" alt="A Hopi tihu or representational figurine, depicting Masau’u." />
+<p class="caption">A Hopi <em>tihu</em> or representational figurine, depicting Masau’u.</p>
 </div>
 </div>
-<p>The domestication of maize was unique. Typically, domesticated plants look similar to their wild ancestors;
-However, an ear of corn’s closest wild relative, teosinte, is noticeably different from an ear of modern corn.
-An ear of maize is wrapped in a husk, the kernels are held tightly and not able to scatter or free themselves from the cob, so
-they would compete with each other for nutrients and water. Corn is as dependent on humans as humans are dependent on corn.</p>
+<p>The domestication of maize was unique. Typically, domesticated plants look similar to their wild ancestors; However, an ear of corn’s closest wild relative, teosinte, is noticeably different from an ear of modern corn. An ear of maize is wrapped in a husk, the kernels are held tightly and not able to scatter or free themselves from the cob, so they would compete with each other for nutrients and water, while the kernels of teoscinte are able to scatter freely. Because the husks of corn must be removed in order for corn to reproduce, corn is as dependent on humans as humans are dependent on corn.</p>
 <div style="text-align: center;">
 <div class="figure">
 <img src="images/teosinte.jpg" alt="Maize differs from its closest wild relative, teosinte. Copyright Oxford University Press, all rights reserved." />
 <p class="caption">Maize differs from its closest wild relative, teosinte. Copyright Oxford University Press, all rights reserved.</p>
 </div>
 </div>
-<p>Teosinte, a wild grass native to Mexico and Central America, is so closely related to maize that it belongs to the same species—
-<em>Zea mays</em> ssp. parviglumis. Despite their shared ancestry, the plants differ in significant ways:</p>
-<ul>
-<li>Maize grows as a single stalk with a few large ears.
-<ul>
-<li>Teosinte is branched with many small ears.</li>
-</ul></li>
-<li>Maize ears are encased in a husk with hundreds of kernels on the cob.
-<ul>
-<li>Teosinte ears have eight to 12
-kernels, each surrounded by a
-hard fruit-case.</li>
-</ul></li>
-<li>Maize ears typically have 8 to 16 rows
-of kernels.
-<ul>
-<li>Teosinte ears have two
-rows of kernels.</li>
-</ul></li>
-<li>Maize kernels must be separated from
-the ear and planted by humans.
-<ul>
-<li>Teosinte ears shatter when
-dry and the seeds scatter,
-distributed by gravity,
-birds and other animals</li>
-</ul></li>
-</ul>
+<p>Teosinte, a wild grass native to Mexico and Central America, is so closely related to maize that it belongs to the same species, <em>Zea mays</em>, but is a different subspecies: parviglumis. Despite their shared ancestry, the plants differ in significant ways:</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Maize</strong></th>
+<th><strong>Teoscinte</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>grows as a single stalk with a few large ears</td>
+<td>branched with many small ears</td>
+</tr>
+<tr class="even">
+<td>ears are encased in a husk with hundreds of kernels on the cob</td>
+<td>ears have eight to 12 kernels, each surrounded by a hard fruit-case</td>
+</tr>
+<tr class="odd">
+<td>ears typically have 8 to 16 rows of kernels</td>
+<td>ears have two rows of kernels</td>
+</tr>
+<tr class="even">
+<td>kernels must be separated from the ear and planted by humans</td>
+<td>ears shatter when dry and the seeds scatter, distributed by gravity, birds and other animals</td>
+</tr>
+</tbody>
+</table>
 </div>
 <!-- hypothes.is -->
 <script async defer src="https://hypothes.is/embed.js"></script>

@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2018-02-27">
+<meta name="date" content="2018-03-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -47,16 +47,8 @@
 
 
 <script src="libs/htmlwidgets/htmlwidgets.js"></script>
-<link href="libs/leaflet/leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet/leaflet.js"></script>
-<link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
-<link href="libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
-<script src="libs/leaflet-label/leaflet.label.js"></script>
-<script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
-<script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
-<script src="libs/leaflet-binding/leaflet.js"></script>
-<script src="libs/leaflet-providers/leaflet-providers.js"></script>
-<script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+<script src="libs/pymjs/pym.v1.js"></script>
+<script src="libs/widgetframe-binding/widgetframe.js"></script>
 <link href="libs/dygraphs/dygraph.css" rel="stylesheet" />
 <script src="libs/dygraphs/dygraph-combined.js"></script>
 <script src="libs/moment/moment.js"></script>
@@ -169,11 +161,14 @@
 <li class="chapter" data-level="3.2" data-path="the-phenology-of-maize.html"><a href="the-phenology-of-maize.html"><i class="fa fa-check"></i><b>3.2</b> The phenology of maize</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html"><i class="fa fa-check"></i><b>4</b> What maize needs to flourish</a><ul>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#drought"><i class="fa fa-check"></i>Drought</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#heat-and-sunlight"><i class="fa fa-check"></i>Heat and sunlight</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+<li class="chapter" data-level="4.1" data-path="soils-and-water.html"><a href="soils-and-water.html"><i class="fa fa-check"></i><b>4.1</b> Soils and water</a><ul>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#drought"><i class="fa fa-check"></i>Drought</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html"><i class="fa fa-check"></i><b>4.2</b> Heat and sunlight</a><ul>
+<li class="chapter" data-level="" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="the-pfp-field-experiments.html"><a href="the-pfp-field-experiments.html"><i class="fa fa-check"></i><b>5</b> The PFP Field Experiments</a><ul>
 <li class="chapter" data-level="5.1" data-path="procedure.html"><a href="procedure.html"><i class="fa fa-check"></i><b>5.1</b> Procedure</a><ul>
@@ -272,18 +267,18 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <h2><span class="header-section-number">2.2</span> The people of corn</h2>
 <div style="text-align: center;">
 <div class="figure">
-<img src="images/section_2.3_header.jpg" alt="Hopi maize." />
-<p class="caption">Hopi maize.</p>
+<img src="images/varieties.jpg" alt="Varieties of maize." />
+<p class="caption">Varieties of maize.</p>
 </div>
 </div>
-<p>Maize entered the southwestern United States about 4000 years ago. On its long journey from Mexico, maize has adapted from its tropical environment, with 12 hours of daylight to the semi-arid, long summer days and cool-night conditions of the Colorado Plateau. Farming techniques also had to adapt. Dryland or direct-precipitation agriculture is dependent on moisture stored in the soil from precipitation and runoff water. Pueblo people have dryland farmed the arid southwest for millennia. They have accumulated detailed knowledge of their environment and have adopted specialized planting techniques. Dryland farming is an act of faith that binds the people to their land and their beliefs, requiring hard work, song and prayer.</p>
-<p>Traditional dryland farming techniques include:</p>
+<p>Maize entered the southwestern United States about 4000 years ago. On its long journey from Mexico, maize has adapted from its tropical environment, which has 12 hours of daylight, to the semi-arid, long summer days and cool-night conditions of the Colorado Plateau. Farming techniques also had to adapt. Direct-precipitation agriculture is dependent on moisture stored in the soil from precipitation and runoff water. Pueblo people have practiced direct-precipitation farming in the arid southwest for millennia. They have accumulated detailed knowledge of their environment and have adopted specialized planting techniques. Direct-precipitation farming is an act of faith that binds the people to their land and their beliefs, requiring hard work, song and prayer.</p>
+<p>Traditional direct-precipitation farming techniques include:</p>
 <ul>
-<li>knowing plants that indicate adequate soil moisture. Several plant species are regarded as key indicators when it comes to agricultural field selection. Rabbitbrush (Chrysothamnus), snakeweed (Gutierrezia), grease wood (Sarcobatus), fourwing saltbush (Atriplex), and ricegrass (Oryzopsis) typically indicate good soil moisture. Corn is likely to do well where these indicator species grow vigorously.</li>
-<li>planting seeds deeply Seeds are planted deep, about eight to 12 inches, so they will come in contact with moist soil. This ensures the seeds receive all the benefits of winter moisture and a deep root system.</li>
-<li>planting seeds in clumps By planting 10 to 15 seeds together, the young plants protect each other from the harsh sun and winds. Also, by planting many seeds together, the chance of total loss from insects, birds or rodents is reduced.</li>
-<li>planting with wide spacing between clumps Clumps are spaced about 1.5 to 2 meters apart to ensure adequate surface area to absorb precipitation and reduces competition from other plants for moisture stored in the soil.</li>
-<li>planting on north-facing slopes planting in alluvial floodplains. Less exposure to direct sun light reduces evaporation and conserves soil moisture. Alluvial floodplains provide deep sediment deposits that have increased moisture storage abilities.</li>
+<li><strong>Knowing plants that indicate adequate soil moisture.</strong> Several plant species are regarded as key indicators when it comes to agricultural field selection. Rabbitbrush (Chrysothamnus), snakeweed (Gutierrezia), grease wood (Sarcobatus), fourwing saltbush (Atriplex), and ricegrass (Oryzopsis) typically indicate good soil moisture. Corn is likely to do well where these indicator species grow vigorously.</li>
+<li><strong>Planting seeds deeply.</strong> Seeds are planted deep, about eight to 12 inches, so they will come in contact with moist soil. This ensures the seeds receive all the benefits of winter moisture and a deep root system.</li>
+<li><strong>Planting seeds in clumps.</strong> By planting 10 to 15 seeds together, the young plants protect each other from the harsh sun and winds. Also, by planting many seeds together, the chance of total loss from insects, birds or rodents is reduced.</li>
+<li><strong>Planting with wide spacing between clumps.</strong> Clumps are spaced about 1.5 to 2 meters apart to ensure adequate surface area to absorb precipitation and reduce competition from other plants for moisture stored in the soil.</li>
+<li><strong>Planting on north-facing slopes planting in alluvial floodplains.</strong> Less exposure to direct sun light reduces evaporation and conserves soil moisture. Alluvial floodplains provide deep sediment deposits that have increased moisture storage capacity. These settings also get recharged with organic materials that move down the drainage and settle in the fields.</li>
 </ul>
 <div style="text-align: center;">
 <div class="figure">
@@ -295,7 +290,7 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <p>When the people emerged into this world Masau’u provided the people with three gifts; a planting stick (so’ya) a bag of seeds and a gourd of water. He handed them a small ear of blue corn and told the people: “Here is my life and my spirit. This is what I have to give you.”</p>
 <p>— A portion of a Hopi origin story</p>
 </blockquote>
-<p>To contemporary Pueblo people, corn is considered a mother, because sustains the people both physically and spiritually. Corn is also a child, and needs constant protection and encouragement to grow to maturity. After harvest, the plants die and are laid to rest just as people are. Nourishment provided by corn in turn allows the people to care for the growing plants. The symbolic cycle of corn and people repeats over and over.</p>
+<p>To contemporary Pueblo people, corn is considered a mother because it sustains the people both physically and spiritually. Corn is also a child — it needs constant protection and encouragement to grow to maturity. After harvest, the plants die and are laid to rest just as people are. Nourishment provided by corn in turn allows the people to care for the growing plants. The symbolic cycle of corn and people repeats over and over.</p>
 </div>
 <!-- hypothes.is -->
 <script async defer src="https://hypothes.is/embed.js"></script>

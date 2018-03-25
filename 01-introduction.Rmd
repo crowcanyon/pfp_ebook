@@ -30,7 +30,7 @@ From these beginnings, the PFP has been developed through a partnership between 
 
 To follow through on this request, Crow Canyon developed the first of a series of grants to support a collaborative project on Pueblo farming (see section below on Who Funded the PFP). The initial grant funded a planning meeting in May 2006 where we discussed the various types of research that could investigate ancestral Pueblo farming practices and link them to techniques used by modern Pueblo farmers. Participants at the meeting included traditional Pueblo farmers from Hopi, Jemez, Ohkay Owingeh, and Tesuque; Crow Canyon staff; and other anthropologists who specialize in the study of ancestral and modern Pueblo agriculture.
 
-After two days of discussion, this group decided to implement an experimental gardening project that focused on direct-precipitation farming because this was the main type of farming practiced by the ancestral Pueblo in the Mesa Verde region. We use "direct-precipitation farming" to represent agricultural practices that use little to no large-scale landscape modification, but that readily take advantage of local landform and soil characteristics to enhance soil moisture (such as areas of higher runoff or greater snow accumulation) and often include small-scale anthropogenic modifications such as check dams. The group agreed that Hopi should take the lead as the traditional farming experts, since they still practice direct-precipitation farming whereas most other contemporary Pueblo tribes use more intensive flood-plain and canal irrigation techniques. Crow Canyon agreed to seek grant funding for the project that became known as the PFP.
+After two days of discussion, this group decided to implement an experimental gardening project that focused on direct-precipitation farming because this was the main type of farming practiced by the ancestral Pueblo in the Mesa Verde region. We use the term "direct-precipitation farming" to represent agricultural practices that use little to no large-scale landscape modification, but that readily take advantage of local landform and soil characteristics to enhance soil moisture (such as areas of higher runoff or greater snow accumulation) and often include small-scale anthropogenic modifications such as check dams. Direct-precipitation farming is sometimes referred to as "dry-land" or "rain-fed" farming. The group agreed that Hopi should take the lead as the traditional farming experts, since they still practice direct-precipitation farming whereas most other contemporary Pueblo tribes use more intensive flood-plain and canal irrigation techniques. Crow Canyon agreed to seek grant funding for the project that became known as the PFP.
 
 
 #### Selecting Garden Locations {-}
@@ -40,7 +40,7 @@ After two days of discussion, this group decided to implement an experimental ga
 
 The next step occurred in 2007 when Hopi farmers met to select locations for the gardens. We originally hoped to place these gardens at the Goodman Point Unit of Hovenweep National Monument to complement our ongoing research there, but we did not get permission for this and decided instead to locate the gardens on Crow Canyon's campus to integrate the PFP into the Center's education programs.
 
-Pueblo farmers used traditional ecological knowledge to select the garden locations, focusing on the native plants that indicate good areas for farming. Rabbitbrush and snakeweed are two plants they see as indicating prime areas, but dense stands of those plants were not present on Crow Canyon's campus. In the absence of such indicator species, they selected two areas in small washes on the east side of Crow Canyon that are dominated by sagebrush today. The sagebrush in these areas was taller because their location in small drainages provided more moisture than the areas outside the drainages. The farmers assessed soils for their texture and moisture-holding capacity and examined the details of specific settings including slope, aspect, and other factors. Although the Hopi farmers did not consider these two locations as ideal, they thought they would be adequate.
+Pueblo farmers used traditional ecological knowledge (TEK) to select the garden locations, focusing on the native plants that indicate good areas for farming. Rabbitbrush and snakeweed are two plants they see as indicating prime areas, but dense stands of those plants were not present on Crow Canyon's campus. In the absence of such indicator species, they selected two areas in small washes on the east side of Crow Canyon that are dominated by sagebrush today. The sagebrush in these areas was taller because their location in small drainages provided more moisture than the areas outside the drainages. The farmers assessed soils for their texture and moisture-holding capacity and examined the details of specific settings including slope, aspect, and other factors. Although the Hopi farmers did not consider these two locations as ideal, they thought they would be adequate.
 
 One location had sage that was unusually tall; this area was located near the mouth of a small wash coming from the east slope of the Crow Canyon drainage. When this area was cleared, an ancient check dam was found and subsequently recorded (5MT19690). This was named the Check Dam Garden (CDG). The other plot was located higher up in a small drainage to the north in an area where there was a thick patch of verdant grass. The Hopi farmers thought there might be a spring in this area but subsequent work showed this was not the case. We call this plot the Pueblo Learning Center (PLC) garden because it is on the way to one of Crow Canyon's outdoor classrooms.
 
@@ -52,9 +52,9 @@ In 2009, we added two additional garden areas. The first, the Pithouse garden (P
 ![Karen Adams and Hopi farmers discussing variation in corn.](./images/karen_and_hopi.jpg)
 </div>
 
-The second garden added in 2009 was Karen's Upper Garden (KUG), which was a plot farmed by Karen Adams in the 1990s and located on the mesa just west of Crow Canyon. Karen farmed this garden as part of Crow Canyon public education program and to quantify yields. The KUG garden has produced relatively low yields, which surprised us because evidence suggests that the mesa tops covered in Mesa Verde loess-derived soils were the area most intensively farmed by ancestral Pueblo people. This evidence includes the fact that most ancestral Pueblo habitation sites are near these loess soils on the mesa tops, and the fact that these loess-derived, mesa-top soils are the focus of contemporary dryland farming. To better evaluate the variation in these mesa-top settings, we added an additional garden in 2015 at Mike Coffey's farm near Dove Creek, Colorado (the Mike Coffey garden or MCG).
+The second garden added in 2009 was Karen's Upper Garden (KUG), which was a plot farmed by Karen Adams in the 1990s and located on the mesa just west of Crow Canyon. Karen farmed this garden as part of Crow Canyon public education program and to quantify yields. The KUG garden has produced relatively low yields, which surprised us because evidence suggests that the mesa tops covered in Mesa Verde loess-derived soils were the area most intensively farmed by ancestral Pueblo people. This evidence includes the fact that most ancestral Pueblo habitation sites are near these loess soils on the mesa tops, and the fact that these loess-derived, mesa-top soils are the focus of contemporary direct-precipitation farming. To better evaluate the variation in these mesa-top settings, we added an additional garden in 2015 at Mike Coffey's farm near Dove Creek, Colorado (the Mike Coffey garden or MCG).
 
-The PFP garden locations allow us to measure the effect of a variety of microenvironmental factors on agricultural potential. For example, the Crow Canyon gardens allow us to evaluate the effect of cold air that flows in drainages. The length of the frost-free period varies considerably despite relatively small differences in elevation and in the distance between the plots. The gardens are also located on soils with different characteristics and the effects of soil variability are the primary focus of this study.
+The [PFP garden locations][Where did the PFP take place?] allow us to measure the effect of a variety of microenvironmental factors on agricultural potential. For example, the Crow Canyon gardens allow us to evaluate the effect of cold air that flows in drainages. The length of the frost-free period varies considerably despite relatively small differences in elevation and in the distance between the plots. The gardens are also located on soils with different characteristics and the effects of soil variability are the primary focus of this study.
 
 #### Planting and Harvesting: 2008–2017 {-}
 <div style="text-align: center;">
@@ -73,10 +73,10 @@ From the beginning, the PFP has pursued educational and research goals that were
 All PFP activities have been recorded using numerous techniques: written notes from each meeting, audio and video recording, still photography, and written documentation that include detailed metrics on the plants and their growing environments. This has produced a rich dataset from which we produced several research and educational products.
 
 <div style="text-align: center;">
-![The Village Ecodynamics Project maize productivity estimates.](./images/vep.svg)
+![The Village Ecodynamics Project maize productivity estimates, AD 600--1300. The map panel (top) shows the average yield across time (in kilograms per hectare, kg/ha). The graph panel (bottom) is the average yield across space, through time. The black line represents the annual average; the red line smooths the annual data to show long-term trends.](./images/vep.svg)
 </div>
 
-One of the PFP research goals was to evaluate how agricultural yields were affected by annual variation in temperature and precipitation. These data were integrated into another research project known as the Village Ecodynamics Project or VEP. The VEP was funded by two National Science Foundation grants awarded to Washington State University; Crow Canyon was a subcontractor on the project. A multidisciplinary collaboration, the VEP included archaeologists, geologists, hydrologists, geographers, computer scientists, and economists from institutions across the U.S. and Canada. VEP researchers studied the interaction between Pueblo Indian people and their environment over more than a thousand years, beginning in A.D. 600. One aspect of the VEP was to use computer modeling to estimate ancestral Pueblo agricultural yields and how they varied through time and across the project study areas. Actual PFP yields were compared to the VEP estimates to evaluate the accuracy of the computer model. Detailed information about the VEP can be found at this website: [http://www.veparchaeology.org/](http://www.veparchaeology.org/).
+One of the PFP research goals was to evaluate how agricultural yields were affected by annual variation in temperature and precipitation. These data were integrated into another research project known as the Village Ecodynamics Project or VEP. The VEP was funded by two National Science Foundation grants awarded to Washington State University; Crow Canyon was a subcontractor on the project. A multidisciplinary collaboration, the VEP included archaeologists, geologists, hydrologists, geographers, computer scientists, and economists from institutions across the US and Canada. VEP researchers studied the interaction between Pueblo Indian people and their environment over more than a thousand years, beginning in AD 600. One aspect of the VEP was to use computer modeling to estimate ancestral Pueblo agricultural yields and how they varied through time and across the project study areas. Actual PFP yields were compared to the VEP estimates to evaluate the accuracy of the computer model. Detailed information about the VEP can be found at this website: [http://www.veparchaeology.org/](http://www.veparchaeology.org/).
 
 Hopi goals for the project were tied to the central role of corn and corn farming in Hopi culture. Fundamentally, they were interested in whether their seed and their traditional farming techniques would result in successful harvests in the Mesa Verde region, a place they consider as part of their ancestral homeland. For Hopi, the PFP provided a substantive link between their past and the present. For Hopi, the PFP helped demonstrate their cultural affiliation to the Mesa Verde region, and beyond planting and harvesting gardens they pursued this goal through another PFP research initiative: the DNA analysis of modern Hopi corn.
 
@@ -110,35 +110,36 @@ Public education initiatives also include lectures for the public and presentati
 Over almost a decade, dozens of Hopi farmers, researchers, and volunteers participated in the Pueblo Farming Project, and hundreds of students visited the PFP gardens during the growing season.
 
 <div class="carousel">
-<img src="images/people/ahkima_honyumptewa.jpg" alt="Ahkima Honyumptewa" />
-<img src="images/people/ben_bellorado.jpg" alt="Ben Bellorado" />
-<img src="images/people/dan_simplicio.jpg" alt="Dan Simplicio" />
-<img src="images/people/deloria_lomawiama.jpg" alt="Deloria Lomawiama" />
-<img src="images/people/delwyn_tawvaya.jpg" alt="Delwyn Tawvaya" />
-<img src="images/people/donald_dawahongnewa.jpg" alt="Donald Dawahongnewa" />
-<img src="images/people/gary_nicholas.jpg" alt="Gary Nicholas" />
-<img src="images/people/grant_coffey.jpg" alt="Grant Coffey" />
-<img src="images/people/herman_agoyo.jpg" alt="Herman Agoyo" />
-<img src="images/people/joel_nicholas.jpg" alt="Joel Nicholas" />
-<img src="images/people/karen_adams.jpg" alt="Karen Adams" />
-<img src="images/people/kelly_swarts.jpg" alt="Kelly Swarts" />
-<img src="images/people/kevin_crook.jpg" alt="Kevin Crook" />
-<img src="images/people/kyle_bocinsky.jpg" alt="Kyle Bocinsky" />
-<img src="images/people/lance_nicholas.jpg" alt="Lance Nicholas" />
-<img src="images/people/lee_wayne_lomayestewa.jpg" alt="Lee Wayne Lomayestewa" />
-<img src="images/people/leigh_kuwanwisiwma.jpg" alt="Leigh Kuwanwisiwma" />
-<img src="images/people/margie_connolly.jpg" alt="Margie Connolly" />
-<img src="images/people/mark_varien.jpg" alt="Mark Varien" />
-<img src="images/people/mike_coffey.jpg" alt="Mike Coffey" />
-<img src="images/people/morgan_saufkie.jpg" alt="Morgan Saufkie" />
-<img src="images/people/owen_numkema.jpg" alt="Owen Numkema" />
-<img src="images/people/paul_ermigiotti.jpg" alt="Paul Ermigiotti" />
-<img src="images/people/raleigh_puhuyaoma.jpg" alt="Raleigh Puhuyaoma" />
-<img src="images/people/read_brugger.jpg" alt="Read Brugger" />
-<img src="images/people/ronald_wadsworth.jpg" alt="Ronald Wadsworth" />
-<img src="images/people/shirley_powell.jpg" alt="Shirley Powell" />
-<img src="images/people/stewart_koyiyumptewa.jpg" alt="Stewart Koyiyumptewa" />
-<img src="images/people/tom_lucero.jpg" alt="Tom Lucero" />
+<img src="images/people/ahkima_honyumptewa.jpg" alt="Ahkima Honyumptewa — Traditional Hopi farmer" />
+<img src="images/people/ben_bellorado.jpg" alt="Ben Bellorado — Archaeologist & Research Associate, Crow Canyon Archaeological Center" />
+<img src="images/people/dan_simplicio.jpg" alt="Dan Simplicio — Cultural Specialist, Crow Canyon Archaeological Center & member of the Zuni tribe" />
+<img src="images/people/deloria_lomawiama.jpg" alt="Deloria Lomawiama — Former Educator, Crow Canyon Archaeological Center & member of the Hopi Tribe" />
+<img src="images/people/delwyn_tawvaya.jpg" alt="Delwyn Tawvaya — Traditional Hopi farmer" />
+<img src="images/people/donald_dawahongnewa.jpg" alt="Donald Dawahongnewa — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/gary_nicholas.jpg" alt="Gary Nicholas — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/grant_coffey.jpg" alt="Grant Coffey — Researcher/GIS specialist, Crow Canyon Archaeological Center" />
+<img src="images/people/harold_polingyumptewa.jpg" alt="Harold Polingyumptewa (deceased) — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/herman_agoyo.jpg" alt="Herman Agoyo (deceased) — Traditional Pueblo farmer, Ohkay Owingeh Pueblo" />
+<img src="images/people/joel_nicholas.jpg" alt="Joel Nicholas — Traditional Hopi farmer & Staff, Hopi Cultural Preservation Office" />
+<img src="images/people/karen_adams.jpg" alt="Karen Adams — Paleoethnobotanist & Research Associate, Crow Canyon Archaeological Center" />
+<img src="images/people/kelly_swarts.jpg" alt="Kelly Swarts — Archaeogeneticist & Research Associate, Crow Canyon Archaeological Center" />
+<img src="images/people/kevin_crook.jpg" alt="Kevin Crook — Traditional Hopi farmer" />
+<img src="images/people/kyle_bocinsky.jpg" alt="Kyle Bocinsky — Research Associate, Crow Canyon Archaeological Center" />
+<img src="images/people/lance_nicholas.jpg" alt="Lance Nicholas — Traditional Hopi farmer" />
+<img src="images/people/lee_wayne_lomayestewa.jpg" alt="Lee Wayne Lomayestewa — Traditional Hopi farmer & Staff, Hopi Cultural Preservation Office" />
+<img src="images/people/leigh_kuwanwisiwma.jpg" alt="Leigh Kuwanwisiwma — Traditional Hopi farmer & Former Director of the Hopi Cultural Preservation Office" />
+<img src="images/people/margie_connolly.jpg" alt="Margie Connolly — Former Director, American Indian initiatives, Crow Canyon Archaeological Center" />
+<img src="images/people/mark_varien.jpg" alt="Mark Varien — Executive Vice President of the Research Institute, Crow Canyon Archaeological Center" />
+<img src="images/people/mike_coffey.jpg" alt="Mike Coffey — Farmer, Dove Creek, Colorado" />
+<img src="images/people/morgan_saufkie.jpg" alt="Morgan Saufkie — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/owen_numkema.jpg" alt="Owen Numkema — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/paul_ermigiotti.jpg" alt="Paul Ermigiotti — Educator/researcher, Crow Canyon Archaeological Center" />
+<img src="images/people/raleigh_puhuyaoma.jpg" alt="Raleigh Puhuyaoma — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/read_brugger.jpg" alt="Read Brugger — PFP volunteer, Cortez, Colorado" />
+<img src="images/people/ronald_wadsworth.jpg" alt="Ronald Wadsworth — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/shirley_powell.jpg" alt="Shirley Powell — Director of Sponsored Projects, Crow Canyon Archaeological Center" />
+<img src="images/people/stewart_koyiyumptewa.jpg" alt="Stewart Koyiyumptewa — Director, Hopi Cultural Preservation Office" />
+<img src="images/people/tom_lucero.jpg" alt="Tom Lucero (deceased) — Traditional Pueblo farmer, Jemez Pueblo" />
 </div>
 
 <div class="carcaption">
@@ -150,7 +151,7 @@ Over almost a decade, dozens of Hopi farmers, researchers, and volunteers partic
 ![Crow Canyon Archaeological Center's rural campus in Cortez, Colorado.](./images/section_1.3_header.jpg)
 </div>
 
-Five PFP gardens are scattered around Crow Canyon Archaeological Center's rural campus in Cortez, Colorado; In 2015, we planted a new garden in the "bean fields" north of Crow Canyon's campus. Use the map below to explore the PFP garden locations, and click on the gardens to get more information about when they were planted as part of PFP research.
+Five PFP gardens are scattered around Crow Canyon Archaeological Center's rural campus in Cortez, Colorado; In 2015, we planted a new garden in the "bean fields" north of Crow Canyon's campus. Use the map below to explore the PFP garden locations, and click on the gardens to get more information about when they were planted as part of PFP research. You can zoom using the controls on the left, the scrollwheel on your mouse, or by pinching on a mobile device. The menu in the upper right allows for different map backgrounds. The mapped boundaries of each garden are at the garden fences; gardens may not have been completely planted in each year.
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -172,20 +173,22 @@ garden_centroids <- garden_locations %>%
   sf::st_centroid() %>%
   sf::st_transform(4326)
 
-leaflet::leaflet(garden_locations, width = "100%") %>%
+l <- leaflet::leaflet(garden_locations, width = "100%") %>%
   leaflet::addProviderTiles("Esri.WorldImagery", group = "Satellite") %>%
   leaflet::addProviderTiles("Esri.WorldTopoMap", group = "Topography") %>%
-leaflet::addMarkers(data = garden_centroids,
+  leaflet::addMarkers(data = garden_centroids,
                       popup = ~Popup
   ) %>%
   leaflet::addPolygons(data = garden_locations,
                        fillColor = ~color,
                        popup = ~Popup
-                       ) %>%
+  ) %>%
   leaflet::addLayersControl(
     baseGroups = c("Satellite", "Topography"),
     options = leaflet::layersControlOptions(collapsed = T)
   )
+
+widgetframe::frameWidget(l, width='100%')
 
 ```
 

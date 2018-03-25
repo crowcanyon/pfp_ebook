@@ -15,7 +15,7 @@ cortez_weather <- c(FedData::get_ghcn_daily_station(ID="USC00051886",
   dplyr::mutate(DATE = lubridate::ymd(DATE),
                 TMIN = zoo::na.approx(TMIN/10, na.rm = F),
                 TMAX = zoo::na.approx(TMAX/10, na.rm = F),
-                FGDD = calc_gdd(tmin = TMIN, tmax = TMAX, t.base=8, t.cap=30, to_fahrenheit=T),
+                FGDD = calc_gdd(tmin = TMIN, tmax = TMAX, t.base=10, t.cap=30, to_fahrenheit=T),
                 TMAX = ((TMAX)*1.8 + 32),
                 TMIN = ((TMIN)*1.8 + 32),
                 PRCP = PRCP*0.00393701) %>%

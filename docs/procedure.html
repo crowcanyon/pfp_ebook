@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2018-02-27">
+<meta name="date" content="2018-03-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -47,16 +47,8 @@
 
 
 <script src="libs/htmlwidgets/htmlwidgets.js"></script>
-<link href="libs/leaflet/leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet/leaflet.js"></script>
-<link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
-<link href="libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
-<script src="libs/leaflet-label/leaflet.label.js"></script>
-<script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
-<script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
-<script src="libs/leaflet-binding/leaflet.js"></script>
-<script src="libs/leaflet-providers/leaflet-providers.js"></script>
-<script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+<script src="libs/pymjs/pym.v1.js"></script>
+<script src="libs/widgetframe-binding/widgetframe.js"></script>
 <link href="libs/dygraphs/dygraph.css" rel="stylesheet" />
 <script src="libs/dygraphs/dygraph-combined.js"></script>
 <script src="libs/moment/moment.js"></script>
@@ -169,11 +161,14 @@
 <li class="chapter" data-level="3.2" data-path="the-phenology-of-maize.html"><a href="the-phenology-of-maize.html"><i class="fa fa-check"></i><b>3.2</b> The phenology of maize</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html"><i class="fa fa-check"></i><b>4</b> What maize needs to flourish</a><ul>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#drought"><i class="fa fa-check"></i>Drought</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#heat-and-sunlight"><i class="fa fa-check"></i>Heat and sunlight</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+<li class="chapter" data-level="4.1" data-path="soils-and-water.html"><a href="soils-and-water.html"><i class="fa fa-check"></i><b>4.1</b> Soils and water</a><ul>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#drought"><i class="fa fa-check"></i>Drought</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html"><i class="fa fa-check"></i><b>4.2</b> Heat and sunlight</a><ul>
+<li class="chapter" data-level="" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="the-pfp-field-experiments.html"><a href="the-pfp-field-experiments.html"><i class="fa fa-check"></i><b>5</b> The PFP Field Experiments</a><ul>
 <li class="chapter" data-level="5.1" data-path="procedure.html"><a href="procedure.html"><i class="fa fa-check"></i><b>5.1</b> Procedure</a><ul>
@@ -274,14 +269,14 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <h3>Planting</h3>
 <div style="text-align: center;">
 <div class="figure">
-<img src="images/chapter_6_soya.jpg" alt="A traditional Hopi planting stick, or ‘soya’." />
-<p class="caption">A traditional Hopi planting stick, or ‘soya’.</p>
+<img src="images/chapter_6_soya.jpg" alt="Using a traditional Hopi planting stick, or ‘soya’." />
+<p class="caption">Using a traditional Hopi planting stick, or ‘soya’.</p>
 </div>
 </div>
-<p>The primary tool for planting is a planting stick or, in the Hopi language, a soya. Traditionally a soya is made from of greasewood (Sarcobatus vermicalatus), but some planting sticks today are made from a length of metal pipe with a narrow blade welded to one end.</p>
+<p>The primary tool for planting is a planting stick or, in the Hopi language, a <em>soya</em>. Traditionally a soya is made from greasewood (<em>Sarcobatus vermicalatus</em>), but some planting sticks today are made from a length of metal pipe with a narrow blade welded to one end.</p>
 <p>Planting begins by using your foot to scrape away the upper layer of loose, dry dirt. This exposes the top of the underlying hard-packed soil. About a square foot area is cleared. The planter gets down on one knee and grabs the soya with one hand low and one hand higher up on the tool. A narrow hole is dug using a pulling motion toward the planter. Typically, the hole is dug to a depth of about 8 to 10 inches or to the point where good soil moisture is encountered. The hole is dug deeper if the soil is drier and shallower if the soil is moist. This soil moisture is critical for plant germination and for the plant to be able to grow until there is more precipitation, something that might not occur until many weeks after planting.</p>
-<p>Hopi farmers plant corn in clumps. About 10-20 seeds are deposited into the hole. The excavated earth is put back gently into the hole in the order it was removed, the moist soil covering the seeds on the bottom and the drier soil on top. The loose dry dirt is on the top, but a small basin is created on the surface to collect any precipitation that falls and to create a dust mulch that reduces evaporation.</p>
-<p>The farmer stands and takes two or three steps to measure where the next clump of corn will be planted. Because the soils in the PFP gardens hold a bit more moisture than those soils near the Hopi mesas, the PFP clumps are typically spaced about 1.5- 1.75 meters apart rather than the three-meter spacing typically used at Hopi. The wide spacing of the planted clumps reduces competition for valuable sub-surface moisture. When the garden planting has been completed the farmers call out “kwakwhay”, thank you!</p>
+<p>Hopi farmers plant corn in clumps. About 10–20 seeds are deposited into the hole. The excavated earth is put back gently into the hole in the order it was removed, the moist soil covering the seeds on the bottom and the drier soil on top. The loose dry dirt is on the top, but a small basin is created on the surface to collect any precipitation that falls and to create a dust mulch that reduces evaporation.</p>
+<p>The farmer stands and takes two or three steps to measure where the next clump of corn will be planted. Because the soils in the PFP gardens hold a bit more moisture than those soils near the Hopi mesas, the PFP clumps are typically spaced about 1.5–1.75 meters apart rather than the three-meter spacing typically used at Hopi. The wide spacing of the planted clumps reduces competition for valuable sub-surface moisture.</p>
 <p>Flick through these slides to see how planting is done the Hopi way! The descriptions are based on <em>Notes On Hopi Economic Life</em> by Earnest Beaglehole, 1937.</p>
 <div class="carousel">
 <p><img src="images/planting/1_planting.jpg" alt="1. The planter scrapes away the loose dirt to clear the surface." />
@@ -314,7 +309,7 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <ul>
 <li><strong>Height</strong> — The height of the tallest plant in each clump was recorded to the nearest 5 cm.</li>
 <li><strong>Early Tassel Development</strong> — Early tassel development was recorded when it occurred on any plant in a clump. Early tassel development is defined as the time when the tassel bud starts to emerge from the central enclosing leaves at the top of the stalk to the time the tassel spike begins to branch.</li>
-<li><strong>Tassel Development</strong> — Tassel development was recorded each week when it occurred on any plant in a clump. Tassel development is defined from time when the tassel emerges from the central cluster of leaves and begins to branch. This stage ends when the anthers (male flowers) emerge from the glumes of the tassel and the pollen begins to shed.</li>
+<li><strong>Tassel Development</strong> — Tassel development was recorded when it occurred on any plant in a clump. Tassel development is defined from time when the tassel emerges from the central cluster of leaves and begins to branch. This stage ends when the anthers (male flowers) emerge from the glumes of the tassel and the pollen begins to shed.</li>
 <li><strong>Tasseling</strong> — The period of tasseling was recorded for when it occurred on any plant in a clump. The tasseling period is defined when the apex inflorescences (a group of flowers) begins to open. The anthers (male flowers) emerge and begin to shed pollen. At this stage the stalk has produced all its leaves and the plant has reached full height.</li>
 <li><strong>Silk Development</strong> — Silk development was recorded when it occurred on any plant in a clump. Silk development is defined when ear shoots become visible in the nodes (between the leaf and stalk) until the silks have fully emerged and are ready to receive pollen.</li>
 <li><strong>Silking</strong> — Silk development was recorded when it occurred on any plant in a clump. Silking is defined when the silk has emerged from the husk surrounding the developing cob and is capable of receiving pollen. A single silk will deliver pollen and develop into individual kernel. Once the silks have begun to dry and shrivel, this growth stage has ended.</li>
@@ -340,10 +335,10 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 <p>After harvest the ears are weighed to obtain a “wet weight” as there is still considerable moisture remaining in the ears. The ears are the placed on trays and allowed to dry for two months.</p>
 <p>When the ears have thoroughly dried, each ear is weighed whole, and then with the kernels removed. Ear, cob and kernel weights are entered into the data base. Additional information on the ear is also recorded such as the number of rows of kernels, kernel color, and the completeness of kernel filling on the ear. The categories, or condition of the ear are:</p>
 <ul>
-<li>Full — more than two-thirds of the kernels present</li>
-<li>Partial — one-third to two-thirds of the kernels are present</li>
-<li>Sparse — up to one-third of the kernels are present, and</li>
-<li>Immature — there are no kernels present on the cob.</li>
+<li><strong>Full</strong>: more than two-thirds of the kernels present</li>
+<li><strong>Partial</strong>: one-third to two-thirds of the kernels are present</li>
+<li><strong>Sparse</strong>: up to one-third of the kernels are present</li>
+<li><strong>Immature</strong>: there are no kernels present on the cob</li>
 </ul>
 </div>
 </div>

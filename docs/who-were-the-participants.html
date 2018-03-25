@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2018-02-27">
+<meta name="date" content="2018-03-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -47,16 +47,8 @@
 
 
 <script src="libs/htmlwidgets/htmlwidgets.js"></script>
-<link href="libs/leaflet/leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet/leaflet.js"></script>
-<link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
-<link href="libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
-<script src="libs/leaflet-label/leaflet.label.js"></script>
-<script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
-<script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
-<script src="libs/leaflet-binding/leaflet.js"></script>
-<script src="libs/leaflet-providers/leaflet-providers.js"></script>
-<script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+<script src="libs/pymjs/pym.v1.js"></script>
+<script src="libs/widgetframe-binding/widgetframe.js"></script>
 <link href="libs/dygraphs/dygraph.css" rel="stylesheet" />
 <script src="libs/dygraphs/dygraph-combined.js"></script>
 <script src="libs/moment/moment.js"></script>
@@ -169,11 +161,14 @@
 <li class="chapter" data-level="3.2" data-path="the-phenology-of-maize.html"><a href="the-phenology-of-maize.html"><i class="fa fa-check"></i><b>3.2</b> The phenology of maize</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html"><i class="fa fa-check"></i><b>4</b> What maize needs to flourish</a><ul>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#drought"><i class="fa fa-check"></i>Drought</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#heat-and-sunlight"><i class="fa fa-check"></i>Heat and sunlight</a></li>
-<li class="chapter" data-level="" data-path="what-maize-needs-to-flourish.html"><a href="what-maize-needs-to-flourish.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+<li class="chapter" data-level="4.1" data-path="soils-and-water.html"><a href="soils-and-water.html"><i class="fa fa-check"></i><b>4.1</b> Soils and water</a><ul>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#what-are-soils"><i class="fa fa-check"></i>What are soils?</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#drought"><i class="fa fa-check"></i>Drought</a></li>
+<li class="chapter" data-level="" data-path="soils-and-water.html"><a href="soils-and-water.html#soils-in-the-pfp-gardens"><i class="fa fa-check"></i>Soils in the PFP gardens</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html"><i class="fa fa-check"></i><b>4.2</b> Heat and sunlight</a><ul>
+<li class="chapter" data-level="" data-path="heat-and-sunlight.html"><a href="heat-and-sunlight.html#weather-in-cortez"><i class="fa fa-check"></i>Weather in Cortez</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="the-pfp-field-experiments.html"><a href="the-pfp-field-experiments.html"><i class="fa fa-check"></i><b>5</b> The PFP Field Experiments</a><ul>
 <li class="chapter" data-level="5.1" data-path="procedure.html"><a href="procedure.html"><i class="fa fa-check"></i><b>5.1</b> Procedure</a><ul>
@@ -278,35 +273,36 @@ This book is in <b><a href="open.html#open">Open Review</a></b>. We want your fe
 </div>
 <p>Over almost a decade, dozens of Hopi farmers, researchers, and volunteers participated in the Pueblo Farming Project, and hundreds of students visited the PFP gardens during the growing season.</p>
 <div class="carousel">
-<p><img src="images/people/ahkima_honyumptewa.jpg" alt="Ahkima Honyumptewa" />
-<img src="images/people/ben_bellorado.jpg" alt="Ben Bellorado" />
-<img src="images/people/dan_simplicio.jpg" alt="Dan Simplicio" />
-<img src="images/people/deloria_lomawiama.jpg" alt="Deloria Lomawiama" />
-<img src="images/people/delwyn_tawvaya.jpg" alt="Delwyn Tawvaya" />
-<img src="images/people/donald_dawahongnewa.jpg" alt="Donald Dawahongnewa" />
-<img src="images/people/gary_nicholas.jpg" alt="Gary Nicholas" />
-<img src="images/people/grant_coffey.jpg" alt="Grant Coffey" />
-<img src="images/people/herman_agoyo.jpg" alt="Herman Agoyo" />
-<img src="images/people/joel_nicholas.jpg" alt="Joel Nicholas" />
-<img src="images/people/karen_adams.jpg" alt="Karen Adams" />
-<img src="images/people/kelly_swarts.jpg" alt="Kelly Swarts" />
-<img src="images/people/kevin_crook.jpg" alt="Kevin Crook" />
-<img src="images/people/kyle_bocinsky.jpg" alt="Kyle Bocinsky" />
-<img src="images/people/lance_nicholas.jpg" alt="Lance Nicholas" />
-<img src="images/people/lee_wayne_lomayestewa.jpg" alt="Lee Wayne Lomayestewa" />
-<img src="images/people/leigh_kuwanwisiwma.jpg" alt="Leigh Kuwanwisiwma" />
-<img src="images/people/margie_connolly.jpg" alt="Margie Connolly" />
-<img src="images/people/mark_varien.jpg" alt="Mark Varien" />
-<img src="images/people/mike_coffey.jpg" alt="Mike Coffey" />
-<img src="images/people/morgan_saufkie.jpg" alt="Morgan Saufkie" />
-<img src="images/people/owen_numkema.jpg" alt="Owen Numkema" />
-<img src="images/people/paul_ermigiotti.jpg" alt="Paul Ermigiotti" />
-<img src="images/people/raleigh_puhuyaoma.jpg" alt="Raleigh Puhuyaoma" />
-<img src="images/people/read_brugger.jpg" alt="Read Brugger" />
-<img src="images/people/ronald_wadsworth.jpg" alt="Ronald Wadsworth" />
-<img src="images/people/shirley_powell.jpg" alt="Shirley Powell" />
-<img src="images/people/stewart_koyiyumptewa.jpg" alt="Stewart Koyiyumptewa" />
-<img src="images/people/tom_lucero.jpg" alt="Tom Lucero" /></p>
+<p><img src="images/people/ahkima_honyumptewa.jpg" alt="Ahkima Honyumptewa — Traditional Hopi farmer" />
+<img src="images/people/ben_bellorado.jpg" alt="Ben Bellorado — Archaeologist & Research Associate, Crow Canyon Archaeological Center" />
+<img src="images/people/dan_simplicio.jpg" alt="Dan Simplicio — Cultural Specialist, Crow Canyon Archaeological Center & member of the Zuni tribe" />
+<img src="images/people/deloria_lomawiama.jpg" alt="Deloria Lomawiama — Former Educator, Crow Canyon Archaeological Center & member of the Hopi Tribe" />
+<img src="images/people/delwyn_tawvaya.jpg" alt="Delwyn Tawvaya — Traditional Hopi farmer" />
+<img src="images/people/donald_dawahongnewa.jpg" alt="Donald Dawahongnewa — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/gary_nicholas.jpg" alt="Gary Nicholas — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/grant_coffey.jpg" alt="Grant Coffey — Researcher/GIS specialist, Crow Canyon Archaeological Center" />
+<img src="images/people/harold_polingyumptewa.jpg" alt="Harold Polingyumptewa (deceased) — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/herman_agoyo.jpg" alt="Herman Agoyo (deceased) — Traditional Pueblo farmer, Ohkay Owingeh Pueblo" />
+<img src="images/people/joel_nicholas.jpg" alt="Joel Nicholas — Traditional Hopi farmer & Staff, Hopi Cultural Preservation Office" />
+<img src="images/people/karen_adams.jpg" alt="Karen Adams — Paleoethnobotanist & Research Associate, Crow Canyon Archaeological Center" />
+<img src="images/people/kelly_swarts.jpg" alt="Kelly Swarts — Archaeogeneticist & Research Associate, Crow Canyon Archaeological Center" />
+<img src="images/people/kevin_crook.jpg" alt="Kevin Crook — Traditional Hopi farmer" />
+<img src="images/people/kyle_bocinsky.jpg" alt="Kyle Bocinsky — Research Associate, Crow Canyon Archaeological Center" />
+<img src="images/people/lance_nicholas.jpg" alt="Lance Nicholas — Traditional Hopi farmer" />
+<img src="images/people/lee_wayne_lomayestewa.jpg" alt="Lee Wayne Lomayestewa — Traditional Hopi farmer & Staff, Hopi Cultural Preservation Office" />
+<img src="images/people/leigh_kuwanwisiwma.jpg" alt="Leigh Kuwanwisiwma — Traditional Hopi farmer & Former Director of the Hopi Cultural Preservation Office" />
+<img src="images/people/margie_connolly.jpg" alt="Margie Connolly — Former Director, American Indian initiatives, Crow Canyon Archaeological Center" />
+<img src="images/people/mark_varien.jpg" alt="Mark Varien — Executive Vice President of the Research Institute, Crow Canyon Archaeological Center" />
+<img src="images/people/mike_coffey.jpg" alt="Mike Coffey — Farmer, Dove Creek, Colorado" />
+<img src="images/people/morgan_saufkie.jpg" alt="Morgan Saufkie — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/owen_numkema.jpg" alt="Owen Numkema — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/paul_ermigiotti.jpg" alt="Paul Ermigiotti — Educator/researcher, Crow Canyon Archaeological Center" />
+<img src="images/people/raleigh_puhuyaoma.jpg" alt="Raleigh Puhuyaoma — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/read_brugger.jpg" alt="Read Brugger — PFP volunteer, Cortez, Colorado" />
+<img src="images/people/ronald_wadsworth.jpg" alt="Ronald Wadsworth — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/shirley_powell.jpg" alt="Shirley Powell — Director of Sponsored Projects, Crow Canyon Archaeological Center" />
+<img src="images/people/stewart_koyiyumptewa.jpg" alt="Stewart Koyiyumptewa — Director, Hopi Cultural Preservation Office" />
+<img src="images/people/tom_lucero.jpg" alt="Tom Lucero (deceased) — Traditional Pueblo farmer, Jemez Pueblo" /></p>
 </div>
 <div class="carcaption">
 <p class="caption">
