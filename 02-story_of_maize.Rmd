@@ -16,7 +16,7 @@ Today, corn is the most widely produced grain crop in the United States, though 
 ![A Hopi *tihu* or representational figurine, depicting Masau'u.](./images/section_2.1_origin.jpg)
 </div>
 
-The domestication of maize was unique. Typically, domesticated plants look similar to their wild ancestors; However, an ear of corn's closest wild relative, teosinte, is noticeably different from an ear of modern corn. An ear of maize is wrapped in a husk, the kernels are held tightly and not able to scatter or free themselves from the cob, so they would compete with each other for nutrients and water, while the kernels of teoscinte are able to scatter freely. Because the husks of corn must be removed in order for corn to reproduce, corn is as dependent on humans as humans are dependent on corn.
+The domestication of maize was unique. Typically, domesticated plants look similar to their wild ancestors; However, an ear of corn's closest wild relative, teosinte, is noticeably different from an ear of modern corn. An ear of maize is wrapped in a husk, the kernels are held tightly and not able to scatter or free themselves from the cob, so they would compete with each other for nutrients and water, while the kernels of teosinte are able to scatter freely. Because the husks of corn must be removed in order for corn to reproduce, corn is as dependent on humans as humans are dependent on corn.
 
 <div style="text-align: center;">
 ![Maize differs from its closest wild relative, teosinte. Copyright Oxford University Press, all rights reserved.](./images/teosinte.jpg)
@@ -24,7 +24,7 @@ The domestication of maize was unique. Typically, domesticated plants look simil
 
 Teosinte, a wild grass native to Mexico and Central America, is so closely related to maize that it belongs to the same species, *Zea mays*, but is a different subspecies: parviglumis. Despite their shared ancestry, the plants differ in significant ways:
 
-| **Maize** | **Teoscinte** |
+| **Maize** | **Teosinte** |
 | --- | --- |
 | grows as a single stalk with a few large ears | branched with many small ears |
 | ears are encased in a husk with hundreds of kernels on the cob | ears have eight to 12 kernels, each surrounded by a hard fruit-case |
