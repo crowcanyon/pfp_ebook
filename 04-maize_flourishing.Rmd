@@ -107,6 +107,8 @@ Oak trees
 *   **Soil color**: darker colors often mean higher amounts of decomposed organic matter and nutrients in the soil. In the Southwest, this means dark red-brown.
 *   **Large, open planting area**: the area must be large enough that clumps of seeds can be planted with wide spaces between them (2--3 adult paces/steps or 4--6 feet between clumps.) This spacing allows little soil-moisture reservoirs to be created between clumps, providing long-term moisture. 
 
+**Soil moisture is especially important to maize growth at planting (for germination), at tasseling/silking (for best chances at pollination), and during grain fill (to get ears completely covered with kernels).**
+
 ### Drought {-}
 **When a normal amount of snow and rain does not arrive, this is called a *drought*.**
 
