@@ -14,20 +14,14 @@ All farmers use descriptions of the life-cycle of their crops. The descriptions 
 
 <div class="carousel">
 ![1. Planting begins in the fields.](./images/hopi_growth/1_nawantota.jpg)
-![2. Corn plants have pierced through the soil like a needle point. About ten days after planting.](./images/hopi_growth/2_motskuyvaya.jpg)
-![3. The plants have now emerged. About three weeks after planting.](./images/hopi_growth/3_kuyvaya.jpg)
-![4. The plants have grown and their leaves are touching the ground.	Four to five weeks after planting.](./images/hopi_growth/4_matyaltoti.jpg)
-![5. The plants are thinned so they can breathe and grow. Four to six weeks after planting.](./images/hopi_growth/5_tsaatsatota.jpg)
-![6. Plants are now standing tall and alert.	About  seven weeks after planting.](./images/hopi_growth/6_hongva.jpg)
-![7. The plants have grown tall and now have their tassels. Eleven to twelve weeks after planting.](./images/hopi_growth/7_taalakuyvaya.jpg)
-![8. The silk hairs appear on the plants. About twelve weeks after planting.](./images/hopi_growth/8_yowihayiltoti.jpg)
-![9. The plants now show swelling of new life forming. Thirteen to fourteen weeks after planting.](./images/hopi_growth/9_piikyavaya.jpg)
-![10. The kernels are getting hard and growing toward maturity.	Approximately 100 days after planting.](./images/hopi_growth/10_sikyatspuvaya.jpg)
-![11. The corn has matured and is ready to be  harvested. Sixteen to seventeen weeks after planting.](./images/hopi_growth/11_nuvawvaya.jpg)
-![12. The plants have matured. The corn is ripe. About 120 days after planting.](./images/hopi_growth/12_tuksiya.jpg)
-![13. The farmers harvest their crops. The plants and ears have dried.](./images/hopi_growth/13_hoqya.jpg)
-![14. After harvest the dried stalks are laid to rest.](./images/hopi_growth/14_qatungwuyamu_waomnaya.jpg)
-![15. The enduring power of reproduction that is prayed for is evident when the harvest is properly cared for. Drawing by Kurt Lomawaima.](./images/hopi_growth/15_naakya.jpg)
+![2. The plants have now emerged. About three weeks after planting.](./images/hopi_growth/2_kuyvaya.jpg)
+![3. The plants are thinned so they can breathe and grow. Four to six weeks after planting.](./images/hopi_growth/3_tsaatsatota.jpg)
+![4. The plants have grown tall and now have their tassels. Eleven to twelve weeks after planting.](./images/hopi_growth/4_taalakuyvaya.jpg)
+![5. The corn has matured and is ready to be  harvested. Sixteen to seventeen weeks after planting.](./images/hopi_growth/5_nuvawvaya.jpg)
+![6. The plants have matured. The corn is ripe. About 120 days after planting.](./images/hopi_growth/6_tuksiya.jpg)
+![7. The farmers harvest their crops. The plants and ears have dried.](./images/hopi_growth/7_hoqya.jpg)
+![8. After harvest the dried stalks are laid to rest.](./images/hopi_growth/8_qatungwuyamu_waomnaya.jpg)
+![9. The enduring power of reproduction that is prayed for is evident when the harvest is properly cared for. Drawing by Kurt Lomawaima.](./images/hopi_growth/9_naakya.jpg)
 </div>
 
 <div class="carcaption">

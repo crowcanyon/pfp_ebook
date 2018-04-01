@@ -377,12 +377,11 @@ Hopi communities have been cultivating maize for millennia, with very little int
 
 #### Results {-}
 
-* In situ Hopi maize is genetically unique, though very closely related to other temperate maize from the southwest US.
-Hopi varieties differ from other maize with respect to environmental responses, growth, and physiology.
-* Ancestral Puebloan samples from Turkey Pen Shelter are closely associated with the in situ Hopi samples (as to other samples from the temperate SW US), but in situ Hopi maize has undergone continued selection for desirable traits over the last 2,000 years.
-* Hopi material from the ex situ collections demonstrates tropical traits that are not found in the in situ Hopi samples from this study. The cause of this is inconclusive, but demonstrates the necessity of further not relying solely on banked-corn from services like USDA-ARS and Native Seeds/SEARCH. Analysis on Hopi maize should be performed from new in situ collections.
+* *In situ* Hopi maize is genetically unique, though very closely related to other temperate maize from the southwest US. Hopi varieties differ from other maize with respect to environmental responses, growth, and physiology.
+* Ancestral Puebloan samples from Turkey Pen Shelter are closely associated with the *in situ* Hopi samples (as to other samples from the temperate SW US), but *in situ* Hopi maize has undergone continued selection for desirable traits over the last 2,000 years.
+* Hopi material from the *ex situ* collections demonstrates tropical traits that are not found in the *in situ* Hopi samples from this study. The cause of this is inconclusive, but demonstrates the necessity of not relying solely on banked-corn from services like USDA-ARS and Native Seeds/SEARCH. Analysis on Hopi maize should be performed from new *in situ* collections.
 * Named varieties of Hopi corn are genetically different from one another, although there is a fair amount of genetic overlap between them as well. This suggests that, although contemporary Hopi farming techniques seek to isolate named types, genetic mixing has occurred in the past. 
 * There is little population structure within the Hopi germplasm (variation is widely distributed), despite the clear morphological and physiological characteristics of the different varieties. This pattern typically results from past intermating between varieties, and also supports seed sharing between farmers and across the various Hopi Mesas.
 * Breeding population sizes, as indicated by estimated inbreeding within populations, are within the healthy range.
 
-These data will all be available for future studies to monitor changes within in situ Hopi germplasm.
+These data will all be available for future studies to monitor changes within *in situ* Hopi germplasm.
