@@ -16,11 +16,10 @@ Today, corn is the most widely produced grain crop in the United States, though 
 ![A Hopi *tihu* or representational figurine, depicting Masau'u.](./images/section_2.1_origin.jpg)
 </div>
 
-The domestication of maize was unique. Typically, domesticated plants look similar to their wild ancestors; However, an ear of corn's closest wild relative, teosinte, is noticeably different from an ear of modern corn. An ear of maize is wrapped in a husk, the kernels are held tightly and not able to scatter or free themselves from the cob, so they would compete with each other for nutrients and water, while the kernels of teosinte are able to scatter freely. Because the husks of corn must be removed in order for corn to reproduce, corn is as dependent on humans as humans are dependent on corn.
-
-<div style="text-align: center;">
-![Maize differs from its closest wild relative, teosinte. Copyright Oxford University Press, all rights reserved.](./images/teosinte.jpg)
-</div>
+The domestication of maize was unique. Typically, domesticated plants look similar to their wild ancestors; However, an ear of corn's closest wild relative, teosinte, is noticeably different from an ear of modern corn. An ear of maize is wrapped in a husk and the kernels are held tightly and not able to scatter or free themselves from the cob, whereas the kernels of teosinte are able to scatter freely. Because the husks of corn must be removed in order for corn to reproduce, corn is as dependent on humans as humans are dependent on corn.
+<!-- <div style="text-align: center;"> -->
+<!-- ![Maize differs from its closest wild relative, teosinte. Copyright Oxford University Press, all rights reserved.](./images/teosinte.jpg) -->
+<!-- </div> -->
 
 Teosinte, a wild grass native to Mexico and Central America, is so closely related to maize that it belongs to the same species, *Zea mays*, but is a different subspecies: parviglumis. Despite their shared ancestry, the plants differ in significant ways:
 
@@ -37,21 +36,21 @@ Teosinte, a wild grass native to Mexico and Central America, is so closely relat
 ![Varieties of maize.](./images/varieties.jpg)
 </div>
 
-Maize entered the southwestern United States about 4000 years ago. On its long journey from Mexico, maize has adapted from its tropical environment, which has 12 hours of daylight, to the semi-arid, long summer days and cool-night conditions of the Colorado Plateau. Farming techniques also had to adapt. Direct-precipitation agriculture is dependent on moisture stored in the soil from precipitation and runoff water. Pueblo people have practiced direct-precipitation farming in the arid southwest for millennia. They have accumulated detailed knowledge of their environment and have adopted specialized planting techniques. Direct-precipitation farming is an act of faith that binds the people to their land and their beliefs, requiring hard work, song and prayer.
+Maize entered the southwestern United States about 4,000 years ago. On its long journey from Mexico, maize has adapted from its tropical environment, which has 12 hours of daylight, to the semiarid, long summer days and cool night conditions of the Colorado Plateau. Farming techniques also had to adapt. Direct-precipitation agriculture is dependent on moisture stored in the soil from precipitation and runoff water. Pueblo people have practiced direct-precipitation farming in the arid Southwest for millennia. They have accumulated detailed knowledge of their environment and have adopted specialized planting techniques. Direct-precipitation farming is an act of faith that binds the people to their land and their beliefs, requiring hard work, song and prayer.
 
 Traditional direct-precipitation farming techniques include:
 
-- **Knowing plants that indicate adequate soil moisture.** Several plant species are regarded as key indicators when it comes to agricultural field selection. Rabbitbrush (Chrysothamnus), snakeweed (Gutierrezia), grease wood (Sarcobatus), fourwing saltbush (Atriplex), and ricegrass (Oryzopsis) typically indicate good soil moisture. Corn is likely to do well where these indicator species grow vigorously.
+- **Knowing wild plants that indicate adequate soil moisture.** Several plant species are regarded as key indicators when it comes to agricultural field selection. Rabbitbrush (Chrysothamnus), snakeweed (Gutierrezia), grease wood (Sarcobatus), fourwing saltbush (Atriplex), and ricegrass (Oryzopsis) typically indicate good soil moisture. Corn is likely to do well where these indicator species grow vigorously.
 - **Planting seeds deeply.** Seeds are planted deep, about eight to 12 inches, so they will come in contact with moist soil. This ensures the seeds receive all the benefits of winter moisture and a deep root system. 
-- **Planting seeds in clumps.** By planting 10 to 15 seeds together, the young plants protect each other from the harsh sun and winds. Also, by planting many seeds together, the chance of total loss from insects, birds or rodents is reduced.
+- **Planting seeds in clumps.** By planting 10 to 15 seeds together, the farmers ensure the young plants protect each other from the harsh sun and winds. When many seeds are planted together, the chances of total loss from insects, birds, or rodents are reduced.
 - **Planting with wide spacing between clumps.** Clumps are spaced about 1.5 to 2 meters apart to ensure adequate surface area to absorb precipitation and reduce competition from other plants for moisture stored in the soil.
-- **Planting on north-facing slopes planting in alluvial floodplains.** Less exposure to direct sun light reduces evaporation and conserves soil moisture. Alluvial floodplains provide deep sediment deposits that have increased moisture storage capacity. These settings also get recharged with organic materials that move down the drainage and settle in the fields.
+- **Planting on north-facing slopes and/or planting in alluvial floodplains.** Less exposure to direct sunlight reduces evaporation and conserves soil moisture. Alluvial floodplains provide deep sediment deposits that have increased moisture-storage capacity. These settings also get recharged with organic materials that move down the drainage and settle in the fields.
 
 <div style="text-align: center;">
 ![A bag of seed, a digging stick and a gourd of water; the gifts of life.](./images/gifts_of_life.jpg)
 </div>
 
-> When the people emerged into this world Masau'u provided the people with three gifts; a planting stick (so'ya) a bag of seeds and a gourd of water. He handed them a small ear of blue corn and told the people: "Here is my life and my spirit. This is what I have to give you."
+> When the people emerged into this world Masau'u provided the people with three gifts---a planting stick (so'ya) a bag of seeds and a gourd of water. He handed them a small ear of blue corn and told the people: "Here is my life and my spirit. This is what I have to give you."
 >
 > --- A portion of a Hopi origin story
 
@@ -59,7 +58,7 @@ To contemporary Pueblo people, corn is considered a mother because it sustains t
 
 ## A world of corn
 
-Maize was unknown outside the New World before the sixteenth-century. Because of its ability to grow in diverse climates, it spread rapidly to the rest of the world and became the staple it is today.
+Maize was unknown outside the New World before the sixteenth century. Because of its ability to grow in diverse climates, maize spread rapidly to the rest of the world and became the staple it is today.
 
 <div style="text-align: center;">
 ![Corn is used in thousands of every day products from cosmetics and crayons to ethanol fuel.](./images/corn_uses.jpg)
@@ -67,7 +66,7 @@ Maize was unknown outside the New World before the sixteenth-century. Because of
 
 The success of maize worldwide can be attributed to the following:
 
-**Adaptation** — Contemporary varieties of maize grow in many different environmental conditions: from sea level to 11,000 feet, and from 5 to 170 inches of precipitation annually.
+**Adaptation** — Contemporary varieties of maize grow in many different environmental conditions: from sea level to 11,000 feet and from 5 to 170 inches of precipitation annually.
 
 **Variability in appearance** — Ears and kernels display a diverse range of sizes, colors, and endosperm textures. There are thousands of varieties of corn to choose from in seed catalogs: open-pollenated, heirloom, hybrid, and even genetically modified. Variability in kernel shape, size, and color, as well as differences in ear size, demonstrates the incredible diversity in maize.
 
