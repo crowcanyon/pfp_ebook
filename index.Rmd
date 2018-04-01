@@ -23,7 +23,7 @@ fontsize: 12pt
 monofont: "Source Code Pro"
 monofontoptions: "Scale=0.7"
 site: bookdown::bookdown_site
-description: "A collaboration between Hopi Farmers and the Crow Canyon Archaeological Center."
+description: "A collaboration between Hopi Farmers and the Crow Canyon Archaeological Center"
 url: 'https\://www.crowcanyon.org/institute/pfp/'
 github-repo: crowcanyon/pfp_ebook
 cover-image: "./images/section_2.3_header.jpg"
