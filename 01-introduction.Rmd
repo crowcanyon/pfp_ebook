@@ -113,7 +113,7 @@ Over almost a decade, dozens of Hopi farmers, researchers, and volunteers partic
 <img src="images/people/ahkima_honyumptewa.jpg" alt="Ahkima Honyumptewa — Traditional Hopi farmer" />
 <img src="images/people/ben_bellorado.jpg" alt="Ben Bellorado — Archaeologist & Research Associate, Crow Canyon Archaeological Center" />
 <img src="images/people/dan_simplicio.jpg" alt="Dan Simplicio — Cultural Specialist, Crow Canyon Archaeological Center & member of the Zuni tribe" />
-<img src="images/people/deloria_lomawiama.jpg" alt="Deloria Lomawiama — Former Educator, Crow Canyon Archaeological Center & member of the Hopi Tribe" />
+<img src="images/people/deloria_lomawiama.jpg" alt="Deloria Lomawaima — Former Educator, Crow Canyon Archaeological Center & member of the Hopi Tribe" />
 <img src="images/people/delwyn_tawvaya.jpg" alt="Delwyn Tawvaya — Traditional Hopi farmer" />
 <img src="images/people/donald_dawahongnewa.jpg" alt="Donald Dawahongnewa — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
 <img src="images/people/gary_nicholas.jpg" alt="Gary Nicholas — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
@@ -131,10 +131,10 @@ Over almost a decade, dozens of Hopi farmers, researchers, and volunteers partic
 <img src="images/people/margie_connolly.jpg" alt="Margie Connolly — Former Director, American Indian initiatives, Crow Canyon Archaeological Center" />
 <img src="images/people/mark_varien.jpg" alt="Mark Varien — Executive Vice President of the Research Institute, Crow Canyon Archaeological Center" />
 <img src="images/people/mike_coffey.jpg" alt="Mike Coffey — Farmer, Dove Creek, Colorado" />
-<img src="images/people/morgan_saufkie.jpg" alt="Morgan Saufkie — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/morgan_saufkie.jpg" alt="Morgan Saufkie (deceased) — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
 <img src="images/people/owen_numkema.jpg" alt="Owen Numkema — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
 <img src="images/people/paul_ermigiotti.jpg" alt="Paul Ermigiotti — Educator/researcher, Crow Canyon Archaeological Center" />
-<img src="images/people/raleigh_puhuyaoma.jpg" alt="Raleigh Puhuyaoma — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
+<img src="images/people/raleigh_puhuyaoma.jpg" alt="Raleigh Puhuyaoma (deceased) — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
 <img src="images/people/read_brugger.jpg" alt="Read Brugger — PFP volunteer, Cortez, Colorado" />
 <img src="images/people/ronald_wadsworth.jpg" alt="Ronald Wadsworth — Traditional Hopi farmer & member of the Hopi Cultural Resource Advisory Task Team" />
 <img src="images/people/shirley_powell.jpg" alt="Shirley Powell — Director of Sponsored Projects, Crow Canyon Archaeological Center" />
