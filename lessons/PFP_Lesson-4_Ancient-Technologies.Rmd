@@ -302,7 +302,7 @@ K.  _Hopi people plant clumps approximately 2 meters (m) apart; each clump needs
 
 -----
 
-![**Diagram 1. A Planting Hole in a Hopi Maize Field.** From Cleveland and Soleri 1991: Figure 6.19. Copyright © 1991 by David Arthur Cleveland and Daniela Soleri. Reproduced with permission for non-commercial purposes.](../images/planting.gif)
+![**Diagram 1. A Planting Hole in a Hopi Maize Field.** From Cleveland and Soleri 1991: Figure 6.19. Copyright © 1991 by David Arthur Cleveland and Daniela Soleri. Reproduced with permission for non-commercial purposes.](./images/planting.png)
 
 -----
 
