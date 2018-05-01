@@ -30,7 +30,7 @@ All farmers use descriptions of the life cycle of their crops. The descriptions 
 
 ## The phenology of maize
 
-Like the Hopi, Pueblo Farming Project researchers also have desccriptions for the life cycle of maize. PFP scientists use stages of maize growth from maize *phenology*, or the scientific study of how plant growth and reproduction relates to the environment. The photographs below illustrate the growth stages that were recorded by PFP researchers during the growing season.
+Like the Hopi, Pueblo Farming Project researchers also have desccriptions for the life cycle of maize. Pueblo Farming Project scientists use stages of maize growth from maize *phenology*, or the scientific study of how plant growth and reproduction relates to the environment. The photographs below illustrate the growth stages that were recorded by Pueblo Farming Project researchers during the growing season.
 
 <div class="carousel">
 ![1. **Early tassel development** is defined when the tassel bud starts to emerge from the central enclosing leaves at the top of the stalk to the time the tassel spike begins to branch.](./images/growth/1_early_tassel_development.jpg)
