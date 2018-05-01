@@ -16,14 +16,14 @@ window.buildTabsets("TOC");
 
 </script>
 
-Pueblo people living in the southwestern United States have been successful farmers for millenia. This lesson introduces students to Pueblo maize agriculture and its connection to the resilience of Pueblo culture. Download the PDF versions of the [long](./lessons/PFP_Lesson-1_The-People-of-Corn_Long.pdf) or [short](./lessons/PFP_Lesson-1_The-People-of-Corn_Short.pdf) sessions.
+Pueblo people living in the southwestern United States have been successful farmers for millennia. This lesson introduces students to Pueblo maize agriculture and its connection to the resilience of Pueblo culture. Download the PDF versions of the [long](./lessons/PFP_Lesson-1_The-People-of-Corn_Long.pdf) or [short](./lessons/PFP_Lesson-1_The-People-of-Corn_Short.pdf) sessions.
 
 ### {- .tabset .tabset-fade}
 
 #### Preparation {-}
 **Grades:** 6, 7, 8
 
-This lesson can be taught to each middle school grade with increasing
+This lesson can be taught to each middle school grade with appropriately differing
 complexity and detail.
 
 To create a unit on Pueblo agriculture, this lesson should be taught

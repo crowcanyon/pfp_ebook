@@ -2,7 +2,6 @@ bookdown::gitbook:
   dev: svglite
   includes:
     in_header: header.html
-    before_body: open_review_block.html
     after_body: after_body.html
   css: css/style.css
   split_by: section
