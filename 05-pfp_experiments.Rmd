@@ -147,8 +147,8 @@ An important thing to consider is the timing of tasseling relative to silking. T
 **Explore the plot below.** You can hover over the plot to view the individual values. Use the slider at the bottom of the graph to move through the growth stages. You can isolate a particular garden by double clicking its name in the legend at the right of the graph; a single click will turn a garden on or off. Finally, you can download an image of the graph by hovering over it and clicking the small camera icon in the upper right.
 
 ```{r growth-plot, echo=FALSE, warning=FALSE, message=FALSE}
-2009:2017 %>%
-  magrittr::set_names(2009:2017) %>%
+2009:2018 %>%
+  magrittr::set_names(2009:2018) %>%
   purrr::walk(function(season){
     test_data <- growth_summaries %>%
       tidyr::gather(`Growth stage`, 
@@ -227,7 +227,8 @@ system("cp -R libs/. docs/plots/libs/")
 
 <form name="change">
 <select name="options" onchange="document.getElementById('youriframe').src = this.options[this.selectedIndex].value">
-<option value="./plots/growth_2017.html">Select a year to view the growth data:</option>
+<option value="./plots/growth_2018.html">Select a year to view the growth data:</option>
+<option value="./plots/growth_2018.html">2018</option>
 <option value="./plots/growth_2017.html">2017</option>
 <option value="./plots/growth_2016.html">2016</option>
 <option value="./plots/growth_2015.html">2015</option>
@@ -239,7 +240,7 @@ system("cp -R libs/. docs/plots/libs/")
 <option value="./plots/growth_2009.html">2009</option>
 </select>
 
-<iframe name="iframe" id="youriframe" src="./plots/growth_2017.html" height="400" width="100%" frameborder="0" scrolling="no"></iframe>
+<iframe name="iframe" id="youriframe" src="./plots/growth_2018.html" height="400" width="100%" frameborder="0" scrolling="no"></iframe>
 
 ### Maize yield {-}
 
@@ -258,7 +259,7 @@ yields %>%
   readr::write_csv("./docs/tables/yield_table.csv")
 ```
 
-**Hopi maize grown during the PFP flourished in the Mesa Verde region.** Although some gardens failed to produce yields in some years, many of the gardens produced substantial yields. The highest yielding garden was the Mike Coffey Garden (MCG) in `r max_yield$Season`, which produced an average yield of `r max_yield[["PFP experimental yield (kg/ha)"]]` kg/ha of maize. To put that into perspective, such a yield rate would have easily supported `r (max_yield[["PFP experimental yield (kg/ha)"]]/160) %>% floor()` people for one year from a one hectare field! The average yield for all of the gardens from 2009 to 2017 was `r (yields_summary[["PFP experimental yield (kg/ha)"]]) %>% mean() %>% round()` kg/ha, enough to support about two people for one year from a one hectare field. The data presented above are a summary of the raw yield data, which are available <a href="./docs/tables/yield_table.csv" download="PFP_yield_table.csv">here</a>.
+**Hopi maize grown during the PFP flourished in the Mesa Verde region.** Although some gardens failed to produce yields in some years, many of the gardens produced substantial yields. The highest yielding garden was the Mike Coffey Garden (MCG) in `r max_yield$Season`, which produced an average yield of `r max_yield[["PFP experimental yield (kg/ha)"]]` kg/ha of maize. To put that into perspective, such a yield rate would have easily supported `r (max_yield[["PFP experimental yield (kg/ha)"]]/160) %>% floor()` people for one year from a one hectare field! The average yield for all of the gardens from 2009 to 2018 was `r (yields_summary[["PFP experimental yield (kg/ha)"]]) %>% mean() %>% round()` kg/ha, enough to support about two people for one year from a one hectare field. The data presented above are a summary of the raw yield data, which are available <a href="./docs/tables/yield_table.csv" download="PFP_yield_table.csv">here</a>.
 
 ```{r yield-summary-table, echo=FALSE, warning=FALSE, message=FALSE}
 yields_summary %>%

@@ -4,7 +4,7 @@
 #           to="./data/PFP_database.mdb",
 #           overwrite = TRUE)
 PFP_data <- Hmisc::mdb.get("./data/PFP_database.mdb") %>%
-  purrr::map(.f = dplyr::as_data_frame)
+  purrr::map(.f = dplyr::as_tibble)
 
 # Read in the garden table, and export a csv
 gardens <- PFP_data$`tbl Summary garden annual info` %>%

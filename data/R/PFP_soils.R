@@ -4,8 +4,8 @@ library(sf)
 
 source("./data/R/summarise_mapunits.R")
 
-ccac <- sf::st_read("https://raw.githubusercontent.com/bocinsky/Bocinsky_Varien_2017/master/DATA/ccac.geojson") %>%
-  sf::st_union()
+ccac <- sf::st_read("https://raw.githubusercontent.com/bocinsky/Bocinsky_Varien_2017/master/DATA/ccac.geojson")# %>%
+  # sf::st_union()
 
 # Download the NRCS SSURGO soils data for the study area
 # This downloads the soils data for the CO671 soil survey
