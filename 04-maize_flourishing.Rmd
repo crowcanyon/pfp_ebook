@@ -215,7 +215,7 @@ Growing degree day amounts calculated in Celsius are different from those calcul
 ![Rain clouds gather over Ute Mountain in southwestern Colorado.](./images/section_4.2_header.jpg)
 </div>
 
-Plants combine water and nutrients from the soil with heat and energy from the Sun to flourish. Pueblo Farming Project researchers estimated the amount of water and accumulated heat available to the maize in the Pueblo Farming Project gardens using weather data gathered by the US National Oceanic and Atmospheric Administration (NOAA) as part of the US Historical Climatology Network (USHCN). Temperature and precipitation data from a weather station in Cortez were used to measure the response of the Pueblo Farming Project gardens to local weather; we also installed a weather station on Crow Canyon's campus as well as temperature monitors in each garden. The graphs below show 2009 to 2017 data for the Pueblo Farming Project gardens. The top graph shows minimum and maximum daily temperatures and daily growing degree days, and the lower graph shows daily precipitation events. **These graphs are interactive!** Highlight a region of the graph in order to explore the weather. Hover over a graph to see the recorded weather at the Cortez weather station.
+Plants combine water and nutrients from the soil with heat and energy from the Sun to flourish. Pueblo Farming Project researchers estimated the amount of water and accumulated heat available to the maize in the Pueblo Farming Project gardens using weather data gathered by the US National Oceanic and Atmospheric Administration (NOAA) as part of the US Historical Climatology Network (USHCN). Temperature and precipitation data from a weather station in Cortez were used to measure the response of the Pueblo Farming Project gardens to local weather; we also installed a weather station on Crow Canyon's campus as well as temperature monitors in each garden. The graphs below show 2009 to 2018 data for the Pueblo Farming Project gardens. The top graph shows minimum and maximum daily temperatures and daily growing degree days, and the lower graph shows daily precipitation events. **These graphs are interactive!** Highlight a region of the graph in order to explore the weather. Hover over a graph to see the recorded weather at the Cortez weather station.
 
 ```{r, echo=FALSE, out.width = "100%", fig.height=3, echo=FALSE, warning=FALSE, message=FALSE}
 library(dygraphs)
@@ -273,8 +273,8 @@ dygraphs::dygraph(cortez_weather_dy %>%
                      color = "black") %>%
   dygraphs::dyLegend(labelsSeparateLines = T, 
                      show = "onmouseover") %>%
-  dygraphs::dyRangeSelector(dateWindow = c("2017-01-01", 
-                                           "2017-12-31"))
+  dygraphs::dyRangeSelector(dateWindow = c("2018-01-01", 
+                                           "2018-12-31"))
 
 
 cortez_weather_dy$PRCP_CM <- cortez_weather_dy$PRCP_IN * 2.54
@@ -313,7 +313,7 @@ dygraphs::dygraph(cortez_weather_dy %>%
                      strokeWidth = 0,
                      pointSize = 0,
                      color = "black") %>%
-  dygraphs::dyRangeSelector(dateWindow = c("2017-01-01", 
-                                           "2017-12-31"))
+  dygraphs::dyRangeSelector(dateWindow = c("2018-01-01", 
+                                           "2018-12-31"))
 
 ```
