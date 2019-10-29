@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html >
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>7.4 Ancient Technologies | The Pueblo Farming Project</title>
-  <meta name="description" content="A collaboration between Hopi Farmers and the Crow Canyon Archaeological Center">
-  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+  <meta name="description" content="A collaboration between Hopi Farmers and the Crow Canyon Archaeological Center" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
 
   <meta property="og:title" content="7.4 Ancient Technologies | The Pueblo Farming Project" />
   <meta property="og:type" content="book" />
@@ -24,15 +23,15 @@
 
 
 
-<meta name="date" content="2019-05-02">
+<meta name="date" content="2019-10-29" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="know-your-soil.html">
-<link rel="next" href="the-short-blue-ear.html">
+<link rel="prev" href="know-your-soil.html"/>
+<link rel="next" href="the-short-blue-ear.html"/>
 <script src="libs/jquery/jquery.min.js"></script>
 <link href="libs/gitbook/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-table.css" rel="stylesheet" />
@@ -40,6 +39,9 @@
 <link href="libs/gitbook/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -513,13 +515,13 @@ Reading/Writing/Communicating 1.2
 </ol>
 <hr />
 <div class="figure">
-<img src="images/planting.png" alt="Diagram 1. A Planting Hole in a Hopi Maize Field. From Cleveland and Soleri 1991: Figure 6.19. Copyright © 1991 by David Arthur Cleveland and Daniela Soleri. Reproduced with permission for non-commercial purposes." />
+<img src="images/planting.png" alt="" />
 <p class="caption"><strong>Diagram 1. A Planting Hole in a Hopi Maize Field.</strong> From Cleveland and Soleri 1991: Figure 6.19. Copyright © 1991 by David Arthur Cleveland and Daniela Soleri. Reproduced with permission for non-commercial purposes.</p>
 </div>
 <hr />
 <div align="center">
 <div class="figure">
-<img src="images/American_Football_Field.png" alt="Diagram 2. An American football field compared to a household field. A 10x10 meter square is included for reference. A household field is approximately the same size as an American football field, excluding the endzones." />
+<img src="images/American_Football_Field.png" alt="" />
 <p class="caption"><strong>Diagram 2. An American football field compared to a household field</strong>. A 10x10 meter square is included for reference. A household field is approximately the same size as an American football field, excluding the endzones.</p>
 </div>
 </div>
@@ -739,11 +741,13 @@ s.setAttribute('data-timestamp', +new Date());
   </div>
 <script src="libs/gitbook/js/app.min.js"></script>
 <script src="libs/gitbook/js/lunr.js"></script>
+<script src="libs/gitbook/js/clipboard.min.js"></script>
 <script src="libs/gitbook/js/plugin-search.js"></script>
 <script src="libs/gitbook/js/plugin-sharing.js"></script>
 <script src="libs/gitbook/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook/js/jquery.highlight.js"></script>
+<script src="libs/gitbook/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -786,8 +790,9 @@ gitbook.start({
     script.type = "text/javascript";
     var src = "true";
     if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(src))
-      src = src.replace(/^https?:/, '');
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
     script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();

@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html >
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 2 The Story of Maize | The Pueblo Farming Project</title>
-  <meta name="description" content="A collaboration between Hopi Farmers and the Crow Canyon Archaeological Center">
-  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+  <meta name="description" content="A collaboration between Hopi Farmers and the Crow Canyon Archaeological Center" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 2 The Story of Maize | The Pueblo Farming Project" />
   <meta property="og:type" content="book" />
@@ -24,15 +23,15 @@
 
 
 
-<meta name="date" content="2019-05-02">
+<meta name="date" content="2019-10-29" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="who-funded-the-pfp.html">
-<link rel="next" href="origins.html">
+<link rel="prev" href="who-funded-the-pfp.html"/>
+<link rel="next" href="origins.html"/>
 <script src="libs/jquery/jquery.min.js"></script>
 <link href="libs/gitbook/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-table.css" rel="stylesheet" />
@@ -40,6 +39,9 @@
 <link href="libs/gitbook/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -241,7 +243,7 @@
 <h1><span class="header-section-number">Chapter 2</span> The Story of Maize</h1>
 <div style="text-align: center;">
 <div class="figure">
-<img src="images/chapter_2_header.jpg" alt="Harvesting the small blue ear like the one Masau’u provided the Hopi people." />
+<img src="images/chapter_2_header.jpg" alt="" />
 <p class="caption">Harvesting the small blue ear like the one Masau’u provided the Hopi people.</p>
 </div>
 </div>
@@ -249,7 +251,7 @@
 <p>Today, corn is the most widely produced grain crop in the United States, though only a tiny fraction of the corn grown directly feeds people. Most of what we consume is in the form of high-fructose corn sweeteners. Most corn production goes toward animal feed, ethanol and exports. Corn has become less of an important food resource and more of a refined industrial product. In contrast, corn holds an important place in the origin myths and lifeways of many native cultures. In Pueblo cultures, maize plays a vital position physically, spiritually, and symbolically.</p>
 <div style="text-align: center;">
 <div class="figure">
-<img src="images/directional_corn.jpg" alt="Corn as directional symbols: white—northeast, yellow—northwest, red—southeast, blue—southwest." />
+<img src="images/directional_corn.jpg" alt="" />
 <p class="caption">Corn as directional symbols: white—northeast, yellow—northwest, red—southeast, blue—southwest.</p>
 </div>
 </div> 
@@ -467,11 +469,13 @@ s.setAttribute('data-timestamp', +new Date());
   </div>
 <script src="libs/gitbook/js/app.min.js"></script>
 <script src="libs/gitbook/js/lunr.js"></script>
+<script src="libs/gitbook/js/clipboard.min.js"></script>
 <script src="libs/gitbook/js/plugin-search.js"></script>
 <script src="libs/gitbook/js/plugin-sharing.js"></script>
 <script src="libs/gitbook/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook/js/jquery.highlight.js"></script>
+<script src="libs/gitbook/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -514,8 +518,9 @@ gitbook.start({
     script.type = "text/javascript";
     var src = "true";
     if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(src))
-      src = src.replace(/^https?:/, '');
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
     script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();

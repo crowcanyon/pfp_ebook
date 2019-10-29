@@ -147,8 +147,8 @@ An important thing to consider is the timing of tasseling relative to silking. T
 **Explore the plot below.** You can hover over the plot to view the individual values. Use the slider at the bottom of the graph to move through the growth stages. You can isolate a particular garden by double clicking its name in the legend at the right of the graph; a single click will turn a garden on or off. Finally, you can download an image of the graph by hovering over it and clicking the small camera icon in the upper right.
 
 ```{r growth-plot, echo=FALSE, warning=FALSE, message=FALSE}
-2009:2018 %>%
-  magrittr::set_names(2009:2018) %>%
+2009:2019 %>%
+  magrittr::set_names(2009:2019) %>%
   purrr::walk(function(season){
     test_data <- growth_summaries %>%
       tidyr::gather(`Growth stage`, 
@@ -227,7 +227,8 @@ system("cp -R libs/. docs/plots/libs/")
 
 <form name="change">
 <select name="options" onchange="document.getElementById('youriframe').src = this.options[this.selectedIndex].value">
-<option value="./plots/growth_2018.html">Select a year to view the growth data:</option>
+<option value="./plots/growth_2019.html">Select a year to view the growth data:</option>
+<option value="./plots/growth_2019.html">2019</option>
 <option value="./plots/growth_2018.html">2018</option>
 <option value="./plots/growth_2017.html">2017</option>
 <option value="./plots/growth_2016.html">2016</option>
@@ -240,7 +241,7 @@ system("cp -R libs/. docs/plots/libs/")
 <option value="./plots/growth_2009.html">2009</option>
 </select>
 
-<iframe name="iframe" id="youriframe" src="./plots/growth_2018.html" height="400" width="100%" frameborder="0" scrolling="no"></iframe>
+<iframe name="iframe" id="youriframe" src="./plots/growth_2019.html" height="400" width="100%" frameborder="0" scrolling="no"></iframe>
 
 ### Maize yield {-}
 
@@ -248,7 +249,23 @@ system("cp -R libs/. docs/plots/libs/")
 yields_summary <- yields %>%
   dplyr::group_by(Season,Garden,Variety) %>%
   dplyr::summarise(`PFP experimental yield (kg/ha)` = mean(`PFP experimental yield (kg/ha)`)) %>%
-  dplyr::mutate(`PFP experimental yield (kg/ha)` = round(`PFP experimental yield (kg/ha)`)) %T>%
+  dplyr::mutate(`PFP experimental yield (kg/ha)` = round(`PFP experimental yield (kg/ha)`))
+
+drop_current_season <- 
+  yields_summary %>%
+  dplyr::filter(Season == max(yields_summary$Season)) %$%
+  `PFP experimental yield (kg/ha)` %>%
+  magrittr::equals(0) %>%
+  all()
+
+yields_summary %<>% 
+  {
+    if(drop_current_season)
+      dplyr::filter(., Season != max(.$Season)) 
+    else .
+  }
+
+yields_summary %>%
   tabler("yield_summary_table")
 
 max_yield <- yields_summary %>% 
@@ -259,9 +276,10 @@ yields %>%
   readr::write_csv("./docs/tables/yield_table.csv")
 ```
 
-**Hopi maize grown during the PFP flourished in the Mesa Verde region.** Although some gardens failed to produce yields in some years, many of the gardens produced substantial yields. The highest yielding garden was the Mike Coffey Garden (MCG) in `r max_yield$Season`, which produced an average yield of `r max_yield[["PFP experimental yield (kg/ha)"]]` kg/ha of maize. To put that into perspective, such a yield rate would have easily supported `r (max_yield[["PFP experimental yield (kg/ha)"]]/160) %>% floor()` people for one year from a one hectare field! The average yield for all of the gardens from 2009 to 2018 was `r (yields_summary[["PFP experimental yield (kg/ha)"]]) %>% mean() %>% round()` kg/ha, enough to support about two people for one year from a one hectare field. The data presented above are a summary of the raw yield data, which are available <a href="./docs/tables/yield_table.csv" download="PFP_yield_table.csv">here</a>.
+**Hopi maize grown during the PFP flourished in the Mesa Verde region.** Although some gardens failed to produce yields in some years, many of the gardens produced substantial yields. The highest yielding garden was the Mike Coffey Garden (MCG) in `r max_yield$Season`, which produced an average yield of `r max_yield[["PFP experimental yield (kg/ha)"]]` kg/ha of maize. To put that into perspective, such a yield rate would have easily supported `r (max_yield[["PFP experimental yield (kg/ha)"]]/160) %>% floor()` people for one year from a one hectare field! The average yield for all of the gardens from `r min(yields_summary$Season)` to `r max(yields_summary$Season)` was `r (yields_summary[["PFP experimental yield (kg/ha)"]]) %>% mean() %>% round()` kg/ha, enough to support about two people for one year from a one hectare field. The data presented above are a summary of the raw yield data, which are available <a href="./docs/tables/yield_table.csv" download="PFP_yield_table.csv">here</a>.
 
 ```{r yield-summary-table, echo=FALSE, warning=FALSE, message=FALSE}
+
 yields_summary %>%
   tabler("yield_summary_table")
 
@@ -272,7 +290,12 @@ yields_summary %>%
 Even though there were really good years with high yields in some gardens, many gardens produced very low yields (although see [What we learned] for a discussion of low yields). The graph below displays estimated yields from each garden in each year. The yields are displayed as box plots; they show the **distribution** of possible yields as calculated from the clump data [see @Bocinsky2017 for a discussion of our methods]. The box represents the middle 50% of values; the line in the box is the median, or middle value; the lines extending from the boxes represent the middle 95% of values. Values outside the middle 95% appear as dots above and below the lines. As above, you can isolate a garden by double-clicking its name in the legend at the right of the graph. These data show the importance of traditional ecological knowledge in selecting garden locations---subsistence farmers quickly learn the best places to plant fields, and then they avoid planting in less-optimal places.
 
 ```{r yield-plot, echo=FALSE, warning=FALSE, message=FALSE}
-yields %>%
+yields %>% 
+  {
+    if(drop_current_season)
+      dplyr::filter(., Season != max(.$Season)) 
+    else .
+  } %>%
   plot_ly(x = ~Season, 
           y = ~`PFP experimental yield (kg/ha)`, 
           color = ~Garden, 
@@ -289,7 +312,7 @@ yields %>%
                                        "hoverClosestCartesian",
                                        "hoverCompareCartesian",
                                        "resetScale2d")) %>%
-    widgetframe::frameWidget(width='100%')
+  widgetframe::frameWidget(width='100%')
 
 ```
 
@@ -322,12 +345,12 @@ c("rows" = "Rows",
   "kernel_weight" = "Kernel weight") %>%
   purrr::map(function(var){
     out <- plot_ly(x = ears$Season, 
-                       y = ears[[var]], 
-                       color = ears$Garden, 
-                       type = "box") %>%
+                   y = ears[[var]], 
+                   color = ears$Garden, 
+                   type = "box") %>%
       layout(boxmode = "group") %>%
       layout(xaxis = list(title = "",
-                      autotick = FALSE),
+                          autotick = FALSE),
              yaxis = list(title = var)
       ) %>%
       config(displaylogo = F,

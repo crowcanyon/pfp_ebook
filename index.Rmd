@@ -44,7 +44,7 @@ options(
 )
 
 lapply(c('dygraphs', 'DT', 'citr', 'formatR', 'svglite', 'widgetframe'), function(pkg) {
-  if (system.file(package = pkg) == '') install.packages(pkg)
+  if (system.file(package = pkg) == '') install.packages(pkg, repos = "http://cran.us.r-project.org")
 })
 ```
 

@@ -3,7 +3,8 @@
 # file.copy(from = "/Volumes/USERS/Pueblo Farming Project/DATA/Pueblo Farmers Project database.mdb",
 #           to="./data/PFP_database.mdb",
 #           overwrite = TRUE)
-PFP_data <- Hmisc::mdb.get("./data/PFP_database.mdb") %>%
+PFP_data <- 
+  Hmisc::mdb.get("./data/PFP_database.mdb") %>%
   purrr::map(.f = dplyr::as_tibble)
 
 # Read in the garden table, and export a csv

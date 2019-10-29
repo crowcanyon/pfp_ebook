@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html >
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>5.1 Procedure | The Pueblo Farming Project</title>
-  <meta name="description" content="A collaboration between Hopi Farmers and the Crow Canyon Archaeological Center">
-  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+  <meta name="description" content="A collaboration between Hopi Farmers and the Crow Canyon Archaeological Center" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
 
   <meta property="og:title" content="5.1 Procedure | The Pueblo Farming Project" />
   <meta property="og:type" content="book" />
@@ -24,15 +23,15 @@
 
 
 
-<meta name="date" content="2019-05-02">
+<meta name="date" content="2019-10-29" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="the-pfp-field-experiments.html">
-<link rel="next" href="results.html">
+<link rel="prev" href="the-pfp-field-experiments.html"/>
+<link rel="next" href="results.html"/>
 <script src="libs/jquery/jquery.min.js"></script>
 <link href="libs/gitbook/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-table.css" rel="stylesheet" />
@@ -40,6 +39,9 @@
 <link href="libs/gitbook/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -243,7 +245,7 @@
 <h3>Planting</h3>
 <div style="text-align: center;">
 <div class="figure">
-<img src="images/chapter_6_soya.jpg" alt="Using a traditional Hopi planting stick, or so’ya." />
+<img src="images/chapter_6_soya.jpg" alt="" />
 <p class="caption">Using a traditional Hopi planting stick, or <em>so’ya</em>.</p>
 </div>
 </div>
@@ -273,7 +275,7 @@
 <h3>Monitoring</h3>
 <div style="text-align: center;">
 <div class="figure">
-<img src="images/chapter_3_header.jpg" alt="Paul Ermigiotti records the growth of maize in the Check Dam Garden." />
+<img src="images/chapter_3_header.jpg" alt="" />
 <p class="caption">Paul Ermigiotti records the growth of maize in the Check Dam Garden.</p>
 </div>
 </div>
@@ -294,7 +296,7 @@
 <h3>Harvesting</h3>
 <div style="text-align: center;">
 <div class="figure">
-<img src="images/chapter_5_harvest.jpg" alt="Harvesting maize." />
+<img src="images/chapter_5_harvest.jpg" alt="" />
 <p class="caption">Harvesting maize.</p>
 </div>
 </div>
@@ -302,7 +304,7 @@
 <p>On harvest day, typically in mid-October after the ears have sufficiently ripened on the stalk, the farmers approach the garden with anticipation. All of the ears from each stalk in a clump are shucked, the silk is removed, and the ears are recorded and tagged according to the clump, stalk, and ear. After the ears are collected from a clump the stalks are bent over at the base and laid to rest on the ground. This laying to rest of the stalks is part of the life process that cycles through birth, maturation, and death. The stalks left in the garden also help with the spacing in the next year’s planting. Planting between the stalks ensures that seeds are not planted in the same place two years in a row.</p>
 <div style="text-align: center;">
 <div class="figure">
-<img src="images/harvesting.jpg" alt="Harvesting maize and recording its attributes." />
+<img src="images/harvesting.jpg" alt="" />
 <p class="caption">Harvesting maize and recording its attributes.</p>
 </div>
 </div>
@@ -529,11 +531,13 @@ s.setAttribute('data-timestamp', +new Date());
   </div>
 <script src="libs/gitbook/js/app.min.js"></script>
 <script src="libs/gitbook/js/lunr.js"></script>
+<script src="libs/gitbook/js/clipboard.min.js"></script>
 <script src="libs/gitbook/js/plugin-search.js"></script>
 <script src="libs/gitbook/js/plugin-sharing.js"></script>
 <script src="libs/gitbook/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook/js/jquery.highlight.js"></script>
+<script src="libs/gitbook/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -576,8 +580,9 @@ gitbook.start({
     script.type = "text/javascript";
     var src = "true";
     if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(src))
-      src = src.replace(/^https?:/, '');
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
     script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
