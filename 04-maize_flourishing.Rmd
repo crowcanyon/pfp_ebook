@@ -1,3 +1,8 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 # What maize needs to flourish
 <div style="text-align: center;">
 ![A tasseling maize plant.](./images/chapter_4_header.jpg)
@@ -298,7 +303,7 @@ dygraphs::dygraph(cortez_weather_dy %>%
                      label = "Precipitation (in)", 
                      axis = 'y', 
                      # stepPlot = TRUE,
-                     stemPlot = T,
+                     # stemPlot = TRUE,
                      drawPoints = NULL,
                      strokeWidth = 1,
                      pointSize = 0,
@@ -308,7 +313,7 @@ dygraphs::dygraph(cortez_weather_dy %>%
   dygraphs::dySeries("PRCP_CM",
                      label = "Precipitation (cm)",
                      axis = 'y2',
-                     stemPlot = T,
+                     # stemPlot = T,
                      drawPoints = NULL,
                      strokeWidth = 0,
                      pointSize = 0,
