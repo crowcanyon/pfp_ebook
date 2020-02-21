@@ -265,8 +265,8 @@ yields_summary %<>%
     else .
   }
 
-yields_summary %>%
-  tabler("yield_summary_table")
+# yields_summary %>%
+#   tabler("yield_summary_table")
 
 max_yield <- yields_summary %>% 
   dplyr::ungroup() %>%
