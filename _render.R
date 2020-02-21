@@ -39,3 +39,5 @@ for (f in list.files('docs', '[.]html$', full.names = TRUE)) {
 # if (length(formats) > 1) bookdown::publish_book()
 
 setwd(owd)
+
+file.copy('CNAME', 'docs/CNAME', overwrite = TRUE)

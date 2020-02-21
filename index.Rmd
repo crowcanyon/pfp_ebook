@@ -24,7 +24,7 @@ monofont: "Source Code Pro"
 monofontoptions: "Scale=0.7"
 site: bookdown::bookdown_site
 description: "A collaboration between Hopi farmers and the Crow Canyon Archaeological Center"
-url: https\://crowcanyon.github.io/pfp_ebook/
+url: https\://pfp.crowcanyon.org
 github-repo: crowcanyon/pfp_ebook
 cover-image: images/section_2.3_header.jpg
 ---
@@ -46,6 +46,7 @@ options(
 lapply(c('dygraphs', 'DT', 'citr', 'formatR', 'svglite', 'widgetframe'), function(pkg) {
   if (system.file(package = pkg) == '') install.packages(pkg, repos = "http://cran.us.r-project.org")
 })
+
 ```
 
 # Preface {-}
