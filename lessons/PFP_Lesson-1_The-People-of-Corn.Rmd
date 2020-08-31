@@ -1,4 +1,4 @@
-## The People of Corn
+## The People of Corn {#people-of-corn-lesson}
 <!-- # ```{r echo=FALSE, background=TRUE, message=FALSE} -->
 <!-- # googledrive::drive_find("PFP Lesson 1 — The People of Corn — Short Session", type = "document") -->
 <!-- # tf <- tempfile(fileext = ".odt") -->

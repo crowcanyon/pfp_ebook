@@ -198,7 +198,6 @@ An important thing to consider is the timing of tasseling relative to silking. T
       ) %>%
       config(displaylogo = F,
              scrollZoom = F,
-             collaborate = FALSE,
              modeBarButtonsToRemove = list("toggleSpikelines",
                                            "hoverClosestCartesian",
                                            "hoverCompareCartesian",
@@ -307,7 +306,7 @@ yields %>%
   ) %>%
   config(displaylogo = F,
          scrollZoom = F,
-         collaborate = FALSE,
+         
          modeBarButtonsToRemove = list("toggleSpikelines",
                                        "hoverClosestCartesian",
                                        "hoverCompareCartesian",
@@ -355,7 +354,7 @@ c("rows" = "Rows",
       ) %>%
       config(displaylogo = F,
              scrollZoom = F,
-             collaborate = FALSE,
+             
              modeBarButtonsToRemove = list("toggleSpikelines",
                                            "hoverClosestCartesian",
                                            "hoverCompareCartesian",
