@@ -60,14 +60,14 @@ The Pueblo Farming Project is an ongoing collaboration between the Hopi tribe an
 The Pueblo Farming Project was funded in part by a History Colorado State Historical Fund grant. The content and opinions contained herein do not necessarily reflect the views or policies of History Colorado.
 
 <div align = "center">
-<a href="https://www.crowcanyon.org/" target="_blank"><img src="./images/CCAC_logo.svg" style="height: 70px; padding: 0px 20px 0px 20px;"/></a><a href="https://www.crowcanyon.org/institute/" target="_blank"><img src="./images/Institute_logo.svg" style="height: 70px; padding: 0px 20px 0px 20px;"/></a>
+<a href="https://www.crowcanyon.org/" target="_blank"><img src="./images/CCAC_logo.svg" alt="Crow Canyon Archaeological Center logo" style="height: 70px; padding: 0px 20px 0px 20px;"/></a><a href="https://www.crowcanyon.org/institute/" target="_blank"><img src="./images/Institute_logo.svg" style="height: 70px; padding: 0px 20px 0px 20px;"/></a>
 
-<a href="https://www.historycolorado.org/state-historical-fund" target="_blank"><img src="./images/HistoryCO.png" style="height: 100px;"/></a>
+<a href="https://www.historycolorado.org/state-historical-fund" target="_blank"><img src="./images/HistoryCO.png" alt="History Colorado — State Historical Fund logo" style="height: 100px;"/></a>
 </div>
 
 <br>
 <p>
-<img style="float: left; vertical-align:bottom; padding: 11px 10px 0px 0px;" src="./images/by-nc-sa.png"/>
+<img style="float: left; vertical-align:bottom; padding: 11px 10px 0px 0px;" src="./images/by-nc-sa.png" alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License logo" />
 The online version of this book is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
 </p>
 
@@ -78,15 +78,15 @@ The Pueblo Farming Project is a collaboration with the Hopi Cultural Preservatio
 The Pueblo Farming Project began when the Hopi Cultural Preservation Office requested that Crow Canyon conduct research into Pueblo agriculture. An initial planning meeting was conducted in 2006, and the gardens were first planted and harvested in 2008; this work was partly funded by two grants from The Christensen Fund. Subsequent funding was provided by National Geographic Society’s Genographic Legacy Fund (2009) and by National Science Foundation grants DGE-1347973 and DEB-0816400 that supported the Village Ecodynamics Project. Recently, the PFP received funding from the History Colorado State Historical Fund (grant 2015-02-025).
 
 <div style="text-align: center;">
-<img src="./images/HistoryCO.png" style="height: 100px;"/>
+<img src="./images/HistoryCO.png" alt="History Colorado — State Historical Fund logo" style="height: 100px;"/>
 
-<img src="./images/nsf.png" style="height: 100px; padding: 0px 20px 0px 20px;"/><img src="./images/ngs.svg" style="height: 75px; padding: 0px 20px 0px 20px;"/><img src="./images/christensen.png" style="height: 75px;padding: 0px 20px 0px 20px;"/>
+<img src="./images/nsf.png" alt="National Science Foundation logo" style="height: 100px; padding: 0px 20px 0px 20px;"/><img src="./images/ngs.svg" alt="National Geographic Society logo" style="height: 75px; padding: 0px 20px 0px 20px;"/><img src="./images/christensen.png" alt="Christensen Foundation logo" style="height: 75px;padding: 0px 20px 0px 20px;"/>
 </div>
 
 -----
 This book is published with:
 
 <div style="text-align: center;">
-<a href="https://bookdown.org" target="_blank"><img src="./images/bookdown.png" style="width: 100px;"/></a>
+<a href="https://bookdown.org" target="_blank"><img src="./images/bookdown.png" alt="Bookdown logo" style="width: 100px;"/></a>
 </div>
         
