@@ -52,7 +52,7 @@ crops using the Hopi's *so'ya*  (digging stick) method
 **Materials and Tools**
 
 - Jars of seeds to be used teaching props:
-    - heirloom varieties, purchased from [Native Seeds/SEARCH](http://www.nativeseeds.org/) or through their Community Seed Grants program
+    - heirloom varieties, purchased from [Native Seeds/SEARCH](https://www.nativeseeds.org/) or through their Community Seed Grants program
         - corn
         - beans or squash
     - a variety of wild edible plants that have been an important part of the Hopi 
@@ -810,7 +810,7 @@ This lesson plan was designed to align with the following Montezuma School to Fa
 |      |                                  |  2.1, 2.2                 |
 +------+----------------------------------+---------------------------+
 
-**Further information in regards to the Colorado State Standards may be found [here](http://www2.cde.state.co.us/scripts/allstandards/COStandards.asp).**
+**Further information in regards to the Colorado State Standards may be found [here](https://www.cde.state.co.us/apps/standards/).**
 
 #### Handout: Traditional Hopi planting techniques {-}
 **Traditional Hopi planting techniques for Dryland Farming of Corn**

@@ -44,7 +44,7 @@ options(
 )
 
 lapply(c('dygraphs', 'DT', 'citr', 'formatR', 'svglite', 'widgetframe'), function(pkg) {
-  if (system.file(package = pkg) == '') install.packages(pkg, repos = "http://cran.us.r-project.org")
+  if (system.file(package = pkg) == '') install.packages(pkg, repos = "https://cran.us.r-project.org")
 })
 
 ```
@@ -60,7 +60,7 @@ The Pueblo Farming Project is an ongoing collaboration between the Hopi tribe an
 The Pueblo Farming Project was funded in part by a History Colorado State Historical Fund grant. The content and opinions contained herein do not necessarily reflect the views or policies of History Colorado.
 
 <div align = "center">
-<a href="http://www.crowcanyon.org/" target="_blank"><img src="./images/CCAC_logo.svg" style="height: 70px; padding: 0px 20px 0px 20px;"/></a><a href="http://www.crowcanyon.org/institute" target="_blank"><img src="./images/Institute_logo.svg" style="height: 70px; padding: 0px 20px 0px 20px;"/></a>
+<a href="https://www.crowcanyon.org/" target="_blank"><img src="./images/CCAC_logo.svg" style="height: 70px; padding: 0px 20px 0px 20px;"/></a><a href="https://www.crowcanyon.org/institute/" target="_blank"><img src="./images/Institute_logo.svg" style="height: 70px; padding: 0px 20px 0px 20px;"/></a>
 
 <a href="https://www.historycolorado.org/state-historical-fund" target="_blank"><img src="./images/HistoryCO.png" style="height: 100px;"/></a>
 </div>
@@ -68,7 +68,7 @@ The Pueblo Farming Project was funded in part by a History Colorado State Histor
 <br>
 <p>
 <img style="float: left; vertical-align:bottom; padding: 11px 10px 0px 0px;" src="./images/by-nc-sa.png"/>
-The online version of this book is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
+The online version of this book is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
 </p>
 
 ## Acknowledgments {-}

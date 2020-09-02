@@ -67,7 +67,7 @@ spirituality and sustainability.
     a water container
 -   Video/DVD: *Corn is Life* (18 minutes; see "Before You Begin"
     section):
-    [*http://www.worldcat.org/title/hopi-corn-is-life/oclc/276931893*](http://www.worldcat.org/title/hopi-corn-is-life/oclc/276931893)
+    [*https://www.worldcat.org/title/hopi-corn-is-life/oclc/276931893*](https://www.worldcat.org/title/hopi-corn-is-life/oclc/276931893)
 -   Video: [*More Than Planting a Seed*](https://www.youtube.com/watch?v=2x23FF_kUyo) (26:56 minutes):
     
     <div class="embed-responsive embed-responsive-16by9">
@@ -829,4 +829,4 @@ This lesson plan was designed to align with the following Montezuma School to Fa
 |      |                                  |  2.1, 2.2                 |
 +------+----------------------------------+---------------------------+
 
-**Further information in regards to the Colorado State Standards may be found [here](http://www2.cde.state.co.us/scripts/allstandards/COStandards.asp).**
+**Further information in regards to the Colorado State Standards may be found [here](https://www.cde.state.co.us/apps/standards/).**

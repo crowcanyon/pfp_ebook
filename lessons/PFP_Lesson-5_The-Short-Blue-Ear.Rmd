@@ -91,7 +91,7 @@ Fall
 *   Dissect one kernel and treat with iodine to highlight the areas containing starch.
 *   Print the "The Edible Schoolyard: K7-2 Teosinte to Corn Visual Aid": [https://edibleschoolyard.org/sites/default/files/K7-2_Teosinte_Visual_Aid_0.pdf](https://edibleschoolyard.org/sites/default/files/K7-2_Teosinte_Visual_Aid_0.pdf)
 *   Print the diagram of a corn kernel showing the endosperm
-*   OPTIONAL: Film Guide: _Popped Secret: The Mysterious Origin of Corn_: [http://www.hhmi.org/biointeractive/film-guide-popped-secret-mysterious-origin-corn](http://www.hhmi.org/biointeractive/film-guide-popped-secret-mysterious-origin-corn). This guide to the "Popped Secret" film could be used as the basis for a follow-up lesson plan. It supplies discussion questions based on specific sections of the film and a student quiz.
+*   OPTIONAL: Film Guide: _Popped Secret: The Mysterious Origin of Corn_: [https://www.biointeractive.org/classroom-resources/activity-popped-secret-mysterious-origin-corn](https://www.biointeractive.org/classroom-resources/activity-popped-secret-mysterious-origin-corn). This guide to the "Popped Secret" film could be used as the basis for a follow-up lesson plan. It supplies discussion questions based on specific sections of the film and a student quiz.
 
 #### Long Session {-}
 ***Long Session: Creating Colorful Corn and Seed Saving for Resilience***
@@ -483,7 +483,7 @@ Ancient farmers, as well as modern farmers, look for corn plants that have "desi
 
 **_How does a corn kernel provide food for humans? _**
 
-Use the d[iagram of a corn kernel showing the endosperm](http://media.web.britannica.com/eb-media/54/166754-050-8DEB8E13.jpg)** **to support this discussion.
+Use the [diagram of a corn kernel showing the endosperm](http://media.web.britannica.com/eb-media/54/166754-050-8DEB8E13.jpg) to support this discussion.
 
 Use the whiteboard to write the following key terms and review them with the students:
 
@@ -622,4 +622,4 @@ Social Studies 1.1, 2.1, 2.2
   </tr>
 </table>
 
-**Further information in regards to the Colorado State Standards may be found [here](http://www2.cde.state.co.us/scripts/allstandards/COStandards.asp).**
+**Further information in regards to the Colorado State Standards may be found [here](https://www.cde.state.co.us/apps/standards/).**

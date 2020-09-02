@@ -183,7 +183,7 @@ Reading/Writing/Communicating 1.2
   </tr>
 </table>
 
-**Further information in regards to the Colorado State Standards may be found [here](http://www2.cde.state.co.us/scripts/allstandards/COStandards.asp).**
+**Further information in regards to the Colorado State Standards may be found [here](https://www.cde.state.co.us/apps/standards/).**
 
 #### Handout: Calculation Sequence {-}
 
