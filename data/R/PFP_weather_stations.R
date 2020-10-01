@@ -10,7 +10,7 @@ cortez_weather <- c(FedData::get_ghcn_daily_station(ID="USC00051886",
                     FedData::get_ghcn_daily_station(ID="USC00051886", elements = c("PRCP"), 
                                                     raw.dir = "./data/ghcn/")) %>%
   FedData::station_to_data_frame() %>%
-  dplyr::as_data_frame() %>%
+  tibble::as_tibble() %>%
   dplyr::filter(lubridate::year(DATE) %in% seasons) %>%
   dplyr::mutate(DATE = lubridate::ymd(DATE),
                 TMIN = zoo::na.approx(TMIN/10, na.rm = F),
