@@ -278,8 +278,8 @@ dygraphs::dygraph(cortez_weather_dy %>%
                      color = "black") %>%
   dygraphs::dyLegend(labelsSeparateLines = T, 
                      show = "onmouseover") %>%
-  dygraphs::dyRangeSelector(dateWindow = c("2018-01-01", 
-                                           "2018-12-31"))
+  dygraphs::dyRangeSelector(dateWindow = c("2020-01-01", 
+                                           "2020-12-31"))
 
 
 cortez_weather_dy$PRCP_CM <- cortez_weather_dy$PRCP_IN * 2.54
@@ -318,7 +318,7 @@ dygraphs::dygraph(cortez_weather_dy %>%
                      strokeWidth = 0,
                      pointSize = 0,
                      color = "black") %>%
-  dygraphs::dyRangeSelector(dateWindow = c("2018-01-01", 
-                                           "2018-12-31"))
+  dygraphs::dyRangeSelector(dateWindow = c("2020-01-01", 
+                                           "2020-12-31"))
 
 ```
