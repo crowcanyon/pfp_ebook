@@ -3,16 +3,22 @@
 # file.copy(from = "/Volumes/ccac/users/Pueblo Farming Project/DATA/Pueblo Farmers Project database.mdb",
 #           to="./data/PFP_database.mdb",
 #           overwrite = TRUE)
+# PFP_data <- 
+#   Hmisc::mdb.get("./data/PFP_database.mdb") %>%
+#   purrr::map(.f = dplyr::as_tibble) %>%
+#   purrr::map(~dplyr::mutate(.x, 
+#                             dplyr::across(.cols = dplyr::everything(),
+#                                           as.character))) %>%
+#   purrr::map(readr::type_convert) %T>%
+#   readr::write_rds("./data/PFP_database.Rds")
+
 PFP_data <- 
-  Hmisc::mdb.get("./data/PFP_database.mdb") %>%
-  purrr::map(.f = dplyr::as_tibble) %>%
-  purrr::map(~dplyr::mutate(.x, 
-                            dplyr::across(.cols = dplyr::everything(),
-                                          as.character))) %>%
-  purrr::map(readr::type_convert)
+  readr::read_rds("./data/PFP_database.Rds")
+
 
 # Read in the garden table, and export a csv
-gardens <- PFP_data$`tbl Summary garden annual info` %>%
+gardens <- 
+  PFP_data$`tbl Summary garden annual info` %>%
   dplyr::select(Season,
                 Garden,
                 Variety,
@@ -36,7 +42,6 @@ gardens <- readr::read_csv("./data/gardens.csv")
 growth <- PFP_data$`tbl growth` %>%
   tibble::as_tibble() %>%
   dplyr::mutate(Date = Date %>%
-                  lubridate::mdy_hms() %>%
                   lubridate::as_date(),
                 Season = lubridate::year(Date)) %>%
   dplyr::filter(Season %in% seasons)
@@ -48,7 +53,8 @@ harvest_dates <- growth %>%
   dplyr::group_by(Season) %>%
   dplyr::summarise(Date = max(Date))
 
-growth <- growth %$%
+growth <- 
+  growth %$%
   Garden %>%
   unique() %>%
   purrr::map_dfr(function(g){
@@ -246,7 +252,8 @@ readr::write_csv(growth_summaries,"./data/growth_summaries.csv")
 
 
 ## Process the ears data
-ears <- PFP_data$`tbl ears` %>%
+ears <- 
+  PFP_data$`tbl ears` %>%
   dplyr::filter(Ear > 0, !is.na(EarWt)) %>%
   dplyr::select(Season, Garden, EarWt, CobWt, KernelWt, Rows, Condition, Clump, Ear) %>%
   dplyr::rename(`Ear weight` = EarWt, 
