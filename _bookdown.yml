@@ -2,7 +2,7 @@ book_filename: pfp_ebook
 repo: https://github.com/crowcanyon/pfp_ebook
 output_dir: docs
 clean: [packages.bib, bookdown.bbl]
-delete_merged_file: true
+# delete_merged_file: true
 language:
   label:
     fig: "FIGURE "

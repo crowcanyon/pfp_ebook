@@ -3,10 +3,10 @@
 # file.copy(from = "/Volumes/ccac/users/Pueblo Farming Project/DATA/Pueblo Farmers Project database.mdb",
 #           to="./data/PFP_database.mdb",
 #           overwrite = TRUE)
-# PFP_data <- 
+# PFP_data <-
 #   Hmisc::mdb.get("./data/PFP_database.mdb") %>%
 #   purrr::map(.f = dplyr::as_tibble) %>%
-#   purrr::map(~dplyr::mutate(.x, 
+#   purrr::map(~dplyr::mutate(.x,
 #                             dplyr::across(.cols = dplyr::everything(),
 #                                           as.character))) %>%
 #   purrr::map(readr::type_convert) %T>%

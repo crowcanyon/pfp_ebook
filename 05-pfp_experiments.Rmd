@@ -1,8 +1,4 @@
----
-output: html_document
-editor_options: 
-  chunk_output_type: console
----
+
 # The PFP field experiments
 <div style="text-align: center;">
 ![Examining the results of the previous year's yield.](./images/chapter_5_header.jpg)

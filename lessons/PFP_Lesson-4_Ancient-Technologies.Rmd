@@ -300,11 +300,11 @@ K.  _Hopi people plant clumps approximately 2 meters (m) apart; each clump needs
 
     $$\frac{1128\text{ clumps}}{1\text{ year}}\times\frac{4\text{ m}^2}{1\text{ clump}}=\frac{4512\text{ m}^2}{1 \text{ year}}$$
 
------
+<!-- ----- -->
 
 ![**Diagram 1. A Planting Hole in a Hopi Maize Field.** From Cleveland and Soleri 1991: Figure 6.19. Copyright © 1991 by David Arthur Cleveland and Daniela Soleri. Reproduced with permission for non-commercial purposes.](./images/planting.png)
 
------
+<!-- ----- -->
 
 <div align="center">
 ![**Diagram 2. An American football field compared to a household field**. A 10x10 meter square is included for reference. A household field is approximately the same size as an American football field, excluding the endzones.](./images/American_Football_Field.png)

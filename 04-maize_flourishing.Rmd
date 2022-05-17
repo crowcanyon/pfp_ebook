@@ -1,8 +1,4 @@
----
-output: html_document
-editor_options: 
-  chunk_output_type: console
----
+
 # What maize needs to flourish
 <div style="text-align: center;">
 ![A tasseling maize plant.](./images/chapter_4_header.jpg)

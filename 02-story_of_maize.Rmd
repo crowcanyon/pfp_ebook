@@ -1,4 +1,5 @@
 # The story of maize
+
 <div style="text-align: center;">
 ![Harvesting the small blue ear like the one Masau'u provided the Hopi people.](./images/chapter_2_header.jpg)
 </div>
