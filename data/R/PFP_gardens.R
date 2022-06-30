@@ -3,17 +3,22 @@
 # file.copy(from = "/Volumes/ccac/users/Pueblo Farming Project/DATA/Pueblo Farmers Project database.mdb",
 #           to="./data/PFP_database.mdb",
 #           overwrite = TRUE)
-# PFP_data <-
-#   Hmisc::mdb.get("./data/PFP_database.mdb") %>%
-#   purrr::map(.f = dplyr::as_tibble) %>%
-#   purrr::map(~dplyr::mutate(.x,
-#                             dplyr::across(.cols = dplyr::everything(),
-#                                           as.character))) %>%
-#   purrr::map(readr::type_convert) %T>%
-#   readr::write_rds("./data/PFP_database.Rds")
+PFP_data <-
+  Hmisc::mdb.get("./data/PFP_database.mdb") %>%
+  purrr::map(.f = dplyr::as_tibble) %>%
+  purrr::map(~dplyr::mutate(.x,
+                            dplyr::across(.cols = dplyr::everything(),
+                                          as.character))) %>%
+  purrr::map(readr::type_convert) %T>%
+  readr::write_rds("./data/PFP_database.Rds")
 
-PFP_data <- 
+PFP_data <-
   readr::read_rds("./data/PFP_database.Rds")
+
+# PFP_data$`tbl ears` %>% 
+#   dplyr::filter(Rows > 24 | (Rows %% 2 == 1)) %>%
+#   dplyr::arrange(Season, Garden) %>%
+#   writexl::write_xlsx("~/Desktop/pfp_odd_rows.xlsx")
 
 
 # Read in the garden table, and export a csv
