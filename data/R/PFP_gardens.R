@@ -15,7 +15,7 @@ PFP_data <-
 PFP_data <-
   readr::read_rds("./data/PFP_database.Rds")
 
-# PFP_data$`tbl ears` %>% 
+# PFP_data$`tbl ears` %>%
 #   dplyr::filter(Rows > 24 | (Rows %% 2 == 1)) %>%
 #   dplyr::arrange(Season, Garden) %>%
 #   writexl::write_xlsx("~/Desktop/pfp_odd_rows.xlsx")
