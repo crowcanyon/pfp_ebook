@@ -32,7 +32,7 @@ gardens <-
                 HarvestDate,
                 Spacing,
                 Comments) %>%
-  dplyr::mutate(PlantingDate = lubridate::mdy(PlantingDate)) %>%
+  dplyr::mutate(PlantingDate = lubridate::ymd(PlantingDate)) %>%
   dplyr::arrange(Garden, Season) %>%
   dplyr::filter(Season %in% seasons) %>% # Only keep the right seasons
   dplyr::arrange(Season,Garden) %>%
@@ -166,7 +166,8 @@ growth %<>%
                                    Garden,
                                    Variety),
                    by = c("Season",
-                          "Garden")) %>%
+                          "Garden"),
+                   relationship = "many-to-many") %>%
   dplyr::select(Season,
                 Date,
                 Garden,
@@ -197,7 +198,8 @@ growth_summaries <- growth %>%
                       dplyr::select(Season,
                                     Garden,
                                     Variety), 
-                   by = c("Season","Garden")) %>%
+                   by = c("Season","Garden"),
+                   relationship = "many-to-many") %>%
   dplyr::mutate(Variety = as.factor(Variety)) %>%
   dplyr::select(Season,
                 Date,
@@ -266,7 +268,9 @@ ears <-
                 `Kernel weight` = KernelWt) %>%
   dplyr::mutate(`Kernel weight` = `Ear weight`-`Cob weight`) %>%
   dplyr::filter(Season %in% seasons) %>%
-  dplyr::left_join(y = (gardens %>% dplyr::select(Season,Garden,Variety)), by = c("Season","Garden")) %>%
+  dplyr::left_join(y = (gardens %>% dplyr::select(Season,Garden,Variety)), 
+                   by = c("Season","Garden"),
+                   relationship = "many-to-many") %>%
   dplyr::mutate(Variety = as.factor(Variety))
 
 # Estimate Kernel and Cob weight for ears withheld whole from analysis (e.g., POG, 2009, Clump 24)
@@ -313,7 +317,9 @@ ears %<>%
                                       `Cob weight`)) %>%
   dplyr::select(-Kernel_r, -Cob_r) %>% # drop the ratio columns
   dplyr::ungroup() %>%
-  dplyr::left_join(y = (gardens %>% dplyr::select(Season,Garden,Variety)), by = c("Season","Garden","Variety")) %>% # join with the gardens data
+  dplyr::left_join(y = (gardens %>% dplyr::select(Season,Garden,Variety)), 
+                   by = c("Season","Garden","Variety"),
+                   relationship = "many-to-many") %>% # join with the gardens data
   dplyr::mutate(Variety = as.factor(Variety)) %>% # turn "variety" into a categorical variable
   dplyr::arrange(Season, Garden, Clump) %>% # sort by these variables
   dplyr::select(Season, Garden, Variety, Clump, Condition, Rows, `Ear weight`, `Cob weight`, `Kernel weight`) # reorder columns
@@ -337,7 +343,9 @@ yields <- ears %>%
   dplyr::group_by(Season, Garden, Clump) %>%# calculations are by season and garden
   dplyr::summarise(`Net kernel weight` = sum(`Kernel weight`)) %>%
   dplyr::full_join(expected.clumps, by = c("Season","Garden","Clump")) %>%
-  dplyr::left_join(y = gardens, by = c("Season","Garden")) %>% # join back to gardens
+  dplyr::left_join(y = gardens, 
+                   by = c("Season","Garden"),
+                   relationship = "many-to-many") %>% # join back to gardens
   dplyr::ungroup() %>%
   dplyr::mutate(`Net kernel weight` = ifelse(is.na(`Net kernel weight`),0,`Net kernel weight`)) %>% #recode missing values to zeros; those clumps didn't produce
   dplyr::select(Season:Clumps, Clumps, Spacing) %>% #select these columns

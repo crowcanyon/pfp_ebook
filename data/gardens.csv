@@ -9,21 +9,21 @@ Season,Garden,Variety,Clumps,PlantingDate,HarvestDate,Spacing,Comments
 2010,PHG,Hopi White,30,2010-05-20,NA,1.4,NA
 2010,PLC,Greasy-head & Hopi Blue,38,2010-05-20,NA,1.2,"Some brush was removed form edges and center ""dams"" of this garden but only 2/3's of the garden was planted in corn."
 2010,POG,Greasy-head,30,2010-05-20,NA,1.5,Area of garden planted in corn reduced to reflect space planted in beans this year.
-2011,CDG,Hopi White,26,2011-05-19,10/10/2011 - 10/12/2011,1.75,NA
-2011,KUG,Hopi Blue,36,2011-05-19,10/10/2011 - 10/12/2011,2,Mostly the center portion of this garden planted.
-2011,PHG,Qotsa qao,25,2011-05-19,10/10/2011 - 10/12/2011,1.5,Qotsa qao from Owen is Hopi White on red cob
-2011,PLC,Hopi Blue,39,2011-05-19,10/10/2011 - 10/12/2011,1.5,NA
-2011,POG,Hopi White,26,2011-05-19,10/10/2011 - 10/12/2011,1.5,NA
+2011,CDG,Hopi White,26,2011-05-19,NA,1.75,NA
+2011,KUG,Hopi Blue,36,2011-05-19,NA,2,Mostly the center portion of this garden planted.
+2011,PHG,Qotsa qao,25,2011-05-19,NA,1.5,Qotsa qao from Owen is Hopi White on red cob
+2011,PLC,Hopi Blue,39,2011-05-19,NA,1.5,NA
+2011,POG,Hopi White,26,2011-05-19,NA,1.5,NA
 2012,CDG,Hopi White,21,2012-05-17,NA,1.5,Soil conditions at planting very dry. Very poor germination.
 2012,KUG,Hopi Blue,32,2012-05-17,NA,1.85,Soil conditions at planting very  dry.
 2012,PHG,Hopi White,20,2012-05-17,NA,1.5,Soil conditions at planting very dry. Very poor germination
 2012,PLC,Hopi Blue,23,2012-05-17,NA,1.75,Soil conditions at planting very dry. Very poor germination
 2012,POG,Hopi White,20,2012-05-17,NA,1.5,Soil conditions at planting very dry. Very poor germination.
-2013,CDG,Hopi White,27,2013-05-22,10/15/2013,1.75,"Soil conditions at planting, using moisture meter 6 on scale of 10. Good germination. Dry summer late rains."
-2013,KUG,Hopi Blue,31,2013-05-22,10/15/2013,2,"Soil conditions at planting 6-7. Germination slow to begin. Dry summer, late rains"
-2013,PHG,Hopi Blue,25,2013-05-22,10/15/2013,1.75,"Soil conditions at planting 4-5 germination slow to begin, quick to go into stress."
-2013,PLC,Hopi Blue,34,2013-05-22,10/15/2013,1.75,"Soil conditions at planting variable in garden, about 5 of 10. Germination about 80%. Dry summer late rains"
-2013,POG,Hopi White,25,2013-05-22,10/15/2013,1.75,"Soil condition at planting 7. Germination slow. Dry summer, late rain"
+2013,CDG,Hopi White,27,2013-05-22,2013-10-15,1.75,"Soil conditions at planting, using moisture meter 6 on scale of 10. Good germination. Dry summer late rains."
+2013,KUG,Hopi Blue,31,2013-05-22,2013-10-15,2,"Soil conditions at planting 6-7. Germination slow to begin. Dry summer, late rains"
+2013,PHG,Hopi Blue,25,2013-05-22,2013-10-15,1.75,"Soil conditions at planting 4-5 germination slow to begin, quick to go into stress."
+2013,PLC,Hopi Blue,34,2013-05-22,2013-10-15,1.75,"Soil conditions at planting variable in garden, about 5 of 10. Germination about 80%. Dry summer late rains"
+2013,POG,Hopi White,25,2013-05-22,2013-10-15,1.75,"Soil condition at planting 7. Germination slow. Dry summer, late rain"
 2014,CDG,Hopi White,25,2014-05-22,NA,1.75,Germination in 10 days. Variable but good below surface moisture.
 2014,KUG,Hopi Blue,29,2014-05-22,NA,2,"Germination within 10 days, but slower, 24 of 28, 5 replanted."
 2014,PHG,Hopi White,20,2014-05-22,NA,1.5,Germination within 10 days . Ghopher burrows in garden
@@ -34,32 +34,33 @@ Season,Garden,Variety,Clumps,PlantingDate,HarvestDate,Spacing,Comments
 2015,MCG,Hopi Blue,25,2015-05-20,NA,2.75,"New garden planted 6/20/15. Located in Mike Coffey's garden, north of Dove Creek , CO. The garden is situated in a small drainage with a north facing slope. Notes on growth stages not complete."
 2015,PLC,Hopi Blue,30,2015-05-21,NA,1.5,About 13.25 x 7 m planted in corn. Germination 100% by 6/1/2015
 2015,POG,Hopi White,20,2015-05-21,NA,1.75,"About 7.5 x 7.5 m pplanted. Germination 19 of 20 by 6/1/15. Clump 15 planted over a ghopher hole, no germination."
-2016,CDG,Hopi White,34,2016-05-25,10/13/2016,2,"Seed stock from POG & CDG 2013, 2015"
-2016,KUG,Hopi Blue,23,2016-05-25,10/13/2016,2,"Seed stock from CCAC 2015, and 10% from MCG"
-2016,MCG,Hopi Blue,46,2016-05-24,10/14/2016,1.25,"seed stock from 2015, the same garden"
-2016,PLC,Hopi Blue,28,2016-05-25,10/13/2016,1.5,"seed stock from CCAC 2015, and 10% from MCG"
-2016,POG,Hopi White,25,2016-05-25,10/13/2016,1.5,"seed stock from POG & CDG 2013, 2015"
-2017,CDG,Hopi White,32,2017-05-16,10/12/2017,2.2,"One clump, #8, was planted with red seed from 2010 CDG"
-2017,KUG,Hopi Blue,29,2017-05-17,10/12/2017,2,Seed stock seeds are small due to poor production
-2017,MCG,Hopi Blue,25,2017-05-16,10/13/2017,2.5,Seed stock heavy on Kokoma (purple). The blue seeds were small but from ears with high row numbers
-2017,PLC,Hopi Blue,28,2017-05-17,10/11/2017,1.8,Seed stock seeds are small due to poor production
-2017,POG,Hopi White,25,2017-05-16,10/11/2017,1.75,20 Beans and 1 squash planted between clumps
+2016,CDG,Hopi White,34,2016-05-25,2016-10-13,2,"Seed stock from POG & CDG 2013, 2015"
+2016,KUG,Hopi Blue,23,2016-05-25,2016-10-13,2,"Seed stock from CCAC 2015, and 10% from MCG"
+2016,MCG,Hopi Blue,46,2016-05-24,2016-10-14,1.25,"seed stock from 2015, the same garden"
+2016,PLC,Hopi Blue,28,2016-05-25,2016-10-13,1.5,"seed stock from CCAC 2015, and 10% from MCG"
+2016,POG,Hopi White,25,2016-05-25,2016-10-13,1.5,"seed stock from POG & CDG 2013, 2015"
+2017,CDG,Hopi White,32,2017-05-16,2017-10-12,2.2,"One clump, #8, was planted with red seed from 2010 CDG"
+2017,KUG,Hopi Blue,29,2017-05-17,2017-10-12,2,Seed stock seeds are small due to poor production
+2017,MCG,Hopi Blue,25,2017-05-16,2017-10-13,2.5,Seed stock heavy on Kokoma (purple). The blue seeds were small but from ears with high row numbers
+2017,PLC,Hopi Blue,28,2017-05-17,2017-10-11,1.8,Seed stock seeds are small due to poor production
+2017,POG,Hopi White,25,2017-05-16,2017-10-11,1.75,20 Beans and 1 squash planted between clumps
 2018,CDG,Hopi White,22,2018-05-17,NA,2.2,Planting without Hopi farmers. Germination very slow due to extreme drought conditions
-2018,MCG,Hopi Blue,20,2018-05-17,10/15/2018,2.4,Conditions excellent despite regional drought. Used seed stock from CCAC (PLC & KUG) were yields were produced under less than ideal conditions.
+2018,MCG,Hopi Blue,20,2018-05-17,2018-10-15,2.4,Conditions excellent despite regional drought. Used seed stock from CCAC (PLC & KUG) were yields were produced under less than ideal conditions.
 2018,PLC,Hopi Blue,19,2018-05-17,NA,1.85,Planted without Hopi farmers. Extreme dry condition. Very slow and limited germination
-2018,POG,Hopi White,20,2018-05-17,10/11/2018,1.85,"Planted without Hopi farmers. Extreme dry conditions, but this is the best of campus gardens. Slow germination."
-2019,CDG,Hopi White,26,2019-05-29,10/10/2019,1.9,"Planted by P.E., M.V., G.C., and R.B. A wet winter and spring. Excellent  soil moisture, cool.  A cool spring with rain a few days before planting. Heavy frost 6/23."
-2019,MCG,Hopi Blue,25,2019-05-30,10/3/2019,2,Planted by Grant Coffey. A wet winter and spring. The soil is still very wet and cool.
-2019,PLC,Hopi Blue,25,2019-05-29,10/10/2019,1.65,"Planted by P.E., M.V., G.C., and R.B. A wet winter and spring. Excellent  soil moisture, cool. A cool spring with rain a few days before planting. Heavy frost 6/23"
-2019,POG,Hopi White,20,2019-05-29,10/10/2019,1.65,"Planted by P.E., M.V., G.C., and R.B. A wet winter and spring. Excellent  soil moisture, cool.  A cool spring with rain a few days before planting. Clump #20 destroyed by cutworms, replanted 6/12. Heavy frost 6/23"
-2020,CDG,Hopi White,26,2020-05-20,10/14/2020,1.91,"Planted by P E., R. B. and M. V. Soil moisture variable throught the garden; from good to moderate. Planted 8 to 10 inches deep."
-2020,MCG,Hopi Blue,25,2020-05-20,10/14/2020,1.84,Planted by Grant Coffey. Soil moisture good. Seed planted 4 to 6 inches deep.
-2020,PLC,Hopi Blue,25,2020-05-20,10/14/2020,1.66,"Planted by P .E., R. B. and M.V. Soil sandy with little structure. Low moisture planted 6 -8"" deep"
-2020,POG,Hopi White,20,2020-05-20,10/14/2020,1.48,"Planted by P.E., R.B. and M.V. Soil moisture moderate, planted 6 to 8 "" deep."
-2021,CDG,Hopi White,26,2021-05-19,10/10/2021,NA,"Planted by P.E. and R.B. Soil moisture moderate, planted 9 to 10"" deep. 12 seed per hole. #9 clump red seed."
-2021,MCG,Hopi Blue,25,2021-05-24,10/2021,NA,"Planted by Grant Coffey. About 9 seed per hole. Good moisture. Planted about 6-8 "" deep."
-2021,MCG,Hopi Blue,25,2021-05-24,10/10/2021,NA,"Planted by Grant Coffey. About 9 seed per hole. Good moisture. Planted about 6-8 "" deep."
-2021,PLC,Hopi Blue,27,2021-05-19,10/2021,1.9,"Planted by P .E.& R. B. Soil sandy with little structure. Very low moisture planted 9-11"" deep. Seed presoaked 2 days w /fish emulsion."
-2021,PLC,Hopi Blue,27,2021-05-19,10/10/2021,1.9,"Planted by P .E.& R. B. Soil sandy with little structure. Very low moisture planted 9-11"" deep. Seed presoaked 2 days w /fish emulsion."
-2021,POG,Hopi White,25,2021-05-19,10/2021,2.1,"Planted by P.E. and R.B. Soil moisture moderate, planted 9 to 10"" deep. 12 seed per hole. Seed presoaked 2 days w/ fish emulsion."
-2021,POG,Hopi White,25,2021-05-19,10/10/2021,2.1,"Planted by P.E. and R.B. Soil moisture moderate, planted 9 to 10"" deep. 12 seed per hole. Seed presoaked 2 days w/ fish emulsion."
+2018,POG,Hopi White,20,2018-05-17,2018-10-11,1.85,"Planted without Hopi farmers. Extreme dry conditions, but this is the best of campus gardens. Slow germination."
+2019,CDG,Hopi White,26,2019-05-29,2019-10-10,1.9,"Planted by P.E., M.V., G.C., and R.B. A wet winter and spring. Excellent  soil moisture, cool.  A cool spring with rain a few days before planting. Heavy frost 6/23."
+2019,MCG,Hopi Blue,25,2019-05-30,2019-10-03,2,Planted by Grant Coffey. A wet winter and spring. The soil is still very wet and cool.
+2019,PLC,Hopi Blue,25,2019-05-29,2019-10-10,1.65,"Planted by P.E., M.V., G.C., and R.B. A wet winter and spring. Excellent  soil moisture, cool. A cool spring with rain a few days before planting. Heavy frost 6/23"
+2019,POG,Hopi White,20,2019-05-29,2019-10-10,1.65,"Planted by P.E., M.V., G.C., and R.B. A wet winter and spring. Excellent  soil moisture, cool.  A cool spring with rain a few days before planting. Clump #20 destroyed by cutworms, replanted 6/12. Heavy frost 6/23"
+2020,CDG,Hopi White,26,2020-05-20,2020-10-14,1.91,"Planted by P E., R. B. and M. V. Soil moisture variable throught the garden; from good to moderate. Planted 8 to 10 inches deep."
+2020,MCG,Hopi Blue,25,2020-05-20,2020-10-14,1.84,Planted by Grant Coffey. Soil moisture good. Seed planted 4 to 6 inches deep.
+2020,PLC,Hopi Blue,25,2020-05-20,2020-10-14,1.66,"Planted by P .E., R. B. and M.V. Soil sandy with little structure. Low moisture planted 6 -8"" deep"
+2020,POG,Hopi White,20,2020-05-20,2020-10-14,1.48,"Planted by P.E., R.B. and M.V. Soil moisture moderate, planted 6 to 8 "" deep."
+2021,CDG,Hopi White,26,2021-05-19,2021-10-10,1.8,"Planted by P.E. and R.B. Soil moisture moderate, planted 9 to 10"" deep. 12 seed per hole. #9 clump red seed."
+2021,MCG,Hopi Blue,25,2021-05-24,2021-10-10,2.3,"Planted by Grant Coffey. About 9 seed per hole. Good moisture. Planted about 6-8 "" deep."
+2021,PLC,Hopi Blue,27,2021-05-19,2021-10-10,1.9,"Planted by P .E.& R. B. Soil sandy with little structure. Very low moisture planted 9-11"" deep. Seed presoaked 2 days w /fish emulsion."
+2021,POG,Hopi White,25,2021-05-19,2021-10-10,2.1,"Planted by P.E. and R.B. Soil moisture moderate, planted 9 to 10"" deep. 12 seed per hole. Seed presoaked 2 days w/ fish emulsion."
+2022,CDG,Hopi White,26,2022-05-25,2022-10-11,1.8,"Planted by P.E., R. B. and Ritchie Seneyah, intern from Polaca. Soil very dry but variable by location. Seed pre-soaked over night, 10 seed per hole. Planting depth is about 10-12 inches.  By 6/7/22 only 13% germination. Germination slow and spotty. Very Dry and windy spring. Extreme drought condition across four corners."
+2022,MCG,Hopi Blue,22,2022-05-25,2022-10-11,2.2,"Planted by P.E., G.C. and Ritchie Senayah, AII intern,Polaca. Soil Moistureis very good. Seeds presoaked overnight. Twelve seed per clump. Planting depth about 8-10 inches. By 6/9/22 about 85% germination. Very dry, windy spring."
+2022,PLC,Hopi Blue,22,2022-05-25,2022-10-11,2,"Planted by P.E., R.B., and Ritchie Seneyah, intern. Soil very dry, with little to no apearent moisture. Seed was pre-soaked over night, twelve seed per clump. Planted about 12inches deep. By 6/7/22 no germination. Very dry windy spring.  First germination 6/22/22. Nothing survided after July 1, zero harvest."
+2022,POG,Hopi White,22,2022-05-25,2022-10-11,1.6,"Planted by P.E., R.B. and Ritchie Seneyah, intern, Polaca. Very Dry windy spring. Extreme drought conditions exist. Soil variable - dry some places moist in others, Seed pre-soaked overnight. Twelve seedper hole planted at 10 to 12 inches deep. As of 6/7/22 only 6% germination."
