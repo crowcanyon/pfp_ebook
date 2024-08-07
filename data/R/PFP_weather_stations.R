@@ -4,12 +4,8 @@ source("./data/R/calc_gdd.R")
 
 ## (Down)load the weather station data for Cortez
 cortez_weather <- 
-  rnoaa::meteo_tidy_ghcnd(stationid = "USC00051886",
-                          var = c("tmin", "tmax", "prcp")) %>%
-  dplyr::rename(DATE = date,
-                TMIN = tmin,
-                TMAX = tmax, 
-                PRCP = prcp) %>%
+  readr::read_csv("https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/access/USC00051886.csv")%>%
+  dplyr::select(DATE, TMIN, TMAX,  PRCP) %>%
     dplyr::filter(lubridate::year(DATE) %in% seasons) %>%
     dplyr::mutate(DATE = lubridate::ymd(DATE),
                   TMIN = zoo::na.approx(TMIN/10, na.rm = F),
