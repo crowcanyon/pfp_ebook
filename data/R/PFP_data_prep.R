@@ -1,5 +1,13 @@
 # Script
-pak::pak("Hmisc")
+install.packages("pak")
+
+pak::pak(c(
+  "tidyverse",
+  "Hmisc",
+  "sf",
+  "terra",
+  "FedData"
+))
 
 # Seasons for plotting
 seasons <- 2009:2023
