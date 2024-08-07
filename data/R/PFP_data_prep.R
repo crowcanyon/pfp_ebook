@@ -1,12 +1,14 @@
 # Script
-install.packages("pak")
+install.packages("pak", repos = "http://cran.us.r-project.org")
 
 pak::pak(c(
   "tidyverse",
   "Hmisc",
   "sf",
   "terra",
-  "FedData"
+  "FedData",
+  "plotly",
+  "bookdown"
 ))
 
 # Seasons for plotting
