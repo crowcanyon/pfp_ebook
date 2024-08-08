@@ -2,8 +2,6 @@ library(FedData)
 library(magrittr)
 library(sf)
 
-source("./data/R/summarise_mapunits.R")
-
 ccac <- sf::st_read("https://raw.githubusercontent.com/bocinsky/Bocinsky_Varien_2017/master/DATA/ccac.geojson")# %>%
   # sf::st_union()
 
@@ -12,8 +10,8 @@ ccac <- sf::st_read("https://raw.githubusercontent.com/bocinsky/Bocinsky_Varien_
 FedData::get_ssurgo(template = ccac %>% 
                       as("Spatial"),
                     label = "ccac",
-                    raw.dir = "./data/ssurgo/",
-                    extraction.dir = "./data/ssurgo/",
+                    raw.dir = "data/ssurgo/",
+                    extraction.dir = "data/ssurgo/",
                     force.redo =  F) %>%
   summarise_mapunits() %>%
   dplyr::mutate(popup = stringr::str_c("<b>",`Soil Name`,"</b><br/>",
@@ -25,6 +23,8 @@ FedData::get_ssurgo(template = ccac %>%
                                        "Available Water Content (in/in): ",round(`Available Water Content (in/in)`, digits=2),"<br/>",
                                        "Albedo (dry%): ",round(Albedo * 100, digits=2),"<br/>",
                                        "</p>")) %>%
-  sf::st_write("./data/soils.geojson",
+  sf::st_write("data/soils.geojson",
                driver = "GeoJSON",
                delete_dsn = TRUE)
+
+

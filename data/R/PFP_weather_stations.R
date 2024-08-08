@@ -1,7 +1,5 @@
 library(magrittr)
 
-source("./data/R/calc_gdd.R")
-
 ## (Down)load the weather station data for Cortez
 cortez_weather <- 
   readr::read_csv("https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/access/USC00051886.csv")%>%
@@ -18,4 +16,4 @@ cortez_weather <-
                   TMIN_F = TMIN, 
                   PRCP_IN = PRCP)
 
-readr::write_csv(cortez_weather,"./data/cortez_weather.csv")
+readr::write_csv(cortez_weather,"data/cortez_weather.csv")

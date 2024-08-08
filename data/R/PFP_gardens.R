@@ -4,16 +4,16 @@
 #           to="./data/PFP_database.mdb",
 #           overwrite = TRUE)
 PFP_data <-
-  Hmisc::mdb.get("./data/PFP_database.mdb") %>%
+  Hmisc::mdb.get("data/PFP_database.mdb") %>%
   purrr::map(.f = dplyr::as_tibble) %>%
   purrr::map(~dplyr::mutate(.x,
                             dplyr::across(.cols = dplyr::everything(),
                                           as.character))) %>%
   purrr::map(readr::type_convert) %T>%
-  readr::write_rds("./data/PFP_database.Rds")
+  readr::write_rds("data/PFP_database.Rds")
 
 PFP_data <-
-  readr::read_rds("./data/PFP_database.Rds")
+  readr::read_rds("data/PFP_database.Rds")
 
 # PFP_data$`tbl ears` %>%
 #   dplyr::filter(Rows > 24 | (Rows %% 2 == 1)) %>%
@@ -38,10 +38,10 @@ gardens <-
   dplyr::arrange(Season,Garden) %>%
   dplyr::filter(!is.na(PlantingDate))
 
-readr::write_csv(gardens,"./data/gardens.csv")
+readr::write_csv(gardens,"data/gardens.csv")
 
 # Read in the garden data
-gardens <- readr::read_csv("./data/gardens.csv")
+gardens <- readr::read_csv("data/gardens.csv")
 
 # Read in the growth table
 growth <- PFP_data$`tbl growth` %>%
@@ -176,11 +176,11 @@ growth %<>%
                 dplyr::everything())
 
 # Write a csv of the growth table
-readr::write_csv(growth,"./data/growth.csv")
+readr::write_csv(growth,"data/growth.csv")
 
 
 
-cortez_weather <- readr::read_csv("./data/cortez_weather.csv")
+cortez_weather <- readr::read_csv("data/cortez_weather.csv")
 
 # Summarize growth data into proportions of clumps to reach developmental stages
 growth_summaries <- growth %>%
@@ -255,7 +255,7 @@ growth_summaries <- growth_summaries %$%
                 dplyr::everything()) %>%
   dplyr::mutate(Acc_FGDD = ifelse(is.na(Acc_FGDD),0,Acc_FGDD))
 
-readr::write_csv(growth_summaries,"./data/growth_summaries.csv")
+readr::write_csv(growth_summaries,"data/growth_summaries.csv")
 
 
 ## Process the ears data
@@ -296,10 +296,10 @@ ears %<>%
                  Clump, 
                  Ear)
 
-readr::write_csv(ears,"./data/ears.csv")
+readr::write_csv(ears,"data/ears.csv")
 
 # Read in data recorded about each ear harvested
-ears <- readr::read_csv("./data/ears.csv")
+ears <- readr::read_csv("data/ears.csv")
 
 # Estimate Kernel and Cob weight for ears withheld whole from analysis (e.g., POG, 2009, Clump 24)
 # This is done by calculating the average ratio of kernel to ear weight, and then extrapolating to
@@ -370,5 +370,5 @@ yields <- ears %>%
                 `Net kernel weight (g)` = `Net kernel weight`,
                 `PFP experimental yield (kg/ha)` = `PFP experimental yield`)
 
-readr::write_csv(yields,"./data/yields.csv")
+readr::write_csv(yields,"data/yields.csv")
 
