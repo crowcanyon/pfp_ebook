@@ -9,7 +9,8 @@ pak::pak(c(
   "FedData",
   "plotly",
   "bookdown",
-  "zoo"
+  "zoo",
+  "svglite"
 ))
 
 # Seasons for plotting
