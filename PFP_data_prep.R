@@ -10,7 +10,9 @@ pak::pak(c(
   "plotly",
   "bookdown",
   "zoo",
-  "svglite"
+  "svglite",
+  "leaflet",
+  "mapview"
 ))
 
 # Seasons for plotting
