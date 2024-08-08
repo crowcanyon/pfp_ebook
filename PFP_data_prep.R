@@ -8,7 +8,8 @@ pak::pak(c(
   "terra",
   "FedData",
   "plotly",
-  "bookdown"
+  "bookdown",
+  "zoo"
 ))
 
 # Seasons for plotting
