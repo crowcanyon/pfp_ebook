@@ -21,7 +21,7 @@ jobs:
         run: |
           brew update
           brew upgrade
-          brew install mdbtools
+          brew install mdbtools pandoc
           brew install --cask r
 
       - name: update
