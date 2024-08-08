@@ -12,7 +12,8 @@ pak::pak(c(
   "zoo",
   "svglite",
   "leaflet",
-  "mapview"
+  "mapview",
+  "widgetframe"
 ))
 
 # Seasons for plotting
