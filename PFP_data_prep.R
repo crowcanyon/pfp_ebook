@@ -14,7 +14,8 @@ pak::pak(c(
   "leaflet",
   "mapview",
   "widgetframe",
-  "dygraphs"
+  "dygraphs",
+  "DT"
 ))
 
 # Seasons for plotting
