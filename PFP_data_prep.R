@@ -13,7 +13,8 @@ pak::pak(c(
   "svglite",
   "leaflet",
   "mapview",
-  "widgetframe"
+  "widgetframe",
+  "dygraphs"
 ))
 
 # Seasons for plotting
