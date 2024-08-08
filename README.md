@@ -25,3 +25,14 @@ The PFP database is a Microsoft Access database hosted at the Crow Canyon Archae
 The eBook may be built locally on a computer with `R` installed. Simply change to the `pfp_ebook` directory and type `make gitbook` in the terminal. This will install any necessary software and re-build the eBook in the `docs` directory.
 
 ### Push the changes to GitHub
+Once you add the new database and (optionally) re-build the eBook, commit and push your changes.
+
+```{bash}
+git pull
+git add .
+git commit -m "update PFP data" #Or any other message
+git push
+```
+
+A push will trigger a new build in Github Actions.
+
