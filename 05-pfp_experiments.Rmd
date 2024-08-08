@@ -94,6 +94,9 @@ growth_summaries <- readr::read_csv("./data/growth_summaries.csv")
 ears <- readr::read_csv("./data/ears.csv")
 yields <- readr::read_csv("./data/yields.csv")
 
+seasons <-
+  sort(unique(gardens$Season))
+
 dir.create("./docs/plots",
            showWarnings = FALSE,
            recursive = TRUE)
@@ -143,8 +146,8 @@ An important thing to consider is the timing of tasseling relative to silking. T
 **Explore the plot below.** You can hover over the plot to view the individual values. Use the slider at the bottom of the graph to move through the growth stages. You can isolate a particular garden by double clicking its name in the legend at the right of the graph; a single click will turn a garden on or off. Finally, you can download an image of the graph by hovering over it and clicking the small camera icon in the upper right.
 
 ```{r growth-plot, echo=FALSE, warning=FALSE, message=FALSE}
-2009:2023 %>%
-  magrittr::set_names(2009:2023) %>%
+seasons %>%
+  magrittr::set_names(seasons) %>%
   purrr::walk(function(season){
     test_data <- growth_summaries %>%
       tidyr::gather(`Growth stage`, 
@@ -219,28 +222,40 @@ system("cp -R libs/. docs/plots/libs/")
 
 ```
 
+```{r growth-dropdown, echo=FALSE, warning=FALSE, message=FALSE, results = "asis"}
+cat(
+'<form name="change">',
+'<select name="options" onchange="document.getElementById(\'youriframe\').src = this.options[this.selectedIndex].value">',
+'<option value="./plots/growth_',max(seasons),'.html">Select a year to view the growth data:</option>',
+paste0('<option value="./plots/growth_',rev(seasons),'.html">',rev(seasons),'</option>'),
+'</select>',
+'<iframe name="iframe" id="youriframe" src="./plots/growth_',max(seasons),'.html" height="400" width="100%" frameborder="0" scrolling="no"></iframe>',
+sep = "\n"
+)
+  
+```
 
-<form name="change">
-<select name="options" onchange="document.getElementById('youriframe').src = this.options[this.selectedIndex].value">
-<option value="./plots/growth_2023.html">Select a year to view the growth data:</option>
-<option value="./plots/growth_2023.html">2023</option>
-<option value="./plots/growth_2022.html">2022</option>
-<option value="./plots/growth_2021.html">2021</option>
-<option value="./plots/growth_2020.html">2020</option>
-<option value="./plots/growth_2019.html">2019</option>
-<option value="./plots/growth_2018.html">2018</option>
-<option value="./plots/growth_2017.html">2017</option>
-<option value="./plots/growth_2016.html">2016</option>
-<option value="./plots/growth_2015.html">2015</option>
-<option value="./plots/growth_2014.html">2014</option>
-<option value="./plots/growth_2013.html">2013</option>
-<option value="./plots/growth_2012.html">2012</option>
-<option value="./plots/growth_2011.html">2011</option>
-<option value="./plots/growth_2010.html">2010</option>
-<option value="./plots/growth_2009.html">2009</option>
-</select>
+<!-- <form name="change"> -->
+<!-- <select name="options" onchange="document.getElementById('youriframe').src = this.options[this.selectedIndex].value"> -->
+<!-- <option value="./plots/growth_2023.html">Select a year to view the growth data:</option> -->
+<!-- <option value="./plots/growth_2023.html">2023</option> -->
+<!-- <option value="./plots/growth_2022.html">2022</option> -->
+<!-- <option value="./plots/growth_2021.html">2021</option> -->
+<!-- <option value="./plots/growth_2020.html">2020</option> -->
+<!-- <option value="./plots/growth_2019.html">2019</option> -->
+<!-- <option value="./plots/growth_2018.html">2018</option> -->
+<!-- <option value="./plots/growth_2017.html">2017</option> -->
+<!-- <option value="./plots/growth_2016.html">2016</option> -->
+<!-- <option value="./plots/growth_2015.html">2015</option> -->
+<!-- <option value="./plots/growth_2014.html">2014</option> -->
+<!-- <option value="./plots/growth_2013.html">2013</option> -->
+<!-- <option value="./plots/growth_2012.html">2012</option> -->
+<!-- <option value="./plots/growth_2011.html">2011</option> -->
+<!-- <option value="./plots/growth_2010.html">2010</option> -->
+<!-- <option value="./plots/growth_2009.html">2009</option> -->
+<!-- </select> -->
 
-<iframe name="iframe" id="youriframe" src="./plots/growth_2023.html" height="400" width="100%" frameborder="0" scrolling="no"></iframe>
+<!-- <iframe name="iframe" id="youriframe" src="./plots/growth_2023.html" height="400" width="100%" frameborder="0" scrolling="no"></iframe> -->
 
 ### Maize yield {-}
 
@@ -312,7 +327,6 @@ yields %>%
                                        "hoverCompareCartesian",
                                        "resetScale2d")) %>%
   widgetframe::frameWidget(width='100%')
-
 ```
 
 ### Ear diversity {-}

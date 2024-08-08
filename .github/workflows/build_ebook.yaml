@@ -23,10 +23,6 @@ jobs:
           brew upgrade
           brew install mdbtools pandoc
           brew install --cask r
-
-      - name: update
-        run: |
-          Rscript PFP_data_prep.R
       
       - name: build_book
         run: |
