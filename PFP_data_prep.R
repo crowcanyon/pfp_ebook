@@ -14,6 +14,7 @@ pak::pak(c(
 # Seasons for plotting
 seasons <- 2009:2023
 
-source("./data/R/PFP_weather_stations.R")
-source("./data/R/PFP_soils.R")
-source("./data/R/PFP_gardens.R")
+source("data/R/calc_gdd.R")
+source("data/R/PFP_weather_stations.R")
+source("data/R/PFP_soils.R")
+source("data/R/PFP_gardens.R")
